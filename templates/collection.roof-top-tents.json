@@ -1,0 +1,310 @@
+{
+  "sections": {
+    "0150dad0-1a02-4480-8e2d-37e2840dbdab": {
+      "type": "background-video",
+      "blocks": {
+        "template--16411793490086__0150dad0-1a02-4480-8e2d-37e2840dbdab-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16411793490086__0150dad0-1a02-4480-8e2d-37e2840dbdab-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ROOF TOP TENTS",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 24,
+            "use_h1": false
+          }
+        },
+        "template--16411793490086__0150dad0-1a02-4480-8e2d-37e2840dbdab-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Over 20 years, Benehike has passionately specialized in overlanding rooftop tents, all with the aim of enhancing your outdoor adventures!<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16411793490086__0150dad0-1a02-4480-8e2d-37e2840dbdab-subheading-1",
+        "template--16411793490086__0150dad0-1a02-4480-8e2d-37e2840dbdab-heading-1",
+        "template--16411793490086__0150dad0-1a02-4480-8e2d-37e2840dbdab-text-1"
+      ],
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=FWnnTyKZjcg&t=1s",
+        "video_description": "",
+        "placeholder_image": "shopify:\/\/shop_images\/FALL.jpg",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 260,
+        "full_width": true,
+        "overlay_style": "box"
+      }
+    },
+    "4cc0227a-1049-4d96-a8b9-1352ff502e23": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "template--16411793490086__4cc0227a-1049-4d96-a8b9-1352ff502e23-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "PURCHASE ROOF TOP TENTS With GET A FREE SOFT AWNING!",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16411793490086__4cc0227a-1049-4d96-a8b9-1352ff502e23-text-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 20,
+        "vertical_padding": 17,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 45
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": true,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "show_disabled_filters": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "filter_two_columns": false,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "car-awings",
+          "air-compressor"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": true,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "150542b1-def7-4dc0-a169-3253dfeb7308": {
+      "type": "hotspots",
+      "blocks": {
+        "template--16411793490086__150542b1-def7-4dc0-a169-3253dfeb7308-hotspot-1": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 75,
+            "hotspot_y": 40,
+            "hotspot_x_mobile": 78,
+            "hotspot_y_mobile": 40,
+            "heading": "Roof Integration System",
+            "text": "<p>Industry-leading integrated rooftop system. Seamless fit with off-road gear. 800 lbs weight capacity. Pre-installed slots for accessories.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "b4774243-c7d4-446c-90ec-5ffdad15b5d7": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 63,
+            "hotspot_y": 60,
+            "hotspot_x_mobile": 63,
+            "hotspot_y_mobile": 60,
+            "heading": "Compact Shell",
+            "text": "<p>Adding only 6 inches in height and weighing just 169 lbs, the shell minimally impacts fuel efficiency and payload capacity.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "463d01f2-b69b-4165-9019-d63e5756c033": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 71,
+            "hotspot_y": 85,
+            "hotspot_x_mobile": 78,
+            "hotspot_y_mobile": 85,
+            "heading": "Top Ladder",
+            "text": "<p>7.5ft Telescopic Aluminum Ladder with Angled Steps<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "d8bdfd8f-147f-439a-b5b3-bdd5c470afb8": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 58,
+            "hotspot_y": 52,
+            "hotspot_x_mobile": 58,
+            "hotspot_y_mobile": 48,
+            "heading": "King Size",
+            "text": "<p>High-performance 600D Oxford fabric, tear-resistant, and waterproof. With superior strength, it's perfect for year-round camping for a family of three.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "template--16411793490086__150542b1-def7-4dc0-a169-3253dfeb7308-hotspot-1",
+        "b4774243-c7d4-446c-90ec-5ffdad15b5d7",
+        "463d01f2-b69b-4165-9019-d63e5756c033",
+        "d8bdfd8f-147f-439a-b5b3-bdd5c470afb8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Alumnode_RTT_banner_011.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Alumnode_RTT_banner_022.jpg",
+        "hotspot_color": "#ff6100",
+        "button_content": "plus",
+        "outer_circle": "still",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "box",
+        "subheading": "Feature RTT",
+        "title": "Alumabode V2 RTT",
+        "use_h1": false,
+        "heading_max_width": 20,
+        "text": "",
+        "button_1_label": "shop now",
+        "button_1_link": "shopify:\/\/products\/rooftop-tent-4",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "09fa7b6a-c3aa-49fc-b75b-2cede6b22360": {
+      "type": "key-features",
+      "blocks": {
+        "template--16411793490086__09fa7b6a-c3aa-49fc-b75b-2cede6b22360-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Home_page_awning_banner_F.jpg",
+            "bg_color": "#707173",
+            "bg_gradient": "",
+            "text_color": "#f4e5c1",
+            "heading": "Ascendll V2 RTT",
+            "text": "<p>Ultra-slim at 6 inches, it integrates T-slot system for gear, fits Thule\/Yakima, 600D Oxford fabric, 280GSM waterproof body, and 120G mesh window. Sturdy with 400N hydraulic struts, ballistic nylon straps, aviation-grade handles, and military-grade seals on a 1-inch aluminum base.<\/p><h5><a href=\"\/products\/ascendll-v2-aluminum-shell-rooftop-tent-2-person\" title=\"Ascendll V2 Aluminum Hard Shell Side Open Rooftop Tent, 2 Person\"><strong>SHOP NOW<\/strong><\/a><\/h5>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16411793490086__09fa7b6a-c3aa-49fc-b75b-2cede6b22360-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BIVVYY_V2_ROOF_TOP_TENT_BANNER_011.jpg",
+            "bg_color": "#707173",
+            "bg_gradient": "",
+            "text_color": "#f4e5c1",
+            "heading": "BIVVYY V2 RTT",
+            "text": "<p>BIVVYY V2 features a sleek, aerodynamic shell to minimize drag during travel. The standout skylight allows stargazing, surrounded by windows for elevated views. Its high profile keeps bedding inside when closed. Enjoy quick, easy, and comfy camping on land.<\/p><h5><a href=\"\/products\/hardshell-rooftop-tent-1\" title=\"Bivvyy Hard Shell Side Open Rooftop Tent, With Rainflys, 4 Person, Black\"><strong>SHOP NOW<\/strong><\/a><\/h5>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16411793490086__09fa7b6a-c3aa-49fc-b75b-2cede6b22360-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pop_up_hardshell_rooftop_tent_banner.jpg",
+            "bg_color": "#707173",
+            "bg_gradient": "",
+            "text_color": "#f4e5c1",
+            "heading": "ABS SHELL RTT",
+            "text": "<p>Eco-friendly ABS Shell: Lightweight, recyclable, corrosion-resistant. Ideal for 2-3 campers, quick setup in 30s, insulated for comfort, thick mattress, panoramic views. Enjoy versatile, effortless camping.<\/p><h5><a href=\"\/products\/hardshell-rooftop-tent\" title=\"ABS Hard Shell Pop-Up Rooftop Tent, 2~3 Person, Black\"><strong>SHOP NOW<\/strong><\/a><\/h5>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16411793490086__09fa7b6a-c3aa-49fc-b75b-2cede6b22360-feature-1",
+        "template--16411793490086__09fa7b6a-c3aa-49fc-b75b-2cede6b22360-feature-2",
+        "template--16411793490086__09fa7b6a-c3aa-49fc-b75b-2cede6b22360-feature-3"
+      ],
+      "settings": {
+        "heading": "Feature RTT",
+        "image_max_width": 700,
+        "media_aspect_ratio": "1",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "ed8b00d6-d1d3-4b9d-928b-ac4ddee63b4b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16411793490086__ed8b00d6-d1d3-4b9d-928b-ac4ddee63b4b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>START YOUR OVERLANDING WITH BENEHIKE'S ROOF TOP TENTS<\/strong><\/p><p><br\/>Explore the magnificent landscapes of the US with Benehike's premium roof top tents. Designed for overlanders who seek both comfort and flexibility, our rooftop tents are the perfect companions for your journey through the diverse terrains of America. Fast to set up and secure, easy to retract and fold, they offer you an elevated view of your surroundings. From the sandy beaches of Florida to the snow-capped peaks of Colorado, Benehike is there with you every mile of the adventure. Shop your roof top tents now and start your overlanding! <br\/><br\/><strong>ROOFTOP TENTS FOR 4RUNNER: A PERFECT FIT<\/strong><br\/>Our range includes specialized rooftop tents for the 4Runner, blending seamlessly with the vehicle’s robust structure. Whether you're driving through desert trails or forest paths, Benehike's 4Runner rooftop tent is your trusted partner. We've designed these tents for ultimate durability, so you can tackle even the most challenging environments with confidence, knowing that at the end of the day, a secure and comfortable rest awaits you! <br\/><br\/><strong>TAILORED ROOFTOP TENTS FOR SUBARU<\/strong><br\/>Subaru owners, we've got you covered! Benehike's Subaru rooftop tents are designed for your adventurous lifestyle. Our tents attach seamlessly to your Subaru, providing an elevated, cozy base for your outdoor adventures. Whether you’re enjoying a tranquil beach sunset or parking up in a secluded woodland, your Subaru with a Benehike rooftop tent is more than a car—it’s your home on wheels! Why wait? Go and get your Subaru Rooftop tent today!<br\/><br\/><strong>EXPLORE THE WILD WITH ROOFTOP TENTS FOR TACOMA<\/strong><\/p><p><br\/>Benehike's rooftop tents for Tacoma transform your robust truck into an adventure-ready rig. Our Tacoma tents are perfect fit and easy to set up, durable, and provide a comfortable retreat after a long day of exploring. They attach securely to your Tacoma, withstanding rugged terrains and weather conditions, so you can focus on making memories, knowing Benehike has your back.<br\/><br\/><strong>VERSATILE ROOFTOP TENTS FOR EVERY ADVENTURE<\/strong><\/p><p><br\/>At Benehike, we understand that no two adventures are the same. That's why we've designed a range of rooftop tents that cater to different needs, whether you're driving a rugged 4Runner, a sporty Subaru, or a dependable Tacoma. We have a rooftop tent that fits your vehicle perfectly. Embrace the spirit of exploration with Benehike, and let's make your outdoor dreams come true!<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16411793490086__ed8b00d6-d1d3-4b9d-928b-ac4ddee63b4b-text-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "left",
+        "full_width": true,
+        "color_scheme": "1"
+      }
+    }
+  },
+  "order": [
+    "0150dad0-1a02-4480-8e2d-37e2840dbdab",
+    "4cc0227a-1049-4d96-a8b9-1352ff502e23",
+    "main",
+    "150542b1-def7-4dc0-a169-3253dfeb7308",
+    "09fa7b6a-c3aa-49fc-b75b-2cede6b22360",
+    "ed8b00d6-d1d3-4b9d-928b-ac4ddee63b4b"
+  ]
+}

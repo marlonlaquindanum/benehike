@@ -1,0 +1,823 @@
+{
+  "sections": {
+    "16359276425da8ce46": {
+      "type": "slideshow",
+      "blocks": {
+        "0c0f953b-e474-4393-9d88-336754f07a8e": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.png",
+            "mobile_image": "shopify:\/\/shop_images\/2000_x_2000_1.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "UP TO 15% OFFCHRISTMAS SALESEVENT",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false,
+            "text": "<p>December 21 - 31<\/p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop Now",
+            "button_url_1": "shopify:\/\/collections\/christmas-sales-event-ultra-long-standby",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center left"
+          }
+        },
+        "16359276425da8ce46-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BeneHike_Brand_10.10_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BeneHike_Brand_10.10.jpg",
+            "slide_link": "shopify:\/\/collections\/rooftop-tents",
+            "subheading": "",
+            "title": "Embrace Freedom, Venture Boldly",
+            "heading_max_width": 15,
+            "title_size": 56,
+            "title_size_mobile": 40,
+            "use_h1": false,
+            "text": "<p>Rediscover yourself and your bond with the earth. Immerse in nature's abundant wonders.<\/p>",
+            "enlarge_text": false,
+            "button_label_1": "Shop Roof Top Tents",
+            "button_url_1": "shopify:\/\/collections\/rooftop-tents",
+            "button_label_2": "Shop Awnings",
+            "button_url_2": "shopify:\/\/collections\/car-awings",
+            "text_alignment": "top right"
+          }
+        },
+        "image_cmf3MT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Home_page_awning_banner_H_1_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Home_page_awning_banner_F_2_1.jpg",
+            "slide_link": "",
+            "subheading": "BUNDLE&SAVE",
+            "title": "GET A FREE SOFT AWNING",
+            "heading_max_width": 15,
+            "title_size": 90,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p><strong>*<\/strong>MUST PURCHASE OF A ROOFTOP TENT<strong>*<\/strong><\/p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop RTT",
+            "button_url_1": "shopify:\/\/collections\/rooftop-tents",
+            "button_label_2": "Shop AWING",
+            "button_url_2": "shopify:\/\/collections\/softshell-awning",
+            "text_alignment": "center center"
+          }
+        },
+        "8f1cb198-b4ed-474d-b4a9-59760ad72601": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2024_Air_Comperssor_Line_Up_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/2024_Air_Comperssor_Line_Up_2000_x_2000_1.png",
+            "slide_link": "shopify:\/\/collections\/portable-air-compressor",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "57b84ab5-40b0-426b-8338-1097ce181ff1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AWNINGS_2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/AWNINGS_2-2.jpg",
+            "slide_link": "shopify:\/\/collections\/all",
+            "subheading": "",
+            "title": "30% OFFSOME VEHICLE AWNING",
+            "heading_max_width": 15,
+            "title_size": 110,
+            "title_size_mobile": 40,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "Shop' AW",
+            "button_url_1": "shopify:\/\/collections\/all",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "top left"
+          }
+        }
+      },
+      "block_order": [
+        "0c0f953b-e474-4393-9d88-336754f07a8e",
+        "16359276425da8ce46-0",
+        "image_cmf3MT",
+        "8f1cb198-b4ed-474d-b4a9-59760ad72601",
+        "57b84ab5-40b0-426b-8338-1097ce181ff1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 800,
+        "height_mobile": 600,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "zoom-fade",
+        "navigation": "dots",
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accessibility_info": ""
+      }
+    },
+    "606014fb-fd18-4c81-ac3d-894e4e330072": {
+      "type": "collection-list",
+      "blocks": {
+        "17aa36b8-2806-4975-802d-d36b66f20514": {
+          "type": "collection",
+          "settings": {
+            "collection": "rooftop-tents",
+            "image": "shopify:\/\/shop_images\/banner_page_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ef108fd2-a762-4210-b5f8-e5424fd93115": {
+          "type": "collection",
+          "settings": {
+            "collection": "car-awings",
+            "image": "shopify:\/\/shop_images\/head_banner_sales_003.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ef09bbe1-6454-4ddb-be56-ba725f1451b1": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_02.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "7bf8673b-d243-482b-8734-c48c709e72de": {
+          "type": "collection",
+          "settings": {
+            "collection": "racks",
+            "image": "shopify:\/\/shop_images\/banner_page_5.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "53c476a2-4c76-4a15-82af-40c458e14b90": {
+          "type": "collection",
+          "settings": {
+            "collection": "others-tents",
+            "image": "shopify:\/\/shop_images\/banner_page_4.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "17aa36b8-2806-4975-802d-d36b66f20514",
+        "ef108fd2-a762-4210-b5f8-e5424fd93115",
+        "ef09bbe1-6454-4ddb-be56-ba725f1451b1",
+        "7bf8673b-d243-482b-8734-c48c709e72de",
+        "53c476a2-4c76-4a15-82af-40c458e14b90"
+      ],
+      "settings": {
+        "title": "Explore Our Categories",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "2",
+        "full_width": true,
+        "coll_grid_image_shape": "portrait-45",
+        "coll_grid_image_position": "bottom left",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "over-shadow",
+        "coll_text_position_under_mobile": true,
+        "coll_thumb_text_align_x": "left",
+        "coll_thumb_text_align_y": "bottom",
+        "coll_button_style": "primary"
+      }
+    },
+    "5fda7197-74fc-4d26-a32c-e9d501213704": {
+      "type": "product-list",
+      "settings": {
+        "title": "Shop Our Roof Top Tents",
+        "product_list": [
+          "rooftop-tent-4",
+          "ascendll-v2-aluminum-shell-rooftop-tent-3-person",
+          "rooftop-tent-1",
+          "hardshell-rooftop-tent-2",
+          "ascendll-v2-aluminum-shell-rooftop-tent-2-person",
+          "ascendll-aluminum-hard-shell-side-open-rooftop-tent-2-person",
+          "ascendll-aluminum-rooftop-tent",
+          "hardshell-rooftop-tent-1",
+          "hardshell-rooftop-tent",
+          "rooftop-tent"
+        ],
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true
+      }
+    },
+    "6c791b1c-c73f-4292-b51e-cf3b92fc2ea5": {
+      "type": "advantage",
+      "settings": {
+        "l-bgc": "#ff6100",
+        "l-color": "#ffffff",
+        "left-title": "OVERLANDING EXPERT",
+        "number1": "10+",
+        "l-subtitle1": "Export Market",
+        "number2": 10000,
+        "l-subtitle2": "BeneHike Enthusiasts",
+        "number3": 5000,
+        "l-subtitle3": "5-Star Reviews",
+        "number4": "5-Year",
+        "l-subtitle4": "Longest Warranty",
+        "r-image1": "shopify:\/\/shop_images\/Warranty.svg",
+        "r-title1": "5-Year Warranty",
+        "url1": "shopify:\/\/pages\/warranty-policy",
+        "r-image2": "shopify:\/\/shop_images\/shipping.svg",
+        "r-title2": "7-Day Return",
+        "url2": "shopify:\/\/pages\/return-policy",
+        "r-image3": "shopify:\/\/shop_images\/direct.svg",
+        "r-title3": "Consumer Direct",
+        "url3": "shopify:\/\/pages\/consumer-direct",
+        "r-image4": "shopify:\/\/shop_images\/payment.svg",
+        "r-title4": "Secure Payment",
+        "url4": "shopify:\/\/pages\/payment"
+      }
+    },
+    "2ef2bce1-1867-400e-9183-c84755f8186a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16391580483750__2ef2bce1-1867-400e-9183-c84755f8186a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "What Our Customers Say",
+            "use_h1": false
+          }
+        },
+        "text_PxQkRD": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3>Meet Benehike,<\/h3><h3>Where Adventure Begins<\/h3>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16391580483750__2ef2bce1-1867-400e-9183-c84755f8186a-heading-1",
+        "text_PxQkRD"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "90dcf320-f3f5-40ef-aee4-14de29b4aa82": {
+      "type": "testimonials",
+      "blocks": {
+        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "We haven't camped yet but we setup on our Forester Wilderness and tested out. Really nice, can't wait for our trip to Yellowstone!",
+            "author": "Rob Fisher",
+            "image": "shopify:\/\/shop_images\/1691865289__img_20230810_185400788_hdr__original.jpg",
+            "image_caption": "→BIVVYY Rooftop Tent",
+            "link": "shopify:\/\/products\/hardshell-rooftop-tent-1"
+          }
+        },
+        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "I was hesitant to buy Benehike's soft rooftop tent at first, but after doing some research and reading reviews, I decided to take the plunge. I'm so glad I did!",
+            "author": "Abigail",
+            "image": "shopify:\/\/shop_images\/1679023298__soft04__huge.jpg",
+            "image_caption": "→Soft Shell Rooftop Tent",
+            "link": "shopify:\/\/products\/softshell-rooftop-tent-1"
+          }
+        },
+        "3f47a816-3268-46b0-a5ea-9768975e02bf": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Sitting in camp, having a drink while watching the sunset. It's been a while, but we're back in our own.",
+            "author": "Lucas",
+            "image": "shopify:\/\/shop_images\/1679280300__aluminum03__huge.jpg",
+            "image_caption": "→Ascendll Rooftop Tent",
+            "link": "shopify:\/\/products\/ascendll-aluminum-hard-shell-side-open-rooftop-tent-2-person"
+          }
+        },
+        "71b4cacc-de0e-410f-9ad6-701ba7899d87": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "I'm impressed with this affordable awning, despite my initial skepticism. The tarp is of high quality and has withstood wind and rain without any problems. It was also easy to install and attach to my cargo basket.",
+            "author": "CiCi",
+            "image": "shopify:\/\/shop_images\/1681348327__softawnings-06__huge.jpg",
+            "image_caption": "→8.2' x 6.7' Car Side Awning",
+            "link": "shopify:\/\/products\/car-side-awning-rooftop-tent-pullout-shelter"
+          }
+        }
+      },
+      "block_order": [
+        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-1",
+        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-2",
+        "3f47a816-3268-46b0-a5ea-9768975e02bf",
+        "71b4cacc-de0e-410f-9ad6-701ba7899d87"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "image-left",
+        "text_caps": false,
+        "quote_text_size": 22,
+        "quote_text_size_mobile": 15,
+        "image_shape": "landscape",
+        "color_scheme": "2",
+        "autoplay": true,
+        "autoplay_speed": 3
+      }
+    },
+    "a4fa32f3-493d-442d-a319-61e9335e8767": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Benehike® 4wd"
+          }
+        },
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ALUMABODE<br>ROOFTOP TENT",
+            "heading_max_width": 10,
+            "title_size": 54,
+            "title_size_mobile": 24,
+            "use_h1": false
+          }
+        },
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At BENEHIKE, our Canadian-designed rooftop tents are more than just shelter - they're aluxurious on-the-go adventure home.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-subheading-1",
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-heading-1",
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Homepage_0001.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Homepage_0002.jpg",
+        "video_external": "https:\/\/www.youtube.com\/watch?v=FWnnTyKZjcg",
+        "video_description": "",
+        "height": "fixed",
+        "height_desktop": 640,
+        "height_mobile": 460,
+        "product_list": [
+          "rooftop-tent-1",
+          "rooftop-tent-4"
+        ],
+        "products_alignment": "bottom right",
+        "product_card_layout": "landscape",
+        "show_swatches": true,
+        "full_width": true,
+        "text_alignment": "top left",
+        "mobile_overlay_over": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "4c2db54e-9bed-4c23-9534-5c455ba49155": {
+      "type": "hotspots",
+      "blocks": {
+        "template--16391580483750__4c2db54e-9bed-4c23-9534-5c455ba49155-hotspot-1": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 63,
+            "hotspot_y": 15,
+            "hotspot_x_mobile": 79,
+            "hotspot_y_mobile": 31,
+            "heading": "Perfect Installation",
+            "text": "<p>The Bed of the Rooftop Tent is equipped with installation rails on the sides, perfectly compatible with installing any Awnings.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "1bab2d24-c6eb-47fe-ac6d-c73baa07a922": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 49,
+            "hotspot_y": 28,
+            "hotspot_x_mobile": 59,
+            "hotspot_y_mobile": 34,
+            "heading": "Durable & Convenient Casing",
+            "text": "<p>Anodized aluminum shell for unmatched durability. Effortlessly folds and latches—simple, convenient.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "cb35e661-792a-4602-b473-6c34d86574c5": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 42,
+            "hotspot_y": 46,
+            "hotspot_x_mobile": 48,
+            "hotspot_y_mobile": 51,
+            "heading": "High-Performance Shelter",
+            "text": "<p>Crafted from high-strength tear-resistant blended fabric, treated with a durable waterproof and sun-resistant coating to keep you dry in extreme weather.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "4b29e17e-d53e-4d7c-8474-797a75df39b3": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 28,
+            "hotspot_y": 80,
+            "hotspot_x_mobile": 27,
+            "hotspot_y_mobile": 85,
+            "heading": "Unrestricted Headroom",
+            "text": "<p>The support poles extend swiftly, offering a maximum height of 6.5 feet, ensuring ample headroom even for taller individuals under the shelter.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "template--16391580483750__4c2db54e-9bed-4c23-9534-5c455ba49155-hotspot-1",
+        "1bab2d24-c6eb-47fe-ac6d-c73baa07a922",
+        "cb35e661-792a-4602-b473-6c34d86574c5",
+        "4b29e17e-d53e-4d7c-8474-797a75df39b3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Home_page_awning_banner_H_copy.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Home_page_awning_banner_F_copy.jpg",
+        "hotspot_color": "#ff6100",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "benehike 4wd",
+        "title": "Aluminum Shell AWNING",
+        "use_h1": true,
+        "heading_max_width": 30,
+        "text": "<p>Button as snappy as a soda can tab, erect your awning in 30 seconds flat!<\/p>",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "rich_text_BeTRcb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9RFwCq": {
+          "type": "heading",
+          "settings": {
+            "title": "MEDIAS ENDORSED",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9RFwCq"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "9e029d78-b5e4-4641-902a-737cf1aceafe": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "46499c29-d00e-4a6d-93ee-f860a6e990d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/APkrFKaH5EHQWrZMFJByImNgqjwumQhIIEuZFq2g01AS2Q_s176-c-k-c0x00ffffff-no-rj.jpg",
+            "image_width": 100,
+            "link": "https:\/\/www.youtube.com\/watch?v=EDv3vWE2sGU&t=95s"
+          }
+        },
+        "f43a3995-5d89-48f4-99df-f5db02d195bb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/APkrFKYw7Z8c6YdfY-L3tKQ7yKv8Nw49z6a6LUNiwq3Blxs_s176-c-k-c0x00ffffff-no-rj.jpg",
+            "image_width": 100,
+            "link": "https:\/\/www.youtube.com\/@VWJawbreaker\/videos"
+          }
+        },
+        "88f6e36c-1d58-4ec5-85dc-973386599b4b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/42ldMWEEGHQSQst3eyiQzZc_v3xkQCiyE4TdGYDOmwVeF3SyRtlSZd7SWWg0kU4h5R37UIJQr68_s176-c-k-c0x00ffffff-no-_1.jpg",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "80787811-fc7d-4b61-9644-da9bff24faae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/insta-avatar-4x4-tours-romania.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "88f6d39f-4509-4716-aaca-d2bcf923d81a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/expedition_portal_logo.jpg",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "cae58c8e-b59f-4784-9c91-9832125c7ede": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images.jpg",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "654eecfc-a3d1-49d2-be20-12b3af2566c6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_04c8f130-3efd-451e-b195-8fa5747d96dd.jpg",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "b2806a86-c758-45ad-b36d-ba068eb5f35b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Overland_Expo_Logo_400_x_300_200x_a7d7e9d0-194a-4d18-b139-5276b39302b4.jpg",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "0d15d277-4956-4063-ad79-4a0340cc3d03": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OAR-2023-LOGO-1.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "cd89b894-36ab-4e26-a1e3-bc1896ad2998": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RMO_Logo_edited.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "0178d24c-09be-4060-9d58-2c3f3762ae66": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/APkrFKaqDzASHJ3lh4KBVyXsI3nrJJ10vTvA97eLynqJBw_s176-c-k-c0x00ffffff-no-rj.jpg",
+            "image_width": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "46499c29-d00e-4a6d-93ee-f860a6e990d7",
+        "f43a3995-5d89-48f4-99df-f5db02d195bb",
+        "88f6e36c-1d58-4ec5-85dc-973386599b4b",
+        "80787811-fc7d-4b61-9644-da9bff24faae",
+        "88f6d39f-4509-4716-aaca-d2bcf923d81a",
+        "cae58c8e-b59f-4784-9c91-9832125c7ede",
+        "654eecfc-a3d1-49d2-be20-12b3af2566c6",
+        "b2806a86-c758-45ad-b36d-ba068eb5f35b",
+        "0d15d277-4956-4063-ad79-4a0340cc3d03",
+        "cd89b894-36ab-4e26-a1e3-bc1896ad2998",
+        "0178d24c-09be-4060-9d58-2c3f3762ae66"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 26,
+        "vertical_padding": 20,
+        "speed": 10.5,
+        "direction": "left",
+        "font": "heading",
+        "space": 60
+      }
+    },
+    "f785bed9-e36d-4270-953f-fd267049c386": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "OVERLANDING BLOG",
+        "blog": "blog",
+        "post_limit": 3,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpts": true,
+        "crop_ratio": "1.78",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_kF6689": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fnbzrB": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "use_h1": false
+          }
+        },
+        "text_Hyca7Y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_FLnUHX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fnbzrB",
+        "text_Hyca7Y",
+        "button_FLnUHX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ascendll_RTT_2_d562522d-a75b-477c-b9be-8e4e593f4671_1.jpg",
+        "image_2": "shopify:\/\/shop_images\/HELP_CENTER_Banner_3_1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_UTxWY4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KGRddD": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "text_9RGwCT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_KGRddD",
+        "text_9RGwCT"
+      ],
+      "settings": {
+        "height": "large",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "collection_list_WE97kQ": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_D6CGbe": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_TMLj8b": {
+          "type": "collection",
+          "settings": {
+            "collection": "6-7-awning",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_XMy8dq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_NL7Dg6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_zrTbQ9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_gLJEDx": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_WY9Fgi": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_wQcdt3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_D6CGbe",
+        "collection_TMLj8b",
+        "collection_XMy8dq",
+        "collection_NL7Dg6",
+        "collection_zrTbQ9",
+        "collection_gLJEDx",
+        "collection_WY9Fgi",
+        "collection_wQcdt3"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "16359276425da8ce46",
+    "606014fb-fd18-4c81-ac3d-894e4e330072",
+    "5fda7197-74fc-4d26-a32c-e9d501213704",
+    "6c791b1c-c73f-4292-b51e-cf3b92fc2ea5",
+    "2ef2bce1-1867-400e-9183-c84755f8186a",
+    "90dcf320-f3f5-40ef-aee4-14de29b4aa82",
+    "a4fa32f3-493d-442d-a319-61e9335e8767",
+    "4c2db54e-9bed-4c23-9534-5c455ba49155",
+    "rich_text_BeTRcb",
+    "9e029d78-b5e4-4641-902a-737cf1aceafe",
+    "f785bed9-e36d-4270-953f-fd267049c386",
+    "image_with_text_kF6689",
+    "rich_text_UTxWY4",
+    "collection_list_WE97kQ"
+  ]
+}

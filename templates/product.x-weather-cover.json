@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "a75315d8-dc2b-4223-ae75-b6c8a363a0bf": {
+          "type": "sku",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "selector_style": "listed",
+            "enable_dynamic_availability": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "ac298d2c-b2b4-4562-a218-cf97c6a08dea": {
+          "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "settings": {
+          }
+        },
+        "647410ba-01b8-49bf-8b41-e1d6b0ec7202": {
+          "type": "related-products",
+          "settings": {
+            "title": "Applicable for",
+            "product_list": [
+              "softshell-rooftop-tent-1",
+              "softshell-rooftop-tent"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "a75315d8-dc2b-4223-ae75-b6c8a363a0bf",
+        "divider",
+        "variant-picker",
+        "buy-buttons",
+        "description",
+        "ac298d2c-b2b4-4562-a218-cf97c6a08dea",
+        "647410ba-01b8-49bf-8b41-e1d6b0ec7202"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "108e628a-42b6-4593-b20e-b458ad1a21f4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16443803238566__108e628a-42b6-4593-b20e-b458ad1a21f4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "DESCRIPTION",
+            "use_h1": false
+          }
+        },
+        "template--16443803238566__108e628a-42b6-4593-b20e-b458ad1a21f4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enhance your BENEHIKE® Overland Roof Top Tent's protection, insulation, and warmth by adding our Xtreme Weather Cover.<br\/><br\/>Xtreme Weather Covers for roof top tents are primarily utilized during camping in severe weather conditions and function to mirror exterior temperatures. Constructed from 150T Ripstop polyester Oxford and coated with aluminum, our Xtreme Weather Covers effectively reflect both extreme cold and heat.<br\/><br\/>Crafted from aluminized-coated rainfly material, the cold weather cover has the ability to reflect frigid air, aiding in maintaining body heat within the tent. This cold weather cover fits snugly around the corners using robust elastic bands and grommets for secure attachment at the base, utilizing your window bungees. Additionally, the cold weather cover features a zippered opening at the rear window (near your head) to facilitate extra ventilation.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "be7c5b18-998e-46ec-87ff-0f0f5b6b4c25": {
+          "type": "heading",
+          "settings": {
+            "title": "SPECIFICATIONS",
+            "use_h1": false
+          }
+        },
+        "78055e8d-e656-4b8f-bbe0-c80940d040ce": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Coated with aluminum<\/li><li>Constructed from 150T Ripstop polyester Oxford<\/li><li>Waterproof rating of 2000mm (capable of withstanding 2,000mm of water over 24 hours before water penetration)<\/li><li>Resistant to UV rays<\/li><li>Flame-retardant properties<\/li><li>Seams taped for enhanced durability<\/li><li>Doors opening equipped with SBS zippers<\/li><\/ul>",
+            "enlarge_text": false
+          }
+        },
+        "8d436876-7ef3-4a71-b1ab-1411509dbdbe": {
+          "type": "heading",
+          "settings": {
+            "title": "INSTRUCTIONS",
+            "use_h1": false
+          }
+        },
+        "576b7114-6870-46cb-a526-70f7279cb76b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The BENEHIKE® Xtreme Weather Cover easily slips over the entire tent, securing firmly with the window bungees and elastic corners, ensuring protection in diverse weather conditions.<\/p><p>The tent can be safely stored with the cover in place and can even serve as a permanent substitute for the rainfly. However, please keep in mind that using the rainfly and cold weather cover together might impact the driving cover, potentially necessitating the removal of bedding to prevent zipper damage on the driving cover.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16443803238566__108e628a-42b6-4593-b20e-b458ad1a21f4-heading-1",
+        "template--16443803238566__108e628a-42b6-4593-b20e-b458ad1a21f4-text-1",
+        "be7c5b18-998e-46ec-87ff-0f0f5b6b4c25",
+        "78055e8d-e656-4b8f-bbe0-c80940d040ce",
+        "8d436876-7ef3-4a71-b1ab-1411509dbdbe",
+        "576b7114-6870-46cb-a526-70f7279cb76b"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": false,
+        "color_scheme": "2"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "108e628a-42b6-4593-b20e-b458ad1a21f4",
+    "related-products"
+  ]
+}

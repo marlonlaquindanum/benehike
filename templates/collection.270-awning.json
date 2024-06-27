@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "99be0fe3-9cef-42b8-82de-b8fb3d28b3a6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16411744239782__99be0fe3-9cef-42b8-82de-b8fb3d28b3a6-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16411744239782__99be0fe3-9cef-42b8-82de-b8fb3d28b3a6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "270 Degree Awning",
+            "heading_max_width": 15,
+            "title_size": 92,
+            "title_size_mobile": 36,
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16411744239782__99be0fe3-9cef-42b8-82de-b8fb3d28b3a6-subheading-1",
+        "template--16411744239782__99be0fe3-9cef-42b8-82de-b8fb3d28b3a6-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_4.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "box"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": true,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "show_disabled_filters": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "filter_two_columns": false,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "6-7-awning",
+          "8-2-awning"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "99be0fe3-9cef-42b8-82de-b8fb3d28b3a6",
+    "main"
+  ]
+}

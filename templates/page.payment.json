@@ -1,0 +1,310 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "rich_text_KyqRdE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hn3ULw": {
+          "type": "heading",
+          "settings": {
+            "title": "PAYMENT",
+            "use_h1": false
+          }
+        },
+        "text_MLMUtg": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><\/h1><p>Thanks for choosing BeneHike, we appreciate your decision to proceed with the payment. To make the payments at our online store safe and secure enough, we have adopted the lastest payment encryption technology. At the same time, our website has applied the SSL(encryption link) to avoid any information leakage.<\/p><p>We work with the most popular banks and e-commerce payment experts. Currently, we support PayPal, ShopPay, ShopPay installment payment, and credit\/debit cards. Kindly check the below information to know more details:<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hn3ULw",
+        "text_MLMUtg"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    },
+    "logo_list_ndaTM6": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_V6iJGa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25_122x_480x480_3c2a84ba-cfe5-44e9-ae5d-6922f4114025.webp",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_pHjeLX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/26_122x_480x480_31874464-7398-442d-b52f-62137f1d82ae.png",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_Rkb9n8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/29_122x_480x480_bbd0d414-49f5-4224-b0ab-f9671f6ac179.png",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_ggjdc6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meta-01_80x_480x480_b5a6a18c-5eda-4763-95d0-56c2cd602196.png",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_XJLdHq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21_120x_480x480_b2107736-e7be-435b-9fa7-4e7f27b621ba.png",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_X396CA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20_122x_480x480_dd0f1c1d-6014-4f1f-9aa9-d71334862e27.png",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_jLzK9w": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22_122x_480x480_f744bb14-97cf-42a1-9b18-f5e2a3a8deb1.png",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_8DEYzM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23_122x_480x480_deaa8f09-6c2b-4cee-a4b3-c909d6c2c384.png",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_NTKAfc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/24_122x_480x480_a2fa63f0-3cc3-4f30-be92-dbd76146e24c.png",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_fHUNPL": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/28_124x_480x480_9fbe2aeb-1091-46c0-9abe-93f5806a4928.png",
+            "image_width": 80,
+            "link": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_V6iJGa",
+        "logo_pHjeLX",
+        "logo_Rkb9n8",
+        "logo_ggjdc6",
+        "logo_XJLdHq",
+        "logo_X396CA",
+        "logo_jLzK9w",
+        "logo_8DEYzM",
+        "logo_NTKAfc",
+        "logo_fHUNPL"
+      ],
+      "settings": {
+        "title": "",
+        "image_opacity": 100,
+        "color_scheme": "default"
+      }
+    },
+    "collapsible_tabs_mkhKRx": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_RpDkFF": {
+          "type": "question",
+          "settings": {
+            "title": "PayPal",
+            "answer": "<p>PayPal is a popular e-commerce digital payment around the world, and our online store supports this method of payment. You can now proceed with your payment easily, quickly, and securely with PayPal at our online store.<\/p>"
+          }
+        },
+        "question_tTH8nf": {
+          "type": "question",
+          "settings": {
+            "title": "ShopPay",
+            "answer": "<p>ShopPay is a world's renowned installment payment expert, and to provide a great shopping experience, our online store now supports ShopPay installment payment. You can enjoy 4 interest-free equal installments (within $1,000) or 12 interest-bearing installments. However, please note that ShopPay has the final right to decide if you can enjoy the 4 interest-free equal installment payments. <\/p>"
+          }
+        },
+        "question_yxmYf3": {
+          "type": "question",
+          "settings": {
+            "title": "Credit\/Debit Card",
+            "answer": "<p>Our online store in the US supports credit\/debit card issued by Diners Club, Discover, Master Card, Visa, and American Express.<\/p><p>When you decide to pay with a credit\/debit card, you need the following information to proceed with the secure payment: the name on the card, the card number, the month and year when the card expires, and the digital security code.<\/p><p>Please notice that BeneHike does not save your credit\/debit card number and personal information entered into the payment field when you proceed with a payment. For questions about the transactions on your bank card, please contact the bank that issued your credit\/debit card.<\/p><p>Kindly note that if you pay by credit card, your payment could somehow be denied at the checkout by our system in defense against possible credit card fraud. It's a good idea to call your credit card company or bank ahead of time to let them know about the purchase so that it doesn't get declined.<\/p><p>If you pay by credit card, your payment could be somehow denied at the checkout by our system in defense against possible credit card fraud. It's a good idea to call your credit card company or bank ahead of time to let them know about the purchase so that it doesn't get declined.<\/p><h2>PAYMENT INSTRUCTIONS<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "question_RpDkFF",
+        "question_tTH8nf",
+        "question_yxmYf3"
+      ],
+      "settings": {
+        "title": "Our Payment Methods"
+      }
+    },
+    "d03274c9-d556-4c43-897a-1fad3cb51bd3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DzTGpf": {
+          "type": "heading",
+          "settings": {
+            "title": "PAYMENT INSTRUCTIONS",
+            "use_h1": false
+          }
+        },
+        "template--16408808063142__d03274c9-d556-4c43-897a-1fad3cb51bd3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. After reaching the checkout page, choose your desired method of payment. You can choose the quick checkout method by Paypal, Shop Pay or Apple Pay if you already have an account.If not, please proceed to filling your information on the bottom and click continue to shipping.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "11fabccb-99c4-4aa7-8303-d97e99c74511": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/initpintu.jpg",
+            "image_width": 700,
+            "url": ""
+          }
+        },
+        "92151057-0ff6-4282-b3e0-da35f1ca5021": {
+          "type": "text",
+          "settings": {
+            "text": "<p>2. If you choose to use <strong>Paypal<\/strong> for checkout, you will have to login if you have an account, or choose the option below to proceed as a one-time payment.<\/p><p>3. Then fill in your billing information as follows and proceed to finish the checkout.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "14a5ee0e-9ddd-483b-a99a-ae731d165a13": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_331x_380afd63-d6d7-4888-8b59-c07ce61684a4.png",
+            "image_width": 340,
+            "url": ""
+          }
+        },
+        "594dbb04-98a2-4c87-940d-ce12b3ee1344": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_331x_3caa4c59-41a9-4ce2-bfae-6c867dc63d0e.png",
+            "image_width": 340,
+            "url": ""
+          }
+        },
+        "ac3cb583-cf8b-4044-a5fb-374b1154913f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4. You can also choose <strong>Apple Pay<\/strong> as your preferred payment method.<\/p><p>5. Then connect to your Apple Pay and proceed with payment.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "67451c0b-ac11-4e32-850e-0e552cc3a5fa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_331x_051201e4-b40b-4f43-bc1f-94654e283108.png",
+            "image_width": 340,
+            "url": ""
+          }
+        },
+        "b7854d5c-68a0-4762-9503-fe9062789219": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_331x_80706616-0a7d-4982-a798-48ea6ab951b5.png",
+            "image_width": 340,
+            "url": ""
+          }
+        },
+        "b1c55795-c439-46fa-9a90-e3afcbd1f95c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>6. You can use ShopPay for quick and direct, click the Shoppay button directly, enter your email to log in or register.<\/p><p>7. If you have already filled in the address in ShopPay, it will be automatically filled in when you pay. If not, you need to fill in your address on the page and pay.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "9002eb33-6440-4084-9717-e08aedab9c84": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shoppay_1.jpg",
+            "image_width": 340,
+            "url": ""
+          }
+        },
+        "eb20f1ba-caba-465d-a38d-84dd280917ed": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/QQ_20230628160454.jpg",
+            "image_width": 340,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_DzTGpf",
+        "template--16408808063142__d03274c9-d556-4c43-897a-1fad3cb51bd3-text-1",
+        "11fabccb-99c4-4aa7-8303-d97e99c74511",
+        "92151057-0ff6-4282-b3e0-da35f1ca5021",
+        "14a5ee0e-9ddd-483b-a99a-ae731d165a13",
+        "594dbb04-98a2-4c87-940d-ce12b3ee1344",
+        "ac3cb583-cf8b-4044-a5fb-374b1154913f",
+        "67451c0b-ac11-4e32-850e-0e552cc3a5fa",
+        "b7854d5c-68a0-4762-9503-fe9062789219",
+        "b1c55795-c439-46fa-9a90-e3afcbd1f95c",
+        "9002eb33-6440-4084-9717-e08aedab9c84",
+        "eb20f1ba-caba-465d-a38d-84dd280917ed"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": true,
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_KyqRdE",
+    "logo_list_ndaTM6",
+    "collapsible_tabs_mkhKRx",
+    "d03274c9-d556-4c43-897a-1fad3cb51bd3"
+  ]
+}

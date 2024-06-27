@@ -1,0 +1,386 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "bf4ca0d7-7ec9-42c3-91f5-91845369262a": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16408506171558__bf4ca0d7-7ec9-42c3-91f5-91845369262a-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16408506171558__bf4ca0d7-7ec9-42c3-91f5-91845369262a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "MANUALS",
+            "heading_max_width": 15,
+            "title_size": 96,
+            "title_size_mobile": 40,
+            "use_h1": false
+          }
+        },
+        "template--16408506171558__bf4ca0d7-7ec9-42c3-91f5-91845369262a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Need to view or download a brochure about our rooftop tents, awnings or other products?<br\/>You can find all of our product resources here.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16408506171558__bf4ca0d7-7ec9-42c3-91f5-91845369262a-subheading-1",
+        "template--16408506171558__bf4ca0d7-7ec9-42c3-91f5-91845369262a-heading-1",
+        "template--16408506171558__bf4ca0d7-7ec9-42c3-91f5-91845369262a-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_033e5a24-4b16-4d81-8990-a797bd7c1241.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_2_f9418216-9cf5-441d-8021-3fa69ac6cfec.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "5da62b6f-b2ad-47bb-aafd-47473a98d0d4": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16408506171558__5da62b6f-b2ad-47bb-aafd-47473a98d0d4-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/aluminum_pop_up_rooftop_tent_1_c9462e06-efe7-4bcd-a911-f658915614bf.jpg",
+            "title": "Alumabode Rooftop Tent",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Alumabode_Aluminum_Shell_Pop-Up_Rooftop_Tent_Manual_daf2b39e-b818-4a0d-bd25-bfa2a621777c.pdf?v=1689317531"
+          }
+        },
+        "template--16408506171558__5da62b6f-b2ad-47bb-aafd-47473a98d0d4-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Ascendll_side_open_aluminum_rooftop_tent_1.jpg",
+            "title": "Ascendll Rooftop Tent",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Ascendll_Aluminum_Shell_Side_Open_Rooftop_Tent_Manual_4f760c5b-73e5-4ee7-b996-8d4ce484d226.pdf?v=1689582169"
+          }
+        },
+        "template--16408506171558__5da62b6f-b2ad-47bb-aafd-47473a98d0d4-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/side_open_hardshell_rooftop_tent_001.jpg",
+            "title": "Bivvyy Rooftop Tent",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Bivvyy_Hard_Shell_Side_Open_Rooftop_Tent_Manual.pdf?v=1689152620"
+          }
+        },
+        "9b081af7-529b-4813-94b1-d863f1c24861": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/pop_up_hardshell_rooftop_tent_001.jpg",
+            "title": "BEHEHIKE® ABS Rooftop Tent",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Hardshell_Pop_Up_Rooftop_Tent_Manual.pdf?v=1689064503"
+          }
+        },
+        "e1430b70-3b89-4474-a81d-bb9f3a1125eb": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/hardshell_side_open_roof_top_tents_0001.jpg",
+            "title": "BEHEHIKE® ABS Rooftop Tent",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Hardshell_Side_Rooftop_Tent_Manual.pdf?v=1689063913"
+          }
+        }
+      },
+      "block_order": [
+        "template--16408506171558__5da62b6f-b2ad-47bb-aafd-47473a98d0d4-text_block-1",
+        "template--16408506171558__5da62b6f-b2ad-47bb-aafd-47473a98d0d4-text_block-2",
+        "template--16408506171558__5da62b6f-b2ad-47bb-aafd-47473a98d0d4-text_block-3",
+        "9b081af7-529b-4813-94b1-d863f1c24861",
+        "e1430b70-3b89-4474-a81d-bb9f3a1125eb"
+      ],
+      "settings": {
+        "title": "HARD SHELL ROOF TOP TENTS",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "multi_column_P7zTN6": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_3ePfgM": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/hardshell_side_open_roof_top_tents_0001.jpg",
+            "title": "BEHEHIKE® ABS Rooftop Tent",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Hardshell_Side_Rooftop_Tent_Manual.pdf?v=1689063913"
+          }
+        },
+        "text_block_zT9dni": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_Rficzb": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_QimcqJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_3ePfgM",
+        "text_block_zT9dni",
+        "text_block_Rficzb",
+        "text_block_QimcqJ"
+      ],
+      "settings": {
+        "title": "",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "76978b9e-e8cc-42b8-a754-c41e01849d44": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16408506171558__76978b9e-e8cc-42b8-a754-c41e01849d44-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/softshell_rooftop_tent_001.jpg",
+            "title": "BEHEHIKE® RE Soft Shell Rooftop Tent",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Soft_Rooftop_Tent_RE_Manual.pdf?v=1688979687"
+          }
+        },
+        "template--16408506171558__76978b9e-e8cc-42b8-a754-c41e01849d44-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/softshell_roof_top_tents_003.jpg",
+            "title": "BEHEHIKE® EX Soft Shell Rooftop Tent",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Soft_Rooftop_Tent_EX_Manual_1e9bcda6-f061-4511-9992-f38cae6012ac.pdf?v=1688980650"
+          }
+        },
+        "text_block_j7aTk4": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_m7kXgw": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16408506171558__76978b9e-e8cc-42b8-a754-c41e01849d44-text_block-1",
+        "template--16408506171558__76978b9e-e8cc-42b8-a754-c41e01849d44-text_block-2",
+        "text_block_j7aTk4",
+        "text_block_m7kXgw"
+      ],
+      "settings": {
+        "title": "SOFT SHELL ROOF TOP TENTS",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "2"
+      }
+    },
+    "088d4f3a-6a31-49bb-a6f1-249bebe7ccf0": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16408506171558__088d4f3a-6a31-49bb-a6f1-249bebe7ccf0-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/6.png",
+            "title": "270 Degree Awning",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/270_Degree_Freestanding_Batwing_Awning_Manual.pdf?v=1689830046"
+          }
+        },
+        "template--16408506171558__088d4f3a-6a31-49bb-a6f1-249bebe7ccf0-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Aluminum_Case_Quick_Open_Car_Side_Awning_khaki_05.jpg",
+            "title": "Aluminum Shell Car Side Awning",
+            "text": "",
+            "button_label": "view manual",
+            "link": ""
+          }
+        },
+        "template--16408506171558__088d4f3a-6a31-49bb-a6f1-249bebe7ccf0-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/6.7_x_6.7_Soft_Shell_Car_Side_Awning_01.jpg",
+            "title": "Soft Shell Car Side Awning",
+            "text": "",
+            "button_label": "view manual",
+            "link": ""
+          }
+        },
+        "text_block_cjHirj": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16408506171558__088d4f3a-6a31-49bb-a6f1-249bebe7ccf0-text_block-1",
+        "template--16408506171558__088d4f3a-6a31-49bb-a6f1-249bebe7ccf0-text_block-2",
+        "template--16408506171558__088d4f3a-6a31-49bb-a6f1-249bebe7ccf0-text_block-3",
+        "text_block_cjHirj"
+      ],
+      "settings": {
+        "title": "AWNINGS",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "e79da7e4-48df-47c6-8676-92f4fc1be92c": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16408506171558__e79da7e4-48df-47c6-8676-92f4fc1be92c-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/AIR_WINNER_Protable_Air_Compressor_02.jpg",
+            "title": "Single Air Compressor",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/BENEHIKE_AIR_WINNER_Single_Air_Compressor-Manual.pdf?v=1700558995"
+          }
+        },
+        "template--16408506171558__e79da7e4-48df-47c6-8676-92f4fc1be92c-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_08.jpg",
+            "title": "Dual Air Compressor",
+            "text": "",
+            "button_label": "view manual",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/BENEHIKE_AIR_WINNER_Daul_Air_Compressor-Manual.pdf?v=1700724131"
+          }
+        },
+        "text_block_ezV7NE": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_fLqwe6": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16408506171558__e79da7e4-48df-47c6-8676-92f4fc1be92c-text_block-1",
+        "template--16408506171558__e79da7e4-48df-47c6-8676-92f4fc1be92c-text_block-2",
+        "text_block_ezV7NE",
+        "text_block_fLqwe6"
+      ],
+      "settings": {
+        "title": "others",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bf4ca0d7-7ec9-42c3-91f5-91845369262a",
+    "5da62b6f-b2ad-47bb-aafd-47473a98d0d4",
+    "multi_column_P7zTN6",
+    "76978b9e-e8cc-42b8-a754-c41e01849d44",
+    "088d4f3a-6a31-49bb-a6f1-249bebe7ccf0",
+    "e79da7e4-48df-47c6-8676-92f4fc1be92c"
+  ]
+}

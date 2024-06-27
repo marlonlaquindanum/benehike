@@ -1,0 +1,153 @@
+<style>
+  .n-multi-column-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+  }
+  .n-multi-column-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .n-multi-column::-webkit-scrollbar {
+    display: none;
+  }
+  .n-multi-column {
+    display: flex;
+    gap: 24px;
+    /* max-width: 1600px; */
+    margin: 0 auto;
+    padding: 0 40px;
+    /* justify-content: center; */
+    text-align: center;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+
+  .n-multi-column .n-multi-column__item {
+    width: 284px;
+    flex-shrink: 0;
+  }
+
+  .n-multi-column .n-multi-column__item a {
+    display: block;
+    overflow: hidden;
+    color: rgb(40, 40, 40);
+  }
+
+  .n-multi-column .n-multi-column__item img {
+    width: 100%;
+    transition: transform 0.5s ease;
+
+  }
+
+  .n-multi-column .n-multi-column__item img:hover {
+    transform: scale(1.05)
+  }
+
+  .n-multi-column .n-multi-column__item p.n-heading {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .n-multi-column .n-multi-column__item h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 95%;
+    color: {{ section.settings.h4_color }}
+    ;
+    letter-spacing: 0;
+    background-color: {{ section.settings.h4_bgc }}
+    ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .n-multi-column .n-multi-column__item p {
+    font-weight: 400;
+  }
+
+  @media screen and (max-width: 790px) {
+    .n-multi-column {
+      padding: 0 24px;
+    }
+
+    .n-multi-column .n-multi-column__item {
+      width: 218px;
+      flex-shrink: 0;
+    }
+    .n-multi-column .n-multi-column__item h4 {
+      font-size: 14px;
+    }
+    .n-multi-column .n-multi-column__item p {
+      font-size: 16px;
+    }
+
+  }
+</style>
+
+
+<div class="n-multi-column-wrapper">
+  <div class="n-multi-column">
+    {% for block in section.blocks %}
+      <div class="n-multi-column__item">
+        <a href="{{block.settings.url}}">
+          <img src="{{block.settings.image | img_url: '284x'}}" alt="">
+        </a>
+        <div class="multi-column__text-container">
+          <p class="n-heading">{{ block.settings.title }}</p>
+          {{ block.settings.richtext }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Columns diplay",
+    "settings": [
+      {
+        "id": "h4_color",
+        "type": "color",
+        "label": "h4标题颜色",
+        "default": "#ff5100"
+      }, {
+        "id": "h4_bgc",
+        "type": "color",
+        "label": "h4标题背景色",
+        "default": "#eee"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Column",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }, {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }, {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }, {
+            "type": "richtext",
+            "id": "richtext",
+            "label": "richtext",
+            "info": "请使用h4标签和p标签"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Columns diplay"
+      }
+    ]
+  }
+{% endschema %}

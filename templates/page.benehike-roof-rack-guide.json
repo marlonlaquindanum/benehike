@@ -1,0 +1,526 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "1772c1c1-14fb-400e-aa35-2f3a756909f2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16407633264806__1772c1c1-14fb-400e-aa35-2f3a756909f2-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Benehike 4wd"
+          }
+        },
+        "template--16407633264806__1772c1c1-14fb-400e-aa35-2f3a756909f2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ROOF RACK GUIDE",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 42,
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16407633264806__1772c1c1-14fb-400e-aa35-2f3a756909f2-subheading-1",
+        "template--16407633264806__1772c1c1-14fb-400e-aa35-2f3a756909f2-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/336946290_1923869921286630_4211518097381386672_n-transformed_1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/336946290_1923869921286630_4211518097381386672_n-transformed_2.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "box"
+      }
+    },
+    "39ea7400-7627-48bd-bce7-71548be4e3e4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16407633264806__39ea7400-7627-48bd-bce7-71548be4e3e4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We know that navigating this process can feel daunting by yourself. This guide will provide a comprehensive overview of different roof styles, available options, and our expert recommendations for each. If you need assistance at any point, feel free to reach out to us at 951-691-3943 or schedule a <a href=\"\/pages\/contact-us\" title=\"CONTACT US\">consultation with our team<\/a>.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16407633264806__39ea7400-7627-48bd-bce7-71548be4e3e4-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": true,
+        "color_scheme": "2"
+      }
+    },
+    "multi_column_dMGAqj": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_Vf6BUC": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Alunotec_Icons.png",
+            "title": "",
+            "text": "<p>Identify your specific roof configuration.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_QqaBgJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/2.png",
+            "title": "",
+            "text": "<p>Explore various rack system designs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_FdjnQ9": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/3.png",
+            "title": "",
+            "text": "<p>Review specific specifications.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_pHFbKJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Alunotec_Icons_1.png",
+            "title": "",
+            "text": "<p>Know when it's best to consult an industry professional.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Vf6BUC",
+        "text_block_QqaBgJ",
+        "text_block_FdjnQ9",
+        "text_block_pHFbKJ"
+      ],
+      "settings": {
+        "title": "Here is our suggested process",
+        "media_aspect_ratio": "s",
+        "media_width": 60,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_b99zXU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VCHzYN": {
+          "type": "heading",
+          "settings": {
+            "title": "ROOF TYPES AND CROSSBARS",
+            "use_h1": false
+          }
+        },
+        "text_fq4bqg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Roof crossbars are the most popular and convenient method for installing a rooftop tent.<br\/>They are available as complete systems, including the racks and the mounting mechanism that connects them to the roof.<br\/>Below are typical roof configurations along with an example roof rack system for reference.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VCHzYN",
+        "text_fq4bqg"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/555_-1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "dad63542-02a5-4e70-aaf8-8d7d7990853b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16407633264806__dad63542-02a5-4e70-aaf8-8d7d7990853b-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Roof Types And Crossbars",
+            "use_h1": false
+          }
+        },
+        "template--16407633264806__dad63542-02a5-4e70-aaf8-8d7d7990853b-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Roof crossbars are the most popular and convenient method for installing a rooftop tent.<br\/>They are available as complete systems, including the racks and the mounting mechanism that connects them to the roof.<br\/>Below are typical roof configurations along with an example roof rack system for reference.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "7d512d5a-6ba8-4406-8cbd-e6fb67778481": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/555_-1.jpg",
+            "image_width": 700,
+            "url": ""
+          }
+        },
+        "9bfdbc00-dfb2-41f7-ba38-11a3c193c77f": {
+          "type": "heading",
+          "settings": {
+            "title": "Bare Roof",
+            "use_h1": false
+          }
+        },
+        "74d0061d-7712-47d4-8bbc-22ce887d52ea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Search for styles: <a href=\"https:\/\/www.google.com\/search?q=bare+roof+mount+rack+systems&oq=Bare+Roof+Mount+Rack+Systems&aqs=chrome.0.0i512j0i22i30j69i60.680j0j4&sourceid=chrome&ie=UTF-8\">Bare Roof Mount Rack Systems<\/a><\/p>",
+            "enlarge_text": false
+          }
+        },
+        "0c6a2e3b-61f9-4832-a9fe-96f300a674a8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Naked_Roof_540x_70b4380b-8533-4698-a794-b17a4e242033.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "21da3079-d36b-4a3a-8995-3c804ad07cd3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big_Naked_Roof_2_720x_1b839c53-7236-4985-a7a6-ebbea00de880.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "6e98b84c-86ab-45ad-8584-44643fdc1732": {
+          "type": "heading",
+          "settings": {
+            "title": "Tracks \/ Channels",
+            "use_h1": false
+          }
+        },
+        "52521d09-04af-41f7-bf00-cac7c2420a5b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Search for styles: <a href=\"https:\/\/www.google.com\/search?q=Roof+Racks+for+Vehicles+with+Tracks&oq=Roof+Racks+for+Vehicles+with+Tracks&aqs=chrome..69i57j69i60.641j0j4&sourceid=chrome&ie=UTF-8\">Roof Racks for Vehicles with Tracks<\/a><\/p>",
+            "enlarge_text": false
+          }
+        },
+        "35129e19-41c2-4dbc-9e06-5a05a693a819": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fixed_Rails_Lines_540x_c986c98d-4dae-44db-909a-dd24a03817e1.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "a224e12e-0784-4f68-8d3d-3200d9106661": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tracks_Channels_Rack_1_1_720x_743b4011-5d71-4944-b451-36eeaf424631.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "26213f97-d6b0-4e88-8d67-92e1acfcfbfc": {
+          "type": "heading",
+          "settings": {
+            "title": "Flush Rails",
+            "use_h1": false
+          }
+        },
+        "16c0556a-91a1-4cb1-b636-f861ecaa9cf6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Search for styles: <a href=\"https:\/\/www.google.com\/search?q=Roof+Racks+for+Vehicles+with+Flush+side+rails&ei=Bk_fYeS9E6Pe9APe55bgDg&ved=0ahUKEwjk2Mjcmq31AhUjL30KHd6zBewQ4dUDCA4&uact=5&oq=Roof+Racks+for+Vehicles+with+Flush+side+rails&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeOgcIABBHELADOgYIABAWEB46CAgAEIYDEIsDOgcIIRAKEKABOgUIIRCrAkoECEEYAEoECEYYAFC6BVi1GmCSG2gCcAJ4AIABZIgBiQqSAQQxNS4xmAEAoAEByAEIuAECwAEB&sclient=gws-wiz\">Roof Racks for Vehicles with Flush Side Rails<\/a><\/p>",
+            "enlarge_text": false
+          }
+        },
+        "f4a523c9-d410-4b17-915e-ff22d205f677": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Flush_Rails_540x_af1f7964-8af9-43b4-ae81-a8266d962b4f.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "1f6601f6-c0c3-4724-b4c4-2cc48e767bcb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tracks_Channels_Rack_1_2_720x_0847a2eb-c1fc-475b-ad97-7ee43c2e61d7.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "a639f48d-0e0c-408b-aa3b-b44daeed8990": {
+          "type": "button",
+          "settings": {
+            "button_label": "buy our crossbars",
+            "button_link": "shopify:\/\/products\/winglet-roof-rack-system",
+            "button_style": "secondary"
+          }
+        },
+        "0c9f879e-ac37-4c68-b330-638cc4529c08": {
+          "type": "heading",
+          "settings": {
+            "title": "Raised Rails",
+            "use_h1": false
+          }
+        },
+        "ef35e1a5-9882-468f-923e-7a126ebafa40": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Search for styles: <a href=\"https:\/\/www.google.com\/search?q=Roof+Racks+for+Vehicles+with+Flush+side+rails&ei=Bk_fYeS9E6Pe9APe55bgDg&ved=0ahUKEwjk2Mjcmq31AhUjL30KHd6zBewQ4dUDCA4&uact=5&oq=Roof+Racks+for+Vehicles+with+Flush+side+rails&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeOgcIABBHELADOgYIABAWEB46CAgAEIYDEIsDOgcIIRAKEKABOgUIIRCrAkoECEEYAEoECEYYAFC6BVi1GmCSG2gCcAJ4AIABZIgBiQqSAQQxNS4xmAEAoAEByAEIuAECwAEB&sclient=gws-wiz\">Roof Racks for Vehicles with Raised Side Rails<\/a><\/p>",
+            "enlarge_text": false
+          }
+        },
+        "c8682312-1bd9-4091-8786-fbe59a23eda2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Raised_Rails_720x_7a9625ea-4d0b-4707-8bac-2f9d03eac2d5.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "2c3712bc-952b-47f5-b6cb-91ff24c0e325": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yakima-Raised_rails_720x_05f95467-2aa0-489a-923c-d7a132b58092.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "cee8e3c0-d3c9-4fd7-99d5-085f9c828196": {
+          "type": "heading",
+          "settings": {
+            "title": "Factory Bars",
+            "use_h1": false
+          }
+        },
+        "0f90ca71-dbe2-4412-89b9-894746d10923": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Warning: Most factory crossbars do not meet the weight capacity needed for a RTT.<br\/>Search for styles: <a href=\"https:\/\/www.google.com\/search?q=Factory+Roof+Mount+Rack+Systems&oq=Factory+Roof+Mount+Rack+Systems&aqs=chrome.0.69i59j69i60l3.815j0j4&sourceid=chrome&ie=UTF-8\">Factory Roof Mount Rack Systems<\/a><\/p>",
+            "enlarge_text": false
+          }
+        },
+        "46a95dea-5188-48ed-8cc3-66e866d8d294": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Factory_Crossbars_540x_efe60720-af77-423a-999e-1144e9f05d03.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "8878a3a7-2c83-4653-af0c-704f6b9cbdb2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Factory_rails_1_720x_ad224f30-9aa9-4d89-8a70-70ad015f574e.png",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "32dd2351-596a-4e34-a8cf-bdff916f5595": {
+          "type": "heading",
+          "settings": {
+            "title": "Platform Racks",
+            "use_h1": false
+          }
+        },
+        "04200a74-6e26-445d-ab69-a95143e91721": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Platform racks offer a larger storage space compared to crossbars, but there are two main drawbacks to consider.<br\/><\/p><p>1) A rooftop tent would occupy most of the cargo rack's surface area.<br\/>2) platform racks with bars running from front to back may require additional modifications or drilling.<br\/>That's why we suggest starting with crossbars initially. If you have additional space, such as above your cab, you can consider adding a platform racks rack.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "38000d50-9196-40c0-85d5-63f0f338ba22": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14_-2.jpg",
+            "image_width": 700,
+            "url": ""
+          }
+        },
+        "86fe5b61-f64b-4bcd-b6a3-cc0ce65bf412": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Check The Specs",
+            "use_h1": false
+          }
+        },
+        "91feab07-538f-4592-a8c1-e18dee89a915": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Whichever system you're considering, it's a good idea to know how big the horizontal bars are.<br\/>Here's what you'll want:<br\/>1) Bars as wide as your roof, or the vehicle.<br\/>2) A distance of 30.25\" between the two crossbars for a stable mount.<br\/>3) A Bar diameter between 2\" and 3.5\"<br\/>4) A Dynamic weight capacity equal to or greater than the weight of your tent.<br\/><a href=\"https:\/\/www.google.com\/search?q=dynamic+weight+capacity+explained&oq=dynamic+weight+capacity+explained&aqs=chrome..69i57j33i22i29i30l3.5828j1j7&sourceid=chrome&ie=UTF-8\">Read more about Dynamic Weight Capacity<\/a><\/p>",
+            "enlarge_text": true
+          }
+        },
+        "78e1ff16-0066-42a5-bd01-5848e6c45230": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_7946.jpg",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "8c544f2b-4132-41c1-9cb7-951c340c0f3b": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3>Our Mounting System<\/h3><p>Each of our tents are equipped with two aluminum tracks that are specifically designed to be mounted longitudinally on your vehicle.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "61c63c4f-eae7-499a-bc89-412d225e8b09": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C0040.MP4_20230710_154057951.jpg",
+            "image_width": 500,
+            "url": ""
+          }
+        },
+        "6c77ecf8-4174-466d-b53e-ec748e1aa295": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3>Our Expert Advice<\/h3><p>To simplify the installation process, you can begin by attaching one side and sliding it through the track from the outer edge towards the center.<\/p><p>In the center section of the tent's tracks, there is a designated area to secure the M8 Bolt for the opposite side. Once in position, you can then raise the other side of the bracket and secure it into place.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16407633264806__dad63542-02a5-4e70-aaf8-8d7d7990853b-heading-1",
+        "template--16407633264806__dad63542-02a5-4e70-aaf8-8d7d7990853b-text-1",
+        "7d512d5a-6ba8-4406-8cbd-e6fb67778481",
+        "9bfdbc00-dfb2-41f7-ba38-11a3c193c77f",
+        "74d0061d-7712-47d4-8bbc-22ce887d52ea",
+        "0c6a2e3b-61f9-4832-a9fe-96f300a674a8",
+        "21da3079-d36b-4a3a-8995-3c804ad07cd3",
+        "6e98b84c-86ab-45ad-8584-44643fdc1732",
+        "52521d09-04af-41f7-bf00-cac7c2420a5b",
+        "35129e19-41c2-4dbc-9e06-5a05a693a819",
+        "a224e12e-0784-4f68-8d3d-3200d9106661",
+        "26213f97-d6b0-4e88-8d67-92e1acfcfbfc",
+        "16c0556a-91a1-4cb1-b636-f861ecaa9cf6",
+        "f4a523c9-d410-4b17-915e-ff22d205f677",
+        "1f6601f6-c0c3-4724-b4c4-2cc48e767bcb",
+        "a639f48d-0e0c-408b-aa3b-b44daeed8990",
+        "0c9f879e-ac37-4c68-b330-638cc4529c08",
+        "ef35e1a5-9882-468f-923e-7a126ebafa40",
+        "c8682312-1bd9-4091-8786-fbe59a23eda2",
+        "2c3712bc-952b-47f5-b6cb-91ff24c0e325",
+        "cee8e3c0-d3c9-4fd7-99d5-085f9c828196",
+        "0f90ca71-dbe2-4412-89b9-894746d10923",
+        "46a95dea-5188-48ed-8cc3-66e866d8d294",
+        "8878a3a7-2c83-4653-af0c-704f6b9cbdb2",
+        "32dd2351-596a-4e34-a8cf-bdff916f5595",
+        "04200a74-6e26-445d-ab69-a95143e91721",
+        "38000d50-9196-40c0-85d5-63f0f338ba22",
+        "86fe5b61-f64b-4bcd-b6a3-cc0ce65bf412",
+        "91feab07-538f-4592-a8c1-e18dee89a915",
+        "78e1ff16-0066-42a5-bd01-5848e6c45230",
+        "8c544f2b-4132-41c1-9cb7-951c340c0f3b",
+        "61c63c4f-eae7-499a-bc89-412d225e8b09",
+        "6c77ecf8-4174-466d-b53e-ec748e1aa295"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "2"
+      }
+    },
+    "multi_column_MmWjDe": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_9wx7Th": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/14_-2.jpg",
+            "title": "CHECK THE SPECS",
+            "text": "<p>Whichever system you're considering, it's a good idea to know how big the horizontal bars are. Here's what you'll want:<\/p><ol><li>Bars as wide as your roof, or the vehicle.<\/li><li>A distance of 30.25\" between the two crossbars for a stable mount.<\/li><li>A Bar diameter between 2\" and 3.5\"<\/li><li>A Dynamic weight capacity equal to or greater than the weight of your tent.<\/li><\/ol><p><a href=\"https:\/\/www.google.com\/search?q=dynamic+weight+capacity+explained&oq=dynamic+weight+capacity+explained&aqs=chrome..69i57j33i22i29i30l3.5828j1j7&sourceid=chrome&ie=UTF-8\">Read more about Dynamic Weight Capacity<\/a><\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_NVDQp4": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/DSC_7946.jpg",
+            "title": "OUR MOUNTING SYSTEM",
+            "text": "<p>Each of our tents are equipped with two aluminum tracks that are specifically designed to be mounted longitudinally on your vehicle.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_6Ag9JJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/C0040.MP4_20230710_154057951.jpg",
+            "title": "OUR EXPERT ADVICE",
+            "text": "<p>To simplify the installation process, you can begin by attaching one side and sliding it through the track from the outer edge towards the center.<\/p><p>In the center section of the tent's tracks, there is a designated area to secure the M8 Bolt for the opposite side. Once in position, you can then raise the other side of the bracket and secure it into place.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_9wx7Th",
+        "text_block_NVDQp4",
+        "text_block_6Ag9JJ"
+      ],
+      "settings": {
+        "title": "",
+        "media_aspect_ratio": "t",
+        "media_width": 700,
+        "text_alignment": "left",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1772c1c1-14fb-400e-aa35-2f3a756909f2",
+    "39ea7400-7627-48bd-bce7-71548be4e3e4",
+    "multi_column_dMGAqj",
+    "image_with_text_b99zXU",
+    "dad63542-02a5-4e70-aaf8-8d7d7990853b",
+    "multi_column_MmWjDe"
+  ]
+}

@@ -1,0 +1,207 @@
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+<style>
+  .our-team-wrapper {
+    position: relative;
+    margin: 70px 0;
+  }
+
+  .our-team-wrapper .team-title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+
+  #team-mumbers {
+    max-width: 1360px;
+    padding: 0 30px
+  }
+
+  #team-mumbers .swiper-wrapper {
+    text-align: center;
+  }
+
+  #team-mumbers .team-tm-content {
+    text-align: center;
+  }
+
+  #team-mumbers .team-tm-content .team-tm-name {
+    margin-top: 20px;
+    color: #ff6100;
+  }
+
+  #team-mumbers .team-tm-content .team-tm-position {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000;
+  }
+
+  #team-mumbers .team-tm-content .team-tm-description {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(110, 109, 118);
+    line-height: 28px;
+  }
+
+  .team-swiper-pagination {
+    bottom: -50px !important;
+  }
+
+  .team-swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #ff6100;
+  }
+
+  .team-swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: #000;
+    opacity: 1;
+  }
+  @media screen and (max-width:1024px) {
+    #team-mumbers {
+      margin: 0;
+    }
+  }
+  @media screen and (max-width:779px) {
+    .our-team-wrapper .team-title {
+      font-size: 24px;
+    }
+  }
+</style>
+
+
+<div class="our-team-wrapper">
+  <h2 class="team-title">
+    {{ section.settings.title }}
+  </h2>
+  <div class="swiper" id="team-mumbers">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide">
+          <a href="{{section.settings.url}}" class="team-tm">
+            <div class="team-tm-image">
+              <img src="{{block.settings.image | img_url: '270x360' }}" alt="">
+            </div>
+            <div class="team-tm-content ">
+              <h4 class="team-tm-name">
+                {{ block.settings.name }}
+              </h4>
+              <div class="team-tm-position">
+                {{ block.settings.title }}</div>
+              <div class="team-tm-description">
+                {{ block.settings.description }}
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+
+
+    </div>
+  </div>
+  <div class="swiper-pagination team-swiper-pagination"></div>
+</div>
+
+{{ 'swiper-bundle.js' | asset_url | script_tag }}
+{{ 'swiper-bundle.min.js' | asset_url | script_tag }}
+
+<script>
+  var hs_screen_width = document.body.clientWidth;
+
+  var hs_swiper_pic_number = 4;
+  if (hs_screen_width < 1024) {
+    hs_swiper_pic_number = 2;
+
+  }
+  if (hs_screen_width < 779) {
+    hs_swiper_pic_number = 1;
+
+  }
+  var teamSwiper = new Swiper("#team-mumbers", {
+
+    // cssMode: true,
+    freeMode: true,
+
+// 这里是关键
+// loop: true,
+    centeredSlides: false,
+
+// slidesPerView: 4,
+    slidesPerView: hs_swiper_pic_number,
+    pagination: {
+      el: ".our-team-wrapper .swiper-pagination",
+      clickable: true
+    },
+    spaceBetween: 40,
+    autoplay: true,
+
+// resizeObserver: true,
+    on: {
+      resize: function() {
+        if (document.body.clientWidth < 779) {
+          this.params.slidesPerView = 1;
+        } else if (document.body.clientWidth < 1024) {
+          this.params.slidesPerView = 2;
+        } else {
+          this.params.slidesPerView = 4;
+        }
+        this.update();
+      }
+    }
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "OUR TEAM",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "主标题",
+        "default": "OUR TEAM"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "mumber",
+        "name": "mumber",
+        "settings": [
+          {
+            "type": "url",
+            "id": "url",
+            "label": "超链接"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "照片"
+          },
+          {
+            "type": "text",
+            "id": "name",
+            "label": "名字",
+            "default": "Name"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "职称",
+            "default": "Title"
+          }, {
+            "type": "text",
+            "id": "description",
+            "label": "描述",
+            "default": "description content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "OUR TEAM",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

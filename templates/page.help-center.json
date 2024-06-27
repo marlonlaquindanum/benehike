@@ -1,0 +1,465 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "ad12421a-98f1-421a-843b-05fa0382a76d": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16408387911846__ad12421a-98f1-421a-843b-05fa0382a76d-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16408387911846__ad12421a-98f1-421a-843b-05fa0382a76d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "HELP CENTER",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "template--16408387911846__ad12421a-98f1-421a-843b-05fa0382a76d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Walk-through videos, Installation guides, Tent care guides, FAQs<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16408387911846__ad12421a-98f1-421a-843b-05fa0382a76d-subheading-1",
+        "template--16408387911846__ad12421a-98f1-421a-843b-05fa0382a76d-heading-1",
+        "template--16408387911846__ad12421a-98f1-421a-843b-05fa0382a76d-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_033e5a24-4b16-4d81-8990-a797bd7c1241.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_2_f9418216-9cf5-441d-8021-3fa69ac6cfec.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "1d764ffc-6cdb-4749-9d9f-5fa9b770777c": {
+      "type": "video-with-text",
+      "blocks": {
+        "template--16408387911846__1d764ffc-6cdb-4749-9d9f-5fa9b770777c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Alumabode RTT",
+            "use_h1": false
+          }
+        },
+        "template--16408387911846__1d764ffc-6cdb-4749-9d9f-5fa9b770777c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Alumabode rooftop tent by BENEHIKE is a tough, sleek aluminum model that offers remarkable versatility. It seamlessly mounts onto various vehicles and effortlessly unfolds into a cozy mobile bedroom, ensuring you can embark on your adventures without fretting over accommodations.<\/p><p>The Alumabode series includes the 3 Person model (83\" x 51\") and the 4 Person model (83\" x 59\"). When stowed, they boast a slim profile of under 6 inches, conveniently attaching to any roof rack. These tents are fully waterproof, exceptionally quiet, well-insulated, and remarkably hassle-free to set up and dismantle.<\/p><p>Experience a virtual tour of the Alumabode 3 Person through our insightful walk-through video, hosted by Kaile. Prepare to be captivated by the Alumabode 3 Person's features and design showcased in this engaging presentation. After viewing this video, the allure of the Alumabode 3 Person may linger in your thoughts.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16408387911846__1d764ffc-6cdb-4749-9d9f-5fa9b770777c-heading-1",
+        "template--16408387911846__1d764ffc-6cdb-4749-9d9f-5fa9b770777c-text-1"
+      ],
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=YFLDbuE7DEg",
+        "video_description": "",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/HELP_CENTER_Banner_3_1.jpg",
+        "video_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "f8449de3-544c-48b1-8d3b-413c70ee2f7f": {
+      "type": "video-with-text",
+      "blocks": {
+        "template--16408387911846__f8449de3-544c-48b1-8d3b-413c70ee2f7f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Ascendll RTT",
+            "use_h1": false
+          }
+        },
+        "template--16408387911846__f8449de3-544c-48b1-8d3b-413c70ee2f7f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The newly reimagined BENEHIKE Ascend II, introduced in 2023, stands as a significant leap forward within our range of rooftop tents. Drawing upon our extensive expertise in designing and crafting roof top tents, we have seamlessly integrated all that knowledge into this remarkable offering.<\/p><p>The Ascend II comes in two versions: a 51\" wide model known as the Ascend II 2 Person, and a 54\" wide version aptly named the Ascend II 3 Person.<\/p><p>Both variants of the Ascend II provide comfortable sleeping space for two adults. The Ascend II 3 Person version goes a step further, accommodating a child or even a four-legged companion.<\/p><p>Join us for an insightful tour guided by BENEHIKE expert Kaile, as she unveils our latest and most groundbreaking tent models: The Ascend II.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16408387911846__f8449de3-544c-48b1-8d3b-413c70ee2f7f-heading-1",
+        "template--16408387911846__f8449de3-544c-48b1-8d3b-413c70ee2f7f-text-1"
+      ],
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=VFUC-sZByGQ",
+        "video_description": "",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/Ascendll_RTT_2_d562522d-a75b-477c-b9be-8e4e593f4671_1.jpg",
+        "video_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "521c1d13-2ce3-49a7-a317-e1b2a5630ddb": {
+      "type": "video-with-text",
+      "blocks": {
+        "template--16408387911846__521c1d13-2ce3-49a7-a317-e1b2a5630ddb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "30s Quick-open Awning",
+            "use_h1": false
+          }
+        },
+        "template--16408387911846__521c1d13-2ce3-49a7-a317-e1b2a5630ddb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The sleek black aluminum design complements most 4x4 vehicles. Magnetic switches replace zippers for easier use. Shock-corded design prevents shell-canvas friction, and an abrasion-resistant coating enhances canvas protection while traveling.<br\/><\/p><p>Available in five sizes, universally compatible with most vehicles, it sets up in seconds with adjustable brackets.<br\/><\/p><p>Pairable with roof tents, cargo boxes, or roof racks. Made from durable 420D Oxford & 280G Poly Cotton Ripstop fabric with 2000mm PU coating and UV50+ properties, it endures harsh weather.<br\/><\/p><p>Ceiling attaches to the frame with multiple points, guide wires ensure stability. Sturdy aluminum frame withstands strong winds and rain.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16408387911846__521c1d13-2ce3-49a7-a317-e1b2a5630ddb-heading-1",
+        "template--16408387911846__521c1d13-2ce3-49a7-a317-e1b2a5630ddb-text-1"
+      ],
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=VBJ1Rpicnns",
+        "video_description": "",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/Home_page_awning_banner_F_copy.jpg",
+        "video_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "73984f6a-6817-4f08-bb51-625d25adee6a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16408387911846__73984f6a-6817-4f08-bb51-625d25adee6a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "How to Install Your RTT?",
+            "use_h1": false
+          }
+        },
+        "template--16408387911846__73984f6a-6817-4f08-bb51-625d25adee6a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Before attempting to install, make sure to read our installation guide. It covers everything from receiving your rooftop tent to safe and secure vehicle installation.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--16408387911846__73984f6a-6817-4f08-bb51-625d25adee6a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Manuals",
+            "button_link": "shopify:\/\/pages\/manuals",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16408387911846__73984f6a-6817-4f08-bb51-625d25adee6a-heading-1",
+        "template--16408387911846__73984f6a-6817-4f08-bb51-625d25adee6a-text-1",
+        "template--16408387911846__73984f6a-6817-4f08-bb51-625d25adee6a-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ascendll_V2_Aluminum_Shell_Rooftop_Tent_2_Person-_desc_010_H_9622e263-3480-429f-91f0-d0cf3b4c78b4_1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "267d2414-c7ca-476e-bda7-4fca07d810df": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16408387911846__267d2414-c7ca-476e-bda7-4fca07d810df-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "How to Choose Your Crossbars?",
+            "use_h1": false
+          }
+        },
+        "template--16408387911846__267d2414-c7ca-476e-bda7-4fca07d810df-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The stock crossbars that your vehicle is equipped with may not be optimal for a BENEHIKE roof top tent. It's essential to ensure proper crossbars that can handle the weight of your RTT, including when campers are inside (static load) or while driving at speed (dynamic load).<\/p><p>Identify your vehicle's roof type and the appropriate crossbars and towers required for mounting your BENEHIKE tent.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--16408387911846__267d2414-c7ca-476e-bda7-4fca07d810df-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "ROOF RACK GUIDE",
+            "button_link": "shopify:\/\/pages\/benehike-roof-rack-guide",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16408387911846__267d2414-c7ca-476e-bda7-4fca07d810df-heading-1",
+        "template--16408387911846__267d2414-c7ca-476e-bda7-4fca07d810df-text-1",
+        "template--16408387911846__267d2414-c7ca-476e-bda7-4fca07d810df-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/14_-2_1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "058735e7-af22-4855-8645-e15202eeb36a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16408387911846__058735e7-af22-4855-8645-e15202eeb36a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Condensation Guide",
+            "use_h1": false
+          }
+        },
+        "template--16408387911846__058735e7-af22-4855-8645-e15202eeb36a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Condensation forms on your RTT walls due to factors like sleeping breath, damp gear, or air moisture. Discover our strategies to reduce condensation within your BENEHIKE rooftop tent.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--16408387911846__058735e7-af22-4855-8645-e15202eeb36a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Condensation Guide",
+            "button_link": "shopify:\/\/pages\/benehike-condensation-guide",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16408387911846__058735e7-af22-4855-8645-e15202eeb36a-heading-1",
+        "template--16408387911846__058735e7-af22-4855-8645-e15202eeb36a-text-1",
+        "template--16408387911846__058735e7-af22-4855-8645-e15202eeb36a-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Winter_Overlanding_001-small_1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "3765be7d-d517-46bb-af70-8a01cf96ba56": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16408387911846__3765be7d-d517-46bb-af70-8a01cf96ba56-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Shipping",
+            "use_h1": false
+          }
+        },
+        "template--16408387911846__3765be7d-d517-46bb-af70-8a01cf96ba56-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how our shipping process works, how to schedule and receive your BENEHIKE RTT delivery, and important steps to follow before you sign for your Rooftop Tent.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--16408387911846__3765be7d-d517-46bb-af70-8a01cf96ba56-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHIPPING POLICY",
+            "button_link": "shopify:\/\/pages\/shipping-policy",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16408387911846__3765be7d-d517-46bb-af70-8a01cf96ba56-heading-1",
+        "template--16408387911846__3765be7d-d517-46bb-af70-8a01cf96ba56-text-1",
+        "template--16408387911846__3765be7d-d517-46bb-af70-8a01cf96ba56-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CEVA_NEW_TRUCK-768-768.png",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "7bb986ca-dd5a-4982-940c-5ec6f3cc056f": {
+      "type": "faq-header",
+      "settings": {
+        "title": "FAQ",
+        "use_h1": false,
+        "text": "",
+        "show_search": true,
+        "show_index": true,
+        "index_heading": "How can we help?"
+      }
+    },
+    "0aa864cc-972c-48d2-aac9-2e8f6f1b871a": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16408387911846__0aa864cc-972c-48d2-aac9-2e8f6f1b871a-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use a BENEHIKE tent with any car?",
+            "answer": "<p>Certainly! A BENEHIKE RTT fits seamlessly with any vehicle. Just fasten BENEHIKE rooftop tents to your car's crossbars, similar to how you'd attach a ski rack or storage box.<\/p>"
+          }
+        },
+        "template--16408387911846__0aa864cc-972c-48d2-aac9-2e8f6f1b871a-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "I'm not an avid camper. Is a BENEHIKE suitable for me?",
+            "answer": "<p>If you prioritize comfort and added convenience for camping, a rooftop tent is a clever choice. Imagine bringing your cozy bedroom atop your car, allowing you to sleep soundly under the stars with safety and comfort.<\/p>"
+          }
+        },
+        "985fbdae-ac8e-4051-bef0-7d97b7fe240d": {
+          "type": "question",
+          "settings": {
+            "title": "How many people can sleep in a BENEHIKE tent?",
+            "answer": "<p>Depending on the specific model, you can easily accommodate 1 to 4 individuals, along with furry companions if desired.<\/p>"
+          }
+        },
+        "8c51b322-497d-4a49-9d10-0cca33d3be95": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to pop up and break down a BENEHIKE RTT?",
+            "answer": "<p>Setting up or taking down our roof top tents can be completed in less than a minute. Feel free to time us – we proudly hold the title of the quickest roof top tent around.<\/p>"
+          }
+        },
+        "eefc6225-217d-4395-af01-e16ed5715d63": {
+          "type": "question",
+          "settings": {
+            "title": "Where can you use a BENEHIKE RTT?",
+            "answer": "<p>You can sleep wherever overnight parking is permitted, including National Parks, National Forests, BLM lands, Walmart parking lots, and even your in-laws' driveway.<\/p>"
+          }
+        },
+        "cd40fe95-efda-4f25-833e-fdf47b240b9e": {
+          "type": "question",
+          "settings": {
+            "title": "How do I get in and out of a BENEHIKE RTT?",
+            "answer": "<p>Each BENEHIKE RTT includes a telescoping ladder—reliable, lightweight, foldable, and secure. Even your larger pets can ascend!<\/p>"
+          }
+        },
+        "7295ee99-0a51-4960-9ce8-8727d03adc01": {
+          "type": "question",
+          "settings": {
+            "title": "Concerned about robust winds, rain, sleet, snow, and chilly winter nights?",
+            "answer": "<p>BENEHIKE tents offer weatherproofing akin to your car, with added warmth.<\/p><p>Customers have slept soundly through harsh winds, snow, dust, and freezing cold. Certain models feature <a href=\"\/collections\/xtreme-weather-tent-covers\" title=\"Xtreme Weather Accessories\">extra insulation<\/a>.<\/p><p>Need more info? Our outdoor experts are ready to assist in choosing the perfect tent for your vehicle and lifestyle.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16408387911846__0aa864cc-972c-48d2-aac9-2e8f6f1b871a-question-1",
+        "template--16408387911846__0aa864cc-972c-48d2-aac9-2e8f6f1b871a-question-2",
+        "985fbdae-ac8e-4051-bef0-7d97b7fe240d",
+        "8c51b322-497d-4a49-9d10-0cca33d3be95",
+        "eefc6225-217d-4395-af01-e16ed5715d63",
+        "cd40fe95-efda-4f25-833e-fdf47b240b9e",
+        "7295ee99-0a51-4960-9ce8-8727d03adc01"
+      ],
+      "settings": {
+        "title": "Product Questions"
+      }
+    },
+    "collapsible_tabs_TGfGNa": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_A6DWbK": {
+          "type": "question",
+          "settings": {
+            "title": "What is the shipping cost and lead time?",
+            "answer": "<p>Items take about 1 to 2 business days to ship if they are in stock. If an item is not in stock, you will see an estimated ship date in bold letters below the add to cart button on the specific product page you are interested in. Shipping transit times can vary between 1 and 7 business days depending on where in the country you are located in relation to our warehouse in California.<br\/><br\/>We do offer free standard shipping to anywhere in the lower 48 states. Smaller items such as awnings, coolers, Adventure Gear etc will shipped via standard ground (FedEx or UPS). Larger items such as our roof top tents will be shipped via freight directly to your residence.<br\/><br\/>We can ship to Hawaii, Alaska, or Puerto Rico, however you will need to email our support team in order to get a shipping quote to those destinations.<br\/><br\/>For Freight shipments of roof top tents, please ensure to provide the best contact phone number and email when placing your order. Once your tent ships via freight, you will receive a phone call from freight delivery prior to your estimated delivery date in order to schedule a delivery appointment.<br\/><br\/>Freight delivery appointments are required in order for tents to be delivered to you and you or a friend or family must be in person during the delivery appointment to accept the delivery.<\/p>"
+          }
+        },
+        "question_M6btXP": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "answer": "<p>Currently, we only ship internationally to Canada upon request. However, if you need to order 10 or more roof tents, we can ship to your designated destination country using express shipping. Please contact our customer service or email for detailed requirements.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_A6DWbK",
+        "question_M6btXP"
+      ],
+      "settings": {
+        "title": "Shipping"
+      }
+    },
+    "collapsible_tabs_hETUrG": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_mDVwwF": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "answer": "<p>Here is our <a href=\"https:\/\/benehike.com\/pages\/return-policy\" title=\"RETURN POLICY\"><strong>Return Policy<\/strong><\/a>.<\/p>"
+          }
+        },
+        "question_LrnrWQ": {
+          "type": "question",
+          "settings": {
+            "title": "What is your warranty policy?",
+            "answer": "<p>Here is our <a href=\"https:\/\/benehike.com\/pages\/warranty-policy\" title=\"WARRANTY POLICY\"><strong>Warranty Policy<\/strong><\/a>.<\/p>"
+          }
+        },
+        "question_UQKWkk": {
+          "type": "question",
+          "settings": {
+            "title": "Does BENEHIKE offer a military or first responder discount?",
+            "answer": "<p>Absolutely! We extend a 5% discount to military and first responders as a gesture of gratitude.<\/p><p>Kindly reach us at <a href=\"mailto:service@benehike.com\">service@benehike.com<\/a> for a unique promo code for your purchase.<\/p><p>This offer can't be combined with other deals, except for rooftop tents.<\/p><p>For Military: Verify your active\/veteran status via ID card photo, military email, or related documentation. Feel free to obscure sensitive info. Your service is valued!<\/p><p>First Responders: Email your department-issued ID photo reflecting current\/veteran status. Thanks for your community service!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_mDVwwF",
+        "question_LrnrWQ",
+        "question_UQKWkk"
+      ],
+      "settings": {
+        "title": "Returns, Warranty, Discounts"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ad12421a-98f1-421a-843b-05fa0382a76d",
+    "1d764ffc-6cdb-4749-9d9f-5fa9b770777c",
+    "f8449de3-544c-48b1-8d3b-413c70ee2f7f",
+    "521c1d13-2ce3-49a7-a317-e1b2a5630ddb",
+    "73984f6a-6817-4f08-bb51-625d25adee6a",
+    "267d2414-c7ca-476e-bda7-4fca07d810df",
+    "058735e7-af22-4855-8645-e15202eeb36a",
+    "3765be7d-d517-46bb-af70-8a01cf96ba56",
+    "7bb986ca-dd5a-4982-940c-5ec6f3cc056f",
+    "0aa864cc-972c-48d2-aac9-2e8f6f1b871a",
+    "collapsible_tabs_TGfGNa",
+    "collapsible_tabs_hETUrG"
+  ]
+}

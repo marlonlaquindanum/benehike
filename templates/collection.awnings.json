@@ -1,0 +1,416 @@
+{
+  "sections": {
+    "c597c22c-a272-49dc-9c8a-a1040f96f716": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16411123220646__c597c22c-a272-49dc-9c8a-a1040f96f716-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16411123220646__c597c22c-a272-49dc-9c8a-a1040f96f716-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "AWNINGS",
+            "heading_max_width": 15,
+            "title_size": 100,
+            "title_size_mobile": 44,
+            "use_h1": false
+          }
+        },
+        "template--16411123220646__c597c22c-a272-49dc-9c8a-a1040f96f716-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Quickly build a shelter in 30s!!!<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16411123220646__c597c22c-a272-49dc-9c8a-a1040f96f716-subheading-1",
+        "template--16411123220646__c597c22c-a272-49dc-9c8a-a1040f96f716-heading-1",
+        "template--16411123220646__c597c22c-a272-49dc-9c8a-a1040f96f716-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Home_page_awning_banner_H_copy.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Home_page_awning_banner_F.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": true,
+        "heading_image_height": "small",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 3,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "show_disabled_filters": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "filter_two_columns": false,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "awning-accessories"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "full image-overlay--bg-shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1132bbfe-ac15-4510-9fa9-7ed5d2252764": {
+      "type": "advantage",
+      "settings": {
+        "l-bgc": "#707173",
+        "l-color": "#ffa500",
+        "left-title": "ULTIMATE SHELTER SOLUTION",
+        "number1": "30 S",
+        "l-subtitle1": "Swift Deployment",
+        "number2": 5000,
+        "l-subtitle2": "Highly Recommended Users",
+        "number3": 5000,
+        "l-subtitle3": "5-Star Reviews",
+        "number4": "265 ft³",
+        "l-subtitle4": "Maximum Shade Area",
+        "r-image1": "shopify:\/\/shop_images\/Warranty.svg",
+        "r-title1": "3-Year Warranty",
+        "url1": "shopify:\/\/pages\/warranty-policy",
+        "r-image2": "shopify:\/\/shop_images\/shipping.svg",
+        "r-title2": "7-Day Free Returns",
+        "url2": "shopify:\/\/pages\/return-policy",
+        "r-image3": "shopify:\/\/shop_images\/direct.svg",
+        "r-title3": "Consumer Direct",
+        "url3": "shopify:\/\/pages\/consumer-direct",
+        "r-image4": "shopify:\/\/shop_images\/payment.svg",
+        "r-title4": "Secure Payment",
+        "url4": "shopify:\/\/pages\/payment"
+      }
+    },
+    "7af2172a-7875-435e-85c6-c28a141288d2": {
+      "type": "key-features",
+      "blocks": {
+        "template--16411123220646__7af2172a-7875-435e-85c6-c28a141288d2-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_7811.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(180deg, rgba(112, 113, 115, 1), rgba(255, 165, 0, 1) 50%, rgba(23, 23, 23, 1) 96%)",
+            "text_color": "#ffffff",
+            "heading": "Durable Shell",
+            "text": "<p>Describe a key feature in detail.<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "star"
+          }
+        },
+        "template--16411123220646__7af2172a-7875-435e-85c6-c28a141288d2-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/425cdcb17a0c9f026201ee28afb0dc80.jpg",
+            "bg_color": "#c3c3c3",
+            "bg_gradient": "linear-gradient(180deg, rgba(112, 113, 115, 1), rgba(255, 165, 0, 1) 50%, rgba(23, 23, 23, 1) 96%)",
+            "text_color": "#ffffff",
+            "heading": "One-Handed Unlatch",
+            "text": "<p>Can-like Simplicity: Effortless, One-Handed Operation<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "star"
+          }
+        },
+        "template--16411123220646__7af2172a-7875-435e-85c6-c28a141288d2-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_d73f9aac-373a-472f-b071-b9b6ee82f92b.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(180deg, rgba(112, 113, 115, 1), rgba(255, 165, 0, 1) 50%, rgba(23, 23, 23, 1) 96%)",
+            "text_color": "#ffffff",
+            "heading": "Night Illumination",
+            "text": "<p>Magnetic 1-Meter LED Strip for Convenient Night Lighting, Easily Stowed When Not Needed<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16411123220646__7af2172a-7875-435e-85c6-c28a141288d2-feature-1",
+        "template--16411123220646__7af2172a-7875-435e-85c6-c28a141288d2-feature-2",
+        "template--16411123220646__7af2172a-7875-435e-85c6-c28a141288d2-feature-3"
+      ],
+      "settings": {
+        "heading": "Aluminum Shell Qucickly-Open Awnings",
+        "image_max_width": 700,
+        "media_aspect_ratio": "2",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "f4ffb5f0-1bc3-4b52-a22e-949ddfc47eb6": {
+      "type": "key-features",
+      "blocks": {
+        "template--16411123220646__f4ffb5f0-1bc3-4b52-a22e-949ddfc47eb6-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_7812.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(180deg, rgba(23, 23, 23, 1), rgba(255, 165, 0, 1) 50%, rgba(112, 113, 115, 1) 96%)",
+            "text_color": "#ffffff",
+            "heading": "Windless Wonder",
+            "text": "<p>Awning Stays Put Without Poles, No Risk of Tripping!<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "heart"
+          }
+        },
+        "template--16411123220646__f4ffb5f0-1bc3-4b52-a22e-949ddfc47eb6-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f952dedb50fca6848019cf5d3e27b2ac.jpg",
+            "bg_color": "#c3c3c3",
+            "bg_gradient": "linear-gradient(180deg, rgba(23, 23, 23, 1), rgba(255, 165, 0, 1) 50%, rgba(112, 113, 115, 1) 96%)",
+            "text_color": "#ffffff",
+            "heading": "Embedded Lighting",
+            "text": "<p>Waterproof and dimmable embedded LED strip, designed for easy use without the need for removal, ensuring uninterrupted space functionality.<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "heart"
+          }
+        },
+        "template--16411123220646__f4ffb5f0-1bc3-4b52-a22e-949ddfc47eb6-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_0e729718-4bb1-4799-b2fd-991934f957ed.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(180deg, rgba(23, 23, 23, 1), rgba(255, 165, 0, 1) 50%, rgba(112, 113, 115, 1) 96%)",
+            "text_color": "#ffffff",
+            "heading": "Integrated Design",
+            "text": "<p>Unified Shell Mastery: Minimize gravity fractures, embrace a predominantly unified metal framework for storm resilience.<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": false,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "heart"
+          }
+        }
+      },
+      "block_order": [
+        "template--16411123220646__f4ffb5f0-1bc3-4b52-a22e-949ddfc47eb6-feature-1",
+        "template--16411123220646__f4ffb5f0-1bc3-4b52-a22e-949ddfc47eb6-feature-2",
+        "template--16411123220646__f4ffb5f0-1bc3-4b52-a22e-949ddfc47eb6-feature-3"
+      ],
+      "settings": {
+        "heading": "270° Free Standing Awning",
+        "image_max_width": 700,
+        "media_aspect_ratio": "2",
+        "image_position": "right",
+        "segment_position": "over-text"
+      }
+    },
+    "0bdf11b4-e089-420a-9de6-9736a27bc39d": {
+      "type": "faq-header",
+      "settings": {
+        "title": "TYPES OF CAR AWNINGS",
+        "use_h1": false,
+        "text": "<p>Any plans for land travel recently? How do you prepare for inclement weather on your travels?<br\/><br\/>Car awnings are essential if you want a comfortable and safe camping experience.<br\/><br\/>But which are the best car awnings?<br\/><br\/>Let <strong>BENEHIKE®<\/strong> tell you.<\/p>",
+        "show_search": false,
+        "show_index": false,
+        "index_heading": "How can we help?"
+      }
+    },
+    "eeb04137-79b0-4e3d-ae59-0f4900173ac4": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16411123220646__eeb04137-79b0-4e3d-ae59-0f4900173ac4-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Why do you need car awnings?",
+            "answer": "<p>Car awnings are essential to providing a safe and comfortable camping environment. Installing a car awning is the most straightforward way to protect a camper from the elements. It can protect you from scorching sun, rain, hail, snow.<\/p>"
+          }
+        },
+        "template--16411123220646__eeb04137-79b0-4e3d-ae59-0f4900173ac4-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "What factors need to be considered when choosing a car awning?",
+            "answer": "<p><strong>Suitable Size:<\/strong> BENEHIKE car sunshades come in different sizes for different vehicles. Make sure the car awning you choose is compatible with your vehicle's system.<br\/><br\/><strong>Easy to install:<\/strong> Overly complicated car awnings can be overwhelming, and even with video tutorials, can take hours to install. BENEHIKE car sunshades are easy to install and only take 15 minutes.<br\/><br\/><strong>Good Quality:<\/strong> Choose a car awning made of high-quality materials for durability. Particular attention should be paid to water resistance and UV protection.<br\/><br\/><strong>Favorable price:<\/strong> This is a decisive factor as it determines the type of car awning you choose. Typically, large awnings cost more than smaller awnings. The price also depends on the quality of the awning. The higher the quality, the more expensive the awning will be.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16411123220646__eeb04137-79b0-4e3d-ae59-0f4900173ac4-question-1",
+        "template--16411123220646__eeb04137-79b0-4e3d-ae59-0f4900173ac4-question-2"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "3679a74c-7afa-405b-a2c3-8910c56b2a21": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16411123220646__3679a74c-7afa-405b-a2c3-8910c56b2a21-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Other",
+            "use_h1": false
+          }
+        },
+        "template--16411123220646__3679a74c-7afa-405b-a2c3-8910c56b2a21-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/products\/awning-14\" title=\"270° Freestanding Batwing Awning, 8.2' ft, Gen 2\"><strong>270º Degree Batwing Awning, 8.2' ft<\/strong><\/a><\/p><p><\/p>",
+            "enlarge_text": true
+          }
+        },
+        "a2328a42-4493-4650-a071-c092437076a5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The BENEHIKE® 270 Degree Overlanding Awning is made from strong 600D Oxford blend polyester repellent fabric that provides 110 square feet of shade and protects you from any harsh weather elements. This overlanding awning is easy to install and can be set up in less than a minute.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "acc5ef71-0bfb-4413-ada7-29660909bc74": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Key features<\/strong><\/h5><ul><li>110 SQFT of Overhead Coverage: This 270-degree car awning is sized to provide up to 110 square feet of large shaded space.<br\/><\/li><li>2 Mounting Styles: It has Driver's Side and Passenger's Side Wall Mounting Options: Driver's Side and Passenger's Side Wall Mounting, you can choose the one that best suits your needs.<br\/><\/li><li>Durable Construction: Made with 600D Oxford blend polyester ripstop fabric to withstand any weather.<\/li><\/ul>",
+            "enlarge_text": false
+          }
+        },
+        "c2dd4484-d6c1-4f6b-ac3c-52d8a7dcc2a0": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/benehike.com\/products\/awning\" title=\"https:\/\/benehike.com\/products\/awning\"><strong>6.7' x 6.7' Soft Shell Car Side Awning<\/strong><\/a><\/p>",
+            "enlarge_text": true
+          }
+        },
+        "f90e5e6f-948a-4bb2-91e4-b587633392a8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This 8-foot car awning is made of heavy-duty 600D Oxford\/Polyester ripstop fabric with a polyester coating for maximum rain and UV protection. Easy setup, deployment and storage make it an overlanding camper's best friend.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "d7712005-b52a-45f2-9ff2-5369f86aa464": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Key features<\/strong><\/h5><ul><li>Lightweight and strong all-aluminum rafter frame, it provides a variety of installation methods, allowing you to choose the one that suits you best.<\/li><li>Made of strong and durable 600D oxford\/polyester ripstop fabric for maximum durability and protection.<\/li><li>The entire awning tucks neatly into the cover, which is made from the same material as the awning and zipped tight with heavy-duty zippers.<\/li><li>Measures 6.7x6.7 feet for a smaller footprint<\/li><\/ul>",
+            "enlarge_text": false
+          }
+        },
+        "f318b2e7-4e6e-4386-97bb-c1a2554dcdac": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/products\/awning-13\" title=\"8.2' x 6.7' Car Side Awning, Aluminum Case, Pull Out Rooftop Tent Shelter\"><strong>8.2' x 6.7' Aluminum Case Car Side Awning<\/strong><\/a><\/p>",
+            "enlarge_text": true
+          }
+        },
+        "6550cba3-2f8c-49b5-9ea2-b190310d613e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BENEHIKE®<\/strong> aluminum case car awnings are specially designed for harsh outdoor conditions. Unlike traditional soft shell car awnings, the anodized aluminum case is more corrosion-resistant. Closing and opening is much simpler, it only takes 1 minute, and you will have an extra shaded area.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "7f7e413c-8d4d-4be2-b490-8cb629b44b45": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Key features<\/strong><\/h5><ul><li>Made of high strength 600D oxford\/polyester ripstop fabric.<br\/><\/li><li>Innovative use of durable lightweight aluminum housing.<br\/><\/li><li>The snap-on operation can be easily retracted by one person.<br\/><\/li><li>The quick-lock system helps you quickly set up and adjust the support legs to the correct height.<br\/><\/li><li>Integrated telescopic outriggers store conveniently inside the rails and can be quickly set up and secured to the ground.<\/li><\/ul><p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16411123220646__3679a74c-7afa-405b-a2c3-8910c56b2a21-heading-1",
+        "template--16411123220646__3679a74c-7afa-405b-a2c3-8910c56b2a21-text-1",
+        "a2328a42-4493-4650-a071-c092437076a5",
+        "acc5ef71-0bfb-4413-ada7-29660909bc74",
+        "c2dd4484-d6c1-4f6b-ac3c-52d8a7dcc2a0",
+        "f90e5e6f-948a-4bb2-91e4-b587633392a8",
+        "d7712005-b52a-45f2-9ff2-5369f86aa464",
+        "f318b2e7-4e6e-4386-97bb-c1a2554dcdac",
+        "6550cba3-2f8c-49b5-9ea2-b190310d613e",
+        "7f7e413c-8d4d-4be2-b490-8cb629b44b45"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    }
+  },
+  "order": [
+    "c597c22c-a272-49dc-9c8a-a1040f96f716",
+    "main",
+    "1132bbfe-ac15-4510-9fa9-7ed5d2252764",
+    "7af2172a-7875-435e-85c6-c28a141288d2",
+    "f4ffb5f0-1bc3-4b52-a22e-949ddfc47eb6",
+    "0bdf11b4-e089-420a-9de6-9736a27bc39d",
+    "eeb04137-79b0-4e3d-ae59-0f4900173ac4",
+    "3679a74c-7afa-405b-a2c3-8910c56b2a21"
+  ]
+}

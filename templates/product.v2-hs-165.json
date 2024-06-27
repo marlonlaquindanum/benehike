@@ -1,0 +1,870 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": false
+          }
+        },
+        "2aaa1eab-6177-4c92-81be-176f8d7827c7": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "41d6d1f0-1de6-4b1f-a560-895f740d9dcf": {
+          "type": "sku",
+          "settings": {
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "selector_style": "listed",
+            "enable_dynamic_availability": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "1d263577-6d2a-4030-bcfe-899e0c4b345e": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Get Free Awning",
+            "end_date": "2024-06-11",
+            "end_time": "",
+            "end_text": "",
+            "hide_on_end": false,
+            "box_color": "#ffffff",
+            "text_color": "#ff6100",
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "144abbaf-b8f9-49b2-a699-0bb45081e4e1": {
+          "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "settings": {
+            "badge_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "2aaa1eab-6177-4c92-81be-176f8d7827c7",
+        "divider",
+        "41d6d1f0-1de6-4b1f-a560-895f740d9dcf",
+        "variant-picker",
+        "1d263577-6d2a-4030-bcfe-899e0c4b345e",
+        "buy-buttons",
+        "description",
+        "144abbaf-b8f9-49b2-a699-0bb45081e4e1"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16416158613670__2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "DESCRIPTION",
+            "answer": "<h4>Elevate Your Overlanding Experience to New Heights<\/h4><p>The BENEHIKE Bivvyy V2 is a hybrid side-opening rooftop tent that sets up in <em><strong>just 1 minute<\/strong><\/em>. Its streamlined, aerodynamic polymer cover minimizes wind resistance while driving, reducing <em><strong>MPG loss<\/strong><\/em> and aiding tent towing with the passenger side open.<br\/><br\/>Featuring one of the <em><strong>largest sleeping areas<\/strong><\/em> on the market: 83” x 65”, it allows bedding to remain inside when closed. The hard-shell rooftop tent ensures quick, easy, and comfortable camping.<br\/><br\/>Constructed with <em><strong>600D<\/strong><\/em> tear-resistant material, a 420D Oxford tear-resistant waterproof rainfly, and added <em><strong>280GSM<\/strong><\/em> cotton for insulation, with a water pressure rating of <em><strong>PU 4000MM<\/strong><\/em>.<br\/><br\/>Sealed for all-weather conditions, perfect for camping, hunting, or any outdoor activity. Whether seeking a cozy sleep space for the next camping trip or a reliable shelter for the next hunting expedition, the Bivvyy V2 is the ideal choice.<\/p><h4>High-Quality Hard Shell Roof Top Tent for Your Family<\/h4><p>The BENEHIKE Bivvyy V2 hard shell rooftop top tent is a <em><strong>4-season<\/strong><\/em> expandable rooftop tent. The name \"Bivvyy\" is derived from the common term for extreme weather camping shelters in North America. With one of the largest sleeping areas on the market at 83” x 65”, the durable one-piece hard shell adheres to aerodynamic principles and is easy to use with its 4 user-friendly latches. Once released, the rooftop tent opens from the top and flips the bottom to unfold the mattress. The Bivvyy V2 is designed to provide ample space for the entire family.<\/p><h4>Premium Quality<\/h4><p>Bivvyy V2 hard shell rooftop tent features a 600D tear-resistant body material and a 420 Oxford tear-resistant, waterproof rainfly with a 280GSM cotton layer for added insulation, boasting a water pressure resistance of PU 4000MM. Its hard shell is waterproof, made from a single-piece polymer, ensuring durability. All latches and hardware are made of aerospace-grade 304 stainless steel. The 96-inch ladder is constructed from aluminum with a durable powder-coated finish. The installation channel is user-friendly, adjustable, aluminum-made, and pre-assembled, making the installation of your Bivvyy V2 tent a breeze. The waterproof seals are military-grade, and it can be closed using ballistic nylon pull straps. The base is insulated with an anti-condensation mat under the mattress.<\/p><h4>Included<\/h4><p>Free LTL Shipping<br\/><br\/>The Roof Top Tent Comes with; Mounting Hardware:, Window Rods, 2” Mattress, 39\" LED Light Strip, Ani-Condensation Mat, Shoe Bag and Inner Storage Bag, Telescoping 7.6 ft Ladder, Insulated Honeycomb Base. See the complete list of features below.<br\/><br\/>1 qty Metric Wrench<br\/>1 qty Allen Wrench<br\/>2 qty Hexagonal Spanner<br\/>4 qty Track Plug<br\/>8 qty Slide Plate<br\/>4 qty Mounting Plate<br\/>8 qty 55cm M8 Bolt<br\/>8 qty M8 Nut<br\/>2 qty Cam Lock<\/p><p>6 qty Window rods<\/p><h4>5-Year Limited Warranty<\/h4><p>The BENEHIKE AscendII V2 Roof Top Tent is backed by a 5-Year Limited Warranty. This warranty covers manufacturing defects in materials and workmanship. BENEHIKE is not liable for incorrect installation on your vehicle's Factory (OEM) or Aftermarket Mounting solution of your choice.<\/p>"
+          }
+        },
+        "template--16416158613670__2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "SPECIFICATIONS",
+            "answer": "<ul><li><strong>Sleeping Capacity: <\/strong>3 People<\/li><li><strong>Closed Size L\/W\/H: <\/strong>65x49x11.8 Inch<\/li><li><strong>External Unfolded Size L\/W\/H: <\/strong>65x83x53 Inch<\/li><li><strong>Internal Unfolded Size L\/W\/H: <\/strong>64x81.4x43 Inch<\/li><li><strong>Mattress Size:  <\/strong>2 qty, Hight-D Memory Foam, 55x49x2 Inch, 52x36x2 Inch<\/li><li><strong>Weight:<\/strong> 171 Lbs<\/li><li><strong>Weight Capacity<\/strong>: 1000 Lbs<\/li><li>Mounting T-Channel Rails: 25.9 Inch apart<\/li><li>Recommended Mounting Width: 26~32 Inch<\/li><\/ul><p><\/p><ul><li><strong>Shell Material:  <\/strong>ABS<\/li><li><strong>Tent Body Material:<\/strong> 600D Oxford\/Cotton Rip-Stop 280 GSM, Waterproof Level &gt;3000MM, UV50+, Mold-inhibiting fabric<\/li><li><strong>Rainfly<\/strong> <strong>Material: <\/strong>420D Oxford\/Cotton Rip-Stop 210 GSM, Waterproof Level &gt;3000MM, UV50+, Mold-inhibiting fabric<\/li><li><strong>Floor Material: <\/strong>Heavy-duty 1‘’ Aluminum Honeycomb Panel<\/li><li><strong>Doors & Window Material:<\/strong> 600D Poly-Oxford with 280GSM\/180g Poly-fil mesh<\/li><li><strong>Gas Struts:<\/strong> 2 qty, Rating 400N each<\/li><li><strong>Shoe Bag:<\/strong> 1 qty, 10x14x3 inches<\/li><li><strong>LED Light Strip: <\/strong>Lenth 40 Inch<strong>, <\/strong>White diffused<\/li><li><strong>Zippers: <\/strong>Heavy-duty SBS (contains air tight function)<\/li><li><strong>Ladder: <\/strong>Telescoping 7.6 ft tall((included))<\/li><li><strong>Internal Storage Bags: <\/strong><\/li><\/ul><p>1 qty, 6-pocket storage Bag made of 600D Oxford fabric,  39x35x2 Inch<\/p><p>2 qty, 2-pocket storage Bag made of 600D Oxford fabric<\/p>"
+          }
+        },
+        "29d84539-711c-42d9-9d3d-77976e8ad492": {
+          "type": "question",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "answer": "<h4><strong>LTL-Truck Shipping<\/strong><\/h4><p><strong>Delivery Countries: <\/strong>USA (Excluding outlying islands)<\/p><p><strong>Transit Time: <\/strong>7-15 business days<\/p><p>________________________________<\/p><p><strong>Transportation Costs: <\/strong>FREE<\/p><p><strong>Delivery Countries: <\/strong>Canada <\/p><p><strong>Transit Time: <\/strong>10-15 business days<\/p><p><strong>Transportation Costs:  <\/strong>$340 CAD<\/p><p>________________________________<\/p><h6>⛟ 7-Day No-Reason Return<br\/>⛟ 30-Day Refundable<br\/>🛠︎ 5-Year Warranty<\/h6><p><a href=\"https:\/\/benehike.com\/pages\/shipping-policy\" title=\"https:\/\/benehike.com\/pages\/shipping-policy\"><em><strong>MORE SHIPPING POLICY<\/strong><\/em><\/a><\/p>"
+          }
+        },
+        "b9d44eac-6426-4093-a11d-b5d9446edb58": {
+          "type": "question",
+          "settings": {
+            "title": "INSTALLATION",
+            "answer": "<p><strong>Installation Instructions<\/strong><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Bivvyy_Hard_Shell_Side_Open_Rooftop_Tent_Manual.pdf?v=1689152620\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Bivvyy_Hard_Shell_Side_Open_Rooftop_Tent_Manual.pdf?v=1689152620\"><em><strong>📩 Download the V2 Manual<\/strong><\/em><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16416158613670__2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4-question-1",
+        "template--16416158613670__2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4-question-2",
+        "29d84539-711c-42d9-9d3d-77976e8ad492",
+        "b9d44eac-6426-4093-a11d-b5d9446edb58"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "4cd81335-7fa9-4aff-988c-306bf079bd62": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16416158613670__4cd81335-7fa9-4aff-988c-306bf079bd62-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT KINDS OF VEHICLES WOULD FIT IN RTT?",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16416158613670__4cd81335-7fa9-4aff-988c-306bf079bd62-heading-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "830ff4a8-2410-4c34-a06e-420787822183": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "076820b5-9799-4402-ba56-b2359695174f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PICK-UP-TRUCK-q2fbvesih5dcwrzncgl165kgetq2fymkhrwn8vf270.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "template--16416158613670__830ff4a8-2410-4c34-a06e-420787822183-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "PICK UP TRUCK",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "36e26c95-16dc-4a33-827d-74fc58a4c568": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TRAILER-q2fbvfqcnzen8dya6yznqnbx07lfnnqatwk4q5do0s.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "0f652bea-0dee-428a-b5d7-7ed9177d7dd9": {
+          "type": "text",
+          "settings": {
+            "text": "TRAILER",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "558fd5ad-f718-46e9-9976-5c0e2f3213fd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "9eec5214-b49d-4b98-9941-f15f4b6bf842": {
+          "type": "text",
+          "settings": {
+            "text": "MID-SIZE SUV",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "78552d19-f04f-4f65-a955-21837a8fd53a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8_71910132-52d4-4901-9ba2-902e4d1dda48.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "ee43fb84-df19-4dd4-a61b-8ebbcaf3b743": {
+          "type": "text",
+          "settings": {
+            "text": "FULL-SIZE SUV",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "bd6e6d07-5b93-4446-b5b3-1ac73bc11ef3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VAN-q2fbvgo6utfxjzwx1heab53dllgsvcu1617m7fc9uk.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "f989d211-1962-4c01-a9a5-0cd929462661": {
+          "type": "text",
+          "settings": {
+            "text": "Van",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "076820b5-9799-4402-ba56-b2359695174f",
+        "template--16416158613670__830ff4a8-2410-4c34-a06e-420787822183-text-1",
+        "36e26c95-16dc-4a33-827d-74fc58a4c568",
+        "0f652bea-0dee-428a-b5d7-7ed9177d7dd9",
+        "558fd5ad-f718-46e9-9976-5c0e2f3213fd",
+        "9eec5214-b49d-4b98-9941-f15f4b6bf842",
+        "78552d19-f04f-4f65-a955-21837a8fd53a",
+        "ee43fb84-df19-4dd4-a61b-8ebbcaf3b743",
+        "bd6e6d07-5b93-4446-b5b3-1ac73bc11ef3",
+        "f989d211-1962-4c01-a9a5-0cd929462661"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 20,
+        "vertical_padding": 20,
+        "speed": 20,
+        "direction": "left",
+        "font": "base",
+        "space": 35
+      }
+    },
+    "fbf98382-6645-4018-ab68-998d5c138777": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16457765224614__fbf98382-6645-4018-ab68-998d5c138777-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "BENEHIKE Bivvyy V2 Side Open Rooftop Tent",
+            "use_h1": false
+          }
+        },
+        "template--16457765224614__fbf98382-6645-4018-ab68-998d5c138777-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1 MIN SETUP \/ INTEGRATED SKYLIGHT \/ 600D&280GSM<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16457765224614__fbf98382-6645-4018-ab68-998d5c138777-heading-1",
+        "template--16457765224614__fbf98382-6645-4018-ab68-998d5c138777-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "1"
+      }
+    },
+    "c537926e-22f8-4910-9d21-7635ca1c32a7": {
+      "type": "hotspots",
+      "blocks": {
+        "template--16457765224614__c537926e-22f8-4910-9d21-7635ca1c32a7-hotspot-1": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 28,
+            "hotspot_y": 48,
+            "hotspot_x_mobile": 15,
+            "hotspot_y_mobile": 48,
+            "heading": "Rainfly Window Poles",
+            "text": "<p>Thickened and thickened iron alloy.<\/p>",
+            "icon": "",
+            "icon_width": 36
+          }
+        },
+        "76de226d-7de8-48c9-8e42-ea1bad1d23e9": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 26,
+            "hotspot_y": 22,
+            "hotspot_x_mobile": 15,
+            "hotspot_y_mobile": 20,
+            "heading": "Ultra-Tough Streamlined ABS Shell",
+            "text": "<p>Supported by one piece of molded polymer for durability<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "899ac8dd-8aff-4f4e-8111-ea4fcd22ed59": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 39,
+            "hotspot_y": 23,
+            "hotspot_x_mobile": 39,
+            "hotspot_y_mobile": 25,
+            "heading": "Integrated Skylight",
+            "text": "<p>Gaze at the stars under the three-layer skylight (PVC transparent layer, mesh layer)<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "b3e93028-fcb2-44c8-a1b6-9d7901a723f0": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 37,
+            "hotspot_y": 48,
+            "hotspot_x_mobile": 33,
+            "hotspot_y_mobile": 48,
+            "heading": "600D Oxford Ripstop Body",
+            "text": "<p>Added 280GSM cotton for added insulation and warmth, enjoy traveling in all seasons<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "e58bcc04-1dd3-416d-bc0b-d99f6b68b79e": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 61,
+            "hotspot_y": 39,
+            "hotspot_x_mobile": 76,
+            "hotspot_y_mobile": 39,
+            "heading": "Extra Large Field of View",
+            "text": "<p>420D Oxford ripstop Rainfly, the water pressure level of this fabric is PU 4000mm<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "template--16457765224614__c537926e-22f8-4910-9d21-7635ca1c32a7-hotspot-1",
+        "76de226d-7de8-48c9-8e42-ea1bad1d23e9",
+        "899ac8dd-8aff-4f4e-8111-ea4fcd22ed59",
+        "b3e93028-fcb2-44c8-a1b6-9d7901a723f0",
+        "e58bcc04-1dd3-416d-bc0b-d99f6b68b79e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/537b5e93-2393-490d-4405-302819ba689e_1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/BIVVYY_V2_ROOF_TOP_TENT_BANNER_011_817e01cc-62af-4241-832c-d0def5a14daf.jpg",
+        "hotspot_color": "#ff6100",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top right",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "b4bcd257-6452-4fca-b928-571c9cdcd952": {
+      "type": "key-features",
+      "blocks": {
+        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INTEGRATED-MOON-ROOF-AND-ALL-WEATHER-FLY202312271120156_1.gif",
+            "bg_color": "#f6f6f6",
+            "bg_gradient": "linear-gradient(144deg, rgba(23, 23, 23, 1), rgba(142, 134, 134, 1) 100%)",
+            "text_color": "#ffffff",
+            "heading": "INTEGRATED SKYLIGHT AND ALL-WEATHER FLY",
+            "text": "<p>This is one of the most incredible features of the Bivvyy V2—the beautiful triple-layer skylights! On a lovely night, there's nothing better than opening the skylights to gaze at the stars, and it comes with an additional benefit. It allows hot air to escape on warm nights, keeping you cool.<\/p>",
+            "show_segments": true,
+            "segments": 6,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "Moon-Roof",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "star"
+          }
+        },
+        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_27_20231227121697_1.gif",
+            "bg_color": "#f6f6f6",
+            "bg_gradient": "linear-gradient(144deg, rgba(23, 23, 23, 1), rgba(142, 134, 134, 1) 100%)",
+            "text_color": "#ffffff",
+            "heading": "RAPID SET-UP AND EFFORTLESS PACKUP",
+            "text": "<p>The Ascendll V2 Comes With Channel Slots On All Four Sides, Top, And Bottom To Expand Your Possibilities. Seamlessly Integrating Awning Brackets Allows You Quick Access To Awnings, Canisters, Tools, Showers, And More.<\/p>",
+            "show_segments": true,
+            "segments": 6,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "Set Up",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "star"
+          }
+        },
+        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bivvyy_V2_banner_01.jpg",
+            "bg_color": "#f6f6f6",
+            "bg_gradient": "linear-gradient(144deg, rgba(23, 23, 23, 1), rgba(142, 134, 134, 1) 100%)",
+            "text_color": "#ffffff",
+            "heading": "WINDOWS AND DOORS ON ALL THREE SIDES",
+            "text": "<p>These clever attachments extend to the top and bottom of the entrance door and both large windows on either side, with appropriate canvas zipper doors and mosquito-proof screens on all three sides. This allows you to easily adjust the airflow and amount of light you want to allow into the tent.<\/p>",
+            "show_segments": true,
+            "segments": 6,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "Across",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "49014b63-7f0f-482e-aba1-9a239ec302f6": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bivvyy_V2_Hard_Shell_Side_Open_Rooftop_Tent-_banner_01.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(144deg, rgba(23, 23, 23, 1), rgba(142, 134, 134, 1) 100%)",
+            "text_color": "#ffffff",
+            "heading": "ULTRA-COMFY KING SIZE BED",
+            "text": "<p>This thing is huge, with a bed area measuring 83 inches in length and a maximum headroom of up to 44 inches. The width at the top of the ladder reaches an incredible 63 inches. Undoubtedly, it boasts the largest bedding area among all our rooftop tents - big enough to accommodate a family!<\/p>",
+            "show_segments": true,
+            "segments": 6,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "Capacity",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "ef3fa946-e1b2-45e0-8577-d8d6da43ae9a": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bivvyy_V2_Hard_Shell_Side_Open_Rooftop_Tent-_banner_02.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "linear-gradient(144deg, rgba(23, 23, 23, 1), rgba(142, 134, 134, 1) 100%)",
+            "text_color": "#ffffff",
+            "heading": "REMOVABLE WHITE DIFFUSED LED",
+            "text": "<p>Utilize A 40\" Long White Diffused Led Light Strip Running Along The Ceiling Of The Tent, Providing Illumination. Powered Through USB.<\/p>",
+            "show_segments": true,
+            "segments": 6,
+            "active_segment": "5",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "Bright",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "bbb7f85c-9e87-427c-857d-334b327992f1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bivvyy_V2_Hard_Shell_Side_Open_Rooftop_Tent-_banner_03.jpg",
+            "bg_color": "#f6f6f6",
+            "bg_gradient": "linear-gradient(144deg, rgba(23, 23, 23, 1), rgba(142, 134, 134, 1) 100%)",
+            "text_color": "#ffffff",
+            "heading": "INFINITE STORAGE",
+            "text": "<p>The integrated grid with six small pockets offers convenient storage for essentials such as keys, wallet, and phone. On both sides, storage pockets provide an easy spot for small items when drowsiness sets in.<\/p>",
+            "show_segments": true,
+            "segments": 6,
+            "active_segment": "6",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "Storage",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-2",
+        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-3",
+        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-1",
+        "49014b63-7f0f-482e-aba1-9a239ec302f6",
+        "ef3fa946-e1b2-45e0-8577-d8d6da43ae9a",
+        "bbb7f85c-9e87-427c-857d-334b327992f1"
+      ],
+      "settings": {
+        "heading": "Key features",
+        "image_max_width": 700,
+        "media_aspect_ratio": "s",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "bb53b283-7a09-4f77-a7ca-de4bbaba84b2": {
+      "type": "video",
+      "blocks": {
+        "template--16416158613670__bb53b283-7a09-4f77-a7ca-de4bbaba84b2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Bivvyy V2 RTT",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "template--16416158613670__bb53b283-7a09-4f77-a7ca-de4bbaba84b2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Features and Functions Overview<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--16416158613670__bb53b283-7a09-4f77-a7ca-de4bbaba84b2-play-button-1": {
+          "type": "play-button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16416158613670__bb53b283-7a09-4f77-a7ca-de4bbaba84b2-heading-1",
+        "template--16416158613670__bb53b283-7a09-4f77-a7ca-de4bbaba84b2-text-1",
+        "template--16416158613670__bb53b283-7a09-4f77-a7ca-de4bbaba84b2-play-button-1"
+      ],
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=T7zymNidCOM",
+        "video_description": "",
+        "placeholder_image": "shopify:\/\/shop_images\/537b5e93-2393-490d-4405-302819ba689e_1.jpg",
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "a7ef1531-0794-4cda-b3af-7936f0141206": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16416158613670__a7ef1531-0794-4cda-b3af-7936f0141206-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Crafted for Durability, Ready for Challenges",
+            "use_h1": false
+          }
+        },
+        "template--16416158613670__a7ef1531-0794-4cda-b3af-7936f0141206-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Crafted from robust ABS plastic, the shell boasts an impressively slim 11.8-inch profile, reducing aerodynamic drag during travel. Stainless steel latches ensure water resistance on the road.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16416158613670__a7ef1531-0794-4cda-b3af-7936f0141206-heading-1",
+        "template--16416158613670__a7ef1531-0794-4cda-b3af-7936f0141206-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bivvyy_V2_Hard_Shell_Side_Open_Rooftop_Tent-_banner_09.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "129065a7-d3e1-4efd-9b20-314972590991": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16416158613670__129065a7-d3e1-4efd-9b20-314972590991-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "INTERNALLY, IT'S LOADED WITH FEATURES TOO",
+            "use_h1": false
+          }
+        },
+        "template--16416158613670__129065a7-d3e1-4efd-9b20-314972590991-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience ultimate comfort with the high-density mattress and stylish, removable, machine-washable cover. Inside, find convenient storage pockets for essentials.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16416158613670__129065a7-d3e1-4efd-9b20-314972590991-heading-1",
+        "template--16416158613670__129065a7-d3e1-4efd-9b20-314972590991-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_6170_batch202312291127488.gif",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "27b8c9cf-13ee-40db-afc9-e06096fb54e0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16416158613670__27b8c9cf-13ee-40db-afc9-e06096fb54e0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "100% Waterproof",
+            "use_h1": false
+          }
+        },
+        "template--16416158613670__27b8c9cf-13ee-40db-afc9-e06096fb54e0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each rainfly is crafted from tear-resistant 600D Oxford (PU 4000mm) that is fully waterproof. The connection points feature military-grade sealed glue, keeping you dry in extreme weather conditions.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16416158613670__27b8c9cf-13ee-40db-afc9-e06096fb54e0-heading-1",
+        "template--16416158613670__27b8c9cf-13ee-40db-afc9-e06096fb54e0-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ascendll_V2_Aluminum_Shell_Rooftop_Tent_2_Person-_desc_09_H_979963d3-0e42-4c96-8490-861b1d7498c0.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "3d98a8f9-4460-463d-b870-e72073a9e37a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16416158613670__3d98a8f9-4460-463d-b870-e72073a9e37a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "4-Season Compatible",
+            "use_h1": false
+          }
+        },
+        "template--16416158613670__3d98a8f9-4460-463d-b870-e72073a9e37a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Utilizing breathable, heavyweight poly-cotton canvas (280GSM), military-grade sealing techniques, high-pressure rainfly, dense windows, and insulating pads, it minimizes condensation by at least 95%. Specially designed to ensure dryness and comfort during camping in every season.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "aa3bf818-7bff-46f3-adb7-113bff3e8c29": {
+          "type": "button",
+          "settings": {
+            "button_label": "SPECS",
+            "button_link": "shopify:\/\/pages\/ascendll-v2-aluminum-shell-rooftop-tent",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16416158613670__3d98a8f9-4460-463d-b870-e72073a9e37a-heading-1",
+        "template--16416158613670__3d98a8f9-4460-463d-b870-e72073a9e37a-text-1",
+        "aa3bf818-7bff-46f3-adb7-113bff3e8c29"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bivvyy_V2_Hard_Shell_Side_Open_Rooftop_Tent-_banner_06.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "d2ab2f52-25e2-41cc-b42d-3e5fe114eab9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16416158613670__d2ab2f52-25e2-41cc-b42d-3e5fe114eab9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Easy Installation",
+            "use_h1": false
+          }
+        },
+        "template--16416158613670__d2ab2f52-25e2-41cc-b42d-3e5fe114eab9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tighten 8 screws, kick back, and enjoy—no need for extra wrench or a headache!<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "6f2da24e-2476-42a4-b277-88e30a03631f": {
+          "type": "button",
+          "settings": {
+            "button_label": "View manual",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Bivvyy_Hard_Shell_Side_Open_Rooftop_Tent_Manual.pdf?v=1689152620",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16416158613670__d2ab2f52-25e2-41cc-b42d-3e5fe114eab9-heading-1",
+        "template--16416158613670__d2ab2f52-25e2-41cc-b42d-3e5fe114eab9-text-1",
+        "6f2da24e-2476-42a4-b277-88e30a03631f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bivvyy_V2_Hard_Shell_Side_Open_Rooftop_Tent-_banner_07.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "video_with_text_Ugdw9h": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_mgLAVM": {
+          "type": "heading",
+          "settings": {
+            "title": "KAYAK USA Teardown",
+            "use_h1": false
+          }
+        },
+        "text_9m6WKX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is the BEST most Compact hard shell rooftop tent that I have ever seen! It folds down to almost nothing but opens up to a TON of room inside and it even has a skylight on top! This rooftop tent is perfect for light weight overland rigs or if you want to run your tent low profile above your truck bed.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mgLAVM",
+        "text_9m6WKX"
+      ],
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=Dwbzp57WwC8&t=242s",
+        "video_description": "",
+        "autoplay": false,
+        "placeholder_image": "shopify:\/\/shop_images\/Bivvyy_RTT_Overview.jpg",
+        "video_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "170245891781eeaafb": {
+      "type": "apps",
+      "blocks": {
+        "b2c69e5c-d674-48b8-88cd-34b5fa0b20b2": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b2c69e5c-d674-48b8-88cd-34b5fa0b20b2"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4",
+    "4cd81335-7fa9-4aff-988c-306bf079bd62",
+    "830ff4a8-2410-4c34-a06e-420787822183",
+    "fbf98382-6645-4018-ab68-998d5c138777",
+    "c537926e-22f8-4910-9d21-7635ca1c32a7",
+    "b4bcd257-6452-4fca-b928-571c9cdcd952",
+    "bb53b283-7a09-4f77-a7ca-de4bbaba84b2",
+    "a7ef1531-0794-4cda-b3af-7936f0141206",
+    "129065a7-d3e1-4efd-9b20-314972590991",
+    "27b8c9cf-13ee-40db-afc9-e06096fb54e0",
+    "3d98a8f9-4460-463d-b870-e72073a9e37a",
+    "d2ab2f52-25e2-41cc-b42d-3e5fe114eab9",
+    "video_with_text_Ugdw9h",
+    "170245891781eeaafb",
+    "related-products"
+  ]
+}

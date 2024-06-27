@@ -1,0 +1,341 @@
+{
+  "sections": {
+    "badba484-655c-423d-8467-5fb3d601f48e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Hardshell Roof Top Tent",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BENEHIKE®<\/strong> hard shell roof top tent is durable, easy to use and looks great. Elevate your next overland outdoor adventure with a hardshell roof top tent that offers unrivaled comfort and quick setup features.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-subheading-1",
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-heading-1",
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_033e5a24-4b16-4d81-8990-a797bd7c1241.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_2_f9418216-9cf5-441d-8021-3fa69ac6cfec.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": true,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 3,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "show_disabled_filters": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "filter_two_columns": false,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "car-awings",
+          "annex-rooms"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "0d1994b3-f895-4f07-93f9-915c92c0508f": {
+      "type": "rich-text",
+      "blocks": {
+        "5e767b4e-2da9-4d9b-9891-aa65a8ace377": {
+          "type": "heading",
+          "settings": {
+            "title": "HARD SHELL RTT SPECS COMPARISON",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "5e767b4e-2da9-4d9b-9891-aa65a8ace377"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "2"
+      }
+    },
+    "3ee278bc-3c4c-44e9-ad86-41df9ffd314d": {
+      "type": "columns-display",
+      "blocks": {
+        "c8fafd96-2d61-4c96-9da0-c90fc8b619b5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1304c628e62c30d87e1bcc706bc0acaa.jpg",
+            "url": "shopify:\/\/products\/rooftop-tent-1",
+            "title": "Alumabode V2 3 Person",
+            "richtext": "<h4><strong>ALUMINUM SHELL ROOF TOP TENT<\/strong><\/h4><p>3 Person<\/p><h4><strong>CLOSED DIMENSIONS<\/strong><\/h4><p>82.6\" x 49.2\" x 6.7\"h<\/p><h4><strong>OPEN DIMENSIONS<\/strong><\/h4><p>82.6\" x 49.2\" x 35\"h<\/p><h4><strong>WINDOWS<\/strong><\/h4><p>2 Plus + 1<\/p><h4><strong>ACTUAL WEIGHT<\/strong><\/h4><p>187 lbs<\/p><h4><strong>WEIGHT CAPACITY<\/strong><\/h4><p>1100 lbs<\/p><h4><strong>MATTRESS SIZE<\/strong><\/h4><p>78.5\" x 45.5\" x 2\"h<\/p><h4><strong>MATTRESS MATERIAL<\/strong><\/h4><p>High-Density Foam<\/p><h4><strong>OUTER TENT MATERIAL<\/strong><\/h4><p>6-Seris Aluminum<\/p><p>Rip-Stop 600D Oxford<\/p><p>280GSM Cotton<\/p><p>PU 3000MM, UV50+ Coating<\/p><h4><strong>RAINFLY FABRIC<\/strong><\/h4><p>420D Oxford<\/p><p>210GSM Cotton<\/p><p>PU 3000MM, UV50+ Coating<\/p><h4><strong>DRIVING COVER<\/strong><\/h4><p>N\/A<\/p><h4><strong>LADDER<\/strong><\/h4><p>1<\/p>"
+          }
+        },
+        "bb11310b-498f-459e-b6a4-53e65211e6bc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/50655a80129fbfb1d3f43fbaa5800ffd.jpg",
+            "url": "shopify:\/\/products\/rooftop-tent-4",
+            "title": "Alumabode V2 4 Person",
+            "richtext": "<h4><strong>ALUMINUM SHELL ROOF TOP TENT<\/strong><\/h4><p>4 Person<\/p><h4><strong>CLOSED DIMENSIONS<\/strong><\/h4><p>82.6\" x 53\" x 6.7\"h<\/p><h4><strong>OPEN DIMENSIONS<\/strong><\/h4><p>82.6\" x 53\" x 35\"h<\/p><h4><strong>WINDOWS<\/strong><\/h4><p>2 Plus + 1<\/p><h4><strong>ACTUAL WEIGHT<\/strong><\/h4><p>187 lbs<\/p><h4><strong>WEIGHT CAPACITY<\/strong><\/h4><p>1100 lbs<\/p><h4><strong>MATTRESS SIZE<\/strong><\/h4><p>78.5\" x 49.5\" x 2\"h<\/p><h4><strong>MATTRESS MATERIAL<\/strong><\/h4><p>High-Density Foam<\/p><h4><strong>OUTER TENT MATERIAL<\/strong><\/h4><p>6-Seris Aluminum<\/p><p>Rip-Stop 600D Oxford<\/p><p>280GSM Cotton<\/p><p>PU 3000MM, UV50+ Coating<\/p><h4><strong>RAINFLY FABRIC<\/strong><\/h4><p>420D Oxford<\/p><p>210GSM Cotton<\/p><p>PU 3000MM, UV50+ Coating<\/p><h4><strong>DRIVING COVER<\/strong><\/h4><p>N\/A<\/p><h4><strong>LADDER<\/strong><\/h4><p>1<\/p>"
+          }
+        },
+        "b80c4faf-2093-48c0-8331-130e78a7bea6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/34868dbc548201a0387fcdc73d6a4b49.jpg",
+            "url": "shopify:\/\/products\/ascendll-v2-aluminum-shell-rooftop-tent-2-person",
+            "title": "Ascendll V2 2 Person",
+            "richtext": "<h4><strong>ALUMINUM SHELL ROOF TOP TENT<\/strong><\/h4><p>2 Person<\/p><h4><strong>CLOSED DIMENSIONS<\/strong><\/h4><p>82.6\" x 49.2\" x 6.7\"h<\/p><h4><strong>OPEN DIMENSIONS<\/strong><\/h4><p>82.6\" x 49.2\" x 55\"h<\/p><h4><strong>WINDOWS<\/strong><\/h4><p>2 Plus + 1<\/p><h4><strong>ACTUAL WEIGHT<\/strong><\/h4><p>169 lbs<\/p><h4><strong>WEIGHT CAPACITY<\/strong><\/h4><p>1100 lbs<\/p><h4><strong>MATTRESS SIZE<\/strong><\/h4><p>78.5\" x 45.5\" x 2\"h<\/p><h4><strong>MATTRESS MATERIAL<\/strong><\/h4><p>High-Density Foam<\/p><h4><strong>OUTER TENT MATERIAL<\/strong><\/h4><p>6-Seris Aluminum<\/p><p>Rip-Stop 600D Oxford<\/p><p>280GSM Cotton<\/p><p>PU 3000MM, UV50+ Coating<\/p><h4><strong>RAINFLY FABRIC<\/strong><\/h4><p>420D Oxford<\/p><p>210GSM Cotton<\/p><p>PU 3000MM, UV50+ Coating<\/p><h4><strong>DRIVING COVER<\/strong><\/h4><p>N\/A<\/p><h4><strong>LADDER<\/strong><\/h4><p>1<\/p>"
+          }
+        },
+        "2cdedd28-c7a4-4401-b065-7d795f483345": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/399b8bbc342f29a4ce59ac6300378085.jpg",
+            "url": "shopify:\/\/products\/ascendll-v2-aluminum-shell-rooftop-tent-3-person",
+            "title": "Ascendll V2 3 Person",
+            "richtext": "<h4><strong>ALUMINUM SHELL ROOF TOP TENT<\/strong><\/h4><p>4 Person<\/p><h4><strong>CLOSED DIMENSIONS<\/strong><\/h4><p>82.6\" x 53\" x 6.7\"h<\/p><h4><strong>OPEN DIMENSIONS<\/strong><\/h4><p>82.6\" x 53\" x 55\"h<\/p><h4><strong>WINDOWS<\/strong><\/h4><p>2 Plus + 1<\/p><h4><strong>ACTUAL WEIGHT<\/strong><\/h4><p>180 lbs<\/p><h4><strong>WEIGHT CAPACITY<\/strong><\/h4><p>1100 lbs<\/p><h4><strong>MATTRESS SIZE<\/strong><\/h4><p>78.5\" x 49.5\" x 2\"h<\/p><h4><strong>MATTRESS MATERIAL<\/strong><\/h4><p>High-Density Foam<\/p><h4><strong>OUTER TENT MATERIAL<\/strong><\/h4><p>6-Seris Aluminum<\/p><p>Rip-Stop 600D Oxford<\/p><p>280GSM Cotton<\/p><p>PU 3000MM, UV50+ Coating<\/p><h4><strong>RAINFLY FABRIC<\/strong><\/h4><p>420D Oxford<\/p><p>210GSM Cotton<\/p><p>PU 3000MM, UV50+ Coating<\/p><h4><strong>DRIVING COVER<\/strong><\/h4><p>N\/A<\/p><h4><strong>LADDER<\/strong><\/h4><p>1<\/p>"
+          }
+        },
+        "1deb3a8e-b0cd-43e0-b390-4b741f7c6dee": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/side_open_hardshell_rooftop_tent_001_09a8e95d-1423-44aa-ae7d-e96e069a8507.jpg",
+            "url": "shopify:\/\/products\/hardshell-rooftop-tent-2",
+            "title": "Bivvyy 3 Person",
+            "richtext": "<h4><strong>HARD SHELL ROOF TOP TENT<\/strong><\/h4><p>3 Person<\/p><h4><strong>CLOSED DIMENSIONS<\/strong><\/h4><p>83\" x 49\" x 14\"h<\/p><h4><strong>OPEN DIMENSIONS<\/strong><\/h4><p>83\" x 49\" x 35\"h<\/p><h4><strong>WINDOWS<\/strong><\/h4><p>2 Plus<\/p><h4><strong>ACTUAL WEIGHT<\/strong><\/h4><p>156 lbs<\/p><h4><strong>WEIGHT CAPACITY<\/strong><\/h4><p>1000 lbs<\/p><h4><strong>MATTRESS SIZE<\/strong><\/h4><p>60″ X 44” x 2\"h Big Mattress<\/p><p>53″ X 34” x 2\"h Small Mattress<\/p><h4><strong>MATTRESS MATERIAL<\/strong><\/h4><p>High-Density Foam<\/p><h4><strong>OUTER TENT MATERIAL<\/strong><\/h4><p>ABS<\/p><p>600D Oxford<\/p><p>280G Polyester\/Cotton Rip-Stop<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>RAINFLY FABRIC<\/strong><\/h4><p>420D Polyester\/Oxford<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>DRIVING COVER<\/strong><\/h4><p>N\/A<\/p><h4><strong>LADDER<\/strong><\/h4><p>1<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c8fafd96-2d61-4c96-9da0-c90fc8b619b5",
+        "bb11310b-498f-459e-b6a4-53e65211e6bc",
+        "b80c4faf-2093-48c0-8331-130e78a7bea6",
+        "2cdedd28-c7a4-4401-b065-7d795f483345",
+        "1deb3a8e-b0cd-43e0-b390-4b741f7c6dee"
+      ],
+      "settings": {
+        "h4_color": "#ff5100",
+        "h4_bgc": "#eee"
+      }
+    },
+    "caa01439-628a-4f14-8264-2b2d82e4adbe": {
+      "type": "rich-text",
+      "blocks": {
+        "31cd67e6-bc72-49f9-be48-24c36c4a4f34": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Alumnode_RTT_banner_011.jpg",
+            "image_width": 700,
+            "url": ""
+          }
+        },
+        "template--16415763824806__caa01439-628a-4f14-8264-2b2d82e4adbe-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "What are Hard shell Rooftop tents?",
+            "use_h1": false
+          }
+        },
+        "template--16415763824806__caa01439-628a-4f14-8264-2b2d82e4adbe-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As the name suggests, a hardshell rooftop tent comes equipped with a sturdy outer shell, typically made from robust materials like fiberglass or aluminum. This hard cover not only shields against the elements but also offers streamlined aerodynamics while driving. When it comes to setting up camp, the hardshell design unfolds with ease, transforming into a comfortable sleeping space in mere minutes.<br\/><br\/>The benefit of the hardshell rooftop tent extends beyond its swift setup. Elevated off the ground, these tents provide an additional layer of protection from wet terrains, crawling critters, and uneven surfaces. Plus, being fixed to the vehicle, they utilize a structure's existing footprint, thereby minimizing environmental impact.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "31cd67e6-bc72-49f9-be48-24c36c4a4f34",
+        "template--16415763824806__caa01439-628a-4f14-8264-2b2d82e4adbe-heading-1",
+        "template--16415763824806__caa01439-628a-4f14-8264-2b2d82e4adbe-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": true,
+        "color_scheme": "2"
+      }
+    },
+    "5a6dfbbd-9db2-4e58-8f4a-69bf105629c5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16415763824806__5a6dfbbd-9db2-4e58-8f4a-69bf105629c5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "HardShell RTTs vs Softshell RTTs",
+            "use_h1": false
+          }
+        },
+        "template--16415763824806__5a6dfbbd-9db2-4e58-8f4a-69bf105629c5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong><br\/><\/strong>Another Rooftop tents are Softshell, and you can tell it from its name which is a counterpart of hardshell Rooftop tents. They are different in terms of the comfort, setup, storage and even the price. <br\/><br\/>When it comes to setup speed and ease, HardShell RTTs are renowned for their efficiency. Most can be established in mere minutes, with their hard cover also serving as a sturdy base. This quick setup contrasts with SoftShell RTTs, which demand a bit more time. The SoftShell setup typically involves unfurling a canvas and occasionally erecting some additional poles or components for the rainfly. The process, while not overly complex, is certainly more involved than that of its HardShell counterpart.<br\/><br\/>Another critical difference lies in the area of space and comfort. HardShell RTTs, given their design, tend to be more compact. While they offer a snug shelter, they might be a touch restrictive, especially for larger groups or families. SoftShell RTTs, on the other hand, prioritize spaciousness. Their design often caters to multiple sleepers, ensuring a more roomy and comfortable stay. This difference makes SoftShell RTTs particularly appealing to those who don't wish to compromise on space.<br\/><br\/>Lastly, while both tent types are designed for durability, there are some nuances in their protective features. HardShell RTTs, thanks to their solid structure, typically offer enhanced protection against harsh weather conditions, be it torrential rain or heavy snow. Their robust build promises longevity and resistance against the elements. SoftShell RTTs, predominantly crafted from canvas, can handle standard outdoor conditions with ease. However, over extended use, they might exhibit signs of wear and tear faster than their HardShell counterparts. The price points also differ, with HardShell tents often carrying a premium due to their build and features, while SoftShell tents tend to be more budget-friendly, making them a favorite among newcomers to rooftop camping.<br\/><br\/><\/p>",
+            "enlarge_text": true
+          }
+        },
+        "18e5ee1d-16bd-484d-aa55-55995a6f0a7e": {
+          "type": "heading",
+          "settings": {
+            "title": "4 Person Hard Shell Roof Top Tents",
+            "use_h1": false
+          }
+        },
+        "ce884562-7c11-4261-ad68-6e8cd7756139": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ascendll_aluminum_side_open_rooftop_tent_banner_7.jpg",
+            "image_width": 700,
+            "url": "https:\/\/benehike.com\/products\/ascendll-aluminum-rooftop-tent"
+          }
+        },
+        "6006c251-033f-4284-9e5d-d868b7d95fab": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our best 4 person hardshell rooftop tent is <a href=\"https:\/\/benehike.com\/products\/ascendll-aluminum-rooftop-tent\" target=\"_blank\" title=\"best 4 person hardshell rooftop tent\">Ascendll<\/a>, made from Aluminum for its cover material. This spacious design roofto tent is perfect for a family or group of 4 friends to stay!<strong><br\/><\/strong><br\/><br\/>When it's setup, it generously extends to 83\" x 52\" x 63”, ensuring ample space. Its three windows, inclusive of the door, provide panoramic views, keeping you connected with nature, even from the comfort of your tent.<br\/><br\/>Craftsmanship shines through in its material choices. The Ascendll uses aluminum outer cover, and the primary tent material features 600D Oxford combined with Anti-UV 50+ Coating, offering the best in protection. And for those unpredictable weather moments, the 420D Polyester\/Oxford rainfly guarantees you stay dry. <br\/><br\/>Your convenience has been prioritized, with solid panel doors complemented by insect-free breathable mesh, ensuring a serene environment. Weighing 160 lbs and supporting up to 1000 lbs, its sturdy aluminum frame, SBS zippers, and a peak height of 63\" speak volumes about its robust design.<br\/><br\/>As for installation? It's as seamless as it gets, with a 7.5' aluminum telescoping ladder and an inclusive storage bag. The package comes equipped with all necessary hardware, ensuring your Ascendll tent is set up in no time. Dive into a new dimension of camping with the Ascendll Aluminum Hard Shell Rooftop Tent – where nature meets luxury.<br\/><\/p>",
+            "enlarge_text": true
+          }
+        },
+        "25c7e323-5419-4c7c-9b1f-4f5c5b3ebe89": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "3 Person Hard Shell Roof Top Tents"
+          }
+        },
+        "4259ffec-0f02-4a6e-b3bd-a4b9497456fa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bivvyy_RTT_slogn.jpg",
+            "image_width": 700,
+            "url": "https:\/\/benehike.com\/products\/hardshell-rooftop-tent-2"
+          }
+        },
+        "8c1dcb79-a8b3-42e7-83d2-56159ea2e90a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The best 3 person hard shell roof top tent we select for you is <a href=\"https:\/\/benehike.com\/products\/hardshell-rooftop-tent-2\" target=\"_blank\" title=\"https:\/\/benehike.com\/products\/hardshell-rooftop-tent-2\">Bivvyy<\/a>, an aluminum rooftop tent as well. <strong><br\/><\/strong><br\/>Perfectly designed to comfortably sleep 3 people, this 4-season tent has you covered in any weather. Whether you're tackling the summer heat or bracing winter chills, the Bivvyy ensures you're snug and sheltered.<br\/><br\/>One of the standouts of this rooftop tent is its three windows, inclusive of the door, ensure you never miss out on those breathtaking views. And speaking of comfort, rest on high-density 2\" foam mattresses, sized at 82\" x 48\" x 1” and 71\" x 34\" x 1”.<br\/><br\/>The Bivvyy's outer cover is a blend of ABS Plastic and Fiberglass, ensuring its insulated ability. While its main tent material comprises 600D Oxford with Anti-UV 50+ Coating, same with AscendII, which offers optimal protection against the elements. Rain or shine, the 420D Polyester\/Oxford rainfly has got you covered. <br\/><br\/>The Bivvyy, weighing in at 216 lbs, supports an impressive max weight capacity of 1000 lbs. Its reinforced aluminum alloy frame, SBS zippers, and a peak height of 47\" highlight its sturdy build. <\/p>",
+            "enlarge_text": true
+          }
+        },
+        "0f56befe-bdf8-4678-ad45-4eeefce763bc": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Different Materials Of A Hard Shell Roof Top Tent"
+          }
+        },
+        "69390554-f764-4b26-868f-8873e5dd200f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There are three basic materials used in hard shell rooftop tents, and we list them all here to help you understand what type of hard-shell rooftop tent you should get. They are Aluminum; Fiberglass and ABS Plastic. <\/p><h3><strong>Aluminum Hard Shell Roof Top Tent<\/strong><\/h3><p>Aluminum is very common in hard shell roof top tent and i's the strongest material compared to the others. This means the aluminum hard shell rooftop tent is more endurable and can thereby withstand outside hits better than the other two. It also won't be damaged easily, pierced, or cracked. But it can be dented easily unless it's powder coated. <\/p><p>Another feature of an Aluminum hard shell rooftop tent is its weight. Since aluminum shells are less dense than fiberglass, it's lighter but it's still heavier compared to ABS plastic hard shell rooftop tent. When it comes to insulation, aluminum is not the good one and it's colder in winter and hotter in summer as it won't insulate compared to the other two materials. <\/p><p>So if you want something heavy and low profile, then aluminum hard shell rooftop tents are your first choice. And don't forget it can handle more weight than other materials. Check out Benehike's <a href=\"https:\/\/benehike.com\/collections\/aluminum-hardshell-rooftop-tents\" title=\"Aluminum hard shell rooftop tents\"><strong>Aluminum hard shell rooftop tents<\/strong><\/a> here. <\/p><h3><strong>Fiberglass Hard Shell Roof Top Tent<\/strong><\/h3><p>Fiberglass is another popular material used in hardshell roof top tents. Although it's fragile and might get broken by a big rock, branch, or hit from outside, it's still strong enough to withstand outside hazards. That's why you don't see crossbars over these fiberglass hardshell roof top tents. <\/p><p>However, today you won't see pure fiberglass hard shell roof top tents as they can be easily cracked. That's why Benehike uses fiberglass together with ABS plastic to ensure the insulated ability of rooftop tents while at the same time, making sure they're lightweight. <\/p><h3><strong>ABS Plastic Hard Shell Roof Top Tent<\/strong><\/h3><p>ABS it's also common in hardshell roof top tents. Compared to the other two materials, it has few benefits. For one thing it's the lightest material. This means if you want the lightest hard shell roof top tent, then find one made of ABS. Another good part is it's elastic. It won't crack or dent compared to other materials. That's why it is often used to shape different shapes and can be easily repaired. <\/p><p>However, it has downsides. One of them is that ABS plastic hard shell RTT can't endure extreme heat. This means it's not as insulating as the other two tents. <\/p><p>Another drawback is its poor performance when it's under UV ray. UV ray exposure can gradually cause some color to fade. Even so, this happens to most materials. And that's why Benehike developed Anti-UV 50+ Coating to prevent most of the UV rays. Even on big sunny days, exposure to the UV won't cause too much damage to our anti uv rooftop tents.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "8850eb52-3c7e-4750-88bb-af30129482ba": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Different Styles Of Hard Shell Roof Top Tents"
+          }
+        },
+        "31a86b76-5242-4615-972b-8a736031a782": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The styles of hard shell rooftop tents are actually looked at from their shapes and appearances. So there are mainly three types of hardshell RTT: Clamshell, Pop-up, and Side opening.<\/p><h3><strong>Clamshell Hard Shell roof top tents<\/strong><\/h3><p><br\/>You can tell from its name. Clamshell Hardshell rooftop tents are exactly like a clam. When it opens up, it's like the mouth of an alligator. But when it's put down, it's the same as other types. All you need to do is to lift the far side of the tent where the ladder is attached. Usually, you will lift it to a 37” upwards and then you crawl inside and enjoy your tent moments.<\/p><p>Clamshell usually has less room compared to the other two due to its outside shape, but it also means it's more cozy and enough for one or two person hard shell rooftop tents. It's also relatively cheaper compared to the other two. Check out Benehike's <a href=\"https:\/\/benehike.com\/collections\/clamshell-hardshell-roof-top-tents\" target=\"_blank\" title=\"Clamshell Hard Shell roof top tents\"><strong>Clamshell Hard Shell roof top tents<\/strong><\/a><\/p><h3><strong>Pop-Up Hardshell Roof Top Tent <\/strong><\/h3><p>Pop-up hardshell tents are like a pop-up box when you open them, giving you enough room inside and having equal height on each side of the tent. When you set it up, all you need to do is life one side of it and then climb into the tent and lift the other side. But it's less than one minute for you to open it so it's quite convenient. <\/p><p>Pop-up RTTs are relatively more spacious since it's a full-size box, which means they usually fit more people and can accommodate more bedding. You can often see 4-5 person pop up hardshell rooftop tents, which are ideal for family outings or friends overlanding. Inside the Pop-up tents, there are metal arm opening feature, meaning it's more sturdy and rugged. <\/p><h3><strong>Side Opening Hardshell Rooftop Tent <\/strong><\/h3><p>Side-opening tent, it's more like a regular hardshell rooftop tent but can be more spacious. You can often see different sizes of side-opening hardshell RTTs, from for one or two people, to 4-5. How? Well, this is because they open from the side just like a clamshell, yet it can fit more people when you pull out the panel from the base. This means it can create more room by adding extra width and thereby accommodating more people. When you pull out the panel, the top of the tent can also stretch out to cover the extra panel side and it can be very flexible for you to choose. <\/p><p>You can also browse our <a href=\"https:\/\/benehike.com\/collections\/side-open-roof-top-tent-benehike\" target=\"_blank\" title=\"Side Open Rooftop Tent\"><strong>side-opening hardshell rooftop tents<\/strong> <\/a>here.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "c73599d7-8cc6-4180-8523-7d1ca9260cd1": {
+          "type": "heading",
+          "settings": {
+            "title": "Why BENEHIKE Hardshell Rooftop Tents",
+            "use_h1": false
+          }
+        },
+        "55180773-f6ab-42cc-a6de-9500e01ede19": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As adventure enthusiasts ourselves, we understand what it takes to make car camping experiences not only enjoyable but memorable. At BENEHIKE, we’ve created our Hardshell Rooftop Tents to combine convenience, comfort, and innovation that redefine your overlanding experience.<br\/><br\/><strong>Quick Setup<\/strong> <br\/><br\/>We've designed our Hardshell Rooftop Tents with your time in mind. With a setup time that's under 60 seconds, we offer the fastest RTT setup on the market. And this is not exaggerating with our quick setup hardshell RTT. We want you to spend less time fiddling with tent pegs and more time making memories with your family. Plus, with our easy-clean design, you won’t need to remove the futon to tidy up - everything stays inside when you fold it away.<br\/><br\/><strong>Great Insulation<br\/><\/strong>We know how crucial it is to maintain a comfortable temperature inside your tent, which is why we've integrated superior insulation into our Hardshell Rooftop Tents. Our design actively works to prevent condensation buildup and retain heat, ensuring you have a cozy haven, no matter what the outside conditions are. You can also read our guide on <a href=\"\/blogs\/blog\/10-tips-to-keep-your-rooftop-tent-cool-in-summer\" target=\"_blank\" title=\"10 Tips to Keep Your RoofTop Tent Cool in Summer\"><span style=\"text-decoration:underline\"><strong>how to cool your Rooftop tents in the summer.<\/strong><\/span><\/a><span style=\"text-decoration:underline\"><strong>  <\/strong><\/span>The rooftop tents are also waterproof that can keep you dry and insulated from the outside rain or thunderstorm. <\/p><p><strong>Lightweight<\/strong><br\/><br\/>We believe in making your camping experience as hassle-free as possible. Our Hardshell Rooftop Tents are remarkably lightweight, which makes them easy to mount and dismount from your vehicle. But don't let their lightness fool you - we've engineered these tents to be sturdy and durable, ready for any adventure.<br\/><br\/><strong>Durable<br\/><br\/><\/strong>We built our Hardshell Rooftop Tents to last. Constructed with the highest quality materials, they're ready to withstand everything from calm forest retreats to the wildest mountain storms. We're confident these tents will be your trusted companion, through every adventure and in every weather.<br\/><br\/><strong>Aerodynamic: <br\/><br\/><\/strong>We understand that efficiency is just as important as comfort on a road trip. With our aerodynamic design, our Hardshell Rooftop Tents reduce air resistance, ensuring a smoother and more fuel-efficient journey. Not only will they enhance your driving experience, but they'll also help make your adventures more sustainable.<br\/><br\/>Make your next overlanding trip unforgettable with our BENEHIKE Hardshell Rooftop Tents. We offer a perfect blend of speed, safety, comfort, and efficiency. It's not just about camping; it's about creating stories you'll remember for a lifetime, and we're here to help you do just that.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16415763824806__5a6dfbbd-9db2-4e58-8f4a-69bf105629c5-heading-1",
+        "template--16415763824806__5a6dfbbd-9db2-4e58-8f4a-69bf105629c5-text-1",
+        "18e5ee1d-16bd-484d-aa55-55995a6f0a7e",
+        "ce884562-7c11-4261-ad68-6e8cd7756139",
+        "6006c251-033f-4284-9e5d-d868b7d95fab",
+        "25c7e323-5419-4c7c-9b1f-4f5c5b3ebe89",
+        "4259ffec-0f02-4a6e-b3bd-a4b9497456fa",
+        "8c1dcb79-a8b3-42e7-83d2-56159ea2e90a",
+        "0f56befe-bdf8-4678-ad45-4eeefce763bc",
+        "69390554-f764-4b26-868f-8873e5dd200f",
+        "8850eb52-3c7e-4750-88bb-af30129482ba",
+        "31a86b76-5242-4615-972b-8a736031a782",
+        "c73599d7-8cc6-4180-8523-7d1ca9260cd1",
+        "55180773-f6ab-42cc-a6de-9500e01ede19"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": true,
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "badba484-655c-423d-8467-5fb3d601f48e",
+    "main",
+    "0d1994b3-f895-4f07-93f9-915c92c0508f",
+    "3ee278bc-3c4c-44e9-ad86-41df9ffd314d",
+    "caa01439-628a-4f14-8264-2b2d82e4adbe",
+    "5a6dfbbd-9db2-4e58-8f4a-69bf105629c5"
+  ]
+}

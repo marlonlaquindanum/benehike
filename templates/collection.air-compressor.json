@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "cafbbcc1-ae85-467e-b5c7-7a9c1fe640c2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16415906693286__cafbbcc1-ae85-467e-b5c7-7a9c1fe640c2-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16415906693286__cafbbcc1-ae85-467e-b5c7-7a9c1fe640c2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "air comperssor",
+            "heading_max_width": 15,
+            "title_size": 54,
+            "title_size_mobile": 20,
+            "use_h1": false
+          }
+        },
+        "template--16415906693286__cafbbcc1-ae85-467e-b5c7-7a9c1fe640c2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Proudly introducing the BENEHIKE AIR WINNER Off-Road Air Compressor, an essential enhancement for elevating your off-road adventure experience. These compressors are designed to meet the demands of rugged terrains and remote areas, delivering optimal performance in challenging conditions. Whether you need to inflate or deflate tires for the terrain ahead, adjust air pressure based on different landscapes, or power pneumatic tools on the journey, the AIR WINNER Off-Road Air Compressor meets your requirements.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16415906693286__cafbbcc1-ae85-467e-b5c7-7a9c1fe640c2-subheading-1",
+        "template--16415906693286__cafbbcc1-ae85-467e-b5c7-7a9c1fe640c2-heading-1",
+        "template--16415906693286__cafbbcc1-ae85-467e-b5c7-7a9c1fe640c2-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2024_Air_Comperssor_Line_Up_2_1.png",
+        "mobile_image": "shopify:\/\/shop_images\/2024_Air_Comperssor_Line_Up_2000_x_2000_2_1.png",
+        "height": "fixed",
+        "height_desktop": 660,
+        "height_mobile": 400,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center left",
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": true,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": false,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "show_disabled_filters": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "filter_two_columns": false,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "car-awings",
+          "rooftop-tents"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "cafbbcc1-ae85-467e-b5c7-7a9c1fe640c2",
+    "main"
+  ]
+}

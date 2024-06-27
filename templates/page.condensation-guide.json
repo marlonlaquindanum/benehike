@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "3d34fafd-0244-4a05-b92a-d01af570d076": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16407777018022__3d34fafd-0244-4a05-b92a-d01af570d076-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16407777018022__3d34fafd-0244-4a05-b92a-d01af570d076-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "CONDENSATION GUIDE",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16407777018022__3d34fafd-0244-4a05-b92a-d01af570d076-subheading-1",
+        "template--16407777018022__3d34fafd-0244-4a05-b92a-d01af570d076-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HELP_CENTER_Banner_5.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/HELP_CENTER_Banner_5_2a2fef3a-7c0a-4c99-b390-ef1c3271c0d4.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "box"
+      }
+    },
+    "6de04fc2-8ac4-4a3b-b593-60417ab63e6a": {
+      "type": "key-features",
+      "blocks": {
+        "template--16407777018022__6de04fc2-8ac4-4a3b-b593-60417ab63e6a-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HELP_CENTER_Banner_6.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "how to minimize condensation",
+            "text": "<p>You've discovered a campsite, arranged your BENEHIKE, and you're dozing off beneath the stars. Everything seems perfect—unless the sound of condensation dripping in your tent awakens you.While you're shielded from the elements outside, moisture buildup inside can be a concern.Despite your efforts, condensation can still accumulate, leaving you with unwanted water inside your tent. Learn how to minimize condensation within your RTT.<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16407777018022__6de04fc2-8ac4-4a3b-b593-60417ab63e6a-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HELP_CENTER_Banner_7.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "Understanding Condensation and Its Formation",
+            "text": "<p>Condensation refers to the moisture that accumulates inside your tent and sleeping bag when you wake up to a warm interior after a chilly night. It occurs as the air's moisture encounters cold surfaces, leading water vapor to convert into liquid. Within your tent, several sources contribute to moisture buildup:<\/p><ul><li>Your exhalation<\/li><li>Damp clothing or equipment within the tent<\/li><li>Natural humidity present in the air<\/li><\/ul><p>Throughout the night, especially with multiple occupants, this moisture can accumulate significantly.<\/p><p>Discover Effective Ways to Reduce Condensation in Your BENEHIKE.<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16407777018022__6de04fc2-8ac4-4a3b-b593-60417ab63e6a-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HELP_CENTER_Banner_8.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "How to Prevent Condensation in Your RTT?",
+            "text": "<p>Effectively Managing Condensation: Practical Tips for Your BENEHIKE.<\/p><ul><li>Optimal Ventilation: To minimize condensation, leave your tent windows partially unzipped, preferably higher openings to enhance airflow.<br\/><\/li><li>Smart Tent Placement: Set up your tent facing the wind's direction to facilitate better air circulation.<br\/><\/li><li>Enhance Airflow: A rechargeable fan can be a valuable addition to improve air movement inside your tent.<br\/><\/li><li>Keep It Dry: Prevent moisture by refraining from bringing wet clothes or gear into the tent.<br\/><\/li><li>Pet Accommodations: If camping with a pet, consider training them to sleep in your vehicle rather than the tent.<br\/><\/li><li>Location Matters: Avoid camping near damp environments like streams, as they elevate atmospheric humidity.<\/li><\/ul>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16407777018022__6de04fc2-8ac4-4a3b-b593-60417ab63e6a-feature-1",
+        "template--16407777018022__6de04fc2-8ac4-4a3b-b593-60417ab63e6a-feature-2",
+        "template--16407777018022__6de04fc2-8ac4-4a3b-b593-60417ab63e6a-feature-3"
+      ],
+      "settings": {
+        "heading": "CONDENSATION GUIDE",
+        "image_max_width": 600,
+        "media_aspect_ratio": "1",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "bac72578-169b-4438-85ed-8476adf22488": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16407777018022__bac72578-169b-4438-85ed-8476adf22488-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "More Tips for Keeping Your Tent Dry",
+            "use_h1": false
+          }
+        },
+        "template--16407777018022__bac72578-169b-4438-85ed-8476adf22488-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Keep a Towel Handy:<\/strong> Have a compact towel ready to wipe down tent surfaces—walls, ceiling, and floor—to effectively reduce moisture accumulation.<\/li><li><strong>Pre-Travel Preparation:<\/strong> Develop a routine of thoroughly drying the tent before departure. Additionally, ensure all wet gear and bedding are removed from your BENEHIKE RTT.<\/li><li><strong>Timely Drying:<\/strong> If immediate drying isn't possible due to time or weather, ensure your tent is dried within 36 hours. Prolonged moisture can lead to stubborn mold and mildew growth, which is hard to eliminate.<\/li><li><strong>Humid Environments:<\/strong> In regions like the Pacific Northwest with high humidity, consider using products like Miracle Mist Long Term Protectant. This guards against mold and mildew when prolonged drying isn't feasible.<\/li><li><strong>Tackling Mold and Mildew:<\/strong> If mold or mildew appears, gently scrub stains using a mild bleach solution. For a natural option, white vinegar or a 3% hydrogen peroxide solution can also be effective. It's essential to address this promptly to maintain a healthy tent environment.<\/li><\/ul><h4><strong>Did you know that condensation can occur when your tent is not in use?<\/strong><\/h4><ul><li><strong>Temperature Fluctuations:<\/strong> Extreme temperature shifts, like freeze-thaw cycles, can trigger condensation buildup within a sealed tent.<\/li><li><strong>Mold Prevention:<\/strong> Without proper ventilation, trapped moisture can lead to mold and mildew growth. We suggest ventilating your tent every 1-2 weeks, even during idle periods. In humid areas, more frequent airing may be necessary.<\/li><li><strong>Regular Ventilation:<\/strong> Particularly in colder months, it's crucial to periodically open your tent to prevent moisture accumulation. This practice is essential to uphold a dry and mold-free tent interior.<\/li><\/ul>",
+            "enlarge_text": false
+          }
+        },
+        "b3e0ef07-f509-454e-9bbc-db5dacc3267f": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Questions?",
+            "use_h1": false
+          }
+        },
+        "9397b329-90c3-4f11-8949-ce799b78b89e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Check out our Help Center.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "ddb63f46-16fc-4fc9-b7b3-46a38642f393": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Help center",
+            "button_link": "shopify:\/\/pages\/help-center",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16407777018022__bac72578-169b-4438-85ed-8476adf22488-heading-1",
+        "template--16407777018022__bac72578-169b-4438-85ed-8476adf22488-text-1",
+        "b3e0ef07-f509-454e-9bbc-db5dacc3267f",
+        "9397b329-90c3-4f11-8949-ce799b78b89e",
+        "ddb63f46-16fc-4fc9-b7b3-46a38642f393"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": true,
+        "color_scheme": "1"
+      }
+    },
+    "rich_text_E943Yk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_p38gqq": {
+          "type": "heading",
+          "settings": {
+            "title": "QUESTIONS?",
+            "use_h1": false
+          }
+        },
+        "text_4PRLUz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Check out our Help Center.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "button_VwjFfQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "HELP CENTER",
+            "button_link": "shopify:\/\/pages\/help-center",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p38gqq",
+        "text_4PRLUz",
+        "button_VwjFfQ"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3d34fafd-0244-4a05-b92a-d01af570d076",
+    "6de04fc2-8ac4-4a3b-b593-60417ab63e6a",
+    "bac72578-169b-4438-85ed-8476adf22488",
+    "rich_text_E943Yk"
+  ]
+}

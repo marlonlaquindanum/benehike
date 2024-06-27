@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "rich_text_6bhqRq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HwYcXB": {
+          "type": "heading",
+          "settings": {
+            "title": "SHIPPING POLICY",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HwYcXB"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": false,
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_6bhqRq",
+    "main"
+  ]
+}

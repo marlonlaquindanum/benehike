@@ -1,0 +1,173 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Last Chance→ Get a FREE AWNING with Your Rooftop Tent Purchase!<a href=\"\/collections\/rooftop-tents\" title=\"ROOF TOP TENTS FOR SALE\">🌟<\/a>",
+            "show_countdown": true,
+            "hide_on_end": false,
+            "end_date": "2024-5-25",
+            "end_time": "",
+            "number_font": "heading",
+            "countdown_separator": "box"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-1"
+      ],
+      "settings": {
+        "announcement_bar_col": "#202020",
+        "announcement_text_col": "#f7f1f0",
+        "message_font_size": 15,
+        "show_social_icons": false,
+        "menu": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "682ea35a-5e8a-419e-922c-1dd50fa33fef": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "Roof top tents",
+            "image": "shopify:\/\/shop_images\/head_banner_sales_001.jpg",
+            "title": "",
+            "link_url": "shopify:\/\/products\/rooftop-tent-1"
+          }
+        },
+        "c4749975-c43e-4b84-a156-f77fa26e2e5e": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "Awnings",
+            "image": "shopify:\/\/shop_images\/AWNINGS_2-2.jpg",
+            "title": "",
+            "link_url": "shopify:\/\/collections\/hardshell-awning"
+          }
+        },
+        "965451f6-03c6-49de-98e7-4ad2f96d39b7": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "Awnings",
+            "image": "shopify:\/\/shop_images\/head_banner_sales_003.jpg",
+            "title": "",
+            "link_url": "shopify:\/\/products\/270-degree-freestanding-batwing-awning-8-2-ft-gen-2"
+          }
+        },
+        "6859f291-76a2-45e4-9237-132e46adf1d2": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "racks",
+            "image": "shopify:\/\/shop_images\/head_banner_sales_002.jpg",
+            "title": "New Arrival! Winglet Cross Bar",
+            "link_url": "shopify:\/\/products\/winglet-roof-rack-system"
+          }
+        },
+        "cf245150-685f-4797-a62c-b6f17f1d4032": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "accessories",
+            "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_05.jpg",
+            "title": "New Arrival - AIR WINNER",
+            "link_url": "shopify:\/\/products\/air-winner-pro-protable-dual-air-compressor-10-6-cfm"
+          }
+        }
+      },
+      "block_order": [
+        "682ea35a-5e8a-419e-922c-1dd50fa33fef",
+        "c4749975-c43e-4b84-a156-f77fa26e2e5e",
+        "965451f6-03c6-49de-98e7-4ad2f96d39b7",
+        "6859f291-76a2-45e4-9237-132e46adf1d2",
+        "cf245150-685f-4797-a62c-b6f17f1d4032"
+      ],
+      "settings": {
+        "logo": "{{ shop.brand.logo }}",
+        "logo_img_width_int": 120,
+        "mobile_logo_img_width_int": 100,
+        "logo_h1": true,
+        "enable_sticky": true,
+        "enable_transparent": true,
+        "transparent_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/logo-white.png",
+        "menu_linklist": "main-menu",
+        "menu_layout": "inline-menu-center",
+        "nav_featured_link": "Sale",
+        "menu_linklist_mobile": "main-menu",
+        "mobile_expand_with_entire_link": true,
+        "enable_mobile_promo_carousel": true,
+        "enable_nav_mob_products": false,
+        "nav_mob_products_title": "Best Sellers",
+        "nav_mob_products_collection": "",
+        "enable_search": true,
+        "search_recommendations_title": "ROOF TOP TENTS",
+        "search_recommendations_menu": "main-menu",
+        "icon_strategy": "icons_only",
+        "cart_icon": "basket"
+      }
+    },
+    "store-messages": {
+      "type": "store-messages",
+      "blocks": {
+        "1601308104445": {
+          "type": "message",
+          "settings": {
+            "heading": "",
+            "subheading": "Free shipping on orders over $100",
+            "link_url": ""
+          }
+        },
+        "1601308125690": {
+          "type": "message",
+          "settings": {
+            "heading": "",
+            "subheading": "Free Click & Collect to US stores*",
+            "link_url": ""
+          }
+        },
+        "1601308127822": {
+          "type": "message",
+          "settings": {
+            "heading": "",
+            "subheading": "Free and easy domestic returns",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1601308104445",
+        "1601308125690",
+        "1601308127822"
+      ],
+      "disabled": true,
+      "settings": {
+        "head_not_home_only": false,
+        "head_not_col_bg": "#f4f6f8",
+        "head_not_col_txt1": "#171717",
+        "head_not_col_txt2": "#4c4c4b",
+        "head_not_mob_show": true,
+        "head_not_mob_text": "Free shipping on orders over $100",
+        "head_not_mob_url": ""
+      }
+    },
+    "1701927136f2780dfa": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "store-messages",
+    "1701927136f2780dfa"
+  ]
+}

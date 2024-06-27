@@ -1,0 +1,167 @@
+{
+  "sections": {
+    "badba484-655c-423d-8467-5fb3d601f48e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Softshell Roof Top Tent",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BENEHIKE®<\/strong> softshell roof top tents are cheaper and more versatile, with plenty of room for the whole family (including pets) to stretch out and get a good night's sleep. And because of its light weight, a softshell roof top tents does not require a sturdy roof rack to support it. <\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-subheading-1",
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-heading-1",
+        "template--16415763824806__badba484-655c-423d-8467-5fb3d601f48e-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_033e5a24-4b16-4d81-8990-a797bd7c1241.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_2_f9418216-9cf5-441d-8021-3fa69ac6cfec.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": true,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 3,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "show_disabled_filters": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "filter_two_columns": false,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "car-awings",
+          "annex-rooms"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "0d1994b3-f895-4f07-93f9-915c92c0508f": {
+      "type": "rich-text",
+      "blocks": {
+        "5e767b4e-2da9-4d9b-9891-aa65a8ace377": {
+          "type": "heading",
+          "settings": {
+            "title": "SOFT SHELL RTT SPECS COMPARISON",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "5e767b4e-2da9-4d9b-9891-aa65a8ace377"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "2"
+      }
+    },
+    "f368e49a-d18f-4152-9c12-6ad0dca25017": {
+      "type": "columns-display",
+      "blocks": {
+        "390276f8-3569-4182-bb1a-b1431c14f1a1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_1_7bcef037-156e-49cc-9622-d80031140cc2.jpg",
+            "url": "shopify:\/\/products\/softshell-rooftop-tent",
+            "title": "Expanded 4 Person",
+            "richtext": "<h4><strong>SOFT SHELL ROOF TOP TENT<\/strong><\/h4><p>3-4 Person<\/p><h4><strong>CLOSED DIMENSIONS<\/strong><\/h4><p>55\" x 49\" x 12\"h<\/p><h4><strong>OPEN DIMENSIONS<\/strong><\/h4><p>122\" x 55\" x 51\"h<\/p><h4><strong>WINDOWS<\/strong><\/h4><p>2 Plus<\/p><h4><strong>ACTUAL WEIGHT<\/strong><\/h4><p>132 lbs<\/p><h4><strong>WEIGHT CAPACITY<\/strong><\/h4><p>800 lbs<\/p><h4><strong>MATTRESS SIZE<\/strong><\/h4><p>53\" x 93\" x 2\"h<\/p><h4><strong>MATTRESS MATERIAL<\/strong><\/h4><p>High-Density Foam<\/p><h4><strong>OUTER TENT MATERIAL<\/strong><\/h4><p>600D Oxford<\/p><p>280G Polyester\/Cotton Rip-Stop<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>RAINFLY FABRIC<\/strong><\/h4><p>420D Polyester\/Oxford<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>DRIVING COVER<\/strong><\/h4><p>Black, Waterproof 1000D PVC<\/p><h4><strong>LADDER<\/strong><\/h4><p>1<\/p>"
+          }
+        },
+        "ac4ded0b-e127-4a2f-8227-571fb4b2e45e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_2_aac028ef-f989-4e6b-af51-b71b4285b336.jpg",
+            "url": "shopify:\/\/products\/softshell-rooftop-tent",
+            "title": "Expanded 5 Person",
+            "richtext": "<h4><strong>SOFT SHELL ROOF TOP TENT<\/strong><\/h4><p>4-5 Person<\/p><h4><strong>CLOSED DIMENSIONS<\/strong><\/h4><p>75\" x 49\" x 12\"h<\/p><h4><strong>OPEN DIMENSIONS<\/strong><\/h4><p>122\" x 75\" x 51\"h<\/p><h4><strong>WINDOWS<\/strong><\/h4><p>2 Plus<\/p><h4><strong>ACTUAL WEIGHT<\/strong><\/h4><p>150 lbs<\/p><h4><strong>WEIGHT CAPACITY<\/strong><\/h4><p>800 lbs<\/p><h4><strong>MATTRESS SIZE<\/strong><\/h4><p>73\" x 93\" x 2\"h<\/p><h4><strong>MATTRESS MATERIAL<\/strong><\/h4><p>High-Density Foam<\/p><h4><strong>OUTER TENT MATERIAL<\/strong><\/h4><p>600D Oxford<\/p><p>280G Polyester\/Cotton Rip-Stop<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>RAINFLY FABRIC<\/strong><\/h4><p>420D Polyester\/Oxford<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>DRIVING COVER<\/strong><\/h4><p>Black, Waterproof 1000D PVC<\/p><h4><strong>LADDER<\/strong><\/h4><p>1<\/p>"
+          }
+        },
+        "a9b73b77-df88-4fe8-a8ca-2f37af0597c4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_01_4884fd41-2b1e-4c52-bce1-810ab3022b41.jpg",
+            "url": "shopify:\/\/products\/softshell-rooftop-tent-1",
+            "title": "Regular 3 Person",
+            "richtext": "<h4><strong>SOFT SHELL ROOF TOP TENT<\/strong><\/h4><p>3 Person<\/p><h4><strong>CLOSED DIMENSIONS<\/strong><\/h4><p>55\" x 49\" x 12\"h<\/p><h4><strong>OPEN DIMENSIONS<\/strong><\/h4><p>95\" x 55\" x 51\"h<\/p><h4><strong>WINDOWS<\/strong><\/h4><p>2 Plus<\/p><h4><strong>ACTUAL WEIGHT<\/strong><\/h4><p>105 lbs<\/p><h4><strong>WEIGHT CAPACITY<\/strong><\/h4><p>800 lbs<\/p><h4><strong>MATTRESS SIZE<\/strong><\/h4><p>53\" x 93\" x 2\"h<\/p><h4><strong>MATTRESS MATERIAL<\/strong><\/h4><p>High-Density Foam<\/p><h4><strong>OUTER TENT MATERIAL<\/strong><\/h4><p>600D Oxford<\/p><p>280G Polyester\/Cotton Rip-Stop<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>RAINFLY FABRIC<\/strong><\/h4><p>420D Polyester\/Oxford<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>DRIVING COVER<\/strong><\/h4><p>Black, Waterproof 1000D PVC<\/p><h4><strong>LADDER<\/strong><\/h4><p>1<\/p>"
+          }
+        },
+        "70be9715-9cf0-4614-a2e7-75aef0b73bfe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_02_0b56c79f-b882-4f53-92c3-c149294e450a.jpg",
+            "url": "shopify:\/\/products\/softshell-rooftop-tent-1",
+            "title": "Regular 4 Person",
+            "richtext": "<h4><strong>SOFT SHELL ROOF TOP TENT<\/strong><\/h4><p>4 Person<\/p><h4><strong>CLOSED DIMENSIONS<\/strong><\/h4><p>75\" x 49\" x 12\"h<\/p><h4><strong>OPEN DIMENSIONS<\/strong><\/h4><p>95\" x 75\" x 51\"h<\/p><h4><strong>WINDOWS<\/strong><\/h4><p>2 Plus<\/p><h4><strong>ACTUAL WEIGHT<\/strong><\/h4><p>132 lbs<\/p><h4><strong>WEIGHT CAPACITY<\/strong><\/h4><p>800 lbs<\/p><h4><strong>MATTRESS SIZE<\/strong><\/h4><p>73\" x 93\" x 2\"h<\/p><h4><strong>MATTRESS MATERIAL<\/strong><\/h4><p>High-Density Foam<\/p><h4><strong>OUTER TENT MATERIAL<\/strong><\/h4><p>600D Oxford<\/p><p>280G Polyester\/Cotton Rip-Stop<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>RAINFLY FABRIC<\/strong><\/h4><p>420D Polyester\/Oxford<\/p><p>Waterproof Polyurethane Coating<\/p><h4><strong>DRIVING COVER<\/strong><\/h4><p>Black, Waterproof 1000D PVC<\/p><h4><strong>LADDER<\/strong><\/h4><p>1<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "390276f8-3569-4182-bb1a-b1431c14f1a1",
+        "ac4ded0b-e127-4a2f-8227-571fb4b2e45e",
+        "a9b73b77-df88-4fe8-a8ca-2f37af0597c4",
+        "70be9715-9cf0-4614-a2e7-75aef0b73bfe"
+      ],
+      "settings": {
+        "h4_color": "#ff5100",
+        "h4_bgc": "#eee"
+      }
+    }
+  },
+  "order": [
+    "badba484-655c-423d-8467-5fb3d601f48e",
+    "main",
+    "0d1994b3-f895-4f07-93f9-915c92c0508f",
+    "f368e49a-d18f-4152-9c12-6ad0dca25017"
+  ]
+}

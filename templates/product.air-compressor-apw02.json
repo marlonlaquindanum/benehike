@@ -1,0 +1,534 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": false
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "fd91f4ec-0e07-40f5-a1ff-4e556a899c40": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "selector_style": "listed",
+            "enable_dynamic_availability": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "86b12d27-a8b9-4505-ac2e-78605856b28f": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Twin 60mm high-velocity reciprocating pistons for optimal performance - Impressive airflow capacity of 300L\/min<\/p>",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "5734bdf6-8911-4e09-87b8-181f46d1f105": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Aluminum cylinder head with built-in radiator. Motor temperature control: automatic shutdown at 105°C for motor protection<\/p>",
+            "icon": "check_mark_in_circle",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "0c45f0e7-559a-4010-8c9b-b284dc9a2781": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Built-in pressure switch that automatically cuts off power to prevent over-pressurization, along with a circuit breaker and automatic thermal cut-off<\/p>",
+            "icon": "award",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "26109ecb-fa32-4243-a161-432e344ee08a": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>The Automatic on\/off function with a pressure cut-off switch set at 125PSI and a restart pressure of 90PSI<\/p>",
+            "icon": "eye",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "76b1fee9-4f7c-4c21-9e00-c21d9bcc2ffb": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Quick connect metal fittings and quick connect tyre chuck<\/p>",
+            "icon": "iron",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "c43b0c91-ee0b-4dd8-ab16-522664674ebe": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Quick connect metal fittings and quick connect tyre chuck<\/p>",
+            "icon": "washing",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "5c2e5c23-e17b-486c-910a-aee776413680": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>8.2' Heavy-duty power cables with alligator clips<\/p>",
+            "icon": "ruler",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "fd686d9c-d411-42c2-aef9-4d7d91c727dc": {
+          "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "divider",
+        "fd91f4ec-0e07-40f5-a1ff-4e556a899c40",
+        "variant-picker",
+        "86b12d27-a8b9-4505-ac2e-78605856b28f",
+        "5734bdf6-8911-4e09-87b8-181f46d1f105",
+        "0c45f0e7-559a-4010-8c9b-b284dc9a2781",
+        "26109ecb-fa32-4243-a161-432e344ee08a",
+        "76b1fee9-4f7c-4c21-9e00-c21d9bcc2ffb",
+        "c43b0c91-ee0b-4dd8-ab16-522664674ebe",
+        "5c2e5c23-e17b-486c-910a-aee776413680",
+        "buy-buttons",
+        "description",
+        "fd686d9c-d411-42c2-aef9-4d7d91c727dc"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "fbb6b32d-0d81-4af7-ba74-3afd56d4d69f": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16422476349606__fbb6b32d-0d81-4af7-ba74-3afd56d4d69f-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "DESCRIPTION",
+            "answer": "<p>Experience unparalleled performance with the <strong>AIR WINNER PRO<\/strong> Dual Air Compressor 10.6 CFM, including a storage bag, hose, and attachments. This compressor is designed to effortlessly maintain optimal tire pressure during your journeys, ensuring a hassle-free and enjoyable travel experience. Equipped with swift setup features, the <strong>AIR WINNER PRO<\/strong> guarantees convenience on the go.<br\/><br\/>In comparison to other compressors, the <strong>AIR WINNER PRO<\/strong> stands out as a powerhouse. It operates twice as fast as the <em>Smittybilt 2781s<\/em> and outpaces the <em>Twin ARB<\/em> by an impressive 58%! For instance, while conventional compressors may take over 30 minutes to inflate 35\" tires from 10 to 30 PSI, the <strong>AIR WINNER PRO<\/strong> gets the job done in a remarkable 3 minutes flat! Don't settle for less; choose the <strong>AIR WINNER PRO<\/strong> for all your portable off-road air needs.<\/p><h5><strong>FEATURES<\/strong><\/h5><ul><li>Maximum Air Flow 10.6 CFM<\/li><li>Maximum Air Pressure 150 PSI<\/li><li>Maximum Voltage 13.8<\/li><li>Maximum AMP draw 90<\/li><li>1200W Heavy duty 12V horsepower motor<\/li><li>40 min @ 70PSI duty cycle<\/li><li>Automatic On\/Off Function<\/li><li>150PSI Pressure gauge built directly into the coiled hose<\/li><li>Overcurrent Protection: 130A<\/li><li>Overheat Protection: 125°C<\/li><li>8.2' Power cord with heavy duty alligator clips<\/li><li>Stealth black powder coated metal cover<\/li><\/ul><h5><strong>INCLUDED<\/strong><\/h5><ul><li>Heavy duty compressor<\/li><li>26ft Heavy-duty hose<\/li><li>150PSI Pressure gauge<\/li><li>Air fittings & Quick-connect chuck<\/li><li>3 Universal nozzle adapters for inflatables<\/li><li>Thumb lock adapter<\/li><li>Storage bag with handle<\/li><\/ul><h5><strong>APPLICATION<\/strong><\/h5><p>Over-sized off-road tires, agricultural tires, and trailer tires – robust application capable of accommodating Tire PSI specifications ranging from 0 to 130 PSI.<\/p><h5><strong>VEHICLE REQUIREMENTS<\/strong><\/h5><p>Any vehicle with a 12-volt battery<\/p>"
+          }
+        },
+        "template--16422476349606__fbb6b32d-0d81-4af7-ba74-3afd56d4d69f-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "SPECIFICATIONS",
+            "answer": "<p>Dimensions: 14.3*5.9*8.9 in<\/p><p>Weight: 26 lbs<\/p><p>Air Flow:  300L\/min<\/p><p>Maximum Pressure: 150 PSI<\/p><p>Maximum Amperage: 90A<\/p><p>Maximum Amp Draw: 90A<\/p><p>Maximum Voltage: 13.8V<\/p><p>Pressure Cut-off Switch: 125 PSI<\/p><p>Air Compressor Turns Back On At: 90 PSI<\/p><p>Maximum Operating Temperature: 50°C<\/p><p>Minimum Operating Temperature: -20°C<\/p><p>Maximum Pressure Protection: 10 Bar<\/p><p>Maximum Noise Level: 75 db<\/p><p>Cylinder: 60mm<\/p><p>Voltage: DC 12V<\/p>"
+          }
+        },
+        "be76f1c8-7428-4115-9d74-fac65b04ca15": {
+          "type": "question",
+          "settings": {
+            "title": "TESTING&MANUAL",
+            "answer": "<ol><li>33” Tires, Pressure Ranging from 10 To 32 PSI, Inflate In Just 2 Min and 23 Sec.<\/li><li>35” Tires, Pressure Ranging from 10 To 32 PSI, Inflate In Just 2 Min and 32 Sec.<\/li><li>35” Tires, Pressure Ranging from 0 To 30 PSI, Inflate In Just 3 Min and 25 Sec.<\/li><li>33” Tires, Pressure Ranging from 0 To 30 PSI, Inflate In Just 2 Min and 55 Sec.<\/li><\/ol><p>VIEW MANUALS:  <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/BENEHIKE_AIR_WINNER_Daul_Air_Compressor-Manual.pdf?v=1700724131\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/BENEHIKE_AIR_WINNER_Daul_Air_Compressor-Manual.pdf?v=1700724131\">📖<\/a><\/p>"
+          }
+        },
+        "6a0c9eb3-5780-4aeb-a5e6-97e9f815085f": {
+          "type": "question",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "answer": "<p><strong>Logistics <\/strong>I <strong>Transit Time <\/strong>I<strong> Costs<\/strong><\/p><p>Standard I 5-10 days I FREE<\/p><p>Expedited I 3-7 days I $39.99<\/p><p>Fast I 5 days I $69.99<\/p><ul><li><a href=\"https:\/\/benehike.com\/pages\/shipping-policy\" title=\"SHIPPING POLICY\"><strong>Shipping Policy<\/strong><\/a><\/li><li><a href=\"https:\/\/benehike.com\/pages\/return-policy\" title=\"RETURN POLICY\"><strong>Return Policy<\/strong><\/a><\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__fbb6b32d-0d81-4af7-ba74-3afd56d4d69f-question-1",
+        "template--16422476349606__fbb6b32d-0d81-4af7-ba74-3afd56d4d69f-question-2",
+        "be76f1c8-7428-4115-9d74-fac65b04ca15",
+        "6a0c9eb3-5780-4aeb-a5e6-97e9f815085f"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "b10dea9a-2d43-4156-a1d6-c0dc03fe9de1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16422476349606__b10dea9a-2d43-4156-a1d6-c0dc03fe9de1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "BeneHike AIR WINNER PRO AIR COMPRESSOR",
+            "use_h1": false
+          }
+        },
+        "template--16422476349606__b10dea9a-2d43-4156-a1d6-c0dc03fe9de1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>300L\/MIN | 12V | 26FT HOSE<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__b10dea9a-2d43-4156-a1d6-c0dc03fe9de1-heading-1",
+        "template--16422476349606__b10dea9a-2d43-4156-a1d6-c0dc03fe9de1-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "1"
+      }
+    },
+    "1cd8741d-fd72-4e0c-9ac0-1ba0e6c9e481": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422476349606__1cd8741d-fd72-4e0c-9ac0-1ba0e6c9e481-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Unmatched Performance!",
+            "use_h1": false
+          }
+        },
+        "template--16422476349606__1cd8741d-fd72-4e0c-9ac0-1ba0e6c9e481-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The AIR WINNER PRO Air Compressor has been rigorously tested across the U.S. in the toughest conditions. No matter the challenge, the AIR WINNER PRO delivers. It can inflate 33-inch 4WD tires in approximately 2 minutes and 30 seconds, ensuring you're back on the road in no time!<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__1cd8741d-fd72-4e0c-9ac0-1ba0e6c9e481-heading-1",
+        "template--16422476349606__1cd8741d-fd72-4e0c-9ac0-1ba0e6c9e481-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_01.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "98583abf-b551-4bf3-875c-daae6b9195f4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422476349606__98583abf-b551-4bf3-875c-daae6b9195f4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Rapid Tire Inflation Anytime, Anywhere",
+            "use_h1": false
+          }
+        },
+        "template--16422476349606__98583abf-b551-4bf3-875c-daae6b9195f4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Avoid the hassle of waiting at the servo – opt for the robust 300L per minute AIR WINNER PRO Air Compressor that’s always at your disposal. Simply connect it to your starter battery using alligator clips, start your car, flip the ON switch, and you're good to go!<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__98583abf-b551-4bf3-875c-daae6b9195f4-heading-1",
+        "template--16422476349606__98583abf-b551-4bf3-875c-daae6b9195f4-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_02.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "47a2ad37-4a27-43ee-ba8a-f97ecc6cdb12": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422476349606__47a2ad37-4a27-43ee-ba8a-f97ecc6cdb12-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Quick, Dependable Compressed Air",
+            "use_h1": false
+          }
+        },
+        "template--16422476349606__47a2ad37-4a27-43ee-ba8a-f97ecc6cdb12-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Capable of delivering an astonishing 300 liters per minute at a maximum of 150 PSI, the AIR WINNER PRO Air Compressor ensures minimal waiting time for tire inflation, allowing you to swiftly embark on your adventures!<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__47a2ad37-4a27-43ee-ba8a-f97ecc6cdb12-heading-1",
+        "template--16422476349606__47a2ad37-4a27-43ee-ba8a-f97ecc6cdb12-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_03.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "7da7342a-a3ba-4eef-affa-afc5b42e4fe7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422476349606__7da7342a-a3ba-4eef-affa-afc5b42e4fe7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "High-Output Motor",
+            "use_h1": false
+          }
+        },
+        "template--16422476349606__7da7342a-a3ba-4eef-affa-afc5b42e4fe7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 1200W 60mm alloy cylinder and head feature a smart temperature control and cooling system. If the motor exceeds 105°C, it auto shuts down, ensuring the AIR WINNER Compressor lasts longer with incredible performance.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__7da7342a-a3ba-4eef-affa-afc5b42e4fe7-heading-1",
+        "template--16422476349606__7da7342a-a3ba-4eef-affa-afc5b42e4fe7-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_04.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "8bf62f6a-78ba-42c4-96bd-586c5acb512e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422476349606__8bf62f6a-78ba-42c4-96bd-586c5acb512e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Fully Equipped Ready-To-Go Kit",
+            "use_h1": false
+          }
+        },
+        "template--16422476349606__8bf62f6a-78ba-42c4-96bd-586c5acb512e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed for authentic 4WD experiences! <\/p><ol><li>The package includes the AIR WINNER air compressor with extended 8.2' power cables and a 60A fuse, along with alligator clips for easy connection to any 12v battery. <\/li><li>It also features a durable 26' heavy-duty hose with an inline pressure gauge, adapters for various inflatables, and a quick-connect air coupler for instant tire valve attachment.<\/li><\/ol>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__8bf62f6a-78ba-42c4-96bd-586c5acb512e-heading-1",
+        "template--16422476349606__8bf62f6a-78ba-42c4-96bd-586c5acb512e-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_05_96d04375-bf4c-4629-b6af-7fc6765ec17a.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "323e5625-6660-489b-a768-2b74838e9052": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422476349606__323e5625-6660-489b-a768-2b74838e9052-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "In-Built Automatic Pressure On\/Off Function",
+            "use_h1": false
+          }
+        },
+        "template--16422476349606__323e5625-6660-489b-a768-2b74838e9052-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The AIR WINNER PRO features a verified electronic pressure cut-off and restart function, eliminating the need for manual air compressor control during use. Similar to a servo machine, it automatically resumes operation. This allows you to savor a cup of coffee with the spare time. There's no need to worry about electronic system malfunctions, as the overheating and overcurrent protection mechanisms promptly cut off power through mechanical means.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__323e5625-6660-489b-a768-2b74838e9052-heading-1",
+        "template--16422476349606__323e5625-6660-489b-a768-2b74838e9052-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_06.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "ffc86634-f2b1-4db9-84d2-06f45507425f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422476349606__ffc86634-f2b1-4db9-84d2-06f45507425f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Built To Go The Distance",
+            "use_h1": false
+          }
+        },
+        "template--16422476349606__ffc86634-f2b1-4db9-84d2-06f45507425f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Quality metal hardware and fittings, robust construction, a resilient rubber-mounted base for superior shock absorption, and an alloy body with strategically placed ventilation holes transform this into more than just a swift and portable 12v air compressor. It becomes a reliable and sturdy tool crafted specifically to withstand the challenges of American conditions!<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__ffc86634-f2b1-4db9-84d2-06f45507425f-heading-1",
+        "template--16422476349606__ffc86634-f2b1-4db9-84d2-06f45507425f-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_07.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "6d09083c-7b8e-4899-a94b-0ee20e7fd46b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422476349606__6d09083c-7b8e-4899-a94b-0ee20e7fd46b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "DIMENSIONS",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422476349606__6d09083c-7b8e-4899-a94b-0ee20e7fd46b-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_08.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1702605983b89be250": {
+      "type": "apps",
+      "blocks": {
+        "b1a264ca-78e8-4b64-a0b2-ed55a1a89edf": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b1a264ca-78e8-4b64-a0b2-ed55a1a89edf"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fbb6b32d-0d81-4af7-ba74-3afd56d4d69f",
+    "b10dea9a-2d43-4156-a1d6-c0dc03fe9de1",
+    "1cd8741d-fd72-4e0c-9ac0-1ba0e6c9e481",
+    "98583abf-b551-4bf3-875c-daae6b9195f4",
+    "47a2ad37-4a27-43ee-ba8a-f97ecc6cdb12",
+    "7da7342a-a3ba-4eef-affa-afc5b42e4fe7",
+    "8bf62f6a-78ba-42c4-96bd-586c5acb512e",
+    "323e5625-6660-489b-a768-2b74838e9052",
+    "ffc86634-f2b1-4db9-84d2-06f45507425f",
+    "6d09083c-7b8e-4899-a94b-0ee20e7fd46b",
+    "1702605983b89be250",
+    "related-products"
+  ]
+}

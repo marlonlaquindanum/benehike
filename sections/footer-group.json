@@ -1,0 +1,112 @@
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "cross-page-promos": {
+      "type": "cross-page-promos",
+      "blocks": {
+        "1478526632862": {
+          "type": "icon",
+          "settings": {
+            "icon": "truck",
+            "text": "FREE SHIPPING",
+            "link_url": "shopify:\/\/pages\/shipping-policy"
+          }
+        },
+        "1478526647261": {
+          "type": "icon",
+          "settings": {
+            "icon": "question_mark",
+            "text": "TALK TO AN EXPERT",
+            "link_url": "mailto:mailto：jefferson@benehike.com"
+          }
+        },
+        "1478527611164": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "text": "CONTACT US",
+            "link_url": "shopify:\/\/pages\/contact-us"
+          }
+        },
+        "1478526645605": {
+          "type": "icon",
+          "settings": {
+            "icon": "map_pin",
+            "text": "Your nearest store",
+            "link_url": "https:\/\/www.google.com\/maps\/place\/10320+6th+St,+Rancho+Cucamonga,+CA+91730%E7%BE%8E%E5%9B%BD\/@34.0851377,-117.5820773,17z\/data=!4m15!1m8!3m7!1s0x80c335b8d12a1ac5:0xe44fb831fae21a96!2s10320+6th+St,+Rancho+Cucamonga,+CA+91730%E7%BE%8E%E5%9B%BD!3b1!8m2!3d34.0851333!4d-117.5795024!16s%2Fg%2F11tj99kp63!3m5!1s0x80c335b8d12a1ac5:0xe44fb831fae21a96!8m2!3d34.0851333!4d-117.5795024!16s%2Fg%2F11tj99kp63?hl=zh-CN&entry=ttu"
+          }
+        }
+      },
+      "block_order": [
+        "1478526632862",
+        "1478526647261",
+        "1478527611164",
+        "1478526645605"
+      ],
+      "settings": {
+        "cross_page_promo_bg": "#171717",
+        "cross_page_promo_color": "#f7f1f0",
+        "show_on_home_page": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "1601308717434": {
+          "type": "text",
+          "settings": {
+            "title": "Embrace Freedom, Venture Boldly!",
+            "text": "<p>🏬 150 N. Santa Anita Ave, Suite 300, Arcadia, CA 91006<\/p><p>🏬 Room.1030, No.1 Building, Logistic Center, Meishan Harbour, Ningbo, 315000<\/p><p>📧 <a href=\"mailto:service@benehike.com\" title=\"mailto:service@benehike.com\">service@benehike.com<\/a><\/p><p>📞 <a href=\"tel:1-951-691-3943\" title=\"tel:1-951-691-3943\">1-951-691-3943<\/a><\/p><p>MON - FRI, 9am - 5pm<\/p>",
+            "image": "shopify:\/\/shop_images\/logo-white.png",
+            "image_width": 95,
+            "show_social_icons": false,
+            "soc_icons_large": false,
+            "enable_follow_on_shop": false
+          }
+        },
+        "1601308671932": {
+          "type": "menu",
+          "settings": {
+            "title": "EXPLORE",
+            "menu": "information"
+          }
+        },
+        "1364235d-23e5-4164-b668-22e231388391": {
+          "type": "menu",
+          "settings": {
+            "title": "BUSINESS",
+            "menu": "business"
+          }
+        },
+        "1601308656020": {
+          "type": "newsletter",
+          "settings": {
+            "title": "JOIN THE BENEHIKE FAMILY",
+            "text": "<p>Subscribe to get all hot deals and news which benefit you most!<\/p>",
+            "button_style": "secondary",
+            "show_social_icons": true,
+            "soc_icons_large": false
+          }
+        }
+      },
+      "block_order": [
+        "1601308717434",
+        "1601308671932",
+        "1364235d-23e5-4164-b668-22e231388391",
+        "1601308656020"
+      ],
+      "settings": {
+        "lower_menu": "",
+        "show_powered_by": false,
+        "show_payment_icons": true,
+        "enable_country_selector": true,
+        "enable_language_selector": false
+      }
+    }
+  },
+  "order": [
+    "cross-page-promos",
+    "footer"
+  ]
+}

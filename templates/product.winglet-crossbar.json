@@ -1,0 +1,406 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "13c252c6-32f3-4f28-a83d-a98006b0ea42": {
+          "type": "sku",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "selector_style": "listed",
+            "enable_dynamic_availability": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "3d1efbc2-91fa-4ee5-acc3-b09359b15c44": {
+          "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "13c252c6-32f3-4f28-a83d-a98006b0ea42",
+        "divider",
+        "variant-picker",
+        "buy-buttons",
+        "description",
+        "3d1efbc2-91fa-4ee5-acc3-b09359b15c44"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "aca54b98-4677-4d05-a65b-5a36bbedf82a": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16443764965542__aca54b98-4677-4d05-a65b-5a36bbedf82a-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "DESCRIPTION",
+            "answer": "<p><em><strong>BENEHIKE®<\/strong><\/em> has high expectations for the Roof Cross Bars Winglet System, which serves as a crucial link between the vehicle and roof equipment. This system incorporates advanced electrophoresis and high-temperature coating technology, marking BeneHike's innovative approach. It represents the initial stage in enhancing the strength and quality of the entire product range.<\/p><ul><li>The universal Winglet System roof rack features an adjustable base suitable for most vehicles with roof rails, excluding BMW X series and Mercedes-Benz GLA and GLC models.<\/li><li>Heavy-duty aviation aluminum construction with a 300lbs load capacity.<\/li><li>Electrophoresis and high-temperature spraying for exceptional rust and corrosion resistance.<\/li><li>Silicone cushioning on the connecting clip provides protection for the roof racks.<\/li><li>Sports-style design adheres to aerodynamic principles, minimizing wind drag and noise.<\/li><li>Quick installation of the cross bars roof rack in just 5 minutes.<\/li><li>Ideal for mounting various roof cargo carriers like roof tents, roof baskets, roof boxes, bike racks, and kayak racks on vehicles.<\/li><\/ul>"
+          }
+        },
+        "template--16443764965542__aca54b98-4677-4d05-a65b-5a36bbedf82a-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "SPECIFICATION",
+            "answer": "<h6>SKU: BH-JYB115J1<\/h6><p>Item Size: 45\"x3\"x2.6\"<br\/>Item Weight: 11.46 lbs<br\/>Package Size: 49.6\"x7.4\"x5.5\"<br\/>Package Weight: 14.11 lbs<br\/>Dynamic Load Capacity: 165 lbs<br\/>Static Load Capacity: 600 lbs<br\/>Suitable for Side Rail: 30.1\"~37.6\"<br\/>Side Rail Width: Supported\t33-56 mm<br\/>Side Rail Types: Supported Integral Side Rails, Raised Side Rails<br\/><br\/>Main Material:  Aviation Aluminum Alloy<br\/>Coating: Electrophoretic Coating, Powder Coating<br\/>Base Material: Iron and Plastic<br\/><br\/>Package Contains: \t<br\/><\/p><ul><li>Crossbars x2<\/li><li>Replacement Clip Σ x2<\/li><li>Replacement Clip L x2<\/li><li>Noise Reduction Rubber<\/li><li>Strip x2<\/li><li>Key x2<\/li><li>Hexagonal wrench x1<\/li><li>Manual x1<\/li><\/ul><h6>SKU: BH-JYB125J1<\/h6><p>Item Size: 48.6\"x3\"x2.6\"<br\/>Item Weight: 11.9 lbs<br\/>Package Size: 53.5\"x7.4\"x5.5\"<br\/>Package Weight: 14.7 lbs<br\/>Dynamic Load Capacity: 165 lbs<br\/>Static Load Capacity: 600 lbs<br\/>Suitable for Side Rail: 34.2\"~41.7\"<br\/>Side Rail Width: Supported\t35-56 mm<br\/>Side Rail Types: Supported Integral Side Rails, Raised Side Rails<br\/><br\/>Main Material:  Aviation Aluminum Alloy<br\/>Coating: Electrophoretic Coating, Powder Coating<br\/>Base Material: Iron and Plastic<br\/><br\/>Package Contains: \t<br\/><\/p><ul><li>Crossbars x2<\/li><li>Replacement Clip Σ x2<\/li><li>Replacement Clip L x2<\/li><li>Noise Reduction Rubber<\/li><li>Strip x2<\/li><li>Key x2<\/li><li>Hexagonal wrench x1<\/li><li>Manual x1<\/li><\/ul><h6>SKU: BH-JYB135J1<\/h6><p>Item Size: 52.5\"x3\"x2.6\"<br\/>Item Weight: 12.3 lbs<br\/>Package Size: 57.4\"x7.4\"x5.5\"<br\/>Package Weight: 15.4 lbs<br\/>Dynamic Load Capacity: 165 lbs<br\/>Static Load Capacity: 600 lbs<br\/>Suitable for Side Rail: 38.2\"~45.6\"<br\/>Side Rail Width: Supported\t35-56 mm<br\/>Side Rail Types: Supported Integral Side Rails, Raised Side Rails<br\/><br\/>Main Material:  Aviation Aluminum Alloy<br\/>Coating: Electrophoretic Coating, Powder Coating<br\/>Base Material: Iron and Plastic<br\/><br\/>Package Contains: \t<br\/><\/p><ul><li>Crossbars x2<\/li><li>Replacement Clip Σ x2<\/li><li>Replacement Clip L x2<\/li><li>Noise Reduction Rubber<\/li><li>Strip x2<\/li><li>Key x2<\/li><li>Hexagonal wrench x1<\/li><li>Manual x1<\/li><\/ul><h6>SKU: BH-JYB145J1<\/h6><p>Item Size: 56.5\"x3\"x2.6\"<br\/>Item Weight: 12.8 lbs<br\/>Package Size: 61.4\"x7.4\"x5.5\"<br\/>Package Weight: 16 lbs<br\/>Dynamic Load Capacity: 165 lbs<br\/>Static Load Capacity: 600 lbs<br\/>Suitable for Side Rail: 42.1\"~49.6\"<br\/>Side Rail Width: Supported\t33-56 mm<br\/>Side Rail Types: Supported Integral Side Rails, Raised Side Rails<br\/><br\/>Main Material:  Aviation Aluminum Alloy<br\/>Coating: Electrophoretic Coating, Powder Coating<br\/>Base Material: Iron and Plastic<br\/><br\/>Package Contains: \t<br\/><\/p><ul><li>Crossbars x2<\/li><li>Replacement Clip Σ x2<\/li><li>Replacement Clip L x2<\/li><li>Noise Reduction Rubber<\/li><li>Strip x2<\/li><li>Key x2<\/li><li>Hexagonal wrench x1<\/li><li>Manual x1<\/li><\/ul>"
+          }
+        },
+        "dfb84c4c-420f-4eb6-93d9-2543eda3fe62": {
+          "type": "question",
+          "settings": {
+            "title": "INSTALLATION",
+            "answer": "<p>●<a href=\"https:\/\/cdn.shopifycdn.net\/s\/files\/1\/0618\/8226\/9862\/files\/Winglet_Universal_Roof_Rack_System_Installation_Instructions.pdf?v=1684824667\" title=\"Installation instructions (PDF)\">Installation instructions (PDF)<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16443764965542__aca54b98-4677-4d05-a65b-5a36bbedf82a-question-1",
+        "template--16443764965542__aca54b98-4677-4d05-a65b-5a36bbedf82a-question-2",
+        "dfb84c4c-420f-4eb6-93d9-2543eda3fe62"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "722e8c86-0d41-4740-b89b-0221cc0ab9bc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16443764965542__722e8c86-0d41-4740-b89b-0221cc0ab9bc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Tested to the Limit",
+            "use_h1": false
+          }
+        },
+        "template--16443764965542__722e8c86-0d41-4740-b89b-0221cc0ab9bc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At the <strong>BENEHIKE<\/strong> Test Center in Arcadia, USA, our products undergo rigorous testing to the extremes. Our roof rack system is designed to bear your gear and securely install onto your vehicle with utmost safety and reliability. Here are just a few examples from the numerous tests conducted:<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16443764965542__722e8c86-0d41-4740-b89b-0221cc0ab9bc-heading-1",
+        "template--16443764965542__722e8c86-0d41-4740-b89b-0221cc0ab9bc-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "1"
+      }
+    },
+    "ea1f5c02-3e08-4aae-8c00-4fbc0a86b897": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16443764965542__ea1f5c02-3e08-4aae-8c00-4fbc0a86b897-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Crossbars_22_a5ab1b5c-98b8-4c8d-be33-fa1f6ebf0099.jpg",
+            "title": "Load Capacity Test",
+            "text": "<p><strong>Dynamic Testing:<\/strong> The vehicle was tested at speeds of 15, 25, and 35 km\/h for 2 km each on standard poor roads to ensure safety.<\/p><p><strong>Test Vehicle:<\/strong> 2023 Ford Expedition<\/p><p><strong>VIN:<\/strong><br\/>Load Capacity: 330 lbs<br\/>Test Load: 440 lbs<\/p><p><strong>Results:<\/strong><br\/>-No loosening of torque was detected.<br\/>-No loosening of the load was observed.<br\/>-No damage was noticed.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16443764965542__ea1f5c02-3e08-4aae-8c00-4fbc0a86b897-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Crossbars_23.jpg",
+            "title": "Crash Tests",
+            "text": "<p>We perform a series of comprehensive crash tests at varying speeds and weights to guarantee the utmost safety of our complete roof rack system while transporting your gear, and to safeguard your vehicle against any potential damage.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16443764965542__ea1f5c02-3e08-4aae-8c00-4fbc0a86b897-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Crossbars_24.jpg",
+            "title": "Wear and Tear Test",
+            "text": "<p><strong>Conditions: <\/strong>The roof rack system undergoes a continuous spray of 5% saltwater for 192 hours.<\/p><p><strong>Results: <\/strong>After the 192-hour continuous spray of 5% neutral saltwater, there were no signs of rust, white spots, or corrosion.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16443764965542__ea1f5c02-3e08-4aae-8c00-4fbc0a86b897-text_block-1",
+        "template--16443764965542__ea1f5c02-3e08-4aae-8c00-4fbc0a86b897-text_block-2",
+        "template--16443764965542__ea1f5c02-3e08-4aae-8c00-4fbc0a86b897-text_block-3"
+      ],
+      "settings": {
+        "title": "",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "01e98ecf-3bc7-4283-a3bf-74adf5a442a7": {
+      "type": "key-features",
+      "blocks": {
+        "template--16443764965542__01e98ecf-3bc7-4283-a3bf-74adf5a442a7-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crossbars_25.jpg",
+            "bg_color": "#202020",
+            "bg_gradient": "",
+            "text_color": "#ffffff",
+            "heading": "Suitable for 99% Mount Rails",
+            "text": "",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16443764965542__01e98ecf-3bc7-4283-a3bf-74adf5a442a7-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crossbars_28.jpg",
+            "bg_color": "#202020",
+            "bg_gradient": "",
+            "text_color": "#ffffff",
+            "heading": "Aerodynamic Design & Aviation Aluminum Alloy",
+            "text": "",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16443764965542__01e98ecf-3bc7-4283-a3bf-74adf5a442a7-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crossbars_27.jpg",
+            "bg_color": "#202020",
+            "bg_gradient": "",
+            "text_color": "#ffffff",
+            "heading": "Electrophoretic Coating and Powder Coating are Used",
+            "text": "",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "21d56453-f3ca-48f4-a215-cedde8a22c33": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crossbars_29.jpg",
+            "bg_color": "#202020",
+            "bg_gradient": "",
+            "text_color": "#ffffff",
+            "heading": "Adjustable Size Sliding Base",
+            "text": "",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "17e2f608-95bd-4e28-9fba-231067fd7e35": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crossbars_30.jpg",
+            "bg_color": "#202020",
+            "bg_gradient": "",
+            "text_color": "#ffffff",
+            "heading": "Replacement Clips Available for Different Sizes",
+            "text": "",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "5",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16443764965542__01e98ecf-3bc7-4283-a3bf-74adf5a442a7-feature-1",
+        "template--16443764965542__01e98ecf-3bc7-4283-a3bf-74adf5a442a7-feature-2",
+        "template--16443764965542__01e98ecf-3bc7-4283-a3bf-74adf5a442a7-feature-3",
+        "21d56453-f3ca-48f4-a215-cedde8a22c33",
+        "17e2f608-95bd-4e28-9fba-231067fd7e35"
+      ],
+      "settings": {
+        "heading": "Key features",
+        "image_max_width": 700,
+        "media_aspect_ratio": "1",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "2a3b3b1a-4de0-46c6-b3aa-9b3fcf3e38e9": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16443764965542__2a3b3b1a-4de0-46c6-b3aa-9b3fcf3e38e9-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "How can I determine if it fits to my vehicle?",
+            "answer": "<p>To ensure the proper fit of the Winglet with your vehicle, you can measure the size of your vehicle's side rails and refer to the adjustment range provided in the product description. If you require further assistance, our customer service team is available to help you confirm the compatibility.<\/p>"
+          }
+        },
+        "template--16443764965542__2a3b3b1a-4de0-46c6-b3aa-9b3fcf3e38e9-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "I bought it but I failed to install it on my vehicle.",
+            "answer": "<p>Rest assured, BeneHike provides custom clips for customers whose vehicles have special roof side rails that are slightly outside the adjustment range of the Winglet. If you encounter any difficulties during installation, please don't hesitate to reach out to us. We are here to assist you.<\/p>"
+          }
+        },
+        "f79b55b2-f14c-43bf-8eb1-30d51c94e311": {
+          "type": "question",
+          "settings": {
+            "title": "I need load more than 300lbs.",
+            "answer": "<p>If your vehicle has a flat roof, you have the option to add a single roof bar, which will increase the load capacity by 50%. With this addition, the dynamic load capacity will reach 450 lbs, and the static load capacity will reach 990 lbs.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16443764965542__2a3b3b1a-4de0-46c6-b3aa-9b3fcf3e38e9-question-1",
+        "template--16443764965542__2a3b3b1a-4de0-46c6-b3aa-9b3fcf3e38e9-question-2",
+        "f79b55b2-f14c-43bf-8eb1-30d51c94e311"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    },
+    "1703141134e7d702a3": {
+      "type": "apps",
+      "blocks": {
+        "ab2e3ec6-9cd4-402e-a308-3759ba460155": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ab2e3ec6-9cd4-402e-a308-3759ba460155"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "aca54b98-4677-4d05-a65b-5a36bbedf82a",
+    "722e8c86-0d41-4740-b89b-0221cc0ab9bc",
+    "ea1f5c02-3e08-4aae-8c00-4fbc0a86b897",
+    "01e98ecf-3bc7-4283-a3bf-74adf5a442a7",
+    "2a3b3b1a-4de0-46c6-b3aa-9b3fcf3e38e9",
+    "1703141134e7d702a3",
+    "related-products"
+  ]
+}

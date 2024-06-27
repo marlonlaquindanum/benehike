@@ -1,0 +1,128 @@
+{
+  "sections": {
+    "image_with_text_overlay_bYeFAA": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_gqnjxE": {
+          "type": "heading",
+          "settings": {
+            "title": "Contact Us",
+            "heading_max_width": 15,
+            "title_size": 52,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_A6kCM6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hey there, fellow explorer!  Stuck on a rooftop tent dilemma?  Need tips for planning your next overlanding adventure?  We're here to help! Our friendly team is ready to answer your questions and get you geared up to conquer the outdoors in comfort and style.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_gqnjxE",
+        "text_A6kCM6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/270_Freestanding_Batwing_Awning_Banner_-_008.jpg",
+        "height": "fixed",
+        "height_desktop": 500,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center left",
+        "mobile_overlay_under": false,
+        "overlay_style": "full"
+      }
+    },
+    "main": {
+      "type": "main-contact",
+      "blocks": {
+        "name": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "email": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "message": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "message"
+      ],
+      "settings": {
+        "show_page_title": false,
+        "use_columns": true,
+        "contact_title": "Fill Up the Form Below",
+        "contact_text": ""
+      }
+    },
+    "multi_column_CBBLNq": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_VAJnzH": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🤝🏻 Business Inquiry",
+            "text": "<p>If you are interested in becoming our dealers, please send an email to: <a href=\"mailto:jason@benehike.com\">jason@benehike.com<\/a><\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_g9tWBK": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🏠 Base",
+            "text": "<p>150 N. Santa Anita Ave, Arcadia, CA 91006<\/p><p>Room.1030, No.1 Building, Logistic Center, Meishan Harbour, Ningbo, 315000<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_zHHzPa": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🏠 EU Company",
+            "text": "<p>SHARLOMAY LTD<\/p><p>Agion Theodoron 6 Agios Athanasios, 4102, Limassol, Cyprus<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_VAJnzH",
+        "text_block_g9tWBK",
+        "text_block_zHHzPa"
+      ],
+      "settings": {
+        "title": "",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "left",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_bYeFAA",
+    "main",
+    "multi_column_CBBLNq"
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": false
+          }
+        },
+        "9b9c113d-b33b-4ee2-be92-7353eb5e3e07": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "selector_style": "listed",
+            "enable_dynamic_availability": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "248237f3-2bee-4b38-8cab-e030d9222afe": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Get Free Awning",
+            "end_date": "2024-06-11",
+            "end_time": "",
+            "end_text": "",
+            "hide_on_end": false,
+            "box_color": "#ffffff",
+            "text_color": "#ff6100",
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true,
+            "show_in_quickbuy": false
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "08f1d319-a782-4356-a535-8908145f30bc": {
+          "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "settings": {
+            "badge_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "9b9c113d-b33b-4ee2-be92-7353eb5e3e07",
+        "divider",
+        "variant-picker",
+        "248237f3-2bee-4b38-8cab-e030d9222afe",
+        "buy-buttons",
+        "description",
+        "08f1d319-a782-4356-a535-8908145f30bc"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "1c40a4c8-0423-4152-be82-f9143b9ab0df": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "DESCRIPTION",
+            "answer": "<ul><li>The 5 second quick open feature thanks to the hydraulically assisted opening mechanism means you can set it up in under 1 minute. It will be the envy of other campers wherever it goes.<\/li><li>When the tent is closed, you can store pillows and bedding inside. Open the tent and you're ready to camp!<\/li><li>The durable ABS shell remains hard and tough even in low temperatures and keeps the overall weight of the tent to a minimum. The tent is lined with anti-condensation material. The roof also houses storage space for clothes, blankets and shoes.<\/li><li>The aerodynamic design of the ABS shell improves fuel consumption and wind noise reduction and helps to reduce the overall height of the vehicle.<\/li><li>In addition to blocking the morning light, insect screens are also essential. The BENEHIKE® Hard Shell Rooftop Tent allows you to sleep soundly at night without disturbing the morning sun. And 4 tent poles are provided to fix the windows.<\/li><\/ul>"
+          }
+        },
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "SPECIFICATIONS",
+            "answer": "<p><strong>Sleeps: <\/strong>2-3 person<br\/><strong>Tent Type:<\/strong> 4 Season Tent<br\/><strong>Closed Dimensions:<\/strong> 83\" x 49\" x 14”<br\/><strong>Open Dimensions:<\/strong> 83\" x 49\" x 43”<br\/><strong>Windows:<\/strong> 4\/w door<br\/><strong>Mattress Size: <\/strong>82\" x 49\" x 2” H<br\/><strong>Peak Height: <\/strong>43\"<br\/><strong>Actual Weight: <\/strong>156 lbs<br\/><strong>Max Weight Capacity: <\/strong>1000 lbs<br\/><strong>Outer Cover Material:  <\/strong>ABS+ARA<br\/><br\/><strong>Body Material: <\/strong>Rip-Stop 600D Oxford\/w 280GSM Cotton, PU coating 2000mm, UV 50+<br\/><strong>Rainfly Material<\/strong>: Rip-Stop 420D Oxford\/w 280GSM Cotton, PU coating 2000mm, UV 50+<br\/><strong>Mattress Material<\/strong>: High-Density 2\" foam<br\/><strong>Doors & Windows Material: <\/strong>Solid Panel\/w Insect-free Breathable Mesh<br\/><strong>Upper Material: <\/strong>5\/8\" (16MM) Aluminum poles<br\/><strong>Tent Floor Material: <\/strong>Reinforced Aluminum Alloy Frame<br\/><strong>Frame: <\/strong>Aluminum<br\/><strong>Zippers: <\/strong>SBS<br\/><strong>Ladder:<\/strong> 7.5' Telescoping<br\/><strong>Shoe Bag:<\/strong> Included<br\/><strong>Installation hardware: <\/strong><br\/><\/p><ul><li>Metric Wrench 10\/13 mm *2<\/li><li>Track plug *4<\/li><li>Aluminum Slide Plate *8<\/li><li>Stainless Steel Mounting Plate *4<\/li><li>55mm Stainless Steel *8<\/li><li>M8 Bolt *8<\/li><li>M8 Self-Locking Nut *8<\/li><li>Elastic string *2<\/li><\/ul>"
+          }
+        },
+        "98403f2d-60aa-4fe2-a5b9-a629211be9b7": {
+          "type": "question",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "answer": "<h4><strong>LTL-Truck Shipping<\/strong><\/h4><p><strong>Delivery Countries: <\/strong>USA (Excluding outlying islands)<\/p><p><strong>Transit Time: <\/strong>7-15 business days<\/p><p>________________________________<\/p><p><strong>Transportation Costs: <\/strong>FREE<\/p><p><strong>Delivery Countries: <\/strong>Canada <\/p><p><strong>Transit Time: <\/strong>10-15 business days<\/p><p><strong>Transportation Costs:  <\/strong>$340 CAD<\/p><p>________________________________<\/p><h6>⛟ 7-Day No-Reason Return<br\/>⛟ 30-Day Refundable<br\/>🛠︎ 5-Year Warranty<\/h6><p><a href=\"https:\/\/benehike.com\/pages\/shipping-policy\" title=\"https:\/\/benehike.com\/pages\/shipping-policy\"><em><strong>MORE SHIPPING POLICY<\/strong><\/em><\/a><\/p>"
+          }
+        },
+        "9390e7b0-9c1f-4435-be28-9ce4754ee8ec": {
+          "type": "question",
+          "settings": {
+            "title": "INSTALLATION",
+            "answer": "<p>Lift the tent onto your crossbars (you'll need a friend or two) with the big end facing the back (the front of the tent shell is lower than the back).<\/p><p>Make sure the tent is positioned roughly where you want it. For SUVs and hatchbacks, open the trunk and push the tent back until it just touches the open trunk. This allows you to ensure that the tent does not interfere with the operation of your trunk.<\/p><p>Ready to install the kit.<\/p><p>     a. Insert the M8 bolts into the mounting plate (rail side up) and install the mounting U-brackets (concave side up). Then install a hex head bolt less than halfway down. Repeat three more times.<\/p><p>     b. Prepare the four M8 bolts and plate set by attaching the M8 bolts to the mounting plate. Repeat three more times.<\/p><p>Using the 4 original mounting kits with U-brackets, slide each mounting kit into the mounting rails, followed by the M8 bolts and plate set. Repeat for each corner of the tent.<\/p><p>Start with a partner in the front or rear and lift up to slide the mounting kit inside the crossbar.<\/p><p>Attach the mounting kit together by inserting the hanging M8 bolts into the mounting U-brackets and hand tightening the nuts onto the M8 bolts. Repeat for all four corners.<\/p><p>Tighten the nuts evenly and snugly, making sure you have lined up the tent exactly where you want it on the roof before tightening the nuts last.<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/hardshell_side_rooftop_tent_HT-125.pdf?v=1677832021\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/hardshell_side_rooftop_tent_HT-125.pdf?v=1677832021\"><em><strong>📩 Download the Manual<\/strong><\/em><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-1",
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-2",
+        "98403f2d-60aa-4fe2-a5b9-a629211be9b7",
+        "9390e7b0-9c1f-4435-be28-9ce4754ee8ec"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "b74f746d-92b2-4ffa-b176-c7ebdfa471c9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16422555451558__b74f746d-92b2-4ffa-b176-c7ebdfa471c9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT KINDS OF VEHICLES WOULD FIT IN RTT?",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__b74f746d-92b2-4ffa-b176-c7ebdfa471c9-heading-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "2"
+      }
+    },
+    "6d103d34-a3d7-468b-a4c3-c3e9e09cbd69": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "017447a0-66e3-4f8b-9b0a-cc621be3e089": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PICK-UP-TRUCK-q2fbvesih5dcwrzncgl165kgetq2fymkhrwn8vf270.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "252842e3-60f2-4deb-b351-6d6fbb7f1fcb": {
+          "type": "text",
+          "settings": {
+            "text": "PICK UP TRUCK",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "25ac5a97-9002-4595-91fa-b5fe192a1c93": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TRAILER-q2fbvfqcnzen8dya6yznqnbx07lfnnqatwk4q5do0s.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "259ff7b3-f038-4456-90fd-1bb6e048dd3c": {
+          "type": "text",
+          "settings": {
+            "text": "TRAILER",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "d79dc1cc-53c0-49f7-b368-04ba97813d54": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "2ab8fc32-f184-42f1-9bc6-fe4c2fdcd5d5": {
+          "type": "text",
+          "settings": {
+            "text": "FULL-SIZE SUV",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "4b1bb708-5281-4cd3-a24e-a3ad995d2965": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8_71910132-52d4-4901-9ba2-902e4d1dda48.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "8bc1f237-42c6-4a36-93fc-cd35d8424a24": {
+          "type": "text",
+          "settings": {
+            "text": "MID-SIZE SUV",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "fd752be5-0185-4a13-b92b-eb4e03085920": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VAN-q2fbvgo6utfxjzwx1heab53dllgsvcu1617m7fc9uk.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "cd753c79-8841-4ffe-ad5f-0febcc6e3eac": {
+          "type": "text",
+          "settings": {
+            "text": "VAN",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "017447a0-66e3-4f8b-9b0a-cc621be3e089",
+        "252842e3-60f2-4deb-b351-6d6fbb7f1fcb",
+        "25ac5a97-9002-4595-91fa-b5fe192a1c93",
+        "259ff7b3-f038-4456-90fd-1bb6e048dd3c",
+        "d79dc1cc-53c0-49f7-b368-04ba97813d54",
+        "2ab8fc32-f184-42f1-9bc6-fe4c2fdcd5d5",
+        "4b1bb708-5281-4cd3-a24e-a3ad995d2965",
+        "8bc1f237-42c6-4a36-93fc-cd35d8424a24",
+        "fd752be5-0185-4a13-b92b-eb4e03085920",
+        "cd753c79-8841-4ffe-ad5f-0febcc6e3eac"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "2",
+        "text_size": 20,
+        "vertical_padding": 20,
+        "speed": 20,
+        "direction": "left",
+        "font": "base",
+        "space": 35
+      }
+    },
+    "ab507ee8-f7d8-4163-a09f-c68b55cc3585": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "2-3 Campers",
+            "use_h1": false
+          }
+        },
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If there are 2 sleeps, you can move more freely in it. Of course, it is essential to bring your children (or your dog)<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "view spec sheet",
+            "button_link": "shopify:\/\/pages\/hard-shell-pop-up-rooftop-tent-specifications",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-heading-1",
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-text-1",
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pop_hardshell_rooftop_tent_view_5.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "74ddb1c1-0e83-49f5-b31e-a0ba6489aa67": {
+      "type": "key-features",
+      "blocks": {
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rooftop_tent_-_setting_up_a_hardshell_tent_001.png",
+            "bg_color": "#f6f6f6",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "Quickest Opening",
+            "text": "<p>Opening takes only 50 seconds, simply unlatch, push the case up and the gas struts will do the rest for you. The average ground camper will be in awe!<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "Use",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/side_hardshell_rooftop_tent_banner_3.jpg",
+            "bg_color": "#f6f6f6",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "Built for Comfort",
+            "text": "<p>The built in 2 inch mattress is super comfortable, the height of luxury! We've also installed an insulating liner on the roof and base for an extra-comfortable night's sleep.<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "Bed",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/side_hardshell_rooftop_tent_view_005.jpg",
+            "bg_color": "#f6f6f6",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "Leave Your Sleep Gear Inside",
+            "text": "<p>You can leave your sleeping gear inside when the tent is closed. This means that as soon as you arrive at camp, you can pop out and get ready to camp.<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "Storage",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "679a6492-30d9-4b2b-a0f3-e89d84eabcfd": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/side_hardshell_rooftop_tent_view_006.jpg",
+            "bg_color": "#f6f6f6",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "Aerodynamic Wear-resistant ABS Shell",
+            "text": "<p>The outer shell is made of ABS, which is super wear-resistant and tear-resistant, and the aerodynamic design can penetrate air.<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "Shell",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "24577ec9-8bdf-41fb-a914-39875a85028f": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rooftop_tent_-_setting_up_a_hardshell_tent_006.png",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "Expanded Storage Space",
+            "text": "<p>The cargo net can be extended on the roof, which is very suitable for storing clothes and sundries. The included side pockets hold your laptop, water bottle, keys and wallet, and anything else you might be carrying!<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "More",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-1",
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-2",
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-3",
+        "679a6492-30d9-4b2b-a0f3-e89d84eabcfd",
+        "24577ec9-8bdf-41fb-a914-39875a85028f"
+      ],
+      "settings": {
+        "heading": "Key features",
+        "image_max_width": 700,
+        "media_aspect_ratio": "1.25",
+        "image_position": "right",
+        "segment_position": "over-text"
+      }
+    },
+    "75a2a387-75e2-46ee-904e-ea16412d7452": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/pop_hardshell_rooftop_tent_view_20_360x_788e0695-c115-4ab4-8f1f-e3de21cb4bf9.jpg",
+            "title": "Safety",
+            "text": "<p>Reinforced Aluminum Bars Bottom.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/pop_hardshell_rooftop_tent_view_21_360x_e86cc8c6-3f4a-48d9-ab3a-d9bebae7c341.jpg",
+            "title": "Eco",
+            "text": "<p>Environmentally Friendly Moisture-proof SyntheticWood Floor.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/pop_hardshell_rooftop_tent_view_18_360x_bf44031a-2f0d-4937-b5b2-4852e340ae8e.jpg",
+            "title": "Stroge",
+            "text": "<p>Built-in storage bags, etc., make your tent life more convenient.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "dfd0858c-ce8f-4cb0-b0c1-38098901c65c": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/banner_2_050ebbcc-4fa3-44d2-9dfc-70214410794b.jpg",
+            "title": "SBS",
+            "text": "<p>Customized SBS heavy-duty zippers, tested with over 1,000,000 repeated operations for durability.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "418eac2c-d880-4188-97f8-12b72443a063": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/banner_4.jpg",
+            "title": "Stablize",
+            "text": "<p>Reinforced metal support poles and sturdy metal attachment rings ensure the stability of the rainfly even in strong winds.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-1",
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-2",
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-3",
+        "dfd0858c-ce8f-4cb0-b0c1-38098901c65c",
+        "418eac2c-d880-4188-97f8-12b72443a063"
+      ],
+      "settings": {
+        "title": "Detail Upgrades",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "ebe5bdfc-6fb8-4b10-8487-d7b9b72a7e78": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "41ef0c4e-5bf5-46dc-9040-6ce13fe03cb6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_1_54392b38-cb2f-454d-b80e-3b3758e0c41b.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "082787b2-a16e-4778-b6c4-ca380dfef059": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_2_4f39275a-5d85-4a45-baed-f8d722c7edb1.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "65389eaf-c152-4b04-ac19-5af2ad35a32e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_3_ca760264-fa4b-4e23-8c3c-9ce8596704ab.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "3920c684-ed42-406a-ae6e-ffba54168733": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_4_b0328e47-dace-49d7-a553-758e1a9bf91d.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "7b4607f8-0772-48fd-b44c-daaf80946b29": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_5_70afe577-9787-4390-aa69-6c828abf860d.png",
+            "image_width": 200,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "41ef0c4e-5bf5-46dc-9040-6ce13fe03cb6",
+        "082787b2-a16e-4778-b6c4-ca380dfef059",
+        "65389eaf-c152-4b04-ac19-5af2ad35a32e",
+        "3920c684-ed42-406a-ae6e-ffba54168733",
+        "7b4607f8-0772-48fd-b44c-daaf80946b29"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "1",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 25,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "17031359254891a2f8": {
+      "type": "apps",
+      "blocks": {
+        "6ae1ad7e-f03b-4e8c-96c0-0044835442f8": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "6ae1ad7e-f03b-4e8c-96c0-0044835442f8"
+      ],
+      "settings": {
+        "full_width": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1c40a4c8-0423-4152-be82-f9143b9ab0df",
+    "b74f746d-92b2-4ffa-b176-c7ebdfa471c9",
+    "6d103d34-a3d7-468b-a4c3-c3e9e09cbd69",
+    "ab507ee8-f7d8-4163-a09f-c68b55cc3585",
+    "74ddb1c1-0e83-49f5-b31e-a0ba6489aa67",
+    "75a2a387-75e2-46ee-904e-ea16412d7452",
+    "ebe5bdfc-6fb8-4b10-8487-d7b9b72a7e78",
+    "17031359254891a2f8",
+    "related-products"
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": false
+          }
+        },
+        "9b9c113d-b33b-4ee2-be92-7353eb5e3e07": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "selector_style": "listed",
+            "enable_dynamic_availability": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "248237f3-2bee-4b38-8cab-e030d9222afe": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "heading": "Get Free Awning",
+            "end_date": "2024-02-29",
+            "end_time": "",
+            "end_text": "",
+            "hide_on_end": false,
+            "box_color": "#ffffff",
+            "text_color": "#ff6100",
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true,
+            "show_in_quickbuy": false
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "08f1d319-a782-4356-a535-8908145f30bc": {
+          "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "settings": {
+            "badge_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "9b9c113d-b33b-4ee2-be92-7353eb5e3e07",
+        "divider",
+        "variant-picker",
+        "248237f3-2bee-4b38-8cab-e030d9222afe",
+        "buy-buttons",
+        "description",
+        "08f1d319-a782-4356-a535-8908145f30bc"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "1c40a4c8-0423-4152-be82-f9143b9ab0df": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "DESCRIPTION",
+            "answer": "<p>The BENEHIKE® Aluminum Shell Roof Top Awning is an excellent addition to any outdoor adventure, especially for those who prefer not to permanently modify their vehicles or frequently change vehicles. Compared to PVC awnings, it occupies a more compact footprint, adapting to a wider range of vehicle models. The metal shell with metallurgical coating is more durable and resistant to damage from branches and stones. The updated magnetic buckle allows for quick deployment, providing you with a reliable and efficient sunshade.<\/p><ul><li>Unique patented design of magnetic light strip, with concealed magnetic strips that don't affect aesthetics like velcro designs (which look like a black caterpillar), quick 5-second setup, and won't fall off even in strong winds.<\/li><li>The stylish black aluminum enclosed design complements the modern look of most 4x4 vehicles. With a more precise mold design than PVC fabrics, it folds into a slimmer size. After installation on the vehicle, it exhibits higher durability during prolonged movement compared to existing PVC shells.<\/li><li>The magnetic closure of Fid Lock eliminates the need for zippers, providing users with a truly easy and robust alternative to common plastic buckles. Utilizing German-made Fid Lock with internal magnets, the buckle automatically locks once fastened, offering a super simple closure.<\/li><li>The fabric boasts 99.9% UV protection and a military-grade waterproof coating. Sunshade is the fundamental function, with nearly 100% sun protection, boasting a UPF 50+ sun protection rating! The 600D ripstop Oxford fabric and PU 3000mm water pressure can withstand any harsh weather, ensuring comfortable shade throughout the seasons.<\/li><li>The unfolded shade dimensions are 6.5 x 9.8 feet. Internally treated with a transparent PU coating featuring blackout functionality, it has a light transmittance of &lt;5%, providing excellent privacy protection.<\/li><li>Two adjustable height anodized aluminum poles, with a height range of 3.9'\/1.2m to 6.6'\/2m, easily tilt the canopy to different angles for sunshade or drainage during heavy rain.<\/li><li>It can be used in conjunction with rooftop tents, cargo boxes, or our roof racks. The installation rails and accessories are universal, compatible with most roof racks, cars, SUVs, and trucks' sides and rear, requiring just a few seconds to tighten the screws.<\/li><li>The canvas is securely fixed to a robust frame through multiple connection points and includes guy ropes to keep it stable in the wind. The lightweight yet sturdy aluminum frame can withstand strong winds and heavy rain.<\/li><li>The expandable canvas walls turn the awning into a shelter, creating an additional outdoor living area for relaxation or entertainment. The BENEHIKE® Aluminum Shell Roof Top Awning's outstanding quality, convenience, and versatility will not disappoint.<\/li><\/ul>"
+          }
+        },
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "SPECIFICATIONS",
+            "answer": "<p><strong>Shade: <\/strong>6m³<br\/><strong>Closed Dimensions:<\/strong> 83 L x 6.3 Wx 6.3 H inch<br\/><strong>Adjustable Height: <\/strong>3.9-6.6 ft<br\/><strong>Overall Dimension: <\/strong>6.7 L x 9.8 W x6.7 H ft<br\/><\/p><p><strong>Awning Material:<\/strong>  Rip-Stop 600D Oxford, 280GSM Cotton, 3000mm PU Coating, Anti-UV 50+<br\/><strong>Cover:<\/strong> Lightweight Aluminum with Black Mealtic Spray-Coated<br\/><strong>Frame:<\/strong> Lightweight Aluminum with Black Mealtic Spray-Coated<br\/><strong>Support Arms:<\/strong> Lightweight Aluminum with Black Mealtic Spray-Coated<br\/><strong>Switch: <\/strong>Fidlock Magnetic Buckle<br\/><strong>Actual Weight: <\/strong>30.8 lbs<\/p><p><strong>Installation Hardware<\/strong><\/p><ul><li>Metric Wrench 10\/13 mm *2<\/li><li>L Mounting Bracket *2<\/li><li>Double wholes washer *2<\/li><li>20mm Stainless Steel M8 Bolt *4<\/li><li>55mm Stainless Steel M8 Bolt *4<\/li><li>M8 Self-Locking Nut *8<\/li><li>String *2<\/li><li>Tent Pegs *2<\/li><li>Stroge Bag *1<\/li><li>LED Lights<\/li><\/ul>"
+          }
+        },
+        "98403f2d-60aa-4fe2-a5b9-a629211be9b7": {
+          "type": "question",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "answer": "<h4>Express<strong> Shipping<\/strong><\/h4><p><strong>Delivery Countries: <\/strong>USA (Excluding outlying islands)<\/p><p><strong>Logistics <\/strong>I  <strong>Transit Time <\/strong>I<strong> Costs<\/strong><\/p><p>Standard  I   5-10 days   I   FREE<\/p><p>Expedited I  3-7 days     I  $39.99<\/p><p>Fast           I     5 days     I  $69.99<\/p><p>________________________________<\/p><p><strong>Delivery Countries: <\/strong>Canada <\/p><p>See <a href=\"\/pages\/delivery\" title=\"DELIVERY\">Delivery Policy<\/a> for Details<\/p><p>________________________________<\/p><h6>⛟ 7-Day No-Reason Return<br\/>⛟ 30-Day Refundable<br\/>🛠︎ 5-Year Warranty<\/h6><p><a href=\"https:\/\/benehike.com\/pages\/shipping-policy\" title=\"https:\/\/benehike.com\/pages\/shipping-policy\"><em><strong>MORE SHIPPING POLICY<\/strong><\/em><\/a><\/p>"
+          }
+        },
+        "9390e7b0-9c1f-4435-be28-9ce4754ee8ec": {
+          "type": "question",
+          "settings": {
+            "title": "INSTALLATION",
+            "answer": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Aluminum_Shell_Quickly-open_Car_Side_Awning_Manual.pdf?v=1689920223\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Aluminum_Shell_Quickly-open_Car_Side_Awning_Manual.pdf?v=1689920223\"><em><strong>📩 Download the Manual<\/strong><\/em><\/a><\/p><p>The back of the awning is where the mounting rails are located. The BeneHike® Aluminum Awning has an opening on the middle side.<\/p><p>Measure the distance between each mounting location. Using this measurement, slide the bolts through the track and install them into the correct position. Likewise, the overhang should not exceed 27 inches on each side.<\/p><p>Position the bolts so they line up with the brackets.<\/p><h5>Install<\/h5><p>With the help of a friend, lift the awning onto the roof rack. Secure it with the provided nylon nuts. BEFORE TIGHTENING - Open the doors, tailgate and hood to make sure they don't touch.<\/p><p>Make sure to tighten the awning brackets and nuts after 1000 miles of installation and periodically thereafter.<\/p><h5>Use<\/h5><p>Unfasten the cover that encases the car side awning.<\/p><p>Grasp the middle of the awning and roll it toward yourself.<\/p><p>Once the awning is entirely unfurled, lower the right and left poles from the sturdy tube on the end you are grasping.<\/p><p>Modify the height of the feet to your desired position.<\/p><p>Secure the feet in place by rotating the bottom pole.<\/p><p>Extend both supporting poles to the side and affix them to the roof of the awning.<\/p><p>Move these poles to the front bracket and secure them in position.<\/p><p><strong>Important:<\/strong> The installation hardware is included inside the Weather Cover.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-1",
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-2",
+        "98403f2d-60aa-4fe2-a5b9-a629211be9b7",
+        "9390e7b0-9c1f-4435-be28-9ce4754ee8ec"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "b74f746d-92b2-4ffa-b176-c7ebdfa471c9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16422555451558__b74f746d-92b2-4ffa-b176-c7ebdfa471c9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT KINDS OF VEHICLES WOULD FIT IN RTT?",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__b74f746d-92b2-4ffa-b176-c7ebdfa471c9-heading-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "6d103d34-a3d7-468b-a4c3-c3e9e09cbd69": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "017447a0-66e3-4f8b-9b0a-cc621be3e089": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PICK-UP-TRUCK-q2fbvesih5dcwrzncgl165kgetq2fymkhrwn8vf270.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "252842e3-60f2-4deb-b351-6d6fbb7f1fcb": {
+          "type": "text",
+          "settings": {
+            "text": "PICK UP TRUCK",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "25ac5a97-9002-4595-91fa-b5fe192a1c93": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TRAILER-q2fbvfqcnzen8dya6yznqnbx07lfnnqatwk4q5do0s.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "259ff7b3-f038-4456-90fd-1bb6e048dd3c": {
+          "type": "text",
+          "settings": {
+            "text": "TRAILER",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "d79dc1cc-53c0-49f7-b368-04ba97813d54": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "2ab8fc32-f184-42f1-9bc6-fe4c2fdcd5d5": {
+          "type": "text",
+          "settings": {
+            "text": "FULL-SIZE SUV",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "4b1bb708-5281-4cd3-a24e-a3ad995d2965": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8_71910132-52d4-4901-9ba2-902e4d1dda48.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "8bc1f237-42c6-4a36-93fc-cd35d8424a24": {
+          "type": "text",
+          "settings": {
+            "text": "MID-SIZE SUV",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "fd752be5-0185-4a13-b92b-eb4e03085920": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VAN-q2fbvgo6utfxjzwx1heab53dllgsvcu1617m7fc9uk.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "cd753c79-8841-4ffe-ad5f-0febcc6e3eac": {
+          "type": "text",
+          "settings": {
+            "text": "VAN",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "017447a0-66e3-4f8b-9b0a-cc621be3e089",
+        "252842e3-60f2-4deb-b351-6d6fbb7f1fcb",
+        "25ac5a97-9002-4595-91fa-b5fe192a1c93",
+        "259ff7b3-f038-4456-90fd-1bb6e048dd3c",
+        "d79dc1cc-53c0-49f7-b368-04ba97813d54",
+        "2ab8fc32-f184-42f1-9bc6-fe4c2fdcd5d5",
+        "4b1bb708-5281-4cd3-a24e-a3ad995d2965",
+        "8bc1f237-42c6-4a36-93fc-cd35d8424a24",
+        "fd752be5-0185-4a13-b92b-eb4e03085920",
+        "cd753c79-8841-4ffe-ad5f-0febcc6e3eac"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 20,
+        "vertical_padding": 20,
+        "speed": 20,
+        "direction": "left",
+        "font": "base",
+        "space": 35
+      }
+    },
+    "ab507ee8-f7d8-4163-a09f-c68b55cc3585": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "211 ft³ of Space",
+            "use_h1": false
+          }
+        },
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The awning is a spacious and secure shelter with 211 ft³ or 6 m³ of protected space, perfect for families. It's easy to install and provides shade and shelter for outdoor adventures, camping, tailgating, or a day outside.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "view spec sheet",
+            "button_link": "shopify:\/\/pages\/aluminum-shell-awnings-specifications",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-heading-1",
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-text-1",
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6.7x9.8_Spec.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "74ddb1c1-0e83-49f5-b31e-a0ba6489aa67": {
+      "type": "key-features",
+      "blocks": {
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alum_shell_description_001_1.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "Black Aluminum Enclosed",
+            "text": "<p>With a more precise mold design than PVC fabrics, it folds into a slimmer size. After installation on the vehicle, it exhibits higher durability during prolonged movement compared to existing PVC shells.<\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "Shell",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alum_shell_description_002.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "99.9% UV Protection, 100% Waterproof Fabric",
+            "text": "<p>Sunshade is the fundamental function, with nearly 100% sun protection, boasting a UPF 50+ sun protection rating! The 600D ripstop Oxford fabric and PU 3000mm water pressure can withstand any harsh weather, ensuring comfortable shade throughout the seasons.<\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "Cloth",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-3": {
+          "type": "feature",
+          "settings": {
+            "video_shopify": "shopify:\/\/files\/videos\/1月12日.mp4",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "30s Quick Open",
+            "text": "<p>The magnetic closure of Fid Lock eliminates the need for zippers, providing users with a truly easy and robust alternative to common plastic buckles. Utilizing German-made Fid Lock with internal magnets, the buckle automatically locks once fastened, offering a super simple closure.<\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "Use",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "679a6492-30d9-4b2b-a0f3-e89d84eabcfd": {
+          "type": "feature",
+          "settings": {
+            "video_shopify": "shopify:\/\/files\/videos\/1月12日 (1).mp4",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "Easy Set Up",
+            "text": "<p>The installation rails and accessories are universal, compatible with most roof racks, cars, SUVs, and trucks' sides and rear.set up in seconds for shelter from the elements and packs down just as fast so you’re ready to hit the tracks first thing in the morning.<\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "Set Up",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_TcrQED": {
+          "type": "feature",
+          "settings": {
+            "video_shopify": "shopify:\/\/files\/videos\/1月15日.mp4",
+            "bg_color": "#171717",
+            "bg_gradient": "",
+            "text_color": "#ffffff",
+            "heading": "Quick-detachable magnetic light strip",
+            "text": "<p>Unique patented design of magnetic light strip, with concealed magnetic strips that don't affect aesthetics like velcro designs (which look like a black caterpillar), quick 5-second setup, and won't fall off even in strong winds.<\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "5",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "Lights",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "c1ee2f49-edf0-4bdc-b118-0891ed02f78b": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hard_Shell_Car_Side_Awning_view_12.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "Stand Under the Awning",
+            "text": "<p>The adjustable pole made of sturdy aluminum alloy can be rapidly deployed or stowed away as needed. With a maximum height of 6.5 feet (2 meters), even individuals of considerable stature can find ample headroom under the shelter. <\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "6",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "High",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "2ffd14f1-7f1e-4bb4-8fd9-2950ab6a0478": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hard_Shell_Car_Side_Awning_view_13.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "Expanded Room",
+            "text": "<p>Our Annex offers a versatile solution to elevate your outdoor experience. With a selection of canvas and mesh walls that can be easily attached, as well as sturdy straps and buckles, designed to meet all your outdoor needs. It's no surprise that many outdoor enthusiasts prefer to travel light and rely on our accessories as their primary shelter. <\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "7",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "More",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-1",
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-2",
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-3",
+        "679a6492-30d9-4b2b-a0f3-e89d84eabcfd",
+        "feature_TcrQED",
+        "c1ee2f49-edf0-4bdc-b118-0891ed02f78b",
+        "2ffd14f1-7f1e-4bb4-8fd9-2950ab6a0478"
+      ],
+      "settings": {
+        "heading": "Key features",
+        "image_max_width": 700,
+        "media_aspect_ratio": "1.25",
+        "image_position": "right",
+        "segment_position": "over-text"
+      }
+    },
+    "75a2a387-75e2-46ee-904e-ea16412d7452": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Hard_Shell_Car_Side_Awning_view_14_220x_5b240fcd-a4a5-49b2-b015-5558b896828b.jpg",
+            "title": "Magnetic Buckle",
+            "text": "<p>Say goodbye to traditional buckles and embrace the future of awning setup.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/BANNER_2_ac4404fe-02f3-4fee-bc19-d62344cab172.jpg",
+            "title": "Awning Legs",
+            "text": "<p>2 Retractable Aluminum Support Poles with Black Coating<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "418eac2c-d880-4188-97f8-12b72443a063": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Hard_Shell_Car_Side_Awning_view_17_220x_40a3d91f-68ab-4fec-a679-8c30d5b420ca.jpg",
+            "title": "Best Velcro",
+            "text": "<p>Our innovative awnings feature high-quality Velcro fasteners for quick and secure setup<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Hard_Shell_Car_Side_Awning_view_16_220x_8adcfbb6-9556-422e-bc03-fa459126e8f6.jpg",
+            "title": "Marine-grade Bungee Cord",
+            "text": "<p>The high-quality bungee cord ensures a secure and snug fit, keeping your awning in place even during strong winds and rough terrains.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "dfd0858c-ce8f-4cb0-b0c1-38098901c65c": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Hard_Shell_Car_Side_Awning_view_18_220x_645d7e71-8c42-47c9-a801-7aa201b9d9cd.jpg",
+            "title": "Expanding the Accessory Track",
+            "text": "<p>Added track for adding side cloth and other tools.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-2",
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-1",
+        "418eac2c-d880-4188-97f8-12b72443a063",
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-3",
+        "dfd0858c-ce8f-4cb0-b0c1-38098901c65c"
+      ],
+      "settings": {
+        "title": "Detail Upgrades",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "ebe5bdfc-6fb8-4b10-8487-d7b9b72a7e78": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "41ef0c4e-5bf5-46dc-9040-6ce13fe03cb6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_1_56c38790-9607-4b34-b06c-e51e41557625.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "082787b2-a16e-4778-b6c4-ca380dfef059": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_2_c3869713-e0cd-4022-8870-a34e72cbebba.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "65389eaf-c152-4b04-ac19-5af2ad35a32e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_3_93483f3e-2fa2-4c23-a162-8f9a93f20afb.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "3920c684-ed42-406a-ae6e-ffba54168733": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_4_5161f26e-a362-43de-9b27-a15da381fb75.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "7b4607f8-0772-48fd-b44c-daaf80946b29": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_5_171d1840-7836-40ce-9fbb-85500d6d52d5.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "965aa76b-017e-401a-8c43-f6c5d55aaa5e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_7.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "326111bf-f1ec-40e2-aa25-dd9d772c2dd7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_8.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "21d2b9f2-f537-4b31-9efe-2746a7e3a669": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_6.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "5c2209cf-2b3d-4d4d-85bb-43ef9c698b30": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_9.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "4f87c3fb-2437-4366-a43a-c3573cf0e237": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_10.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "41ef0c4e-5bf5-46dc-9040-6ce13fe03cb6",
+        "082787b2-a16e-4778-b6c4-ca380dfef059",
+        "65389eaf-c152-4b04-ac19-5af2ad35a32e",
+        "3920c684-ed42-406a-ae6e-ffba54168733",
+        "7b4607f8-0772-48fd-b44c-daaf80946b29",
+        "965aa76b-017e-401a-8c43-f6c5d55aaa5e",
+        "326111bf-f1ec-40e2-aa25-dd9d772c2dd7",
+        "21d2b9f2-f537-4b31-9efe-2746a7e3a669",
+        "5c2209cf-2b3d-4d4d-85bb-43ef9c698b30",
+        "4f87c3fb-2437-4366-a43a-c3573cf0e237"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "color_scheme": "1",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 25,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "1703136046ec6711c8": {
+      "type": "apps",
+      "blocks": {
+        "dd004256-e562-44b3-a422-7a7da9e69ff2": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "dd004256-e562-44b3-a422-7a7da9e69ff2"
+      ],
+      "settings": {
+        "full_width": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1c40a4c8-0423-4152-be82-f9143b9ab0df",
+    "b74f746d-92b2-4ffa-b176-c7ebdfa471c9",
+    "6d103d34-a3d7-468b-a4c3-c3e9e09cbd69",
+    "ab507ee8-f7d8-4163-a09f-c68b55cc3585",
+    "74ddb1c1-0e83-49f5-b31e-a0ba6489aa67",
+    "75a2a387-75e2-46ee-904e-ea16412d7452",
+    "ebe5bdfc-6fb8-4b10-8487-d7b9b72a7e78",
+    "1703136046ec6711c8",
+    "related-products"
+  ]
+}

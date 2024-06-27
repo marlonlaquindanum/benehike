@@ -1,0 +1,290 @@
+{
+  "sections": {
+    "heading": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "FREQUENTLY ASKED QUESTIONS",
+            "heading_max_width": 15,
+            "title_size": 52,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you don't see your question below, please email us at <a href=\"mailto:service@benehike.com\" title=\"mailto:service@benehike.com\">service@benehike.com<\/a> or call our office at 951-691-3943. We are happy to help!<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_033e5a24-4b16-4d81-8990-a797bd7c1241.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/banner_10_of_the_most_awe_2_f9418216-9cf5-441d-8021-3fa69ac6cfec.jpg",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "main": {
+      "type": "faq-header",
+      "settings": {
+        "title": "FAQ",
+        "use_h1": false,
+        "text": "",
+        "show_search": true,
+        "show_index": true,
+        "index_heading": "How can we help?"
+      }
+    },
+    "faq-content-1": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "What are the advantages of having a rooftop tent?",
+            "answer": "<p>Installation is fast and you are better protected from wind and water. You are away from the ground and the temperature in the roof tent is much warmer. Air camping keeps you away from the scary reptiles and predators that roam the campsite in the early hours of the morning. And there's no extra cost for an inflatable mattress because all of our roof tents come with a high-density, high-quality foam mattress. It's cheaper than a trailer or RV and takes up less space! Camping on the ground requires some skill when you have to move rocks, mud and sand. And when the tent is on your vehicle, all you have to do is keep it level. In just a few minutes, you'll be back on the road or on your next adventure.<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Will the BENEHIKE® rooftop tent fit my car?",
+            "answer": "<p>First, please contact the manufacturer's information of your vehicle to check the weight capacity of the luggage rack or crossbars to see if the vehicle is rated for dynamic weight loads. And all BENEHIKE® tents have their weights and maximum capacities in the specifications section of the website. <\/p><p>Most Overland rack systems are designed to mount a roof tent if you are installing in the back of your truck.<\/p>"
+          }
+        },
+        "f302f5b6-928c-4a67-a480-b7ee6ec677aa": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use my roof rack with my BENEHIKE® rooftop tent?",
+            "answer": "<p>Roof tents are designed for most vehicles with roof racks. A general rule of thumb is to ensure that your rack has a dynamic weight capacity of at least the weight of the tent. This is the weight that the rack can physically carry when the vehicle is in motion. <\/p><p>With a tent, the weight of the tent plus the weight of the passengers is effectively spread across the entire frame as well as the tent hinges and ladders, also known as the static load-bearing capacity. This is theoretically much greater, as the vehicle's frame needs to be strong enough to protect passengers in the event of an accident or rollover.<\/p><p>Typically, our roof tents weigh between 130 pounds and 190 pounds, so your decision on which model to choose will depend on how much weight your roof rack can carry. <\/p><p>Your crossbars should be at least 20 inches apart, with a maximum distance of 60 inches.<\/p><p><strong>How Much Does Each Tuff Stuff Tent Weigh?<\/strong><\/p><p>- Regular Softshell 100-130 Lbs<br\/>- Expanded Softshell 110-150 Lbs<br\/>- Hard Shell Side Open 140 Lbs<br\/>- Hard Shell Pop-up 160 Lbs<br\/>- Hard Shell Side Open 210 Lbs<br\/>- Aluminum Shell Pop-Up 130-160 Lbs<br\/>- Aluminum Shell Side Open 130-160 Lbs<\/p>"
+          }
+        },
+        "55896e45-c72b-4241-aaf4-a63e2cd3de50": {
+          "type": "question",
+          "settings": {
+            "title": "What is the recommended spacing between my vehicle's two crossbars?",
+            "answer": "<p>The spacing on your cross bars is dependent on the model and size of tent you have.  See the below chart:<\/p><p>Soft Regular RTT 55\": 32”-36”<\/p><p>Soft Regular RTT 75\": 32”-36”<\/p><p>Soft Expanded RTT 55\": 32”-36”<\/p><p>Soft Expanded RTT 75\": 32”-36”<\/p><p>ABS Shell Clam RTT: 18”-24”<\/p><p>ABS Shell Pop-up RTT: 18”-24”<\/p><p>Bivvyy RTT 3 Person: 26\"-32\"<\/p><p>Bivvyy RTT 4 Person: 26\"-32\"<\/p><p>Ascendll RTT 2 Person: 26\"-32\"<\/p><p>Ascendll RTT 4 Person: 26\"-32\"<\/p><p>Alumabode RTT 3 Person: 26\"-32\"<\/p><p>Alumabode RTT 4 Person: 26\"-32\"<\/p>"
+          }
+        },
+        "3ec78d31-f13b-4017-8a60-d8806d6718e1": {
+          "type": "question",
+          "settings": {
+            "title": "How much weight can each rooftop tent hold?",
+            "answer": "<p>All of our roof tents can hold approximately 600 lbs-660 lbs of weight.<\/p>"
+          }
+        },
+        "b77403b8-3f30-4043-a596-722eccf2c13c": {
+          "type": "question",
+          "settings": {
+            "title": "How do i mount this tent on my car or truck?",
+            "answer": "<p>It's even easier than setting up your regular tent! You can install and remove them with just a wrench. Our roof tents are equipped with extrusion rails that extend along the length of the tent and sliding brackets for a universal mounting solution that supports most conventional roof racks.<br\/>Some <strong>BENEHIKE®<\/strong> roof tents can be loaded and unloaded by 1-2 people. It takes less than 45 minutes to attach the tent to the vehicle for the first time and less than 30 minutes once you get the hang of it.<\/p>"
+          }
+        },
+        "e309d759-8925-42db-914c-bd2545174ed0": {
+          "type": "question",
+          "settings": {
+            "title": "Does it include mounting hardware?",
+            "answer": "<p>Yes, mounting brackets are included with any purchase of a rooftop tent.<\/p>"
+          }
+        },
+        "21643da5-cb06-4291-b32a-021e0626354a": {
+          "type": "question",
+          "settings": {
+            "title": "What are the general maintenance guidelines?",
+            "answer": "<p>When you return from a camping trip, you should clean and dry your tent. Also, wash your mattress and bedspread once in a while (hang to dry only).<br\/><br\/>The following is the procedure for cleaning your tent.<br\/><br\/>- Open the tent completely and use a stiff bristle brush to scrub\/absorb all dust from the inside of the tent<br\/><br\/>- Clean the fabric as needed using a mild detergent (1 cup of Lysol multipurpose cleaner with 1 gallon of hot water) and warm water and a soft to medium sized brush.<br\/><br\/>- Rinse the fabric in warm or cold water to remove all detergents before drying.<br\/><br\/>- Open all windows to allow it to dry in the sun. It is important that the tent be completely dry before storage or it may become moldy and mildewed. This is especially necessary after camping in the rain or in wet conditions.<br\/><br\/>- Use a small brush to remove dirt from zippers. Also, use a silicon spray to keep them lubricated.<br\/><br\/>- The tent comes with a comfortable mattress that includes a washable cover, so you don't need an air mattress.<\/p><p><strong>How do I take care of mold?<\/strong><br\/><br\/>Please note that if moisture or dampness stays in the canvas material for a long time, mold will begin to form. If mold or mildew develops, it will stain the canvas and create an unpleasant odor.  <br\/>Don't let it start. Never leave your tent in a damp place.<br\/>To properly treat mold and mildew, follow these steps.<br\/><br\/>1. Open the tent and scrub the affected area with a stiff bristle brush to remove the dirt.<br\/><br\/>2. Clean the canvas with a sponge and brush using the same Lysol solution (1 cup lysol to 1 gallon of water) as discussed above.<br\/><br\/>3. Rinse the tent with the solution (1 cup lemon juice, 1 cup sea salt, 1 gallon hot water).<br\/><br\/>4. After properly washing off the Lysol solution, let the tent dry outside for a few hours, then touch the tent canvas to make sure it is completely dry.<br\/><br\/><em><strong>Important: <\/strong><\/em>The tent must be completely dry before storage!<\/p>"
+          }
+        },
+        "7e9df233-43f4-46b3-b78d-87ed35053199": {
+          "type": "question",
+          "settings": {
+            "title": "What do I need to do if I plan to camp in the rain or snow?",
+            "answer": "<p>After the initial setup, spray the tent with water and let it dry completely. This \"seasons\" the canvas. The water makes the canvas swell slightly and closes the pinholes in the canvas seams. The most effective method is to take the tent out during the first good rain. This process only needs to be done once, but can be repeated as many times as needed.<\/p>"
+          }
+        },
+        "f30caff6-3a5c-4732-976b-eb2a5177b30d": {
+          "type": "question",
+          "settings": {
+            "title": "How do I care for my tent zippers?",
+            "answer": "<p>Because zippers are subject to various elements (sand, mud, rain, snow), they need to be maintained to maintain a long life. It is hard to keep zippers away from mud and dirt, so the best thing to do is to add some lubricant. Using a lubricant such as beeswax is a great way to protect the life of your zipper. Simply buy a small piece and rub it on the zipper as you open and close it. This should greatly improve the operation of the zipper and dramatically increase its life span. If dirt and grime does get into the zipper, clean it with a damp cloth and re-lubricate it.<\/p>"
+          }
+        },
+        "e53f9774-6dcb-406e-9c02-2654a2485b51": {
+          "type": "question",
+          "settings": {
+            "title": "How can I solve waterproofing problems caused by aging tents?",
+            "answer": "<p>Over time, a thorough cleaning of the tent may begin to damage the waterproofing properties of the material. Therefore, after cleaning the material, we recommend reapplying some water repellent. Some waterproofing solutions will also add UV protection. Silicone-based water repellents, such as 303 Fabric Guard or Atsko Silicone Water-Guard, work well. These solutions can be found at your local camping store.<\/p>"
+          }
+        },
+        "225d492d-019b-4a51-8c0e-4f2f68ee98fc": {
+          "type": "question",
+          "settings": {
+            "title": "Does each BENEHIKE RTT come with a ladder?",
+            "answer": "<p>Yes, all BENEHIKE rooftop tents come with a 7.5' telescoping ladder.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-1",
+        "question-2",
+        "f302f5b6-928c-4a67-a480-b7ee6ec677aa",
+        "55896e45-c72b-4241-aaf4-a63e2cd3de50",
+        "3ec78d31-f13b-4017-8a60-d8806d6718e1",
+        "b77403b8-3f30-4043-a596-722eccf2c13c",
+        "e309d759-8925-42db-914c-bd2545174ed0",
+        "21643da5-cb06-4291-b32a-021e0626354a",
+        "7e9df233-43f4-46b3-b78d-87ed35053199",
+        "f30caff6-3a5c-4732-976b-eb2a5177b30d",
+        "e53f9774-6dcb-406e-9c02-2654a2485b51",
+        "225d492d-019b-4a51-8c0e-4f2f68ee98fc"
+      ],
+      "settings": {
+        "title": "Product Questions"
+      }
+    },
+    "faq-content-2": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "para-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.<\/p>"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is the shipping cost and lead time?",
+            "answer": "<p>Items take about 1 to 2 business days to ship if they are in stock. If an item is not in stock, you will see an estimated ship date in bold letters below the add to cart button on the specific product page you are interested in. Shipping transit times can vary between 1 and 7 business days depending on where in the country you are located in relation to our warehouse in California.<br\/><br\/>We do offer free standard shipping to anywhere in the lower 48 states. Smaller items such as awnings, coolers, Adventure Gear etc will shipped via standard ground (FedEx or UPS). Larger items such as our roof top tents will be shipped via freight directly to your residence.<br\/><br\/>We can ship to Hawaii, Alaska, or Puerto Rico, however you will need to email our support team in order to get a shipping quote to those destinations.<br\/><br\/>For Freight shipments of roof top tents, please ensure to provide the best contact phone number and email when placing your order. Once your tent ships via freight, you will receive a phone call from freight delivery prior to your estimated delivery date in order to schedule a delivery appointment.<br\/><br\/>Freight delivery appointments are required in order for tents to be delivered to you and you or a friend or family must be in person during the delivery appointment to accept the delivery.<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "answer": "<p>Currently, we only ship internationally to Canada upon request. However, if you need to order 10 or more roof tents, we can ship to your designated destination country using express shipping. Please contact our customer service or email for detailed requirements.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "para-1",
+        "question-1",
+        "question-2"
+      ],
+      "settings": {
+        "title": "Shipping"
+      }
+    },
+    "b6e05c80-6b3b-4f0f-8dcf-d44658fef8fb": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16397649576102__b6e05c80-6b3b-4f0f-8dcf-d44658fef8fb-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "answer": "<p>Here is our <a href=\"\/pages\/return-policy\" title=\"RETURN POLICY\"><strong>Return Policy<\/strong><\/a>.<\/p>"
+          }
+        },
+        "template--16397649576102__b6e05c80-6b3b-4f0f-8dcf-d44658fef8fb-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "What is your warranty policy?",
+            "answer": "<p>Here is our <a href=\"\/pages\/warranty-policy\" title=\"WARRANTY POLICY\"><strong>Warranty Policy<\/strong><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16397649576102__b6e05c80-6b3b-4f0f-8dcf-d44658fef8fb-question-1",
+        "template--16397649576102__b6e05c80-6b3b-4f0f-8dcf-d44658fef8fb-question-2"
+      ],
+      "settings": {
+        "title": "Returns, Warranty"
+      }
+    },
+    "60f1016b-9148-40ac-8504-d8b416fc5f37": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16397649576102__60f1016b-9148-40ac-8504-d8b416fc5f37-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Does BENEHIKE offer a military or first responder discount?",
+            "answer": "<p>Absolutely! We extend a 5% discount to military and first responders as a gesture of gratitude.<\/p><p>Kindly reach us at <a href=\"mailto:service@benehike.com\">service@benehike.com<\/a> for a unique promo code for your purchase.<\/p><p>This offer can't be combined with other deals, except for rooftop tents.<\/p><p>For Military: Verify your active\/veteran status via ID card photo, military email, or related documentation. Feel free to obscure sensitive info. Your service is valued!<\/p><p>First Responders: Email your department-issued ID photo reflecting current\/veteran status. Thanks for your community service!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16397649576102__60f1016b-9148-40ac-8504-d8b416fc5f37-question-1"
+      ],
+      "settings": {
+        "title": "Discounts"
+      }
+    },
+    "contact": {
+      "type": "rich-text",
+      "blocks": {
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in touch",
+            "use_h1": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have questions about your order, or a general enquiry?<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "icon",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "faq-content-1",
+    "faq-content-2",
+    "b6e05c80-6b3b-4f0f-8dcf-d44658fef8fb",
+    "60f1016b-9148-40ac-8504-d8b416fc5f37",
+    "contact"
+  ]
+}

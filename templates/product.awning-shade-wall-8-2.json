@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "0dda1847-0650-47d3-a660-1883f782f80c": {
+          "type": "sku",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "selector_style": "listed",
+            "enable_dynamic_availability": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "6388278c-4ed1-4701-ba6b-8288d72d9301": {
+          "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "0dda1847-0650-47d3-a660-1883f782f80c",
+        "divider",
+        "variant-picker",
+        "buy-buttons",
+        "description",
+        "6388278c-4ed1-4701-ba6b-8288d72d9301"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "c14dda06-956d-4205-9e79-451e40071669": {
+      "type": "product-template-product-list",
+      "settings": {
+        "title": "Applicable for",
+        "product_list": [
+          "awning-9",
+          "awning-10",
+          "awning-11",
+          "car-side-awning-aluminum-case-pull-out-shelter",
+          "awning-12"
+        ],
+        "hide_if_empty": false,
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true
+      }
+    },
+    "f81c06d3-290f-4332-8108-f0bb19fac7c6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16443712831654__f81c06d3-290f-4332-8108-f0bb19fac7c6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "DESCRIPTION",
+            "use_h1": false
+          }
+        },
+        "template--16443712831654__f81c06d3-290f-4332-8108-f0bb19fac7c6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The BeneHike awning shade wall easily attaches to your current awning, offering immediate extra protection against wind, sun, or rain. It's a cost-effective and simple way to enhance your BeneHike Awning.<\/p><p><strong>FEATURES & ADVANTAGES:<\/strong><br\/>• Enhances our 8.2-foot awning with an additional panel for increased shade<br\/>• Crafted from the same durable 420D Oxford & 280G poly-cotton Ripstop fabric as our awning<br\/>• Effortless and rapid installation<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "968059d7-69ca-48c1-84f6-ed6c449fea64": {
+          "type": "heading",
+          "settings": {
+            "title": "SPECIFICATIONS",
+            "use_h1": false
+          }
+        },
+        "8bd3d7ef-003f-4972-9c18-f5a68a7cd6c4": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Crafted using premium waterproof 420D Oxford & 280G polyester\/cotton (renowned for top-notch water-shedding properties)<\/li><li>UV-rated for effective sun protection<\/li><li>Polyurethane-coated for optimal rain defense<\/li><li>Quick and simple installation onto any existing awning<\/li><li>Specially designed for our 8.2-foot rooftop awning<\/li><li>Comes with 2 ground stakes and 1 panel measuring 8 x 8 feet<\/li><li>Installation: Effortless<br\/><em>This product includes the shade wall ONLY. Awning not included.<\/em> Get the <a href=\"\/collections\/8-2-awning\" title=\"8.2' Awning\">BENEHIKE Car Side Awning 8.2′<\/a> now!<\/li><\/ul>",
+            "enlarge_text": false
+          }
+        },
+        "40d68067-3721-4581-b42b-05fb695a74d0": {
+          "type": "heading",
+          "settings": {
+            "title": "INSTRUCTIONS",
+            "use_h1": false
+          }
+        },
+        "253cbbff-a5b4-48d1-825f-0676a3ccfed8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Slide the corner piping into the channel of your BeneHike 6.5′ Top Awning and thread it through.<\/p><p>Grab the stakes and secure the bottom corners at a gentle angle, away from the awning's edge.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16443712831654__f81c06d3-290f-4332-8108-f0bb19fac7c6-heading-1",
+        "template--16443712831654__f81c06d3-290f-4332-8108-f0bb19fac7c6-text-1",
+        "968059d7-69ca-48c1-84f6-ed6c449fea64",
+        "8bd3d7ef-003f-4972-9c18-f5a68a7cd6c4",
+        "40d68067-3721-4581-b42b-05fb695a74d0",
+        "253cbbff-a5b4-48d1-825f-0676a3ccfed8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "1acbf0ef-4f46-4307-bb4f-d699647cdf1f": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16443712831654__1acbf0ef-4f46-4307-bb4f-d699647cdf1f-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Why would I require a shade wall if I already have an awning?",
+            "answer": "<p>Just like how Jeeps have doors in addition to tops, shade walls provide respite from the harsh sun's glare, shield your eyes from the setting sun as you enjoy a drink, act as an effective windbreaker, and offer a touch of privacy from curious onlookers.<\/p>"
+          }
+        },
+        "template--16443712831654__1acbf0ef-4f46-4307-bb4f-d699647cdf1f-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Are poles included with this?",
+            "answer": "<p>No, the shade wall is meant for our BENEHIKE 6.5' awning and does not include poles. If you don't already have the top awning, you'll need to acquire one before using the shade wall.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16443712831654__1acbf0ef-4f46-4307-bb4f-d699647cdf1f-question-1",
+        "template--16443712831654__1acbf0ef-4f46-4307-bb4f-d699647cdf1f-question-2"
+      ],
+      "settings": {
+        "title": "Q&A"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c14dda06-956d-4205-9e79-451e40071669",
+    "f81c06d3-290f-4332-8108-f0bb19fac7c6",
+    "1acbf0ef-4f46-4307-bb4f-d699647cdf1f",
+    "related-products"
+  ]
+}

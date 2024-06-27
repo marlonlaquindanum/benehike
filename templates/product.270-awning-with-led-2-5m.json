@@ -1,0 +1,753 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": false
+          }
+        },
+        "9b9c113d-b33b-4ee2-be92-7353eb5e3e07": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "selector_style": "listed",
+            "enable_dynamic_availability": true,
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "richtext_WMbenP": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p><strong>Attention! <\/strong>The 270° Awning is not included in the free giveaway offer!<\/p>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#212b36",
+            "show_in_quickbuy": false
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "08f1d319-a782-4356-a535-8908145f30bc": {
+          "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/star_rating\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+          "settings": {
+            "badge_id": ""
+          }
+        },
+        "selleasy_lb_upsell_fbt_block_BTtkxj": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "9b9c113d-b33b-4ee2-be92-7353eb5e3e07",
+        "divider",
+        "variant-picker",
+        "richtext_WMbenP",
+        "buy-buttons",
+        "description",
+        "08f1d319-a782-4356-a535-8908145f30bc",
+        "selleasy_lb_upsell_fbt_block_BTtkxj"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "1c40a4c8-0423-4152-be82-f9143b9ab0df": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "DESCRIPTION",
+            "answer": "<p>The BENEHIKE Gen3 270 Freestanding Awning offers <em><strong>130 square feet<\/strong><\/em> of shading, effortlessly deploying or retracting in just 30 seconds. It seamlessly integrates with almost any rack or crossbar setup. Innovatively embedded within the Z-shaped arms are <em><strong>three 60-inch LED light bars<\/strong><\/em>, providing unhindered illumination even in the darkness of the night.<\/p><h5>Features<br\/><\/h5><ul><li>Three 60-inch long LED light bars, controlled via a central panel. Seamlessly integrated within the Z-shaped arms<\/li><li>Robust 600D & 280GSM Poly-Cotton Ripstop Awning Fabric<\/li><li>Waterproof 1000G PVC Travel Cover with Heavy-Duty YKK Zippers & Umbrella Cord<\/li><li>130 Square Feet of Independent Covered Shelter<\/li><li>Enhanced Reinforced L-Shaped Bracket, Compatible with 99% of Racks or Bars<\/li><li>Z-Groove Aluminum Arms for Optimal Strength with Adequate Light Transmission<\/li><li>4 Aluminum Extension Poles, Conveniently Stored within Awning Arms<\/li><li>Reliable Tie-Down Points for Poles and Efficient Water Runoff, Ensuring Optimal Structural Support<\/li><li>1 High-Strength Webbing Strap for Securing the Awning's Tail<\/li><li>Includes Guy Ropes, Steel Tent Pegs, and an Accessory Storage Bag<\/li><\/ul><h5>Included<\/h5><p>Travel Cover<br\/>3 Rotating and Telescoping Aluminum Poles<br\/>4 Sets of Shock Cords<br\/>4 Heavy-Duty Pegs<br\/>2 Heavy-Duty Mounting Brackets and Hardware<br\/>2 Heavy-Duty Ratchet Straps<br\/>Ratchet Wrench and Regular Wrench<\/p><p><strong>Note: <\/strong>This awning can only be installed on the driver's side of the vehicle.<\/p>"
+          }
+        },
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "SPECIFICATIONS",
+            "answer": "<p><strong>Shade: <\/strong>130 ft³<br\/><strong>Closed Dimensions:<\/strong> 88 L x 7 Wx 5 H inch<br\/><strong>Adjustable Height: <\/strong>78.7 inch<br\/><strong>Overall Dimension: <\/strong>113 x 79 inch<br\/><strong>Cover Dimension: <\/strong>98 L x 7.4 W x 6 H inch<\/p><p><strong>Awning Material:<\/strong>  Rip-Stop 600D Oxford, 280GSM Cotton, 4000mm PU Coating, Anti-UV 50+<br\/><strong>Cover:<\/strong> 1000D PVC, 4000mm PU Coating, Anti-UV 50+<br\/><strong>Frame:<\/strong> Black Powder-Coated Aluminum Alloy<br\/><strong>Support Arms:<\/strong> Black Powder-Coated Aluminum Alloy<br\/><strong>Zippers: <\/strong>YKK<br\/><strong>Actual Weight: <\/strong>59.8 lbs<\/p><p><strong>Installation Hardware<\/strong><\/p><ul><li>Metric Wrench 10\/13 mm *2<\/li><li>Double wholes washer *2<\/li><li>20mm Stainless Steel M8 Bolt *4<\/li><li>55mm Stainless SteelM8 Bolt *4<\/li><li>M8 Self-Locking Nut *8<\/li><li>String *3<\/li><li>Tent Pegs *3<\/li><li>Stroge Bag *1<\/li><\/ul>"
+          }
+        },
+        "98403f2d-60aa-4fe2-a5b9-a629211be9b7": {
+          "type": "question",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "answer": "<h4>Express<strong> Shipping<\/strong><\/h4><p><strong>Delivery Countries: <\/strong>USA (Excluding outlying islands)<\/p><p><strong>Logistics <\/strong>I  <strong>Transit Time <\/strong>I<strong> Costs<\/strong><\/p><p>Standard  I   5-10 days   I   FREE<\/p><p>Expedited I  3-7 days     I  $39.99<\/p><p>Fast           I     5 days     I  $69.99<\/p><p>________________________________<\/p><p><strong>Delivery Countries: <\/strong>Canada <\/p><p>See <a href=\"\/pages\/delivery\" title=\"DELIVERY\">Delivery Policy<\/a> for Details<\/p><p>________________________________<\/p><h6>⛟ 7-Day No-Reason Return<br\/>⛟ 30-Day Refundable<br\/>🛠︎ 5-Year Warranty<\/h6><p><a href=\"https:\/\/benehike.com\/pages\/shipping-policy\" title=\"https:\/\/benehike.com\/pages\/shipping-policy\"><em><strong>MORE SHIPPING POLICY<\/strong><\/em><\/a><\/p>"
+          }
+        },
+        "9390e7b0-9c1f-4435-be28-9ce4754ee8ec": {
+          "type": "question",
+          "settings": {
+            "title": "INSTALLATION",
+            "answer": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/270_degree_Freestanding_Batwing_Awning.pdf?v=1678331966\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/270_degree_Freestanding_Batwing_Awning.pdf?v=1678331966\"><em><strong>📩 Download the Manual<\/strong><\/em><\/a><\/p><h5>Locating Tent on your Vehicle<\/h5><ol><li>Peel the PVC cover back at each end of theawning to expose the backing plate tracks. Insert the bolts heads into the backing plate tracks,thenreattach the PVC end covers.<\/li><li>Position and attach the brackets in the required positionusing the provided nuts and washers,then tighten.<\/li><li>Mount to the vehide using the provided U-bolts, nuts and washers.<\/li><\/ol><h5>Assembly<\/h5><ol><li>Unzip the PVC cover and fold it back from the awning fabric<\/li><li>Undo the three supporting straps and release the awning fabric.<\/li><li>Take note of how the fabric is layered and packed to assist you with repacking the awning<\/li><li>Swing the arms away from the awning until the fabric is fullyextended towards the front and rear of the vehicle. Use the tensioning strap to secure the awning in position at the front and rear of the vehicle.<\/li><li>If being used in adverse weather conditions or if additionalstability is required, release the support poles attached to the swinging arms and adjust the pole height to the ground,then attach the provided guy lines and stakes for maximum support.<\/li><li>Should it rain while your 270° awning is deployed,it is recommended that the support poles height is adjusted to allow a slight slope of the fabric,along with adjustment of the provided guy lines,allowing a \"valley\"to be formed between each swinging support arm. This will channel the water away from your vehicle and prevent excess weight sitting on the awning fabric overhead.<\/li><\/ol><p>NOTE<br\/>lt is recommended that the awning is assembled and installed by two (2) people. We further recommend having theawning installed by experienced 4x4 accessory installer.The awning brackets supplied have been designed to fit the most common configurations of roof racks and railsystems.<br\/>However, due to the ever-increasing variations being offered by vehicle and accessory manufacturers, wecannot guarantee that these will fit all available options.<br\/>It is recommended that you speak to your roof rackspecialist for further advise or recommendations on thebest system for your requirements.<br\/>Ensure that the minimum spacing between themounting brackets is to be 47” (1200mm) to allow theawning to be supported correctly and the weight isdistributed evenly.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-1",
+        "template--16422555451558__1c40a4c8-0423-4152-be82-f9143b9ab0df-question-2",
+        "98403f2d-60aa-4fe2-a5b9-a629211be9b7",
+        "9390e7b0-9c1f-4435-be28-9ce4754ee8ec"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "663d1dec-f0b1-463e-9b84-d26e4ebe940e": {
+      "type": "hotspots",
+      "blocks": {
+        "template--16443371552934__663d1dec-f0b1-463e-9b84-d26e4ebe940e-hotspot-1": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 45,
+            "hotspot_y": 33,
+            "hotspot_x_mobile": 45,
+            "hotspot_y_mobile": 33,
+            "heading": "59 LBS",
+            "text": "",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "template--16443371552934__663d1dec-f0b1-463e-9b84-d26e4ebe940e-hotspot-2": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 66,
+            "hotspot_y": 24,
+            "hotspot_x_mobile": 66,
+            "hotspot_y_mobile": 24,
+            "heading": "600D & 280GSM RIP-STOP FABRIC WITH PU 4000MM",
+            "text": "",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "template--16443371552934__663d1dec-f0b1-463e-9b84-d26e4ebe940e-hotspot-3": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 77,
+            "hotspot_y": 33,
+            "hotspot_x_mobile": 77,
+            "hotspot_y_mobile": 33,
+            "heading": "LED LIGHTING",
+            "text": "",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "template--16443371552934__663d1dec-f0b1-463e-9b84-d26e4ebe940e-hotspot-1",
+        "template--16443371552934__663d1dec-f0b1-463e-9b84-d26e4ebe940e-hotspot-2",
+        "template--16443371552934__663d1dec-f0b1-463e-9b84-d26e4ebe940e-hotspot-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/75182978417_1.png",
+        "hotspot_color": "#ff6100",
+        "button_content": "number",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "box",
+        "subheading": "BENEHIKE",
+        "title": "EMBRACE THE ADVENTURE",
+        "use_h1": false,
+        "heading_max_width": 14,
+        "text": "<p><strong>270° FREESTANDING<\/strong> AWNINGS<\/p>",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "b74f746d-92b2-4ffa-b176-c7ebdfa471c9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16422555451558__b74f746d-92b2-4ffa-b176-c7ebdfa471c9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT KINDS OF VEHICLES WOULD FIT IN RTT?",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__b74f746d-92b2-4ffa-b176-c7ebdfa471c9-heading-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "6d103d34-a3d7-468b-a4c3-c3e9e09cbd69": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "017447a0-66e3-4f8b-9b0a-cc621be3e089": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PICK-UP-TRUCK-q2fbvesih5dcwrzncgl165kgetq2fymkhrwn8vf270.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "252842e3-60f2-4deb-b351-6d6fbb7f1fcb": {
+          "type": "text",
+          "settings": {
+            "text": "PICK UP TRUCK",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "25ac5a97-9002-4595-91fa-b5fe192a1c93": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TRAILER-q2fbvfqcnzen8dya6yznqnbx07lfnnqatwk4q5do0s.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "259ff7b3-f038-4456-90fd-1bb6e048dd3c": {
+          "type": "text",
+          "settings": {
+            "text": "TRAILER",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "d79dc1cc-53c0-49f7-b368-04ba97813d54": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "2ab8fc32-f184-42f1-9bc6-fe4c2fdcd5d5": {
+          "type": "text",
+          "settings": {
+            "text": "FULL-SIZE SUV",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "4b1bb708-5281-4cd3-a24e-a3ad995d2965": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8_71910132-52d4-4901-9ba2-902e4d1dda48.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "8bc1f237-42c6-4a36-93fc-cd35d8424a24": {
+          "type": "text",
+          "settings": {
+            "text": "MID-SIZE SUV",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "fd752be5-0185-4a13-b92b-eb4e03085920": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VAN-q2fbvgo6utfxjzwx1heab53dllgsvcu1617m7fc9uk.png",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "cd753c79-8841-4ffe-ad5f-0febcc6e3eac": {
+          "type": "text",
+          "settings": {
+            "text": "VAN",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "017447a0-66e3-4f8b-9b0a-cc621be3e089",
+        "252842e3-60f2-4deb-b351-6d6fbb7f1fcb",
+        "25ac5a97-9002-4595-91fa-b5fe192a1c93",
+        "259ff7b3-f038-4456-90fd-1bb6e048dd3c",
+        "d79dc1cc-53c0-49f7-b368-04ba97813d54",
+        "2ab8fc32-f184-42f1-9bc6-fe4c2fdcd5d5",
+        "4b1bb708-5281-4cd3-a24e-a3ad995d2965",
+        "8bc1f237-42c6-4a36-93fc-cd35d8424a24",
+        "fd752be5-0185-4a13-b92b-eb4e03085920",
+        "cd753c79-8841-4ffe-ad5f-0febcc6e3eac"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 20,
+        "vertical_padding": 20,
+        "speed": 20,
+        "direction": "left",
+        "font": "base",
+        "space": 35
+      }
+    },
+    "ab507ee8-f7d8-4163-a09f-c68b55cc3585": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "130 ft³ of Freestanding Shelter",
+            "use_h1": false
+          }
+        },
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tipping the scales at a mere 59 lbs, this light batwing awning, constructed from robust aluminum alloy, guarantees straightforward setup and lasting resilience. Regardless of your preference for support poles, it adeptly manages gusty conditions. With 130 ft³ of shading, it offers extensive coverage, shielding from the sun's rays at diverse angles. The distinctive batwing design extends beyond your vehicle or shelter, elevating both privacy and security.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "view spec sheet",
+            "button_link": "shopify:\/\/pages\/270-degrees-awnings-specification",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-heading-1",
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-text-1",
+        "template--16422555451558__ab507ee8-f7d8-4163-a09f-c68b55cc3585-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/270_Freestanding_Batwing_Awning_Banner_-_007.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "db017ce3-d07a-4b92-8b24-2c8ef63584ab": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16489663463590__db017ce3-d07a-4b92-8b24-2c8ef63584ab-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "INTEGRATED EMBEDDED LIGHTING SYSTEM",
+            "use_h1": false
+          }
+        },
+        "template--16489663463590__db017ce3-d07a-4b92-8b24-2c8ef63584ab-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Three 60-inch long LED light bars, controlled via a central panel. Seamlessly integrated within the Z-shaped arms, featuring military-grade waterproof coating on both the inner and outer layers. Let you walk smoothly in the dark~<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16489663463590__db017ce3-d07a-4b92-8b24-2c8ef63584ab-heading-1",
+        "template--16489663463590__db017ce3-d07a-4b92-8b24-2c8ef63584ab-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/270_Freestanding_Batwing_Awning_Banner_-_009.gif",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "74ddb1c1-0e83-49f5-b31e-a0ba6489aa67": {
+      "type": "key-features",
+      "blocks": {
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/270_Freestanding_Batwing_Awning_Banner_-_002.gif",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "FRAME THAT STAYS 10 YEARS",
+            "text": "<p>The foundational structure, crafted from 6-series aluminum alloy, has undergone rigorous mechanical testing, ensuring it remains deformation-free even with prolonged use. It withstands challenging conditions, including wind speeds of 6-7 levels, thanks to the added support of poles and anchored guy ropes.<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "Sturdy",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "star"
+          }
+        },
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/270_Freestanding_Batwing_Awning_Banner_-_003.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "DURABLE&  WEATHERPROOF",
+            "text": "<p>Its metal frame is made of aluminum alloy composite with the addition of a corrosion-resistant black powder coat for an excellent strength-to-weight ratio.<br\/><\/p><p>The 1000D PVC cover protects the awning when passing through the sharpest stones and includes UV resistant properties to avoid discolouration.<br\/><\/p><p>The awning fabric is 600D Oxford & 280G TC cotton ripstop, the same high quality fabric as our standard tents and has an inner coating to prevent abrasion.<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "Material",
+            "label_right": "",
+            "show_icon": true,
+            "icon": "star"
+          }
+        },
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/270_Freestanding_Batwing_Awning_Banner_-_004.gif",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "FASTEST SET UP",
+            "text": "<p>Installing this awning is a breeze. You can have it set up in minutes, with no complicated instructions or tools required. Simply attach it to your roof rack or other suitable anchor points and you're ready to go!<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "Set Up",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "74d739d0-c923-4b1e-a9e1-6cbb5c50eadb": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/270_Freestanding_Batwing_Awning_Banner_-_006.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "EXTRA REASSURANCE",
+            "text": "<p>For adverse weather conditions, the 270° freestanding awning comes with three poles, ropes and ground pegs.<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "Accessories",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "679a6492-30d9-4b2b-a0f3-e89d84eabcfd": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/270_Freestanding_Batwing_Awning_View_05.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#171717",
+            "heading": "VERSATILE PROTECTION",
+            "text": "<p>Amidst unpredictable weather, deploy this portable shelter spanning 80 square feet to awnings against a sudden downpour or harsh sun.<br\/><br\/>Moreover, the shelter's encircling design safeguards your gear during loading and unloading. To enhance its resilience to weather elements, consider pairing with the corresponding <a href=\"https:\/\/benehike.com\/collections\/annex-rooms\" title=\"https:\/\/benehike.com\/collections\/annex-rooms\">annex room<\/a>!<\/p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "5",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "More",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-1",
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-2",
+        "template--16422555451558__74ddb1c1-0e83-49f5-b31e-a0ba6489aa67-feature-3",
+        "74d739d0-c923-4b1e-a9e1-6cbb5c50eadb",
+        "679a6492-30d9-4b2b-a0f3-e89d84eabcfd"
+      ],
+      "settings": {
+        "heading": "Key features",
+        "image_max_width": 700,
+        "media_aspect_ratio": "1.25",
+        "image_position": "right",
+        "segment_position": "over-text"
+      }
+    },
+    "75a2a387-75e2-46ee-904e-ea16412d7452": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Ascendll_V2_Aluminum_Shell_Rooftop_Tent_2_Person-_desc_07_H.jpg",
+            "title": "Body Material",
+            "text": "<p>600D Oxford, 280GSM Cotton, 4000mm PU coating<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "418eac2c-d880-4188-97f8-12b72443a063": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/banner_270_Freestanding_Batwing_Awning_06.jpg",
+            "title": "Waterproof Cover",
+            "text": "<p>1000D PVC Travel Cover With YKK Zipper<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/banner_270_Freestanding_Batwing_Awning_03.jpg",
+            "title": "Awning Legs",
+            "text": "<p>3 Retractable aluminum support poles.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/banner_270_Freestanding_Batwing_Awning_04.jpg",
+            "title": "Heavy Duty L Brackets",
+            "text": "<p>Can be easily fixed to most roof racks or heavy duty load bars using our heavy duty L-brackets.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "dfd0858c-ce8f-4cb0-b0c1-38098901c65c": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/banner_270_Freestanding_Batwing_Awning_05.jpg",
+            "title": "More Accessories",
+            "text": "<p>Heavy Duty Shock Cord and Heavy Duty Stakes<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-1",
+        "418eac2c-d880-4188-97f8-12b72443a063",
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-2",
+        "template--16422555451558__75a2a387-75e2-46ee-904e-ea16412d7452-text_block-3",
+        "dfd0858c-ce8f-4cb0-b0c1-38098901c65c"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Detail Upgrades",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "ebe5bdfc-6fb8-4b10-8487-d7b9b72a7e78": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "41ef0c4e-5bf5-46dc-9040-6ce13fe03cb6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/manual_01.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "082787b2-a16e-4778-b6c4-ca380dfef059": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/manual_02.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "65389eaf-c152-4b04-ac19-5af2ad35a32e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/manual_03.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "3920c684-ed42-406a-ae6e-ffba54168733": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/manual_04.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "7b4607f8-0772-48fd-b44c-daaf80946b29": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/manual_05.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        },
+        "965aa76b-017e-401a-8c43-f6c5d55aaa5e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/manual_06.jpg",
+            "image_width": 200,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "41ef0c4e-5bf5-46dc-9040-6ce13fe03cb6",
+        "082787b2-a16e-4778-b6c4-ca380dfef059",
+        "65389eaf-c152-4b04-ac19-5af2ad35a32e",
+        "3920c684-ed42-406a-ae6e-ffba54168733",
+        "7b4607f8-0772-48fd-b44c-daaf80946b29",
+        "965aa76b-017e-401a-8c43-f6c5d55aaa5e"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 25,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "1703135711ad980580": {
+      "type": "apps",
+      "blocks": {
+        "6126201a-4540-4e1c-a83f-f6d78adc6d1f": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "6126201a-4540-4e1c-a83f-f6d78adc6d1f"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1c40a4c8-0423-4152-be82-f9143b9ab0df",
+    "663d1dec-f0b1-463e-9b84-d26e4ebe940e",
+    "b74f746d-92b2-4ffa-b176-c7ebdfa471c9",
+    "6d103d34-a3d7-468b-a4c3-c3e9e09cbd69",
+    "ab507ee8-f7d8-4163-a09f-c68b55cc3585",
+    "db017ce3-d07a-4b92-8b24-2c8ef63584ab",
+    "74ddb1c1-0e83-49f5-b31e-a0ba6489aa67",
+    "75a2a387-75e2-46ee-904e-ea16412d7452",
+    "ebe5bdfc-6fb8-4b10-8487-d7b9b72a7e78",
+    "1703135711ad980580",
+    "related-products"
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "3d7ed789-3ce9-4808-8d0b-66644172a455": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16400022143142__3d7ed789-3ce9-4808-8d0b-66644172a455-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner_2.jpg",
+            "slide_link": "",
+            "subheading": "OUR STORY",
+            "title": "Elevating Overlanding to New Heights",
+            "heading_max_width": 10,
+            "title_size": 68,
+            "title_size_mobile": 20,
+            "use_h1": true,
+            "text": "<p><strong>A COMMUNITY LEADING THE 4WD CULTURE.<\/strong><\/p>",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16400022143142__3d7ed789-3ce9-4808-8d0b-66644172a455-image-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 740,
+        "height_mobile": 360,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "box",
+        "transition": "fade",
+        "navigation": "none",
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "b5c4de76-50e8-488a-af03-2b7757e94c87": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--16400022143142__b5c4de76-50e8-488a-af03-2b7757e94c87-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "benehike 4wd"
+          }
+        },
+        "template--16400022143142__b5c4de76-50e8-488a-af03-2b7757e94c87-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "SINCE 2020",
+            "heading_max_width": 10,
+            "title_size": 44,
+            "title_size_mobile": 20,
+            "use_h1": false
+          }
+        },
+        "template--16400022143142__b5c4de76-50e8-488a-af03-2b7757e94c87-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BENEHIKE® is a CA-based company dedicated to providing top-quality rooftop tents, bed frames, and RTT awnings to outdoor and backcountry enthusiasts. We take pride in the increasing acceptance of our products, catering to a wide range of customers, from enthusiasts to weekend campers. <\/p><p>Despite 80% of campers desiring lighter rooftop tents, most available options still <strong>weigh over 200 lbs<\/strong>. Since 2020, BENEHIKE has enhanced its product line with input from over 10,000 overlanding users. On average, BENEHIKE Rooftop Tents are <strong>20% lighter<\/strong> and have a <strong>15% smaller storage<\/strong> volume compared to other market offerings.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16400022143142__b5c4de76-50e8-488a-af03-2b7757e94c87-subheading-1",
+        "template--16400022143142__b5c4de76-50e8-488a-af03-2b7757e94c87-heading-1",
+        "template--16400022143142__b5c4de76-50e8-488a-af03-2b7757e94c87-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/321922351_189938960289867_7998405109274132881_n.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/321922351_189938960289867_7998405109274132881_n_1.jpg",
+        "video_external": "",
+        "video_description": "",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "product_list": [
+          "ascendll-v2-aluminum-shell-rooftop-tent-3-person",
+          "rooftop-tent-4",
+          "air-winner-pro-protable-dual-air-compressor-10-6-cfm"
+        ],
+        "products_alignment": "bottom right",
+        "product_card_layout": "landscape",
+        "show_swatches": true,
+        "full_width": true,
+        "text_alignment": "top left",
+        "mobile_overlay_over": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "d93806c3-0e53-465e-bc5d-6d144947d079": {
+      "type": "key-features",
+      "blocks": {
+        "template--16400022143142__d93806c3-0e53-465e-bc5d-6d144947d079-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about_us_image_02.jpg",
+            "bg_color": "#f7f1f0",
+            "bg_gradient": "linear-gradient(133deg, rgba(6, 6, 6, 1) 8%, rgba(150, 186, 237, 1) 49%, rgba(142, 136, 136, 1) 85%)",
+            "text_color": "#f7f1f0",
+            "heading": "Vision",
+            "text": "<p>BeneHike's Overlanding series aims to be a leader in providing lightweight, durable, and feature-rich camping solutions, enabling adventurers to explore with comfort and convenience.<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16400022143142__d93806c3-0e53-465e-bc5d-6d144947d079-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about_us_image_01.jpg",
+            "bg_color": "#c3c3c3",
+            "bg_gradient": "linear-gradient(133deg, rgba(6, 6, 6, 1) 8%, rgba(150, 186, 237, 1) 49%, rgba(142, 136, 136, 1) 85%)",
+            "text_color": "#f7f1f0",
+            "heading": "Mission",
+            "text": "<p>Inspiring outdoor exploration, BeneHike's Overlanding series delivers high-quality, innovative gear for safe and unforgettable adventures.<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16400022143142__d93806c3-0e53-465e-bc5d-6d144947d079-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Alumabode_2.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(133deg, rgba(6, 6, 6, 1) 8%, rgba(150, 186, 237, 1) 49%, rgba(142, 136, 136, 1) 85%)",
+            "text_color": "#f7f1f0",
+            "heading": "Values",
+            "text": "<p>Driven by quality excellence, innovation, and sustainability, BeneHike's Overlanding series prioritizes adventurers' needs, blending cutting-edge technology with a customer-centric approach, while fostering a community passionate about outdoor exploration.<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "d9a3e728-7c65-44e1-a26d-0ea23ec564a6": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AIR_WINNER_Protable_Air_Compressor_banner_02.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(133deg, rgba(6, 6, 6, 1) 8%, rgba(150, 186, 237, 1) 49%, rgba(142, 136, 136, 1) 85%)",
+            "text_color": "#f7f1f0",
+            "heading": "Goals",
+            "text": "<p>In alignment with our vision and mission, BeneHike's Overlanding series is dedicated to achieving goals centered on product excellence, customer satisfaction, innovative solutions, environmental responsibility, and community engagement. Our commitment is to be the trusted choice for adventurers seeking unparalleled comfort, durability, and innovation in outdoor pursuits.<\/p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16400022143142__d93806c3-0e53-465e-bc5d-6d144947d079-feature-1",
+        "template--16400022143142__d93806c3-0e53-465e-bc5d-6d144947d079-feature-2",
+        "template--16400022143142__d93806c3-0e53-465e-bc5d-6d144947d079-feature-3",
+        "d9a3e728-7c65-44e1-a26d-0ea23ec564a6"
+      ],
+      "settings": {
+        "heading": "ON THE WAY",
+        "image_max_width": 700,
+        "media_aspect_ratio": "1",
+        "image_position": "right",
+        "segment_position": "over-text"
+      }
+    },
+    "46a97fd6-ac07-4036-b554-284b6e7bb13b": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16400022143142__46a97fd6-ac07-4036-b554-284b6e7bb13b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Globalized Brand with a Local Touch",
+            "heading_max_width": 15,
+            "title_size": 40,
+            "title_size_mobile": 30,
+            "use_h1": false
+          }
+        },
+        "template--16400022143142__46a97fd6-ac07-4036-b554-284b6e7bb13b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>BENEHIKE<\/strong><\/em> operates in North America and Asia, with an extensive network of branches and customers. Moving forward, our goal is to cater to over 100,000 off-road enthusiasts across 10+ countries worldwide.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16400022143142__46a97fd6-ac07-4036-b554-284b6e7bb13b-heading-1",
+        "template--16400022143142__46a97fd6-ac07-4036-b554-284b6e7bb13b-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MapChart_benehike.png",
+        "mobile_image": "shopify:\/\/shop_images\/map.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 360,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "d178cc29-8c2e-4ce5-8927-b2a2c19f36de": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "aa9a5902-c29e-4610-aa72-4a271d982c37": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/319624573_1499515580530655_8207915404508932002_n.jpg",
+            "image_width": 400,
+            "link": ""
+          }
+        },
+        "fb7fd02f-6544-4278-868f-b87802ee5a9f": {
+          "type": "text",
+          "settings": {
+            "text": "2020<br>Establishment of BENEHIKE<br>Launch BENEHIKE Soft Shell RTT<br>Launch our RTT in the USA.",
+            "color": "#ff6100",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "76b0152b-aafb-4a70-a24e-b0fde977d650": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/352918311_199592755943823_8614045775492320523_n.jpg",
+            "image_width": 400,
+            "link": ""
+          }
+        },
+        "e26f48f0-ff97-479f-814c-0c441b4f4ce9": {
+          "type": "text",
+          "settings": {
+            "text": "2020.11<br>Launch BENEHIKE Pop-UP RTT<br>Launch BENEHIKE Side-Open RTT",
+            "color": "#ff6100",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "3e73dbdb-a6df-41c7-b2b2-9cef91e060f7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/352383197_1038362354005100_1655960657574435440_n.jpg",
+            "image_width": 400,
+            "link": ""
+          }
+        },
+        "a79edde4-4dac-404e-a49e-ebcee854e4f2": {
+          "type": "text",
+          "settings": {
+            "text": "2021.05<br>Launch Bivvyy Hard Shell RTT.",
+            "color": "#ff6100",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "6b1d7eff-4f34-46fd-b735-fb74b7423852": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/312401061_108886798680208_6492566202729597538_n.jpg",
+            "image_width": 400,
+            "link": ""
+          }
+        },
+        "85d6658d-99a7-4c35-8ad7-7c7e867f3f8d": {
+          "type": "text",
+          "settings": {
+            "text": "2022.08<br>Establishment of Asian Factories.",
+            "color": "#ff6100",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "9a6b723f-886c-4584-b097-41b21096bf43": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Header_sale_01.jpg",
+            "image_width": 400,
+            "link": ""
+          }
+        },
+        "41ea05fd-8206-4dfa-9a67-aaec38a32c6e": {
+          "type": "text",
+          "settings": {
+            "text": "2023.01<br>Launch Ascendll II RTT<br>Launch Alumabode II RTT",
+            "color": "#ff6100",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "d60b6133-1601-439c-bcdf-0f3dd95e6f51": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BeneHike_Brand_10.10.jpg",
+            "image_width": 400,
+            "link": ""
+          }
+        },
+        "83074c9c-41f1-4bee-8f21-cc87f46c6244": {
+          "type": "text",
+          "settings": {
+            "text": "FUTUREBENEHIKE Continually Improves Lightweight,Multifunctionaland Smart RTT and Awnings.",
+            "color": "#ff6100",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa9a5902-c29e-4610-aa72-4a271d982c37",
+        "fb7fd02f-6544-4278-868f-b87802ee5a9f",
+        "76b0152b-aafb-4a70-a24e-b0fde977d650",
+        "e26f48f0-ff97-479f-814c-0c441b4f4ce9",
+        "3e73dbdb-a6df-41c7-b2b2-9cef91e060f7",
+        "a79edde4-4dac-404e-a49e-ebcee854e4f2",
+        "6b1d7eff-4f34-46fd-b735-fb74b7423852",
+        "85d6658d-99a7-4c35-8ad7-7c7e867f3f8d",
+        "9a6b723f-886c-4584-b097-41b21096bf43",
+        "41ea05fd-8206-4dfa-9a67-aaec38a32c6e",
+        "d60b6133-1601-439c-bcdf-0f3dd95e6f51",
+        "83074c9c-41f1-4bee-8f21-cc87f46c6244"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "1",
+        "text_size": 16,
+        "vertical_padding": 70,
+        "speed": 4,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "e82bede7-fdbf-4ecb-b018-2379c24f00ee": {
+      "type": "key-features",
+      "blocks": {
+        "template--16400022143142__e82bede7-fdbf-4ecb-b018-2379c24f00ee-feature-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DALL_E_2023-06-30_15.35.18.png",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(133deg, rgba(23, 23, 23, 1) 10%, rgba(255, 97, 0, 0.9608) 49%, rgba(38, 37, 9, 1) 87%)",
+            "text_color": "#ffffff",
+            "heading": "Founder",
+            "text": "<h5>Bene<\/h5><ul><li>20 Years Outdoors, 10 Years Overlanding Expert.<\/li><li>Turning Passion Into Profession<\/li><\/ul>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16400022143142__e82bede7-fdbf-4ecb-b018-2379c24f00ee-feature-2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DALL_E_2023-06-30_15.56.11_-_DALL-E_please_generate_an_image_of_a_black_male_in_his_early_40s_with_a_high-top_fade_hairstyle._He_has_a_deep_passion_for_cars_and_outdoor_activitie.png",
+            "bg_color": "#c3c3c3",
+            "bg_gradient": "linear-gradient(133deg, rgba(23, 23, 23, 1) 10%, rgba(255, 97, 0, 0.9608) 49%, rgba(38, 37, 9, 1) 87%)",
+            "text_color": "#ffffff",
+            "heading": "R&D Manager",
+            "text": "<h5>Jefferson<\/h5><ul><li>Worked at REI and Marmot for 7 Years<\/li><li>PMP<\/li><\/ul>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "template--16400022143142__e82bede7-fdbf-4ecb-b018-2379c24f00ee-feature-3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DALL-E_2223.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(133deg, rgba(23, 23, 23, 1) 10%, rgba(255, 97, 0, 0.9608) 49%, rgba(38, 37, 9, 1) 87%)",
+            "text_color": "#ffffff",
+            "heading": "Production Manager",
+            "text": "<h5>Kaile<\/h5><ul><li>5 Years as PM<\/li><li>Served at REI.<\/li><\/ul>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "65409954-9c23-4e43-8d95-2da28f0504e2": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DALL-E.png",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(133deg, rgba(23, 23, 23, 1) 10%, rgba(255, 97, 0, 0.9608) 49%, rgba(38, 37, 9, 1) 87%)",
+            "text_color": "#ffffff",
+            "heading": "Marketing Manager",
+            "text": "<h5>Mimi<\/h5><ul><li>A 15-Year Expert in Digital Marketing<\/li><li>A Strong Focus on Social Media, Seo, and Sem.<\/li><\/ul>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "034c6e91-4a84-4e63-8e20-f3065348c7ba": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DALL-E_1111.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(133deg, rgba(23, 23, 23, 1) 10%, rgba(255, 97, 0, 0.9608) 49%, rgba(38, 37, 9, 1) 87%)",
+            "text_color": "#ffffff",
+            "heading": "SC Manager",
+            "text": "<h5>Jason<\/h5><ul><li>With 20 years of experience in supply chain development<\/li><li>Previously worked at Walmart.<\/li><\/ul><p><\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "5",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "3dbbd510-97c2-47d9-b8c6-822e9f84fc97": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DALL-E_222344.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(133deg, rgba(23, 23, 23, 1) 10%, rgba(255, 97, 0, 0.9608) 49%, rgba(38, 37, 9, 1) 87%)",
+            "text_color": "#ffffff",
+            "heading": "Customer Manager",
+            "text": "<h5>Jack<\/h5><p>Over 5 Years of Customer Service Experience<\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "6",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "a94fa7da-a1e9-49ff-b991-bb5fe90115c5": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DALL-E_22234455.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "linear-gradient(133deg, rgba(23, 23, 23, 1) 10%, rgba(255, 97, 0, 0.9608) 49%, rgba(38, 37, 9, 1) 87%)",
+            "text_color": "#ffffff",
+            "heading": "QA Specialist",
+            "text": "<h5>Lucky<\/h5><p>A 2-Years Old Black Shiba Inu That Tests Product Quality by Tearing and Gnawing in A Localized Manner.<\/p>",
+            "show_segments": true,
+            "segments": 7,
+            "active_segment": "7",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--16400022143142__e82bede7-fdbf-4ecb-b018-2379c24f00ee-feature-1",
+        "template--16400022143142__e82bede7-fdbf-4ecb-b018-2379c24f00ee-feature-2",
+        "template--16400022143142__e82bede7-fdbf-4ecb-b018-2379c24f00ee-feature-3",
+        "65409954-9c23-4e43-8d95-2da28f0504e2",
+        "034c6e91-4a84-4e63-8e20-f3065348c7ba",
+        "3dbbd510-97c2-47d9-b8c6-822e9f84fc97",
+        "a94fa7da-a1e9-49ff-b991-bb5fe90115c5"
+      ],
+      "settings": {
+        "heading": "Our team",
+        "image_max_width": 340,
+        "media_aspect_ratio": "1",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "4b5adedf-6cef-41e8-9753-3295b9475e21": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "b468d189-057d-44e3-960a-ea6a9848708c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory_show-_1.png",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "43a6a38b-6670-44b7-bc41-a38a1d4a1e0a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory8.jpg",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "c4b6c7c4-d2c9-4853-8255-9c4e508ed5d1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory5.jpg",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "5eca11db-2f1f-4d9f-94d3-9a837cd9aff7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory_show-_3.png",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "58fe2538-466c-4339-9a6a-028c8d1ed511": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory_show-_4_1.png",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "254ad1b0-0255-4c49-b77f-f85de7114d13": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory_show-_5_1.png",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "a31f6045-535e-4c90-85fe-3b49c2d43616": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory3.jpg",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "8cef5d33-a07b-4ee9-bc35-6e890d2a910c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory9.jpg",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "d002fdfb-acb1-495a-968e-b8e3eecb1e92": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory11.jpg",
+            "image_width": 250,
+            "link": ""
+          }
+        },
+        "053e34ac-c77b-46e2-bc5f-b86ddf48744f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/factory12.jpg",
+            "image_width": 250,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b468d189-057d-44e3-960a-ea6a9848708c",
+        "43a6a38b-6670-44b7-bc41-a38a1d4a1e0a",
+        "c4b6c7c4-d2c9-4853-8255-9c4e508ed5d1",
+        "5eca11db-2f1f-4d9f-94d3-9a837cd9aff7",
+        "58fe2538-466c-4339-9a6a-028c8d1ed511",
+        "254ad1b0-0255-4c49-b77f-f85de7114d13",
+        "a31f6045-535e-4c90-85fe-3b49c2d43616",
+        "8cef5d33-a07b-4ee9-bc35-6e890d2a910c",
+        "d002fdfb-acb1-495a-968e-b8e3eecb1e92",
+        "053e34ac-c77b-46e2-bc5f-b86ddf48744f"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "1",
+        "text_size": 16,
+        "vertical_padding": 25,
+        "speed": 18.5,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "featured_collection_9HxJQB": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop Our Best Sellers",
+        "collection": "aluminum-hardshell-rooftop-tents",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3d7ed789-3ce9-4808-8d0b-66644172a455",
+    "b5c4de76-50e8-488a-af03-2b7757e94c87",
+    "d93806c3-0e53-465e-bc5d-6d144947d079",
+    "46a97fd6-ac07-4036-b554-284b6e7bb13b",
+    "d178cc29-8c2e-4ce5-8927-b2a2c19f36de",
+    "e82bede7-fdbf-4ecb-b018-2379c24f00ee",
+    "4b5adedf-6cef-41e8-9753-3295b9475e21",
+    "featured_collection_9HxJQB"
+  ]
+}

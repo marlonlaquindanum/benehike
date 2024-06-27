@@ -1,0 +1,191 @@
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+<style>
+  .production-wrapper {
+    position: relative;
+    margin: 70px 0;
+  }
+
+  .production-wrapper .team-title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+
+  #production_manufacturing {
+    max-width: 1360px;
+    padding: 0 30px
+  }
+
+  #production_manufacturing .swiper-wrapper {
+    text-align: center;
+  }
+
+  #production_manufacturing .production-content {
+    text-align: center;
+  }
+
+  #production_manufacturing .production-content .production-name {
+    margin-top: 20px;
+    color: #ff6100;
+  }
+
+  #production_manufacturing .production-content .production-position {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000;
+  }
+
+  #production_manufacturing .production-content .production-description {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(110, 109, 118);
+    line-height: 28px;
+  }
+
+  .production_manufacturing-swiper-pagination {
+    bottom: -50px !important;
+  }
+
+  .production_manufacturing-swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #ff6100;
+  }
+
+  .production_manufacturing-swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: #000;
+    opacity: 1;
+  }
+  @media screen and (max-width:1024px) {
+    #production_manufacturing {
+      margin: 0;
+    }
+  }
+  @media screen and (max-width:779px) {
+    .production-wrapper .team-title {
+      font-size: 20px;
+    }
+  }
+</style>
+
+
+<div class="production-wrapper">
+  <h2 class="team-title">
+    {{ section.settings.title }}
+  </h2>
+  <div class="swiper" id="production_manufacturing">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide">
+          <a href="{{block.settings.url}}" class="production">
+            <div class="production-image">
+              <img src="{{block.settings.image | img_url: '270x360' }}" alt="">
+            </div>
+            <div class="production-content ">
+              <h4 class="production-name">
+                {{ block.settings.name }}
+              </h4>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+
+
+    </div>
+  </div>
+  <div class="swiper-pagination production_manufacturing-swiper-pagination"></div>
+</div>
+
+{{ 'swiper-bundle.js' | asset_url | script_tag }}
+{{ 'swiper-bundle.min.js' | asset_url | script_tag }}
+
+
+
+<script>
+  var hs_screen_width2 = document.body.clientWidth;
+
+  var hs_swiper_pic_number = 4;
+  if (hs_screen_width2 < 1024) {
+    hs_swiper_pic_number = 2;
+
+  }
+  if (hs_screen_width2 < 779) {
+    hs_swiper_pic_number = 1;
+
+  }
+  var teamSwiper = new Swiper("#production_manufacturing", {
+
+    // cssMode: true,
+    freeMode: true,
+
+// 这里是关键
+// loop: true,
+    centeredSlides: false,
+
+// slidesPerView: 4,
+    slidesPerView: hs_swiper_pic_number,
+    pagination: {
+      el: ".production-wrapper .swiper-pagination",
+      clickable: true
+    },
+    spaceBetween: 40,
+    autoplay: true,
+
+// resizeObserver: true,
+    on: {
+      resize: function() {
+        if (document.body.clientWidth < 779) {
+          this.params.slidesPerView = 1;
+        } else if (document.body.clientWidth < 1024) {
+          this.params.slidesPerView = 2;
+        } else {
+          this.params.slidesPerView = 4;
+        }
+        this.update();
+      }
+    }
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "PRODUCTION&MANUFACTURING",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "主标题",
+        "default": "PRODUCTION & MANUFACTURING"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "block",
+        "settings": [
+          {
+            "type": "url",
+            "id": "url",
+            "label": "超链接"
+          }, {
+            "type": "image_picker",
+            "id": "image",
+            "label": "图片"
+          }, {
+            "type": "text",
+            "id": "name",
+            "label": "标题",
+            "default": "Name"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "PRODUCTION&MANUFACTURING",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}s

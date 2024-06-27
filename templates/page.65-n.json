@@ -1,0 +1,142 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "b1a33763-a0ac-4c52-bfad-323ca11425ec": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16400010281126__b1a33763-a0ac-4c52-bfad-323ca11425ec-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "PROP 65 ⚠",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16400010281126__b1a33763-a0ac-4c52-bfad-323ca11425ec-heading-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    },
+    "c36950d9-abef-4ea3-aa67-1d815e393e35": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16400010281126__c36950d9-abef-4ea3-aa67-1d815e393e35-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "What is Proposition 65?",
+            "use_h1": false
+          }
+        },
+        "template--16400010281126__c36950d9-abef-4ea3-aa67-1d815e393e35-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Proposition 65 requires businesses to provide warnings to Californians about significant exposures to chemicals that cause cancer, birth defects or other<br\/>reproductive harm.  Exposure to these chemicals may take place when products are acquired or used. Exposure may also occur in homes, workplaces, or other environments in California. By requiring that this information be provided, Proposition 65 enables Californians to make informed decisions about their exposures to these chemicals.<\/p><p>Proposition 65 also prohibits California businesses from knowingly discharging significant amounts of listed chemicals into sources of drinking water.<\/p><p>Proposition 65 requires California to publish a list of chemicals known to cause cancer, birth defects or other reproductive harm. This list was first published in 1987, and must be updated at least once a year. It now includes over 900 chemicals.<\/p><p>Proposition 65 became law in November 1986, when California voters approved it by a 63-37 percent margin.  The official name of Proposition 65 is the <a href=\"https:\/\/leginfo.legislature.ca.gov\/faces\/codes_displayText.xhtml?lawCode=HSC&division=20.&title=&part=&chapter=6.6.&article\">Safe Drinking Water and Toxic Enforcement Act of 1986<\/a>.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16400010281126__c36950d9-abef-4ea3-aa67-1d815e393e35-heading-1",
+        "template--16400010281126__c36950d9-abef-4ea3-aa67-1d815e393e35-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "ef143a19-214d-4f68-a6d3-39dabd618553": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--16400010281126__ef143a19-214d-4f68-a6d3-39dabd618553-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is Proposition 65?",
+            "answer": "<p>Proposition 65 requires businesses to provide warnings to Californians about significant exposures to chemicals that cause cancer, birth defects or other<br\/>reproductive harm.  Exposure to these chemicals may take place when products are acquired or used. Exposure may also occur in homes, workplaces, or other environments in California. By requiring that this information be provided, Proposition 65 enables Californians to make informed decisions about their exposures to these chemicals.<\/p><p>Proposition 65 also prohibits California businesses from knowingly discharging significant amounts of listed chemicals into sources of drinking water.<\/p><p>Proposition 65 requires California to publish a list of chemicals known to cause cancer, birth defects or other reproductive harm. This list was first published in 1987, and must be updated at least once a year. It now includes over 900 chemicals.<\/p><p>Proposition 65 became law in November 1986, when California voters approved it by a 63-37 percent margin.  The official name of Proposition 65 is the <a href=\"https:\/\/leginfo.legislature.ca.gov\/faces\/codes_displayText.xhtml?lawCode=HSC&division=20.&title=&part=&chapter=6.6.&article\">Safe Drinking Water and Toxic Enforcement Act of 1986<\/a>.<\/p>"
+          }
+        },
+        "template--16400010281126__ef143a19-214d-4f68-a6d3-39dabd618553-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "What types of chemicals are on the Proposition 65 list?",
+            "answer": "<p>The list contains a wide range of naturally occurring and synthetic chemicals that include additives or ingredients in pesticides, common household products, food, drugs, dyes, or solvents. Listed chemicals may also be used in manufacturing and construction, or they may be byproducts of chemical processes, such as motor vehicle exhaust. <\/p>"
+          }
+        },
+        "4781a374-c58b-46c2-8217-bcc17320bc66": {
+          "type": "question",
+          "settings": {
+            "title": "What does a warning mean?",
+            "answer": "<p>If a warning is placed on a product label or posted or distributed at a workplace, a business, or in rental housing, the business issuing the warning is aware or believes that it is exposing individuals to one or more listed chemicals.<\/p><p>By law, a warning must be given for listed chemicals unless the exposure is low enough to pose no significant risk of cancer or is significantly below levels observed to cause birth defects or other reproductive harm.<\/p><p><a href=\"https:\/\/www.p65warnings.ca.gov\/node\/6\">Learn about how businesses can comply with Proposition 65<\/a>.<\/p>"
+          }
+        },
+        "be17db6c-b98f-4cf7-a624-9e4d283f150f": {
+          "type": "question",
+          "settings": {
+            "title": "What does the phrase “known to the State of California to cause [cancer] [birth defects or other reproductive harm]” in a Proposition 65 warning actually mean?",
+            "answer": "<p>Under the Proposition 65 statute, “known to the state to cause [cancer] [birth defects or other reproductive harm]” means the chemical has been added to the Proposition 65 list by one of four listing mechanisms.  Learn more about<a href=\"https:\/\/www.p65warnings.ca.gov\/about\/how-chemicals-are-added-proposition-65-list\">how chemicals are added to the Proposition 65 list<\/a>.<\/p>"
+          }
+        },
+        "11534a3a-5639-4529-923e-4129f630d387": {
+          "type": "question",
+          "settings": {
+            "title": "Who administers Proposition 65?",
+            "answer": "<p>The Office of Environmental Health Hazard Assessment (OEHHA) administers the Proposition 65 program. OEHHA, which is part of the California Environmental Protection Agency (CalEPA), determines in many cases whether chemicals meet the scientific and legal requirements for placement on the Proposition 65 list, and administers regulations that govern warnings and other aspects of Proposition 65.<\/p>"
+          }
+        },
+        "6ebb2e7a-70f5-4af4-af4b-69af9f3a8ff2": {
+          "type": "question",
+          "settings": {
+            "title": "Who enforces Proposition 65?",
+            "answer": "<p>The <a href=\"https:\/\/oag.ca.gov\/prop65\">California Attorney General's Office<\/a> enforces Proposition 65. Any district attorney or city attorney (for cities whose population exceeds 750,000) may also enforce Proposition 65. In addition, any individual acting in the public interest may enforce Proposition 65 by filing a lawsuit against a business alleged to be in violation of this law.<\/p>"
+          }
+        },
+        "47c7dba1-31d4-4fca-b2a6-8e96e96aef5a": {
+          "type": "question",
+          "settings": {
+            "title": "What are the penalties for violating Proposition 65?",
+            "answer": "<p>Penalties for violating Proposition 65 by failing to provide warnings can be as high as $2,500 per violation per day.<\/p>"
+          }
+        },
+        "09264805-c5ed-4b19-84dc-ea1959fdb577": {
+          "type": "button",
+          "settings": {
+            "title": "view more",
+            "link": "https:\/\/www.p65warnings.ca.gov\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--16400010281126__ef143a19-214d-4f68-a6d3-39dabd618553-question-1",
+        "template--16400010281126__ef143a19-214d-4f68-a6d3-39dabd618553-question-2",
+        "4781a374-c58b-46c2-8217-bcc17320bc66",
+        "be17db6c-b98f-4cf7-a624-9e4d283f150f",
+        "11534a3a-5639-4529-923e-4129f630d387",
+        "6ebb2e7a-70f5-4af4-af4b-69af9f3a8ff2",
+        "47c7dba1-31d4-4fca-b2a6-8e96e96aef5a",
+        "09264805-c5ed-4b19-84dc-ea1959fdb577"
+      ],
+      "settings": {
+        "title": "Q&A about PROP 65"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b1a33763-a0ac-4c52-bfad-323ca11425ec",
+    "c36950d9-abef-4ea3-aa67-1d815e393e35",
+    "ef143a19-214d-4f68-a6d3-39dabd618553"
+  ]
+}

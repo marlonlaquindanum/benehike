@@ -1,0 +1,339 @@
+<style>
+  .n-advantage {
+      display: flex;
+      max-width: 1480px;
+      margin: 0 auto;
+      padding: 0 40px;
+      position: relative;
+      /* top: -30px; */
+  }
+
+  .n-advantage .advantage-left {
+      width: 50%;
+      background-color: {{section.settings.l-bgc}};
+      color: {{section.settings.l-color}};
+      padding: 60px;
+      margin: 20px 0;
+  }
+
+  .n-advantage .advantage-left .advantage-title {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 40px;
+      /* text-align: center; */
+  }
+
+  .n-advantage .advantage-left .advantage-number-list {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .n-advantage .advantage-left .advantage-number-list .number-item {
+      width: 50%;
+  }
+
+  .n-advantage .advantage-left .advantage-number-list .number-item .n-number {
+      font-size: 64px;
+      font-weight: 900;
+  }
+
+  .n-advantage .advantage-left .advantage-number-list .number-item .n-subtitle {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 40px;
+  }
+
+  .n-advantage .advantage-right {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      background: #FFF;
+  }
+
+  .n-advantage .advantage-right .icon-with-text {
+      width: calc(50% - 2px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .n-advantage .advantage-right .icon-with-text {
+      border-width: 1px;
+      border-color: #ebeef1;
+      border-style: solid;
+  }
+
+  .n-advantage .advantage-right .icon-with-text img {
+    margin-top: 15px;
+      width: 30%;
+  }
+
+  .n-advantage .advantage-right .icon-with-text .n-title {
+      font-size: 17px;
+      font-weight: 700;
+  }
+
+  .n-advantage .advantage-right .icon-with-text .n-view-more {
+      font-size: 16px;
+      font-weight: 400;
+      text-decoration: none;
+      color: #1c1d1d;
+      margin-bottom: 15px;
+  }
+  .n-add {
+    font-size: 38px;
+    font-weight: 700;
+    position: relative;
+    top: -20px;
+  }
+  @media screen and (max-width: 779px) {
+    .n-advantage {
+      flex-direction: column;
+      padding: 0;
+    }
+    .n-advantage .advantage-left {
+      width: 100%;
+      margin: 0;
+      padding: 20px;
+    }
+    .n-advantage .advantage-left .advantage-title {
+      font-size: 32px;
+    }
+    .n-advantage .advantage-left .advantage-number-list .number-item .n-number {
+      font-size: 40px;
+    }
+      .n-advantage .advantage-right {
+      width: 100%
+    }
+     .n-add {
+       font-size: 18px;
+       top: -12px;
+     }
+    .n-advantage .advantage-left .advantage-title {
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+    .n-advantage .advantage-left .advantage-number-list .number-item .n-number {
+      font-size: 22px;
+    }
+    .n-advantage .advantage-left .advantage-number-list .number-item .n-subtitle {
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+    .n-advantage .advantage-right .icon-with-text {
+      gap: 10px;
+    }
+    .n-advantage .advantage-right .icon-with-text img {
+      width: 25%;
+    }
+  }
+</style>
+
+<div class="n-advantage">
+  <div class="advantage-left">
+      <div class="advantage-title">
+          {{ section.settings.left-title }}
+      </div>
+      <div class="advantage-number-list">
+          <div class="number-item">
+              <div class="n-number">{{ section.settings.number1 }}</div>
+              <div class="n-subtitle">{{ section.settings.l-subtitle1 }}</div>
+          </div>
+          <div class="number-item">
+            <div class="n-number" ><span id="num1"></span><span class="n-add">+</span></div>
+            <div class="n-subtitle">{{ section.settings.l-subtitle2 }}</div>
+          </div>
+          <div class="number-item">
+            <div class="n-number" ><span id="num2"></span><span class="n-add">+</span></div>
+            <div class="n-subtitle">{{ section.settings.l-subtitle3 }}</div>
+          </div>
+          <div class="number-item">
+            <div class="n-number">{{ section.settings.number4 }}</div>
+            <div class="n-subtitle">{{ section.settings.l-subtitle4 }}</div>
+          </div>
+      </div>
+  </div>
+  <div class="advantage-right">
+      <div class="icon-with-text">
+          <img src="{{section.settings.r-image1 | img_url: '75x'}}">
+          <div class="n-title">{{section.settings.r-title1}}</div>
+          <a href="{{section.settings.url1}}" class="n-view-more">view more</a>
+      </div>
+      <div class="icon-with-text">
+        <img src="{{section.settings.r-image2 | img_url: '75x'}}">
+          <div class="n-title">{{section.settings.r-title2}}</div>
+          <a href="{{section.settings.url2}}" class="n-view-more">view more</a>
+      </div>
+      <div class="icon-with-text">
+        <img src="{{section.settings.r-image3 | img_url: '75x'}}">
+          <div class="n-title">{{section.settings.r-title3}}</div>
+          <a href="{{section.settings.url3}}" class="n-view-more">view more</a>
+      </div>
+      <div class="icon-with-text">
+        <img src="{{section.settings.r-image4 | img_url: '75x'}}">
+          <div class="n-title">{{section.settings.r-title4}}</div>
+          <a href="{{section.settings.url4}}" class="n-view-more">view more</a>
+      </div>
+  </div>
+</div>
+
+<script src="https://cdn.bootcss.com/countup.js/1.9.3/countUp.js"></script>
+<script>
+       var options = {
+   useEasing: true, // 使用缓和
+   useGrouping: true, // 使用分组(是否显示千位分隔符,一般为 true)
+   separator: ',', // 分隔器(千位分隔符,默认为',')
+   decimal: '.', // 十进制(小数点符号,默认为 '.')
+   prefix: '', // 字首(数字的前缀,根据需要可设为 $,¥,￥ 等)
+   suffix: ''  // 后缀(数字的后缀 ,根据需要可设为 元,个,美元 等) 
+  };
+   new CountUp("num1", 0, 10000, 0, 3, options).start();
+   new CountUp("num2", 0, 5000, 0, 3, options).start();
+</script>
+
+
+{% schema %}
+  {
+    "name": "ADVANTAGE",
+    "settings": [
+      {
+        "type": "color",
+        "label": "左边背景色",
+        "id": "l-bgc",
+        "default": "#d8232f"
+      },
+      {
+        "type": "color",
+        "label": "左边文字颜色",
+        "id": "l-color",
+        "default": "#fff"
+      },
+      {
+        "type": "text",
+        "label": "左边主标题",
+        "id": "left-title",
+        "default": "Long Range Ebike Expert"
+      },
+      {
+        "type": "text",
+        "label": "左边数字项1",
+        "id": "number1",
+        "default": "80 Mi"
+      },
+      {
+        "type": "text",
+        "label": "左边小标题1",
+        "id": "l-subtitle1",
+        "default": "Maximum Mileage"
+      },
+      {
+        "type": "number",
+        "label": "左边数字项2(废除)",
+        "id": "number2",
+        "default": 10000
+      },
+      {
+        "type": "text",
+        "label": "左边小标题2",
+        "id": "l-subtitle2",
+        "default": "Himi Riders"
+      },
+      {
+        "type": "number",
+        "label": "左边数字项3(废除)",
+        "id": "number3",
+        "default": 5000
+      },
+      {
+        "type": "text",
+        "label": "左边小标题3",
+        "id": "l-subtitle3",
+        "default": "5-Star Reviews"
+      },
+      {
+        "type": "text",
+        "label": "左边数字项4",
+        "id": "number4",
+        "default": "2-year"
+      },
+      {
+        "type": "text",
+        "label": "左边小标题4",
+        "id": "l-subtitle4",
+        "default": "Longest warranty in ebikes"
+      },
+      {
+        "type": "image_picker",
+        "label": "右边图标1",
+        "id": "r-image1"
+      },
+      {
+        "type": "text",
+        "label": "右边标题1",
+        "id": "r-title1",
+        "default": "Consumer Direct"
+      },
+      {
+        "type": "url",
+        "label": "右边链接1",
+        "id":"url1"
+      },
+      {
+        "type": "image_picker",
+        "label": "右边图标2",
+        "id": "r-image2"
+      },
+      {
+        "type": "text",
+        "label": "右边标题2",
+        "id": "r-title2",
+        "default": "Consumer Direct"
+      },
+      {
+        "type": "url",
+        "label": "右边链接2",
+        "id":"url2"
+      },
+      {
+        "type": "image_picker",
+        "label": "右边图标3",
+        "id": "r-image3"
+      },
+      {
+        "type": "text",
+        "label": "右边标题3",
+        "id": "r-title3",
+        "default": "Consumer Direct"
+      },
+      {
+        "type": "url",
+        "label": "右边链接3",
+        "id":"url3"
+      },
+      {
+        "type": "image_picker",
+        "label": "右边图标4",
+        "id": "r-image4"
+      },
+      {
+        "type": "text",
+        "label": "右边标题4",
+        "id": "r-title4",
+        "default": "Consumer Direct"
+      },
+      {
+        "type": "url",
+        "label": "右边链接4",
+        "id":"url4"
+      }
+    ],
+    "presets": [
+      {
+        "name": "ADVANTAGE",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}
