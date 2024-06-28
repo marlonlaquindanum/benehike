@@ -615,15 +615,47 @@
         "content": "Sizes"
       },
       {
-        "type": "range",
-        "id": "font_size_heading_int",
-        "min": 12,
-        "max": 50,
-        "step": 1,
-        "unit": "px",
+        "type": "select",
+        "id": "font_size_heading",
         "label": "Heading",
-        "default": 34
+        "default": "20",
+        "options": [
+          {
+            "value": "40",
+            "label": "H1"
+          },
+          {
+            "value": "32",
+            "label": "H2"
+          },
+          {
+            "value": "24",
+            "label": "H3"
+          },
+          {
+            "value": "20",
+            "label": "H4"
+          },
+          {
+            "value": "16",
+            "label": "H5"
+          },
+          {
+            "value": "14",
+            "label": "H6"
+          },
+        ]
       },
+      // {
+      //   "type": "range",
+      //   "id": "font_size_heading_int",
+      //   "min": 12,
+      //   "max": 50,
+      //   "step": 1,
+      //   "unit": "px",
+      //   "label": "Heading",
+      //   "default": 34
+      // },
       {
         "type": "range",
         "id": "font_size_base_int",
@@ -1691,7 +1723,23 @@
       {
         "type": "paragraph",
         "content": "For a full list of JavaScript events included with Symmetry, please refer to the /assets/custom.js file within the theme code, or read our [JavaScript Technical Guide](https://cleancanvas.co.uk/support/symmetry/technical-guides/js)."
-      }
+      },
+      {
+        "type": "header",
+        "content": "Custom Round"
+      },
+      {
+        "type": "checkbox",
+        "id": "rounded_button",
+        "label": "Enable round button",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "round_media",
+        "label": "Enable round media",
+        "default": true
+      },
     ]
   }
 ]

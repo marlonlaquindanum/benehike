@@ -359,6 +359,9 @@
       "font_size_base_int": 14,
       "font_size_nav_int": 14,
       "font_size_logo_int": 24,
+      // -- Heading font size customizing --
+      "font_size_heading": 40,
+      // -- end --
       "button_style": "normal",
       "prod_thumb_shape": "shortest",
       "prod_thumb_crop": false,
@@ -513,8 +516,7 @@
     "sections": {
       "main-gift-card": {
         "type": "main-gift-card",
-        "settings": {
-        }
+        "settings": {}
       },
       "main-password-header": {
         "type": "main-password-header",
@@ -530,51 +532,42 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "7304967717925385168": {
         "type": "shopify:\/\/apps\/trust-badges-icons-iconito\/blocks\/app-embed\/d20e5397-bfe7-44f3-8deb-419dc8b912ab",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "9527080161720020250": {
         "type": "shopify:\/\/apps\/qikify-timer-announcement-bar\/blocks\/app-embed\/265b948a-6ec4-4b9d-b633-5fc8919433eb",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "13951170544780599758": {
         "type": "shopify:\/\/apps\/tapita-seo-speed\/blocks\/app-embed\/cd37ca7a-40ad-4fdc-afd3-768701482209",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14327677521557774844": {
         "type": "shopify:\/\/apps\/simprosys-google-shopping-feed\/blocks\/core_settings_block\/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "13672250894428551832": {
         "type": "shopify:\/\/apps\/qikify-slide-cart\/blocks\/app-embed\/39da5d6e-3e04-4687-bc69-e23fafb93294",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6143736321357441667": {
         "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12120936241911852800": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",

@@ -1,0 +1,238 @@
+{% style %}
+  .advantage-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .advantage-items {
+    width: 50%;
+  }
+
+  .advatage-items:last-child {
+    margin-left: 10px;
+  }
+
+  .advantage-item {
+    margin: 48px auto;
+  }
+
+  .section-advantage {
+    padding: 96px 64px;
+    background-color: #3c4b3b;
+  }
+
+  .advantage-title {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+  }
+
+  .advantage-item--number {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #fff;
+  }
+
+  .advantage-item--text {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .featured-num {
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 800;
+    color: #ffe802;
+  }
+
+  @media screen and (max-width: 768px) {
+    .advantage-item--number,
+    .featured-num {
+      font-size: 24px;
+    }
+
+    .advantage-item--text {
+      font-size: 14px;
+    }
+  }
+{% endstyle %}
+<div class="section-advantage {% if section.settings.is_full_width != true %}container{% endif %}">
+  <div class="advantage-title">
+    {{ section.settings.left_title }}
+  </div>
+  <div class="container advantage-container">
+    <div class="advantage-items">
+      <div class="advantage-item">
+        <div
+          class="advantage-item--number {{ settings.font_size_heading }}"
+          style="text-align: {{ section.settings.content_alignment }}"
+        >
+          {{ section.settings.item_num_1 }}
+        </div>
+        <div class="advantage-item--text" style="text-align: {{ section.settings.content_alignment }}">
+          {{ section.settings.item_txt_1 }}
+        </div>
+      </div>
+      <div class="advantage-item">
+        <div
+          class="advantage-item--number {{ settings.font_size_heading }}"
+          style="text-align: {{ section.settings.content_alignment }}"
+        >
+          {{ section.settings.item_num_3 }}
+        </div>
+        <div class="advantage-item--text" style="text-align: {{ section.settings.content_alignment }}">
+          {{ section.settings.item_txt_3 }}
+        </div>
+      </div>
+    </div>
+    <div class="advantage-items">
+      <div class="advantage-item">
+        <div
+          class="advantage-item--number {{ settings.font_size_heading }}"
+          style="text-align: {{ section.settings.content_alignment }}"
+        >
+          {{ section.settings.item_num_2 | money_without_currency | ceil }}
+        </div>
+        <div class="advantage-item--text" style="text-align: {{ section.settings.content_alignment }}">
+          {{ section.settings.item_txt_2 }}
+        </div>
+      </div>
+      <div class="advantage-item">
+        <div
+          class="advantage-item--number {{ settings.font_size_heading }}"
+          style="text-align: {{ section.settings.content_alignment }}"
+        >
+          <span class="featured-num">{{ section.settings.item_num_4 }}</span>-Year
+        </div>
+        <div class="advantage-item--text" style="text-align: {{ section.settings.content_alignment }}">
+          {{ section.settings.item_txt_4 }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js" defer></script>
+<script>
+  var options = {
+    useEasing: true,
+    useGrouping: true,
+    separator: ',',
+    decimal: '.',
+  };
+
+  document.querySelectorAll('.advantage-item--number').forEach((item) => {
+    new CountUp(item, 0, item.innerHTML, 0, 5, options).start();
+  });
+
+  console.log('script has loaded!!!', varti);
+</script>
+
+{% schema %}
+{
+  "name": "Advantage",
+  "class": "section section-kik--advantage",
+  "settings": [
+    {
+      "type": "text",
+      "id": "left_title",
+      "label": "Title",
+      "default": "OVERLANDING EXPERT"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#3C4B3B"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "text",
+      "id": "item_txt_1",
+      "label": "Item Text 1",
+      "default": "Export Market"
+    },
+    {
+      "type": "number",
+      "id": "item_num_1",
+      "label": "Item Number 1",
+      "default": 10
+    },
+    {
+      "type": "text",
+      "id": "item_txt_2",
+      "label": "Item Text 2",
+      "default": "BeneHike Enthusiasts"
+    },
+    {
+      "type": "number",
+      "id": "item_num_2",
+      "label": "Item Number 2",
+      "default": 5000
+    },
+    {
+      "type": "text",
+      "id": "item_txt_3",
+      "label": "Item Text 3",
+      "default": "BeneHike Enthusiasts"
+    },
+    {
+      "type": "number",
+      "id": "item_num_3",
+      "label": "Item Number 3",
+      "default": 10000
+    },
+    {
+      "type": "text",
+      "id": "item_txt_4",
+      "label": "Item Text 4",
+      "default": "Longest Warranty"
+    },
+    {
+      "type": "number",
+      "id": "item_num_4",
+      "label": "Item Number 4",
+      "default": 5
+    },
+    {
+      "type": "checkbox",
+      "id": "is_full_width",
+      "label": "Full Width",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "Content Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Advantage",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

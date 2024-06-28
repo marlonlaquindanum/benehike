@@ -1,10 +1,19 @@
+{%- style -%}
+  .section-id-{{ section.id }} .block-inner:hover {
+    color: #d4a000;
+  }
+{%- endstyle -%}
 <div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }}{% endif %}">
   <div class="container{% if section.settings.enable_carousel %} container--not-mobile{% endif %}{% if section.settings.full_width %} container--no-max{% endif %}">
     {%- if section.settings.enable_carousel -%}
       <carousel-slider class="carousel block collection-slider">
     {%- endif -%}
 
-    <h2 class="hometitle h4 align-center has-paging{% if section.settings.enable_carousel %} slider-nav{% endif %}" data-cc-animate data-cc-animate-delay="0.3s">
+    <h2
+      class="hometitle h4 align-center has-paging{% if section.settings.enable_carousel %} slider-nav{% endif %}"
+      data-cc-animate
+      data-cc-animate-delay="0.3s"
+    >
       {% if section.settings.enable_carousel %}
         <button name="prev" class="slider-nav__btn has-ltr-icon">
           <span class="visually-hidden">{{ 'general.slider.previous' | t }}</span>
@@ -20,7 +29,10 @@
       {% endif %}
     </h2>
 
-    <div class="collection-listing fade-in-up{% if section.settings.enable_carousel %} slider {% if section.settings.full_width %}slider--edge-peek{% endif %} slider--mobile-container-pad slider--no-scrollbar{% endif %}" data-cc-animate>
+    <div
+      class="collection-listing fade-in-up{% if section.settings.enable_carousel %} slider {% if section.settings.full_width %}slider--edge-peek{% endif %} slider--mobile-container-pad slider--no-scrollbar{% endif %}"
+      data-cc-animate
+    >
       <div class="product-grid product-grid--per-row-{{ section.settings.grid }} product-grid--per-row-mob-{{ section.settings.coll_thumb_mob_per_row }} product-grid--image-shape-{{ section.settings.coll_grid_image_shape }}{% if section.settings.enable_carousel %} slider__grid product-grid--carousel{% endif %}">
         {%- liquid
           if section.blocks.size > 0
@@ -77,7 +89,6 @@
             endfor
 
           else
-
             for i in (1..6)
               if section.settings.enable_carousel
                 echo '<div class="slider__item">'
@@ -87,7 +98,6 @@
                 echo '</div>'
               endif
             endfor
-
           endif
         -%}
       </div>
@@ -99,18 +109,13 @@
   </div>
 </div>
 
-
 {% schema %}
 {
   "name": "Collection list",
   "class": "section-collection-list",
   "disabled_on": {
-    "templates": [
-      "password"
-    ],
-    "groups": [
-      "aside"
-    ]
+    "templates": ["password"],
+    "groups": ["aside"]
   },
   "max_blocks": 20,
   "settings": [
@@ -384,11 +389,8 @@
   "presets": [
     {
       "name": "Collection list",
-      "settings": {
-      },
-      "blocks": [
-
-      ]
+      "settings": {},
+      "blocks": []
     }
   ]
 }

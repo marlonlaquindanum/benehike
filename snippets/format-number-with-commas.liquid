@@ -1,0 +1,23 @@
+{% comment %}
+  This snippet formats a number with commas as thousands separators.
+  Usage: {% include 'format_number_with_commas', number: your_number %}
+{% endcomment %}
+
+{% assign number = include.number %}
+{% assign number_str = number | divided_by: 1.0 | split: '.' %}
+{% assign integer_part = number_str[0] %}
+{% assign formatted_number = '' %}
+{% assign length = integer_part.size %}
+{% assign counter = 0 %}
+
+{% for i in (0..length-1) reversed %}
+  {% capture digit %}{{ integer_part[length-i-1] }}{% endcapture %}
+  {% assign formatted_number = digit | append: formatted_number %}
+  {% assign counter = counter | plus: 1 %}
+  {% if counter == 3 and i != 0 %}
+    {% assign formatted_number = ',' | append: formatted_number %}
+    {% assign counter = 0 %}
+  {% endif %}
+{% endfor %}
+
+{{ formatted_number }}

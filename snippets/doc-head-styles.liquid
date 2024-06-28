@@ -47,6 +47,17 @@
   --larger-mobile-text-size:       {{- settings.font_size_heading_int | times: 0.8 | round | at_least: settings.font_size_base_int }}px;
   --logo-text-size:                {{- settings.font_size_logo_int }}px;
 
+  --heading-text-size-mobile:      {{ settings.font_size_heading }}px;
+  --heading-text-size-laptop:      {{- settings.font_size_heading | plus: 16 -}}px;
+  
+  {%- if settings.rounded_button -%}
+    --buttons-border-radius:             5rem;
+  {%- endif -%}
+
+  {%- if settings.round_media -%}
+    --media-border-radius:               5rem;
+  {%- endif -%}
+
   {%- if settings.button_style == 'caps' -%}
     --btn-letter-spacing: 0.08em;
     --btn-text-transform: uppercase;
