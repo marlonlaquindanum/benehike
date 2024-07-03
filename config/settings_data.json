@@ -359,9 +359,7 @@
       "font_size_base_int": 14,
       "font_size_nav_int": 14,
       "font_size_logo_int": 24,
-      // -- Heading font size customizing --
       "font_size_heading": 40,
-      // -- end --
       "button_style": "normal",
       "prod_thumb_shape": "shortest",
       "prod_thumb_crop": false,
@@ -399,7 +397,7 @@
     "btn_color_hover": "#f78038",
     "btn_color_text": "#ffffff",
     "btn_alt_bg": "#ffffff",
-    "btn_alt_text": "#212b36",
+    "btn_alt_text": "#ff6100",
     "bg_col": "#ffffff",
     "bg_image": "",
     "bg_method": "repeat",
@@ -427,7 +425,7 @@
     "color_scheme_1_btn_color_text": "#ffffff",
     "color_scheme_1_btn_alt_bg": "#000000",
     "color_scheme_1_btn_alt_text": "#ffffff",
-    "color_scheme_2_col": "#f6f6f6",
+    "color_scheme_2_col": "#ffffff",
     "color_scheme_2_gradient": "",
     "color_scheme_2_head_col": "#000000",
     "color_scheme_2_text_col": "#171717",
@@ -461,7 +459,7 @@
     "type_base_font": "helvetica_n4",
     "type_nav_font": "helvetica_n7",
     "type_logo_font": "helvetica_n4",
-    "font_size_heading_int": 30,
+    "font_size_heading": "14",
     "font_size_base_int": 14,
     "font_size_nav_int": 14,
     "font_size_logo_int": 24,
@@ -511,12 +509,16 @@
     "free_shipping_bar_col_met": "#ff6100",
     "product_currency_code_enabled": false,
     "cart_currency_code_enabled": true,
+    "rounded_button": true,
+    "round_media": true,
+    "font_size_heading_int": 30,
     "checkout_logo_image": "shopify:\/\/shop_images\/400x400.jpg",
     "checkout_body_background_color": "#f5f5f5",
     "sections": {
       "main-gift-card": {
         "type": "main-gift-card",
-        "settings": {}
+        "settings": {
+        }
       },
       "main-password-header": {
         "type": "main-password-header",
@@ -532,53 +534,74 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
-      "7304967717925385168": {
-        "type": "shopify:\/\/apps\/trust-badges-icons-iconito\/blocks\/app-embed\/d20e5397-bfe7-44f3-8deb-419dc8b912ab",
-        "disabled": false,
-        "settings": {}
-      },
       "9527080161720020250": {
         "type": "shopify:\/\/apps\/qikify-timer-announcement-bar\/blocks\/app-embed\/265b948a-6ec4-4b9d-b633-5fc8919433eb",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "13951170544780599758": {
         "type": "shopify:\/\/apps\/tapita-seo-speed\/blocks\/app-embed\/cd37ca7a-40ad-4fdc-afd3-768701482209",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "14327677521557774844": {
         "type": "shopify:\/\/apps\/simprosys-google-shopping-feed\/blocks\/core_settings_block\/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "13672250894428551832": {
         "type": "shopify:\/\/apps\/qikify-slide-cart\/blocks\/app-embed\/39da5d6e-3e04-4687-bc69-e23fafb93294",
         "disabled": false,
-        "settings": {}
-      },
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "6143736321357441667": {
         "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
         "disabled": false,
-        "settings": {}
-      },
-      "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": true,
         "settings": {
-          "position": "left"
+        }
+      },
+      "18228966181090706294": {
+        "type": "shopify:\/\/apps\/selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+        "disabled": false,
+        "settings": {
+          "storefrontAccessToken": ""
+        }
+      },
+      "5890205134905443601": {
+        "type": "shopify:\/\/apps\/seoant-trust-badges\/blocks\/trust_core\/f42f2346-5d14-4b41-a8b9-4b6ee352262e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "2104245418471043333": {
+        "type": "shopify:\/\/apps\/17track-order-tracking-paysync\/blocks\/app-embed\/1519e068-e330-4e0b-92dd-0a3263bfceda",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11532412952436166569": {
+        "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1232542678405107163": {
+        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+        "disabled": false,
+        "settings": {
         }
       },
       "5059203847231188605": {
         "type": "shopify:\/\/apps\/smart-product-filter-search\/blocks\/app-embed\/5cc1944c-3014-4a2a-af40-7d65abc0ef73",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "productGridSelector": "",
           "useCustomQuickviewTemplate": false,
@@ -592,11 +615,10 @@
           "customYMMTemplateLoader": "{%- capture YMMTemplate -%}{% render 'globo.filter.form' %}{%- endcapture -%}{%- unless YMMTemplate contains 'Liquid error' -%}<script id=\"gspfForm\" type=\"template\/html\">{{- YMMTemplate | replace: \"script>\", \"scripttag>\" -}}<\/script>{%- endunless -%}"
         }
       },
-      "18228966181090706294": {
-        "type": "shopify:\/\/apps\/selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-        "disabled": false,
+      "7304967717925385168": {
+        "type": "shopify:\/\/apps\/iconito\/blocks\/app-embed\/d20e5397-bfe7-44f3-8deb-419dc8b912ab",
+        "disabled": true,
         "settings": {
-          "storefrontAccessToken": ""
         }
       }
     }

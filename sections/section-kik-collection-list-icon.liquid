@@ -1,13 +1,25 @@
 {%- style -%}
   .section-id-{{ section.id }} .block-inner:hover {
-    color: #d4a000;
+    color: {{ section.settings.hover_color }};
+  }
+
+  .section-id-{{ section.id }} carousel-slider img {
+    width: 96px !important;
+  }
+
+  .section-id-{{ section.id }} .product-block__title, .section-id-{{ section.id }} .small {
+    display: none;
+  }
+
+  .section-id-{{ section.id }} .subheading.lightly-spaced-row {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Helvetica';
   }
 
   @media (max-width: 768.97px) {
-    .product-block__title {
-      font-weight: 700;
-      font-size: 20px;
-      color: #2E2E2E;
+    .section-advantage  {
+      padding: 48px 0;
     }
   }
 {%- endstyle -%}
@@ -131,7 +143,7 @@
       "type": "text",
       "id": "title",
       "label": "Heading",
-      "default": "Collection list"
+      "default": "Collection with icon"
     },
     {
       "type": "checkbox",
@@ -144,7 +156,7 @@
       "id": "grid",
       "label": "Collections per row",
       "min": 2,
-      "max": 5,
+      "max": 6,
       "step": 1,
       "default": 4
     },
@@ -364,6 +376,12 @@
           "value": "link"
         }
       ]
+    },
+    {
+      "type": "color",
+      "id": "hover_color",
+      "label": "Item hover color",
+      "default": "#FF6100"
     }
   ],
   "blocks": [
@@ -396,7 +414,7 @@
   ],
   "presets": [
     {
-      "name": "Collection list",
+      "name": "Collection with icon",
       "settings": {},
       "blocks": []
     }

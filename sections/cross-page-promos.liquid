@@ -12,7 +12,9 @@
 
 {%- if show_promos -%}
   {%- liquid
-    if section.blocks.size == 4
+    if section.blocks.size == 5
+      assign column_width = 'one-fifth'
+    elsif section.blocks.size == 4
       assign column_width = 'quarter'
     elsif section.blocks.size == 3
       assign column_width = 'third'
@@ -24,57 +26,109 @@
   %}
   <div id="section-id-{{ section.id }}" class="cross-page-promos">
     <div class="container">
-      <div class="flexible-layout {% if column_width == 'quarter' %}layout-all-quarters{% endif %}">
+      {% style %}
+        #section-id-{{ section.id }} .flexible-layout {
+          padding: {{ section.settings.padding_vertical }}px {{ section.settings.padding_horzontal }}px;
+        }
+
+        #section-id-{{ section.id }} .icon-with-caption__text > .heading-font {
+          font-size: {{ section.settings.font_size }}px;
+        }
+
+        @media (max-width: 768.97px) {
+          #section-id-{{ section.id }} .flexible-layout {
+            padding: {{ section.settings.padding_horzontal }}px 0;
+          }
+
+          #section-id-{{ section.id }} .icon-with-caption__text > .heading-font {
+            font-size: {{ section.settings.font_size_mobile }}px;
+          }
+        }
+      {% endstyle %}
+      <div class="flexible-layout {% if column_width == 'one-fifth' %}layout-all-quarters{% endif %}{% if section.settings.arrange_type == 'horizontal' %}{{ section.settings.arrange_type }}{% endif %}">
         {%- for block in section.blocks -%}
-          <div class="column column--{{ column_width }} align-center block-id-{{ block.id }}" {{ block.shopify_attributes }}>
+          <div
+            class="column column--{{ column_width }} align-center block-id-{{ block.id }}"
+            {{ block.shopify_attributes }}
+          >
+            {% style %}
+              .block-id-{{ block.id }} img { width: {{ block.settings.icon_img_width }}px; }
+              @media (max-width: 767.98px) {
+                #pagefooter .block-id-{{ block.id }} img { width: 30px !important; }
+              }
+            {% endstyle %}
             <div class="relative">
-              {% if block.settings.link_url != blank %}
-              <a class="block" href="{{ block.settings.link_url }}">
+              {% comment %}
+                {% if block.settings.link_url != blank %}
+                  <a class="block" href="{{ block.settings.link_url }}">
+                {% endif %}
+              {% endcomment %}
+              {% if block.type == 'image' %}
+                {% if block.settings.image == blank %}
+                  <div class="placeholder-image placeholder-image--shape-landscape {% if block.settings.text != blank %}dark{% endif %}">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% else %}
+                  {%- render 'image' with block.settings.image,
+                    size_cols_mobile: 2,
+                    size_cols_desktop: section.blocks.size,
+                    loading: 'lazy'
+                  -%}
                 {% endif %}
 
-                {% if block.type == 'image' %}
-
-                  {% if block.settings.image == blank %}
-                    <div class="placeholder-image placeholder-image--shape-landscape {% if block.settings.text != blank %}dark{% endif %}">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
-                  {% else %}
-                    {%- render 'image' with block.settings.image, size_cols_mobile: 2, size_cols_desktop: section.blocks.size, loading: 'lazy' -%}
-                  {% endif %}
-
-                  {% if block.settings.text != blank %}
+                {% if block.settings.text != blank %}
                   <div class="text-overlay overlay-centre">
                     <div class="text-overlay__inner">
                       <div class="text-overlay__text">
-                        <div class="h6 heading-font">{{ block.settings.text | escape }}</div>
-                        {% if block.settings.subtext != blank %}<div class="second-line">{{ block.settings.subtext | escape }}</div>{% endif %}
+                        <a class="h6 heading-font" href="{{ block.settings.text_link_url }}">
+                          {{- block.settings.text | escape -}}
+                        </a>
+                        {% if block.settings.subtext != blank %}
+                          <div class="second-line">{{ block.settings.subtext | escape }}</div>
+                        {% endif %}
                       </div>
                     </div>
                   </div>
-                  {% endif %}
-
-                {% elsif block.type contains 'icon' %}
-
-                  <div class="icon-with-caption">
-                    <div class="icon-with-caption__icon">
-                      {%- if block.settings.image == blank -%}
-                        {%- render 'icon', icon: block.settings.icon, size: 'medium' -%}
-                      {%- else -%}
-                        <div class="icon-with-caption__image-icon">
-                          {%- render 'image' with block.settings.image, sizes: '34px', widths: '34, 68', loading: 'lazy' -%}
-                        </div>
-                      {%- endif -%}
-                    </div>
-
-                    {% if block.settings.text != blank %}
-                      <div class="icon-with-caption__text">
-                        <div class="heading-font h6 align-center">{{ block.settings.text }}</div>
-                      </div>
-                    {% endif %}
-                  </div>
-
                 {% endif %}
+              {% elsif block.type contains 'icon' %}
+                {% style %} .block-id-{{ block.id }} img { width: {{ block.settings.icon_img_width }}px; } {% endstyle %}
+                <div class="icon-with-caption">
+                  <div class="icon-with-caption__icon">
+                    {%- if block.settings.image == blank -%}
+                      {%- render 'icon', icon: block.settings.icon, size: 'medium' -%}
+                    {%- else -%}
+                      <div class="icon-with-caption__image-icon">
+                        {%- render 'image' with block.settings.image,
+                          sizes: '56px',
+                          widths: '56, 68',
+                          loading: 'lazy'
+                        -%}
+                      </div>
+                    {%- endif -%}
+                  </div>
+                  <div class="icon-with-caption-content__wrapper">
+                    <div class="icon-with-caption-content">
+                      {% if block.settings.text != blank %}
+                        <div class="icon-with-caption__text">
+                          {%- if block.settings.text_link_url != blank -%}
+                            <a href="{{ block.settings.text_link_url }}" class="heading-font h6 align-center">
+                              {{- block.settings.text -}}
+                            </a>
+                          {%- else -%}
+                            <span class="heading-font h6 align-center">{{- block.settings.text -}}</span>
+                          {%- endif -%}
+                        </div>
+                      {% endif %}
+                      {% if section.settings.view_more_btn %}
+                        <div class="icon-with-caption__view-more--btn">View more</div>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
 
-                {% if block.settings.link_url != blank %}
-              </a>
+              {% if block.settings.link_url != blank %}
+                </a>
               {% endif %}
             </div>
           </div>
@@ -99,11 +153,10 @@
   {%- endfor -%}
 {% endstyle %}
 
-
 {% schema %}
 {
   "name": "Cross-page promos",
-  "max_blocks": 4,
+  "max_blocks": 5,
   "settings": [
     {
       "type": "color",
@@ -122,6 +175,62 @@
       "id": "show_on_home_page",
       "label": "Show on home page",
       "default": true
+    },
+    {
+      "type": "select",
+      "id": "arrange_type",
+      "label": "Arrange Type",
+      "options": [
+        { "value": "horizontal", "label": "Horizontal" },
+        { "value": "side-by-side", "label": "Side By Side" }
+      ],
+      "default": "horizontal"
+    },
+    {
+      "type": "checkbox",
+      "id": "view_more_btn",
+      "label": "Show View more Button",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Vertical",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_horzontal",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Horizontal",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 10,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "label": "Text Font Size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "font_size_mobile",
+      "min": 10,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "label": "Text Font Size(Mobile)",
+      "default": 16
     }
   ],
   "blocks": [
@@ -154,6 +263,21 @@
           "type": "url",
           "id": "link_url",
           "label": "Image link"
+        },
+        {
+          "type": "url",
+          "id": "text_link_url",
+          "label": "Text link"
+        },
+        {
+          "type": "range",
+          "id": "icon_img_width",
+          "label": "Icon width",
+          "min": 20,
+          "max": 150,
+          "step": 10,
+          "unit": "px",
+          "default": 20
         }
       ]
     },
@@ -320,8 +444,29 @@
           "type": "url",
           "id": "link_url",
           "label": "Icon link"
+        },
+        {
+          "type": "url",
+          "id": "text_link_url",
+          "label": "Text link"
+        },
+        {
+          "type": "range",
+          "id": "icon_img_width",
+          "label": "Icon width",
+          "min": 20,
+          "max": 150,
+          "step": 10,
+          "unit": "px",
+          "default": 20
         }
       ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cross-page promos",
+      "blocks": [{ "type": "icon" }, { "type": "icon" }]
     }
   ]
 }

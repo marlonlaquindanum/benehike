@@ -1,0 +1,118 @@
+{{ 'section-kik-collapsible-content.css' | asset_url | stylesheet_tag }}
+{% style %}
+  .shopify-section-{{ section.id }} .collapsible-content {
+    background-color: {{ section.settings.bg_color }};
+  }
+{% endstyle %}
+<div class="container collapsible-content">
+  <div class="collapsible-content--heading">
+    <h2 class="collapsible-content--heading__title">{{ section.settings.collapsibe_content_head }}</h2>
+    <p class="collapsible-content--heading__text">{{ section.settings.collapsible_content_body }}</p>
+    <a
+      class="text-overlay__button btn btn--secondary no-btn-color"
+      href="{{ section.settings.button_url }}"
+    >
+      {{- section.settings.btn_label | escape -}}
+    </a>
+  </div>
+  <div class="accordion-container">
+    {% for block in section.blocks %}
+      {%- case block.type -%}
+        {%- when 'accordion' -%}
+          <details>
+            <summary>
+              <span class="accordion-title">{{ block.settings.question_title }}</span>
+              <span class="accordion-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M6 9l6 6l6 -6" />
+                </svg>
+              </span>
+            </summary>
+            <div class="accordion-content">{{ block.settings.question_answer }}</div>
+          </details>
+      {%- endcase -%}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collapsible Content",
+  "class": "section section-kik-collapsible-content",
+  "settings": [
+    {
+      "type": "text",
+      "id": "collapsibe_content_head",
+      "label": "Title",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "richtext",
+      "id": "collapsible_content_body",
+      "label": "Text",
+      "default": "<p>Explore our FAQ section for quick solutions to common inquiries about BeneHike products and services. Whether you're curious about our products, warranties, or shipping details, we've got you covered.<br />Still need help?<br />Visit our Contact Us page for further assistance.</p>"
+    },
+    {
+      "type": "text",
+      "id": "btn_label",
+      "label": "Button Text",
+      "default": "Contact Us"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button link"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#f7f8f9"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "accordion",
+      "name": "Accordion",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question_title",
+          "label": "Question Title",
+          "default": "Some Questions"
+        },
+        {
+          "type": "text",
+          "id": "question_answer",
+          "label": "Text",
+          "default": "Some answers here..."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collapsible Content",
+      "blocks": [
+        { "type": "accordion" },
+        { "type": "accordion" },
+        { "type": "accordion" },
+        { "type": "accordion" },
+        { "type": "accordion" }
+      ]
+    }
+  ]
+}
+{% endschema %}

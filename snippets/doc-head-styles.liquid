@@ -10,7 +10,7 @@
 
 :root {
   --page-container-width:          {{ settings.max_page_width }}px;
-  --reading-container-width:       720px;
+  --reading-container-width:       724px;
   --divider-opacity:               0.14;
   --gutter-large:                  30px;
   --gutter-desktop:                20px;
@@ -51,18 +51,18 @@
   --heading-text-size-laptop:      {{- settings.font_size_heading | plus: 16 -}}px;
   
   {%- if settings.rounded_button -%}
-    --buttons-border-radius:             5rem;
+    --buttons-border-radius:             4px;
   {%- endif -%}
 
   {%- if settings.round_media -%}
-    --media-border-radius:               5rem;
+    --media-border-radius:               10px;
   {%- endif -%}
 
   {%- if settings.button_style == 'caps' -%}
     --btn-letter-spacing: 0.08em;
     --btn-text-transform: uppercase;
-    --button-text-size: {{ settings.font_size_base_int | times: 0.875 | round }}px;
-    --quickbuy-button-text-size: {{ settings.font_size_base_int | times: 0.875 | at_most: 13 | round }};
+    --button-text-size: {{ settings.font_size_base_int | round }}px;
+    --quickbuy-button-text-size: {{ settings.font_size_base_int | at_most: 13 | round }};
     --small-feature-link-font-size: 0.75em;
     --input-btn-padding-top:             1.2em;
     --input-btn-padding-bottom:          1.2em;

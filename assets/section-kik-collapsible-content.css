@@ -1,0 +1,151 @@
+#shopify-section-template--17143013441702__section_kik_collapsible_content_LbHkWt {
+  background-color: #F7F8F9;
+}
+
+:root {
+  --header-padding: 1rem 0;
+  --content-padding: 0 24px;
+  --border-color: #898D8D;
+  --title: 1rem;
+  --content: 0.95rem;
+  --icon-size: 1.5rem;
+  --primary-color: #c8dc71;
+}
+
+.collapsible-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #F7F8F9;
+}
+
+.accordion-container {
+  margin-left: 24px;
+  width: 60%;
+}
+
+.collapsible-content--heading {
+  width: 45%;
+}
+
+.collapsible-content--heading__text {
+  font-size: 16px;
+}
+
+.no-btn-color {
+  background-color: rgba(1,1,1,0);
+  padding: 10px 24px;
+}
+
+details:first-child {
+  border-top: 1px solid var(--border-color);
+}
+
+details {
+  font-size: var(--title);
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid var(--border-color);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+summary {
+  user-select: none;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: var(--header-padding);
+
+  &:hover {
+    & .title {
+      opacity: 1;
+    }
+
+    & .accordion-icon {
+      opacity: 1;
+    }
+  }
+}
+
+.accordion-title {
+  color: #151518;
+  width: 90%;
+  font-weight: 700;
+  transition: all 250ms ease-in-out;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.accordion-icon {
+  opacity: 0.5;
+  pointer-events: none;
+  position: absolute;
+  right: 1rem;
+  transition: all 150ms ease-out;
+
+  svg {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+.accordion-content {
+  color: #3c3e47;
+  padding: var(--content-padding);
+  font-size: var(--content);
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+/** Remove Marker */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/** Rotate Icon */
+details[open] .accordion-icon svg {
+  transform: rotate(180deg);
+}
+
+.collapsible-content--heading__title {
+  font-size: 32px;
+}
+
+@media (max-width: 767.98px) {
+  .accordion-title {
+    font-size: 16px;
+  }
+  .collapsible-content--heading__title {
+    font-size: 20px;
+  }
+  .collapsible-content--heading > p {
+    font-size: 14px;
+  }
+  .collapsible-content {
+    display: block;
+  }
+
+  .collapsible-content--heading {
+    width: 100%;
+  }
+
+  .accordion-container {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 24px;
+  }
+
+  .collapsible-content {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}

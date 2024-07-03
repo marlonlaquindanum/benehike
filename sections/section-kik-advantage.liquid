@@ -6,6 +6,9 @@
 
   .advantage-items {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .advatage-items:last-child {
@@ -36,7 +39,6 @@
     font-size: 64px;
     line-height: 64px;
     text-align: center;
-    margin-bottom: 16px;
     color: #fff;
   }
 
@@ -48,6 +50,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+    margin-top: 16px;
   }
 
   .featured-num {
@@ -57,14 +60,56 @@
     color: #ffe802;
   }
 
+  .advantage-item--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .light-yellow {
+    font-size: 64px;
+    color: #ffe802;
+    font-weight: 800;
+    font-family: 'Inter';
+    margin-left: 1rem;
+  }
+
+  .advantage-item--star__text {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 5px;
+  }
+
+  .advantage-item--stars {
+    text-align: center;
+  }
+
+  .star-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: none;
+  }
+
   @media screen and (max-width: 768px) {
     .advantage-item--number,
-    .featured-num {
+    .featured-num,
+    .light-yellow {
       font-size: 24px;
+      margin-left: 0.2rem;
     }
 
     .advantage-item--text {
       font-size: 14px;
+    }
+
+    .advantage-item {
+      margin: 20px auto;
+    }
+
+    .advantage-item--text {
+      margin-top: 0;
     }
   }
 {% endstyle %}
@@ -75,23 +120,47 @@
   <div class="container advantage-container">
     <div class="advantage-items">
       <div class="advantage-item">
-        <div
-          class="advantage-item--number {{ settings.font_size_heading }}"
-          style="text-align: {{ section.settings.content_alignment }}"
-        >
-          {{ section.settings.item_num_1 }}
-        </div>
+        {% if section.settings.item_num_1 > 100 %}
+          <div class="advantage-item--wrapper">
+            <span
+              class="advantage-item--number"
+              style="text-align: {{ section.settings.content_alignment }}"
+            >
+              100
+            </span>
+            <span class="light-yellow">+</span>
+          </div>
+        {% else %}
+          <div
+            class="advantage-item--number"
+            style="text-align: {{ section.settings.content_alignment }}"
+          >
+            {{ section.settings.item_num_1 }}
+          </div>
+        {% endif %}
         <div class="advantage-item--text" style="text-align: {{ section.settings.content_alignment }}">
           {{ section.settings.item_txt_1 }}
         </div>
       </div>
       <div class="advantage-item">
-        <div
-          class="advantage-item--number {{ settings.font_size_heading }}"
-          style="text-align: {{ section.settings.content_alignment }}"
-        >
-          {{ section.settings.item_num_3 }}
-        </div>
+        {% if section.settings.item_num_3 > 5000 %}
+          <div class="advantage-item--wrapper">
+            <span
+              class="advantage-item--number"
+              style="text-align: {{ section.settings.content_alignment }}"
+            >
+              5000
+            </span>
+            <span class="light-yellow">+</span>
+          </div>
+        {% else %}
+          <div
+            class="advantage-item--number"
+            style="text-align: {{ section.settings.content_alignment }}"
+          >
+            {{ section.settings.item_num_3 }}
+          </div>
+        {% endif %}
         <div class="advantage-item--text" style="text-align: {{ section.settings.content_alignment }}">
           {{ section.settings.item_txt_3 }}
         </div>
@@ -99,19 +168,42 @@
     </div>
     <div class="advantage-items">
       <div class="advantage-item">
-        <div
-          class="advantage-item--number {{ settings.font_size_heading }}"
-          style="text-align: {{ section.settings.content_alignment }}"
-        >
-          {{ section.settings.item_num_2 | money_without_currency | ceil }}
+        {% if section.settings.item_num_2 > 10000 %}
+          <div class="advantage-item--wrapper">
+            <span
+              class="advantage-item--number"
+              style="text-align: {{ section.settings.content_alignment }}"
+            >
+              10000
+            </span>
+            <span class="light-yellow">+</span>
+          </div>
+        {% else %}
+          <div
+            class="advantage-item--number"
+            style="text-align: {{ section.settings.content_alignment }}"
+          >
+            {{ section.settings.item_num_2 }}
+          </div>
+        {% endif %}
+        <div class="advantage-item--stars">
+          <div class="advantage-item--star__text">{{ section.settings.star_number }}-STAR REVIEWS</div>
+          {% for item in (1..section.settings.star_number) %}
+            <span class="advantage-item--star"
+              ><img
+                src="https://cdn.shopify.com/s/files/1/0618/8226/9862/files/star.png?v=1719961434"
+                width="13"
+                height="13"
+            ></span>
+          {% endfor %}
         </div>
-        <div class="advantage-item--text" style="text-align: {{ section.settings.content_alignment }}">
+        <div class="advantage-item--text star-text" style="text-align: {{ section.settings.content_alignment }}">
           {{ section.settings.item_txt_2 }}
         </div>
       </div>
       <div class="advantage-item">
         <div
-          class="advantage-item--number {{ settings.font_size_heading }}"
+          class="advantage-item--number"
           style="text-align: {{ section.settings.content_alignment }}"
         >
           <span class="featured-num">{{ section.settings.item_num_4 }}</span>-Year
@@ -123,7 +215,7 @@
     </div>
   </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js"></script>
 <script>
   var options = {
     useEasing: true,
@@ -135,8 +227,6 @@
   document.querySelectorAll('.advantage-item--number').forEach((item) => {
     new CountUp(item, 0, item.innerHTML, 0, 5, options).start();
   });
-
-  console.log('script has loaded!!!', varti);
 </script>
 
 {% schema %}
@@ -191,6 +281,12 @@
       "id": "item_txt_3",
       "label": "Item Text 3",
       "default": "BeneHike Enthusiasts"
+    },
+    {
+      "type": "number",
+      "id": "star_number",
+      "label": "Star Number",
+      "default": 5
     },
     {
       "type": "number",

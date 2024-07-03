@@ -1,4 +1,18 @@
-<div class="{% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %}" data-cc-animate>
+{% style %}
+  #shopify-section-{{ section.id }} .custom-padding { margin: 0; padding-top: {{ section.settings.padding_vertical }}px; padding-bottom: {{ section.settings.padding_vertical }}px; }
+  #shopify-section-{{ section.id }} .font-bold {
+    font-weight: 700;
+    font-size: 16px
+  }
+  @media (max-width: 768.97px) {
+    #shopify-section-{{ section.id }} .custom-padding { margin: 0; padding-top: 24px; padding-bottom: 24px; }
+  }
+{% endstyle %}
+<div
+  class="{% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--{{ section.settings.height }}{% else %}fully-spaced-row--{{ section.settings.height }}{% endif %} custom-padding"
+  data-cc-animate
+  style="background-color: {{ section.settings.bg_color }};"
+>
   <div class="container{% unless section.settings.full_width %} container--reading-width{% endunless %}">
     <div class="align-ltr-{{ section.settings.text_alignment }} spaced-column">
       {% assign skip_block_count = 0 %}
@@ -14,23 +28,57 @@
             {% if block.settings.use_h1 %}
               <h1 class="majortitle in-content" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h1>
             {% else %}
-              <h2 class="majortitle in-content h1" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h2>
+              <h2 class="majortitle in-content h1" {{ block.shopify_attributes }}>
+                {{ block.settings.title | escape }}
+              </h2>
             {% endif %}
 
           {% when 'subheading' %}
-            <div class="subheading subheading--over lightish-spaced-row-above" {{ block.shopify_attributes }}>{{ block.settings.subheading | escape }}</div>
+            <div class="subheading subheading--over lightish-spaced-row-above" {{ block.shopify_attributes }}>
+              {{ block.settings.subheading | escape }}
+            </div>
 
           {% when 'text' %}
-            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+            <div
+              class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.text }}
+            </div>
 
           {% when 'button' %}
             <div class="lightly-spaced-row button-row" {{ block.shopify_attributes }}>
-              <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+              {% if block.settings.button_icon and block.settings.button_style == 'link' %}
+                {% style %}
+                  #shopify-section-{{ section.id }} .lightly-spaced-row {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+
+                  #shopify-section-{{ section.id }} .small-feature-link { margin: 0; }
+                {% endstyle %}
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16 5.3335C13.1026 5.3335 12.74 5.34683 11.6026 5.3975C10.4666 5.4495 9.69198 5.6295 9.01331 5.8935C8.30152 6.16141 7.65674 6.5814 7.12398 7.12416C6.53065 7.71616 6.16531 8.31083 5.89331 9.0135C5.62931 9.69216 5.44931 10.4668 5.39731 11.6028C5.34665 12.7402 5.33331 13.1028 5.33331 16.0002C5.33331 18.8975 5.34665 19.2602 5.39731 20.3975C5.44931 21.5335 5.62931 22.3082 5.89331 22.9868C6.16531 23.6882 6.53065 24.2842 7.12398 24.8762C7.71598 25.4695 8.31065 25.8348 9.01331 26.1068C9.69198 26.3708 10.4666 26.5508 11.6026 26.6028C12.74 26.6535 13.1026 26.6668 16 26.6668C18.8973 26.6668 19.26 26.6535 20.3973 26.6028C21.5333 26.5508 22.308 26.3708 22.9866 26.1068C23.6984 25.8389 24.3432 25.4189 24.876 24.8762C25.4693 24.2842 25.8346 23.6895 26.1066 22.9868C26.3706 22.3082 26.5506 21.5335 26.6026 20.3975C26.6533 19.2602 26.6666 18.8975 26.6666 16.0002C26.6666 13.1028 26.6533 12.7402 26.6026 11.6028C26.5506 10.4668 26.3706 9.69216 26.1066 9.0135C25.8387 8.30172 25.4187 7.65695 24.876 7.12416C24.3432 6.5814 23.6984 6.16141 22.9866 5.8935C22.308 5.6295 21.5333 5.4495 20.3973 5.3975C19.26 5.34683 18.8973 5.3335 16 5.3335ZM16 7.25483C18.848 7.25483 19.1866 7.26683 20.3106 7.3175C21.3506 7.3655 21.9146 7.53883 22.2906 7.6855C22.7893 7.87883 23.144 8.1095 23.5173 8.48283C23.8906 8.85616 24.1213 9.21083 24.3146 9.7095C24.4613 10.0855 24.6346 10.6495 24.6826 11.6895C24.7333 12.8148 24.7453 13.1522 24.7453 16.0002C24.7453 18.8482 24.7333 19.1868 24.6826 20.3108C24.6346 21.3508 24.4613 21.9148 24.3146 22.2908C24.1213 22.7895 23.8906 23.1442 23.5173 23.5175C23.144 23.8908 22.7893 24.1215 22.2906 24.3148C21.9146 24.4615 21.3506 24.6348 20.3106 24.6828C19.1853 24.7335 18.848 24.7455 16 24.7455C13.152 24.7455 12.8133 24.7335 11.6893 24.6828C10.6493 24.6348 10.0853 24.4615 9.70931 24.3148C9.246 24.144 8.82684 23.8716 8.48265 23.5175C8.12854 23.1733 7.85608 22.7542 7.68531 22.2908C7.53865 21.9148 7.36531 21.3508 7.31731 20.3108C7.26665 19.1855 7.25465 18.8482 7.25465 16.0002C7.25465 13.1522 7.26665 12.8135 7.31731 11.6895C7.36531 10.6495 7.53865 10.0855 7.68531 9.7095C7.87865 9.21083 8.10931 8.85616 8.48265 8.48283C8.85598 8.1095 9.21065 7.87883 9.70931 7.6855C10.0853 7.53883 10.6493 7.3655 11.6893 7.3175C12.8146 7.26683 13.152 7.25483 16 7.25483ZM16 19.5562C15.533 19.5562 15.0706 19.4642 14.6392 19.2855C14.2077 19.1068 13.8157 18.8448 13.4855 18.5146C13.1553 18.1844 12.8934 17.7924 12.7147 17.361C12.536 16.9296 12.444 16.4671 12.444 16.0002C12.444 15.5332 12.536 15.0708 12.7147 14.6393C12.8934 14.2079 13.1553 13.8159 13.4855 13.4857C13.8157 13.1555 14.2077 12.8936 14.6392 12.7148C15.0706 12.5361 15.533 12.4442 16 12.4442C16.9431 12.4442 17.8476 12.8188 18.5145 13.4857C19.1813 14.1526 19.556 15.0571 19.556 16.0002C19.556 16.9433 19.1813 17.8478 18.5145 18.5146C17.8476 19.1815 16.9431 19.5562 16 19.5562ZM16 10.5228C14.5473 10.5228 13.1541 11.0999 12.1269 12.1271C11.0997 13.1543 10.5226 14.5475 10.5226 16.0002C10.5226 17.4528 11.0997 18.846 12.1269 19.8732C13.1541 20.9004 14.5473 21.4775 16 21.4775C17.4527 21.4775 18.8458 20.9004 19.873 19.8732C20.9002 18.846 21.4773 17.4528 21.4773 16.0002C21.4773 14.5475 20.9002 13.1543 19.873 12.1271C18.8458 11.0999 17.4527 10.5228 16 10.5228ZM22.9733 10.3068C22.9733 10.6463 22.8385 10.9719 22.5984 11.2119C22.3584 11.452 22.0328 11.5868 21.6933 11.5868C21.3538 11.5868 21.0283 11.452 20.7882 11.2119C20.5482 10.9719 20.4133 10.6463 20.4133 10.3068C20.4133 9.96735 20.5482 9.64178 20.7882 9.40173C21.0283 9.16169 21.3538 9.02683 21.6933 9.02683C22.0328 9.02683 22.3584 9.16169 22.5984 9.40173C22.8385 9.64178 22.9733 9.96735 22.9733 10.3068Z" fill="#FF6100"/>
+                </svg>
+              {% endif %}
+              <a
+                class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %} {% if block.settings.font_bold %}font-bold{% endif %} button-row__btn"
+                href="{{ block.settings.button_link }}"
+              >
+                {{- block.settings.button_label | escape -}}
+              </a>
               {%- assign skip_block_count = 0 -%}
               {%- for next_block in section.blocks offset: forloop.index -%}
                 {%- if next_block.type == 'button' -%}
                   {%- assign skip_block_count = skip_block_count | plus: 1 -%}
-                  <a class="{% if next_block.settings.button_style != 'link' %}btn btn--{{ next_block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn" href="{{ next_block.settings.button_link }}" {{ block.shopify_attributes }}>{{ next_block.settings.button_label | escape }}</a>
+                  <a
+                    class="{% if next_block.settings.button_style != 'link' %}btn btn--{{ next_block.settings.button_style }}{% else %}small-feature-link{% endif %} {% if block.settings.font_bold %}font-bold{% endif %} button-row__btn"
+                    href="{{ next_block.settings.button_link }}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{- next_block.settings.button_label | escape -}}
+                  </a>
                 {%- else -%}
                   {%- break -%}
                 {%- endif -%}
@@ -38,19 +86,23 @@
             </div>
 
           {% when 'image' %}
-            <div class="lightly-spaced-row lightish-spaced-row-above inline-width-container" style="width: {{ block.settings.image_width }}px" {{ block.shopify_attributes }}>
+            <div
+              class="lightly-spaced-row lightish-spaced-row-above inline-width-container"
+              style="width: {{ block.settings.image_width }}px"
+              {{ block.shopify_attributes }}
+            >
               {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
-                {% if block.settings.image != blank %}
-                  {%- liquid
-                    assign image_sizes = block.settings.image_width | append: 'px'
-                    assign image_widths = block.settings.image_width | times: 2 | prepend: ', ' | prepend: block.settings.image_width
-                    render 'image' with block.settings.image, sizes: image_sizes, widths: image_widths
-                  -%}
-                {% else %}
-                  <div class="placeholder-image">
-                    {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
-                  </div>
-                {% endif %}
+              {% if block.settings.image != blank %}
+                {%- liquid
+                  assign image_sizes = block.settings.image_width | append: 'px'
+                  assign image_widths = block.settings.image_width | times: 2 | prepend: ', ' | prepend: block.settings.image_width
+                  render 'image' with block.settings.image, sizes: image_sizes, widths: image_widths
+                -%}
+              {% else %}
+                <div class="placeholder-image">
+                  {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+                </div>
+              {% endif %}
               {% if block.settings.url != blank %}</a>{% endif %}
             </div>
 
@@ -69,7 +121,10 @@
               }
             {% endstyle %}
 
-            <div class="block-id-{{ block.id }} lightly-spaced-row lightish-spaced-row-above countdown-font-{{ block.settings.number_font }} countdown-divider-{{ block.settings.divider_type }}" {{ block.shopify_attributes }}>
+            <div
+              class="block-id-{{ block.id }} lightly-spaced-row lightish-spaced-row-above countdown-font-{{ block.settings.number_font }} countdown-divider-{{ block.settings.divider_type }}"
+              {{ block.shopify_attributes }}
+            >
               {% render 'countdown-timer',
                 end_date: block.settings.end_date,
                 end_time: block.settings.end_time,
@@ -79,22 +134,18 @@
                 show_labels: block.settings.show_timer_labels
               %}
             </div>
-
         {% endcase %}
       {% endfor %}
     </div>
   </div>
 </div>
 
-
 {% schema %}
 {
   "name": "Rich text",
   "class": "section-rich-text",
   "disabled_on": {
-    "groups": [
-      "aside"
-    ]
+    "groups": ["aside"]
   },
   "settings": [
     {
@@ -148,6 +199,22 @@
           "label": "2"
         }
       ]
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#F7F8F9"
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Custom Padding",
+      "default": 10
     }
   ],
   "blocks": [
@@ -238,6 +305,18 @@
               "value": "link"
             }
           ]
+        },
+        {
+          "type": "checkbox",
+          "id": "button_icon",
+          "label": "Button Icon",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "font_bold",
+          "label": "Font Bold",
+          "default": false
         }
       ]
     },
@@ -507,8 +586,7 @@
   "presets": [
     {
       "name": "Rich text",
-      "settings": {
-      },
+      "settings": {},
       "blocks": [
         {
           "type": "heading"

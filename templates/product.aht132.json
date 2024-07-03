@@ -20,11 +20,6 @@
             "enable_product_reviews_by_price": false
           }
         },
-        "2aaa1eab-6177-4c92-81be-176f8d7827c7": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "divider": {
           "type": "divider",
           "settings": {
@@ -100,7 +95,6 @@
         "vendor",
         "title",
         "price",
-        "2aaa1eab-6177-4c92-81be-176f8d7827c7",
         "divider",
         "41d6d1f0-1de6-4b1f-a560-895f740d9dcf",
         "variant-picker",
@@ -126,515 +120,405 @@
         "media_grouping_option": "Color,Colour,Couleur,Farbe"
       }
     },
-    "2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4": {
-      "type": "collapsible-tabs",
+    "video_CrEfwC": {
+      "type": "video",
       "blocks": {
-        "template--16416158613670__2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4-question-1": {
-          "type": "question",
+        "heading_HRxnBy": {
+          "type": "heading",
           "settings": {
-            "title": "DESCRIPTION",
-            "answer": "<ul><li>Ascendll™ aluminum shell tents are a popular choice due to their ease of use. This flap tent can be set up in just 10 seconds, making it one of the fastest tents to deploy and break down. The tent features several upgrades that make it stand out, including a thicker rubber seal that keeps it clean and dry, and a carpet that helps minimize moisture.<\/li><li>The Ascendll™ shell has a sleek aerodynamic design, adding only 8 inches of extra height and weighing only 136 lbs, making it lightweight and fuel-efficient. It also doubles as a roof rack, allowing you to mount lights, an awning, tools, or carry your sports equipment.<\/li><li>The tent interior has been stretched to 35'' \/ 6'' to allow taller campers to sit comfortably, and the interior height now has enough room to store ladders and bedding. The tent features an organizer bag with multiple pockets for entertainment.<\/li><li>The sleep experience in the Ascendll™ tent is exceptional. The 2-inch high-density foam padding provides extra cushioning and comes with a removable waterproof mattress cover. The canopy features light-suppressing technology that completely blocks any external light when fully closed, allowing you to sleep undisturbed.<\/li><li>The tent also comes with several subtle upgrades, including a larger wraparound awning and huge side windows that provide stunning views.<\/li><li>Overall, Ascendll™ aluminum shell tents provide an excellent camping experience, with added comfort and convenience.<\/li><\/ul>"
+            "title": "ALUMABODE V2 RTT",
+            "heading_max_width": 15,
+            "title_size": 56,
+            "title_size_mobile": 32,
+            "use_h1": false
           }
         },
-        "template--16416158613670__2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4-question-2": {
-          "type": "question",
+        "text_83yJ4P": {
+          "type": "text",
           "settings": {
-            "title": "SPECIFICATIONS",
-            "answer": "<ul><li><strong>Sleeping Capacity: <\/strong>2-3 People<\/li><li><strong>Closed Size L\/W\/H: <\/strong>83x52x6 Inch<\/li><li><strong>External Unfolded Size L\/W\/H: <\/strong>83x55x59 Inch<\/li><li><strong>Internal Unfolded Size L\/W\/H: <\/strong>79.5x49x57 Inch<\/li><li><strong>Mattress Size:  <\/strong>1 qty, Hight-D Memory Foam, 82x51x2 Inch<\/li><li><strong>Weight:<\/strong> 160 Lbs<\/li><li><strong>Weight Capacity<\/strong>: 1100 Lbs<\/li><li>Mounting T-Channel Rails: 26 Inch apart<\/li><li>Recommended Mounting Width: 26~32 Inch<\/li><\/ul><p><\/p><ul><li><strong>Shell Material: <\/strong>6-Seris  Aluminum with Jet-Black Powder Coating<\/li><li><strong>Tent Body Material:<\/strong> 600D Oxford\/Cotton Rip-Stop 280 GSM, Waterproof Level &gt;3000MM, UV50+, Mold-inhibiting fabric<\/li><li><strong>Rainfly<\/strong> <strong>Material: <\/strong>420D Oxford\/Cotton Rip-Stop 210 GSM, Waterproof Level &gt;3000MM, UV50+, Mold-inhibiting fabric<\/li><li><strong>Floor Material: <\/strong>Heavy-duty 1‘’ Aluminum Honeycomb Panel<\/li><li><strong>Doors & Window Material:<\/strong> 600D Poly-Oxford with 280GSM\/120g Poly-fil mesh<\/li><li><strong>Gas Struts:<\/strong> 2 qty, Rating 400N each<\/li><li><strong>Zippers: <\/strong>Heavy-duty SBS (contains air tight function)<\/li><li><strong>Ladder: <\/strong>Telescoping 7.6 ft tall((included))<\/li><li>2 qty, 2-pocket storage Bag made of 600D Oxford fabric<\/li><\/ul>"
+            "text": "<p>Features and Functions Overview<\/p>",
+            "enlarge_text": true
           }
         },
-        "29d84539-711c-42d9-9d3d-77976e8ad492": {
-          "type": "question",
+        "play_button_mJPYhY": {
+          "type": "play-button",
           "settings": {
-            "title": "SHIPPING & RETURNS",
-            "answer": "<h4><strong>LTL-Truck Shipping<\/strong><\/h4><p><strong>Delivery Countries: <\/strong>USA (Excluding outlying islands)<\/p><p><strong>Transit Time: <\/strong>7-15 business days<\/p><p>________________________________<\/p><p><strong>Transportation Costs: <\/strong>FREE<\/p><p><strong>Delivery Countries: <\/strong>Canada <\/p><p><strong>Transit Time: <\/strong>10-15 business days<\/p><p><strong>Transportation Costs:  <\/strong>$340 CAD<\/p><p>________________________________<\/p><h6>⛟ 7-Day No-Reason Return<br\/>⛟ 30-Day Refundable<br\/>🛠︎ 5-Year Warranty<\/h6><p><a href=\"https:\/\/benehike.com\/pages\/shipping-policy\" title=\"https:\/\/benehike.com\/pages\/shipping-policy\"><em><strong>MORE SHIPPING POLICY<\/strong><\/em><\/a><\/p>"
-          }
-        },
-        "b9d44eac-6426-4093-a11d-b5d9446edb58": {
-          "type": "question",
-          "settings": {
-            "title": "INSTALLATION",
-            "answer": "<p><strong>Installation Instructions<\/strong><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Ascendll_Aluminum_Shell_Side_Open_Rooftop_Tent_Manual_4f760c5b-73e5-4ee7-b996-8d4ce484d226.pdf?v=1689582169\" title=\"Ascendll V2 Aluminum Hard Shell Side Open Rooftop Tent  Installation Manual\"><em><strong>📩 Download the Manual<\/strong><\/em><\/a><\/p>"
           }
         }
       },
       "block_order": [
-        "template--16416158613670__2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4-question-1",
-        "template--16416158613670__2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4-question-2",
-        "29d84539-711c-42d9-9d3d-77976e8ad492",
-        "b9d44eac-6426-4093-a11d-b5d9446edb58"
+        "heading_HRxnBy",
+        "text_83yJ4P",
+        "play_button_mJPYhY"
       ],
       "settings": {
-        "title": ""
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "placeholder_image": "shopify:\/\/shop_images\/QQ_20240628141052.jpg",
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "shadow"
       }
     },
-    "4cd81335-7fa9-4aff-988c-306bf079bd62": {
+    "rich_text_6X3C7t": {
       "type": "rich-text",
       "blocks": {
-        "template--16416158613670__4cd81335-7fa9-4aff-988c-306bf079bd62-heading-1": {
+        "heading_pbRcQE": {
           "type": "heading",
           "settings": {
-            "title": "WHAT KINDS OF VEHICLES WOULD FIT IN RTT?",
+            "title": "Key Features",
             "use_h1": false
           }
         }
       },
       "block_order": [
-        "template--16416158613670__4cd81335-7fa9-4aff-988c-306bf079bd62-heading-1"
+        "heading_pbRcQE"
       ],
       "settings": {
-        "height": "small",
+        "height": "medium",
         "text_alignment": "center",
         "full_width": false,
-        "color_scheme": "2"
+        "color_scheme": "default",
+        "bg_color": "#f7f8f9",
+        "padding_vertical": 10
       }
     },
-    "830ff4a8-2410-4c34-a06e-420787822183": {
-      "type": "scrolling-banner",
+    "multi_column_DBfMw9": {
+      "type": "multi-column",
       "blocks": {
-        "076820b5-9799-4402-ba56-b2359695174f": {
-          "type": "image",
+        "text_block_d8CARn": {
+          "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PICK-UP-TRUCK-q2fbvesih5dcwrzncgl165kgetq2fymkhrwn8vf270.png",
-            "image_width": 200,
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/2fda1c2ca7803441ce219457f06f27fe.jpg",
+            "title": "INTEGRATED ROOF",
+            "text": "<p>Even when closed, the Alumabode V2 can store our sleeping gear inside the tent. At the top of the tent, the seamlessly integrated roof crossbar system is designed to carry bulky gear weighing up to 800 pounds, while side panels allow easy access to small essentials on the go.<\/p>",
+            "button_label": "",
             "link": ""
           }
         },
-        "template--16416158613670__830ff4a8-2410-4c34-a06e-420787822183-text-1": {
-          "type": "text",
+        "text_block_xGyKzx": {
+          "type": "text_block",
           "settings": {
-            "text": "PICK UP TRUCK",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        },
-        "36e26c95-16dc-4a33-827d-74fc58a4c568": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TRAILER-q2fbvfqcnzen8dya6yznqnbx07lfnnqatwk4q5do0s.png",
-            "image_width": 200,
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/5e6beca310a5be4e76124727e579c13a_c09cac6b-7f16-40f1-baf7-f5c14eb30132.jpg",
+            "title": "DIVERSIFIED EXPANSION",
+            "text": "<p>The top and bottom of all four sides of the Alumabode V2 shell feature M8 rail slots, providing endless possibilities for adventure expansion and full compatibility with Thule and Yakima accessories.<\/p>",
+            "button_label": "",
             "link": ""
-          }
-        },
-        "0f652bea-0dee-428a-b5d7-7ed9177d7dd9": {
-          "type": "text",
-          "settings": {
-            "text": "TRAILER",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        },
-        "558fd5ad-f718-46e9-9976-5c0e2f3213fd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8.png",
-            "image_width": 200,
-            "link": ""
-          }
-        },
-        "9eec5214-b49d-4b98-9941-f15f4b6bf842": {
-          "type": "text",
-          "settings": {
-            "text": "MID-SIZE SUV",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        },
-        "78552d19-f04f-4f65-a955-21837a8fd53a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FULL-SIZE-SUV-q2fbvduoabc2l610hy6elnsztfup89iu5n95rlggd8_71910132-52d4-4901-9ba2-902e4d1dda48.png",
-            "image_width": 200,
-            "link": ""
-          }
-        },
-        "ee43fb84-df19-4dd4-a61b-8ebbcaf3b743": {
-          "type": "text",
-          "settings": {
-            "text": "FULL-SIZE SUV",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
-          }
-        },
-        "bd6e6d07-5b93-4446-b5b3-1ac73bc11ef3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/VAN-q2fbvgo6utfxjzwx1heab53dllgsvcu1617m7fc9uk.png",
-            "image_width": 200,
-            "link": ""
-          }
-        },
-        "f989d211-1962-4c01-a9a5-0cd929462661": {
-          "type": "text",
-          "settings": {
-            "text": "Van",
-            "color": "rgba(0,0,0,0)",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
           }
         }
       },
       "block_order": [
-        "076820b5-9799-4402-ba56-b2359695174f",
-        "template--16416158613670__830ff4a8-2410-4c34-a06e-420787822183-text-1",
-        "36e26c95-16dc-4a33-827d-74fc58a4c568",
-        "0f652bea-0dee-428a-b5d7-7ed9177d7dd9",
-        "558fd5ad-f718-46e9-9976-5c0e2f3213fd",
-        "9eec5214-b49d-4b98-9941-f15f4b6bf842",
-        "78552d19-f04f-4f65-a955-21837a8fd53a",
-        "ee43fb84-df19-4dd4-a61b-8ebbcaf3b743",
-        "bd6e6d07-5b93-4446-b5b3-1ac73bc11ef3",
-        "f989d211-1962-4c01-a9a5-0cd929462661"
+        "text_block_d8CARn",
+        "text_block_xGyKzx"
       ],
       "settings": {
-        "full_width": true,
-        "color_scheme": "2",
-        "text_size": 20,
-        "vertical_padding": 20,
-        "speed": 20,
-        "direction": "left",
-        "font": "base",
-        "space": 35
-      }
-    },
-    "b4bcd257-6452-4fca-b928-571c9cdcd952": {
-      "type": "key-features",
-      "blocks": {
-        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-2": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ascendll_aluminum_side_open_rooftop_tent_view_3.jpg",
-            "bg_color": "#f6f6f6",
-            "bg_gradient": "",
-            "text_color": "#171717",
-            "heading": "EXPANDED ALUMINUM ALLOY SHELL",
-            "text": "<ul><li>You don't have to worry about MPG, the 8-inch ultra-thin design reduces wind resistance and noise when driving.<\/li><li>Mothership-grade plating addresses the potential for rust, corrosion, and withstands harsh weather conditions and rough terrain.<\/li><li>Optional Crossbar Expansion: Bring bikes, kayaks, snowboards, or anything else you need for your next adventure.<\/li><\/ul>",
-            "show_segments": true,
-            "segments": 6,
-            "active_segment": "1",
-            "fill_segments": true,
-            "show_labels": true,
-            "label_left": "Additional",
-            "label_middle": "",
-            "label_right": "",
-            "show_icon": true,
-            "icon": "star"
-          }
-        },
-        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-3": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ascendll_V2_Aluminum_Shell_Rooftop_Tent_2_Person-_desc_04.jpg",
-            "bg_color": "#f6f6f6",
-            "bg_gradient": "",
-            "text_color": "#505050",
-            "heading": "VERSATILE CAPACITY",
-            "text": "<p>The Ascendll features channel slots on all four sides, top, and bottom for versatile customization. Seamless integration of awning brackets provides quick access to awnings, canisters, tools, showers, and more.<\/p>",
-            "show_segments": true,
-            "segments": 6,
-            "active_segment": "2",
-            "fill_segments": true,
-            "show_labels": true,
-            "label_left": "Expand",
-            "label_middle": "",
-            "label_right": "",
-            "show_icon": true,
-            "icon": "star"
-          }
-        },
-        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-1": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/aluminum_pop_up_rooftop_tent_banner_13_fab5eab5-1daf-49dd-a21e-76bfee3fe952.jpg",
-            "bg_color": "#f6f6f6",
-            "bg_gradient": "",
-            "text_color": "#171717",
-            "heading": "FAMILY CAMPERS",
-            "text": "<p>Luxurious California bed, big enough to sleep with furry. Also store a sleeping bag, quilt or blanket inside.<\/p>",
-            "show_segments": true,
-            "segments": 6,
-            "active_segment": "3",
-            "fill_segments": true,
-            "show_labels": true,
-            "label_left": "",
-            "label_middle": "Size",
-            "label_right": "",
-            "show_icon": false,
-            "icon": "star"
-          }
-        },
-        "49014b63-7f0f-482e-aba1-9a239ec302f6": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/aluminum_pop_up_rooftop_tent_22-transformed_07.jpg",
-            "bg_color": "#e3e3e3",
-            "bg_gradient": "",
-            "text_color": "#505050",
-            "heading": "FULL SIZE BED",
-            "text": "<ul><li>Camping doesn't have to be tough. Sleep on luxury mattresses comparable to California kings.<\/li><li>A 2-inch high-density foam mattress allows you to sleep under the stars like a five-star hotel.<\/li><\/ul>",
-            "show_segments": true,
-            "segments": 6,
-            "active_segment": "4",
-            "fill_segments": true,
-            "show_labels": true,
-            "label_left": "",
-            "label_middle": "Bed",
-            "label_right": "",
-            "show_icon": false,
-            "icon": "star"
-          }
-        },
-        "ef3fa946-e1b2-45e0-8577-d8d6da43ae9a": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ascendll_aluminum_side_open_rooftop_tent_view_5.jpg",
-            "bg_color": "#f6f6f6",
-            "bg_gradient": "",
-            "text_color": "#505050",
-            "heading": "FASTEST SETUP",
-            "text": "<ul><li>Opens in less than 60 seconds, which means you can enjoy more time relaxing and spending time with your family.<\/li><li>When closing the tent, you don't have to take the futon out to clean the contents, it stays inside.<\/li><\/ul>",
-            "show_segments": true,
-            "segments": 6,
-            "active_segment": "5",
-            "fill_segments": true,
-            "show_labels": true,
-            "label_left": "",
-            "label_middle": "",
-            "label_right": "Bright",
-            "show_icon": false,
-            "icon": "star"
-          }
-        },
-        "bbb7f85c-9e87-427c-857d-334b327992f1": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ascendll_aluminum_side_open_rooftop_tent_2224.jpg",
-            "bg_color": "#f6f6f6",
-            "bg_gradient": "",
-            "text_color": "#505050",
-            "heading": "INFINITE STORAGE",
-            "text": "<p>The Vertical Storage Pockets On Both Sides Allow Easy Placement Of Small Items When Drowsiness Strikes.<\/p>",
-            "show_segments": true,
-            "segments": 6,
-            "active_segment": "6",
-            "fill_segments": true,
-            "show_labels": true,
-            "label_left": "",
-            "label_middle": "",
-            "label_right": "Storage",
-            "show_icon": false,
-            "icon": "star"
-          }
-        }
-      },
-      "block_order": [
-        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-2",
-        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-3",
-        "template--16416158613670__b4bcd257-6452-4fca-b928-571c9cdcd952-feature-1",
-        "49014b63-7f0f-482e-aba1-9a239ec302f6",
-        "ef3fa946-e1b2-45e0-8577-d8d6da43ae9a",
-        "bbb7f85c-9e87-427c-857d-334b327992f1"
-      ],
-      "settings": {
-        "heading": "Key features",
-        "image_max_width": 700,
+        "title": "",
         "media_aspect_ratio": "s",
-        "image_position": "left",
-        "segment_position": "over-text"
+        "media_width": 700,
+        "text_alignment": "left",
+        "button_style": "primary",
+        "color_scheme": "default"
       }
     },
-    "a7ef1531-0794-4cda-b3af-7936f0141206": {
-      "type": "image-with-text",
+    "multi_column_mMtVw6": {
+      "type": "multi-column",
       "blocks": {
-        "template--16416158613670__a7ef1531-0794-4cda-b3af-7936f0141206-heading-1": {
+        "text_block_8k3ypD": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/91408444cf492d13128c0a00b49f2664_00b1001c-90a8-4552-89d1-6696bd561784.jpg",
+            "title": "FAMILY CAMPER",
+            "text": "<p>The POP-UP design of Alumabode V2 provides ample space above the luxurious mattress, accommodating at least a small family and your dog. You can even sit up straight without awkward bending.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_q8a8dY": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/cba8cfb8cdeb21d47f4284786d488ecb.jpg",
+            "title": "SPACIOUS HAVEN",
+            "text": "<p>Our spacious king-size bed accommodates a family of three, offering an immersive sleeping experience. Even when closed, you can leave your sleeping gear inside.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_CGmBnB": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/5e6beca310a5be4e76124727e579c13a_c09cac6b-7f16-40f1-baf7-f5c14eb30132.jpg",
+            "title": "BUILT-IN REMOTE CONTROL LED",
+            "text": "<p>Leverage a 75-inch long white diffused LED light strip positioned along the tent's ceiling for illumination, powered via USB.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_7dxh4Y": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/1a7d2b87e192c4fad405eaa9f316015c_cd7b7b4c-cd05-4c87-ae1a-427ced333531.jpg",
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8k3ypD",
+        "text_block_q8a8dY",
+        "text_block_CGmBnB",
+        "text_block_7dxh4Y"
+      ],
+      "settings": {
+        "title": "",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "left",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "video_with_text_WQ6GTQ": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_pRYrf4": {
           "type": "heading",
           "settings": {
-            "title": "Stainless Steel Latch",
+            "title": "How to Install Your Roof Tent",
             "use_h1": false
           }
         },
-        "template--16416158613670__a7ef1531-0794-4cda-b3af-7936f0141206-text-1": {
+        "text_6NgP8U": {
           "type": "text",
           "settings": {
-            "text": "<p>Secure and convenient, the lockable latch on the rooftop tent provides added safety and ensures a stable and closed position.<\/p>",
+            "text": "<p>Watch our step-by-step video tutorial to easily install your car roof tent. Follow along as we guide you through each stage of the installation process, ensuring a secure and hassle-free setup for your next adventure.<\/p>",
             "enlarge_text": false
           }
         }
       },
       "block_order": [
-        "template--16416158613670__a7ef1531-0794-4cda-b3af-7936f0141206-heading-1",
-        "template--16416158613670__a7ef1531-0794-4cda-b3af-7936f0141206-text-1"
+        "heading_pRYrf4",
+        "text_6NgP8U"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/aluminum_pop_up_rooftop_tent_22-transformed_08_bd3e4844-1e91-45d7-8634-2fe268cfc8f3.jpg",
-        "image_width": 700,
-        "image_link": "",
-        "image_position": "left",
-        "text_alignment": "left",
-        "color_scheme": "2"
+        "video_shopify": "shopify:\/\/files\/videos\/1月15日.mp4",
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "autoplay": false,
+        "video_position": "right",
+        "text_alignment": "center",
+        "color_scheme": "default"
       }
     },
-    "129065a7-d3e1-4efd-9b20-314972590991": {
-      "type": "image-with-text",
+    "rich_text_rTHQQh": {
+      "type": "rich-text",
       "blocks": {
-        "template--16416158613670__129065a7-d3e1-4efd-9b20-314972590991-heading-1": {
+        "heading_UNmfgL": {
           "type": "heading",
           "settings": {
-            "title": "Rainfly Pole Base",
+            "title": "Unmatched Advantages",
             "use_h1": false
           }
         },
-        "template--16416158613670__129065a7-d3e1-4efd-9b20-314972590991-text-1": {
+        "text_nfBJcF": {
           "type": "text",
           "settings": {
-            "text": "<p>Durable and reinforced base, designed for safety and protection, preventing any risk of cuts or injuries to the hand.<\/p>",
-            "enlarge_text": false
+            "text": "<p>Experience the ultimate in convenience, durability, and performance with our industry-leading features. Designed to enhance every aspect of your outdoor adventures.<\/p>",
+            "enlarge_text": true
           }
         }
       },
       "block_order": [
-        "template--16416158613670__129065a7-d3e1-4efd-9b20-314972590991-heading-1",
-        "template--16416158613670__129065a7-d3e1-4efd-9b20-314972590991-text-1"
+        "heading_UNmfgL",
+        "text_nfBJcF"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/aluminum_pop_up_rooftop_tent_22-transformed_10.jpg",
-        "image_width": 700,
-        "image_link": "",
-        "image_position": "right",
-        "text_alignment": "left",
-        "color_scheme": "2"
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default",
+        "bg_color": "#ffffff",
+        "padding_vertical": 10
       }
     },
-    "27b8c9cf-13ee-40db-afc9-e06096fb54e0": {
-      "type": "image-with-text",
+    "multi_column_YAnBkb": {
+      "type": "multi-column",
       "blocks": {
-        "template--16416158613670__27b8c9cf-13ee-40db-afc9-e06096fb54e0-heading-1": {
-          "type": "heading",
+        "text_block_NAg7hw": {
+          "type": "text_block",
           "settings": {
-            "title": "4 Season Protection",
-            "use_h1": false
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/White_Bold_Playful_Travel_Vlog_YouTube_Thumbnail_3072_x_1536_2048_x_2048_1.png",
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
           }
         },
-        "template--16416158613670__27b8c9cf-13ee-40db-afc9-e06096fb54e0-text-1": {
-          "type": "text",
+        "text_block_wEJ6t8": {
+          "type": "text_block",
           "settings": {
-            "text": "<ul><li>Rip-stop 600D Oxford with 280GSM cotton: PU 3000mm R<\/li><li>ating, UV50+, Can withstand harsh environmental conditions.<\/li><li>Whether you're backcountry camping or enjoying a day at the beach, our tent fabrics will give you the toughness you need to stay safe and dry.<\/li><\/ul>",
-            "enlarge_text": false
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/QQ_20240628141052.jpg",
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_B8hGde": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/1719563434245.png",
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "template--16416158613670__27b8c9cf-13ee-40db-afc9-e06096fb54e0-heading-1",
-        "template--16416158613670__27b8c9cf-13ee-40db-afc9-e06096fb54e0-text-1"
+        "text_block_NAg7hw",
+        "text_block_wEJ6t8",
+        "text_block_B8hGde"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/aluminum_pop_up_rooftop_tent_banner_7.jpg",
-        "image_width": 700,
-        "image_link": "",
-        "image_position": "left",
-        "text_alignment": "left",
-        "color_scheme": "1"
+        "title": "",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
       }
     },
-    "3d98a8f9-4460-463d-b870-e72073a9e37a": {
-      "type": "image-with-text",
+    "rich_text_q8GUTT": {
+      "type": "rich-text",
       "blocks": {
-        "template--16416158613670__3d98a8f9-4460-463d-b870-e72073a9e37a-heading-1": {
+        "heading_6Kaken": {
           "type": "heading",
           "settings": {
-            "title": "Excellent Insulation Structure",
+            "title": "Recommended By",
             "use_h1": false
-          }
-        },
-        "template--16416158613670__3d98a8f9-4460-463d-b870-e72073a9e37a-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Premier Insulated Aluminum Tube Frame Floor & Top Insulated Liner designed to help prevent condensation buildup and retain heat, ensuring your tent stays at the ideal temperature all night long.<\/p>",
-            "enlarge_text": false
           }
         }
       },
       "block_order": [
-        "template--16416158613670__3d98a8f9-4460-463d-b870-e72073a9e37a-heading-1",
-        "template--16416158613670__3d98a8f9-4460-463d-b870-e72073a9e37a-text-1"
+        "heading_6Kaken"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Ascendll_aluminum_side_open_rooftop_tent_view_6.jpg",
-        "image_width": 700,
-        "image_link": "",
-        "image_position": "right",
-        "text_alignment": "left",
-        "color_scheme": "2"
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default",
+        "bg_color": "#f7f8f9",
+        "padding_vertical": 10
       }
     },
-    "d2ab2f52-25e2-41cc-b42d-3e5fe114eab9": {
-      "type": "image-with-text",
+    "testimonials_GeHHtw": {
+      "type": "testimonials",
       "blocks": {
-        "template--16416158613670__d2ab2f52-25e2-41cc-b42d-3e5fe114eab9-heading-1": {
-          "type": "heading",
+        "testimonial_3FkDmt": {
+          "type": "testimonial",
           "settings": {
-            "title": "Easy Installation",
-            "use_h1": false
+            "star_rating": 5,
+            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "author": "Author's name",
+            "image": "shopify:\/\/shop_images\/QQ_20240628132615.jpg",
+            "image_caption": "",
+            "link": ""
           }
         },
-        "template--16416158613670__d2ab2f52-25e2-41cc-b42d-3e5fe114eab9-text-1": {
-          "type": "text",
+        "testimonial_iceUqC": {
+          "type": "testimonial",
           "settings": {
-            "text": "<p>Tighten 8 screws, kick back, and enjoy—no need for extra wrench or a headache!<\/p>",
-            "enlarge_text": false
-          }
-        },
-        "6f2da24e-2476-42a4-b277-88e30a03631f": {
-          "type": "button",
-          "settings": {
-            "button_label": "View manual",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0618\/8226\/9862\/files\/Ascendll_Aluminum_Shell_Side_Open_Rooftop_Tent_Manual_4f760c5b-73e5-4ee7-b996-8d4ce484d226.pdf?v=1689582169",
-            "button_style": "primary"
+            "star_rating": 5,
+            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "author": "Author's name",
+            "image": "shopify:\/\/shop_images\/907967b8789e01ff7785c06ae9073a0e.jpg",
+            "image_caption": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "template--16416158613670__d2ab2f52-25e2-41cc-b42d-3e5fe114eab9-heading-1",
-        "template--16416158613670__d2ab2f52-25e2-41cc-b42d-3e5fe114eab9-text-1",
-        "6f2da24e-2476-42a4-b277-88e30a03631f"
+        "testimonial_3FkDmt",
+        "testimonial_iceUqC"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Ascendll_V2_Aluminum_Shell_Rooftop_Tent_2_Person-_desc_010_H_9622e263-3480-429f-91f0-d0cf3b4c78b4.jpg",
-        "image_width": 700,
-        "image_link": "",
-        "image_position": "left",
-        "text_alignment": "left",
-        "color_scheme": "2"
+        "title": "Customer reviews",
+        "layout": "image-left",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "square",
+        "color_scheme": "default",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "star_color": "#ff6100",
+        "arrow_button_color": "#2e2e2e",
+        "custom_padding": 10
       }
     },
     "170245891781eeaafb": {
       "type": "apps",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "section_kik_collapsible_content_DrCpzX": {
+      "type": "section-kik-collapsible-content",
       "blocks": {
-        "b2c69e5c-d674-48b8-88cd-34b5fa0b20b2": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "accordion_AAQtMD": {
+          "type": "accordion",
           "settings": {
+            "question_title": "Does it Have Dual Motors?",
+            "question_answer": "Some answers here..."
+          }
+        },
+        "accordion_EcQGUR": {
+          "type": "accordion",
+          "settings": {
+            "question_title": "How does the 5-year warranty work?",
+            "question_answer": "Some answers here..."
+          }
+        },
+        "accordion_QRCmVh": {
+          "type": "accordion",
+          "settings": {
+            "question_title": "Do you offer international shipping?",
+            "question_answer": "Some answers here..."
+          }
+        },
+        "accordion_tcHwHx": {
+          "type": "accordion",
+          "settings": {
+            "question_title": "How can I find the right gear for my vehicle?",
+            "question_answer": "Some answers here..."
           }
         }
       },
       "block_order": [
-        "b2c69e5c-d674-48b8-88cd-34b5fa0b20b2"
+        "accordion_AAQtMD",
+        "accordion_EcQGUR",
+        "accordion_QRCmVh",
+        "accordion_tcHwHx"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
-        "full_width": false
+        "collapsibe_content_head": "Frequently Asked Questions",
+        "collapsible_content_body": "<p>Explore our FAQ section for quick solutions to common inquiries about BeneHike products and services. Whether you're curious about our products, warranties, or shipping details, we've got you covered.<br\/>Still need help?<br\/>Visit our Contact Us page for further assistance.<\/p>",
+        "btn_label": "Contact Us",
+        "button_url": ""
       }
     },
     "related-products": {
@@ -648,16 +532,17 @@
   },
   "order": [
     "main",
-    "2ca79a2a-7dff-41ad-8c5f-cb2bb7070dc4",
-    "4cd81335-7fa9-4aff-988c-306bf079bd62",
-    "830ff4a8-2410-4c34-a06e-420787822183",
-    "b4bcd257-6452-4fca-b928-571c9cdcd952",
-    "a7ef1531-0794-4cda-b3af-7936f0141206",
-    "129065a7-d3e1-4efd-9b20-314972590991",
-    "27b8c9cf-13ee-40db-afc9-e06096fb54e0",
-    "3d98a8f9-4460-463d-b870-e72073a9e37a",
-    "d2ab2f52-25e2-41cc-b42d-3e5fe114eab9",
+    "video_CrEfwC",
+    "rich_text_6X3C7t",
+    "multi_column_DBfMw9",
+    "multi_column_mMtVw6",
+    "video_with_text_WQ6GTQ",
+    "rich_text_rTHQQh",
+    "multi_column_YAnBkb",
+    "rich_text_q8GUTT",
+    "testimonials_GeHHtw",
     "170245891781eeaafb",
+    "section_kik_collapsible_content_DrCpzX",
     "related-products"
   ]
 }

@@ -1,5 +1,8 @@
-
-{% if section.blocks.size > 0 or section.settings.enable_language_selector or section.settings.enable_country_selector or section.settings.menu != blank %}
+{% if section.blocks.size > 0
+  or section.settings.enable_language_selector
+  or section.settings.enable_country_selector
+  or section.settings.menu != blank
+%}
   {%- liquid
     assign longest_announcement = 0
     assign number_of_blocks = 0
@@ -11,10 +14,15 @@
       endif
     endfor
   -%}
-  <announcement-bar id="section-id-{{ section.id }}" class="announcement-bar
+  <announcement-bar
+    id="section-id-{{ section.id }}"
+    class="
+      announcement-bar
       {%- if section.blocks.size > 0 %} announcement-bar--with-announcement{% endif -%}
       {%- if longest_announcement > 45 and section.settings.menu != blank %} announcement-bar--tablet-wrap{% endif -%}
-      " data-cc-animate>
+    "
+    data-cc-animate
+  >
     {% style %}
       #section-id-{{ section.id }} {
         --bg-color: {{ section.settings.announcement_bar_col }};
@@ -31,14 +39,13 @@
           {%- render 'social-media', icon: settings.social_custom_icon, icon_height: 20 -%}
         {% endif %}
       </div>
-
       <div class="announcement-bar__middle">
         {%- if section.blocks.size > 0 -%}
           <div class="announcement-bar__announcements">
             {%- for block in section.blocks -%}
               {%- liquid
                 if block.settings.show_countdown
-                  assign now = "now" | date: '%Y-%m-%dT%H:%M'
+                  assign now = 'now' | date: '%Y-%m-%dT%H:%M'
                   if block.settings.end_date != blank
                     assign end_date = block.settings.end_date
                     if block.settings.end_time != blank
@@ -46,8 +53,8 @@
                     endif
                     assign end_date = end_date | date: '%Y-%m-%dT%H:%M'
                   else
-                    assign now_split = now | split: "T"
-                    assign end_date = now_split.first | append: "T23:59" | date: '%Y-%m-%dT%H:%M'
+                    assign now_split = now | split: 'T'
+                    assign end_date = now_split.first | append: 'T23:59' | date: '%Y-%m-%dT%H:%M'
                   endif
 
                   if block.settings.hide_on_end and end_date < now
@@ -55,7 +62,10 @@
                   endif
                 endif
               -%}
-              <div class="announcement{% if first_announcement_found %} announcement--inactive{% endif %}" {{ block.shopify_attributes }}>
+              <div
+                class="announcement{% if first_announcement_found %} announcement--inactive{% endif %}"
+                {{ block.shopify_attributes }}
+              >
                 {%- assign first_announcement_found = true -%}
                 <div class="announcement__text">
                   {{ block.settings.text }}
@@ -77,7 +87,17 @@
             {%- endfor -%}
           </div>
           <div class="announcement-bar__announcement-controller">
-            <button class="announcement-button announcement-button--previous" aria-label="{{ 'general.slider.previous' | t | escape }}">{% render 'icon-chevron-left' %}</button><button class="announcement-button announcement-button--next" aria-label="{{ 'general.slider.next' | t | escape }}">{% render 'icon-chevron-right' %}</button>
+            <button
+              class="announcement-button announcement-button--previous"
+              aria-label="{{ 'general.slider.previous' | t | escape }}"
+            >
+              {% render 'icon-chevron-left' %}</button
+            ><button
+              class="announcement-button announcement-button--next"
+              aria-label="{{ 'general.slider.next' | t | escape }}"
+            >
+              {% render 'icon-chevron-right' %}
+            </button>
           </div>
         {%- endif -%}
       </div>
@@ -99,7 +119,6 @@
     </div>
   </announcement-bar>
 {%- endif -%}
-
 
 {% schema %}
 {

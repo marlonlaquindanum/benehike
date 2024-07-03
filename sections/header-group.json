@@ -8,7 +8,7 @@
         "announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "Last Chance→ Get a FREE AWNING with Your Rooftop Tent Purchase!<a href=\"\/collections\/rooftop-tents\" title=\"ROOF TOP TENTS FOR SALE\">🌟<\/a>",
+            "text": "Last Chance→ Get a FREE AWNING with Your Rooftop Tent Purchase!🌟",
             "show_countdown": true,
             "hide_on_end": false,
             "end_date": "2024-5-25",
@@ -22,7 +22,7 @@
         "announcement-1"
       ],
       "settings": {
-        "announcement_bar_col": "#202020",
+        "announcement_bar_col": "#3c4b3b",
         "announcement_text_col": "#f7f1f0",
         "message_font_size": 15,
         "show_social_icons": false,

@@ -20,8 +20,14 @@
             "enlarge_text": true,
             "button_label_1": "Shop Now",
             "button_url_1": "shopify:\/\/collections\/christmas-sales-event-ultra-long-standby",
+            "btn_type_1": "fill",
+            "btn_text_color_1": "#ffffff",
+            "btn_bg_color_1": "#ff6100",
             "button_label_2": "",
             "button_url_2": "",
+            "btn_type_2": "fill",
+            "btn_text_color_2": "#ffffff",
+            "btn_bg_color_2": "#ff6100",
             "text_alignment": "center left"
           }
         },
@@ -33,7 +39,7 @@
             "slide_link": "shopify:\/\/collections\/rooftop-tents",
             "subheading": "",
             "title": "Embrace Freedom, Venture Boldly",
-            "heading_max_width": 15,
+            "heading_max_width": 11,
             "title_size": 56,
             "title_size_mobile": 40,
             "use_h1": false,
@@ -41,8 +47,14 @@
             "enlarge_text": false,
             "button_label_1": "Shop Roof Top Tents",
             "button_url_1": "shopify:\/\/collections\/rooftop-tents",
+            "btn_type_1": "fill",
+            "btn_text_color_1": "#ffffff",
+            "btn_bg_color_1": "#ff6100",
             "button_label_2": "Shop Awnings",
             "button_url_2": "shopify:\/\/collections\/car-awings",
+            "btn_type_2": "outline",
+            "btn_text_color_2": "#ffffff",
+            "btn_bg_color_2": "#ff6100",
             "text_alignment": "top right"
           }
         },
@@ -62,9 +74,15 @@
             "enlarge_text": true,
             "button_label_1": "Shop RTT",
             "button_url_1": "shopify:\/\/collections\/rooftop-tents",
+            "btn_type_1": "fill",
+            "btn_text_color_1": "#ffffff",
+            "btn_bg_color_1": "#ff6100",
             "button_label_2": "Shop AWING",
             "button_url_2": "shopify:\/\/collections\/softshell-awning",
-            "text_alignment": "center center"
+            "btn_type_2": "fill",
+            "btn_text_color_2": "#ffffff",
+            "btn_bg_color_2": "#ff6100",
+            "text_alignment": "top center"
           }
         },
         "8f1cb198-b4ed-474d-b4a9-59760ad72601": {
@@ -83,8 +101,14 @@
             "enlarge_text": false,
             "button_label_1": "",
             "button_url_1": "",
+            "btn_type_1": "fill",
+            "btn_text_color_1": "#ffffff",
+            "btn_bg_color_1": "#ff6100",
             "button_label_2": "",
             "button_url_2": "",
+            "btn_type_2": "fill",
+            "btn_text_color_2": "#ffffff",
+            "btn_bg_color_2": "#ff6100",
             "text_alignment": "center center"
           }
         },
@@ -104,8 +128,14 @@
             "enlarge_text": false,
             "button_label_1": "Shop' AW",
             "button_url_1": "shopify:\/\/collections\/all",
+            "btn_type_1": "fill",
+            "btn_text_color_1": "#ffffff",
+            "btn_bg_color_1": "#ff6100",
             "button_label_2": "",
             "button_url_2": "",
+            "btn_type_2": "fill",
+            "btn_text_color_2": "#ffffff",
+            "btn_bg_color_2": "#ff6100",
             "text_alignment": "top left"
           }
         }
@@ -119,7 +149,7 @@
       ],
       "settings": {
         "height": "fixed",
-        "height_desktop": 800,
+        "height_desktop": 740,
         "height_mobile": 600,
         "full_width": true,
         "mobile_overlay_under": false,
@@ -128,7 +158,62 @@
         "navigation": "dots",
         "autoplay": false,
         "autoplay_speed": 6,
-        "accessibility_info": ""
+        "accessibility_info": "",
+        "content_align": "end"
+      }
+    },
+    "cross_page_promos_mLVWdD": {
+      "type": "cross-page-promos",
+      "blocks": {
+        "icon_KXweJG": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image": "shopify:\/\/shop_images\/Vector-5.png",
+            "text": "Fits Any Vehicle",
+            "link_url": "",
+            "text_link_url": "",
+            "icon_img_width": 50
+          }
+        },
+        "icon_mpKtrY": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image": "shopify:\/\/shop_images\/Vector-6.png",
+            "text": "5 Years Warranty",
+            "link_url": "",
+            "text_link_url": "",
+            "icon_img_width": 30
+          }
+        },
+        "icon_bym7f4": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image": "shopify:\/\/shop_images\/Vector-7.png",
+            "text": "Fair Prices & Financing",
+            "link_url": "",
+            "text_link_url": "",
+            "icon_img_width": 40
+          }
+        }
+      },
+      "block_order": [
+        "icon_KXweJG",
+        "icon_mpKtrY",
+        "icon_bym7f4"
+      ],
+      "settings": {
+        "cross_page_promo_bg": "#f7f8f9",
+        "cross_page_promo_color": "#454564",
+        "show_on_home_page": true,
+        "arrange_type": "horizontal",
+        "view_more_btn": false,
+        "padding_vertical": 12,
+        "padding_horzontal": 12,
+        "font_size": 16,
+        "font_size_mobile": 14
       }
     },
     "606014fb-fd18-4c81-ac3d-894e4e330072": {
@@ -204,309 +289,27 @@
         "coll_button_style": "primary"
       }
     },
-    "5fda7197-74fc-4d26-a32c-e9d501213704": {
-      "type": "product-list",
+    "rich_text_9VUi6M": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UWtGPt": {
+          "type": "heading",
+          "settings": {
+            "title": "As seen in",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UWtGPt"
+      ],
       "settings": {
-        "title": "Shop Our Roof Top Tents",
-        "product_list": [
-          "rooftop-tent-4",
-          "ascendll-v2-aluminum-shell-rooftop-tent-3-person",
-          "rooftop-tent-1",
-          "hardshell-rooftop-tent-2",
-          "ascendll-v2-aluminum-shell-rooftop-tent-2-person",
-          "ascendll-aluminum-hard-shell-side-open-rooftop-tent-2-person",
-          "ascendll-aluminum-rooftop-tent",
-          "hardshell-rooftop-tent-1",
-          "hardshell-rooftop-tent",
-          "rooftop-tent"
-        ],
-        "show_vendor": false,
-        "enable_carousel": true,
-        "grid": 4,
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
         "color_scheme": "default",
-        "full_width": true
-      }
-    },
-    "6c791b1c-c73f-4292-b51e-cf3b92fc2ea5": {
-      "type": "advantage",
-      "settings": {
-        "l-bgc": "#ff6100",
-        "l-color": "#ffffff",
-        "left-title": "OVERLANDING EXPERT",
-        "number1": "10+",
-        "l-subtitle1": "Export Market",
-        "number2": 10000,
-        "l-subtitle2": "BeneHike Enthusiasts",
-        "number3": 5000,
-        "l-subtitle3": "5-Star Reviews",
-        "number4": "5-Year",
-        "l-subtitle4": "Longest Warranty",
-        "r-image1": "shopify:\/\/shop_images\/Warranty.svg",
-        "r-title1": "5-Year Warranty",
-        "url1": "shopify:\/\/pages\/warranty-policy",
-        "r-image2": "shopify:\/\/shop_images\/shipping.svg",
-        "r-title2": "7-Day Return",
-        "url2": "shopify:\/\/pages\/return-policy",
-        "r-image3": "shopify:\/\/shop_images\/direct.svg",
-        "r-title3": "Consumer Direct",
-        "url3": "shopify:\/\/pages\/consumer-direct",
-        "r-image4": "shopify:\/\/shop_images\/payment.svg",
-        "r-title4": "Secure Payment",
-        "url4": "shopify:\/\/pages\/payment"
-      }
-    },
-    "2ef2bce1-1867-400e-9183-c84755f8186a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16391580483750__2ef2bce1-1867-400e-9183-c84755f8186a-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "What Our Customers Say",
-            "use_h1": false
-          }
-        },
-        "text_PxQkRD": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<h3>Meet Benehike,<\/h3><h3>Where Adventure Begins<\/h3>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "template--16391580483750__2ef2bce1-1867-400e-9183-c84755f8186a-heading-1",
-        "text_PxQkRD"
-      ],
-      "settings": {
-        "height": "small",
-        "text_alignment": "center",
-        "full_width": true,
-        "color_scheme": "default"
-      }
-    },
-    "90dcf320-f3f5-40ef-aee4-14de29b4aa82": {
-      "type": "testimonials",
-      "blocks": {
-        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial": "We haven't camped yet but we setup on our Forester Wilderness and tested out. Really nice, can't wait for our trip to Yellowstone!",
-            "author": "Rob Fisher",
-            "image": "shopify:\/\/shop_images\/1691865289__img_20230810_185400788_hdr__original.jpg",
-            "image_caption": "→BIVVYY Rooftop Tent",
-            "link": "shopify:\/\/products\/hardshell-rooftop-tent-1"
-          }
-        },
-        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-2": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial": "I was hesitant to buy Benehike's soft rooftop tent at first, but after doing some research and reading reviews, I decided to take the plunge. I'm so glad I did!",
-            "author": "Abigail",
-            "image": "shopify:\/\/shop_images\/1679023298__soft04__huge.jpg",
-            "image_caption": "→Soft Shell Rooftop Tent",
-            "link": "shopify:\/\/products\/softshell-rooftop-tent-1"
-          }
-        },
-        "3f47a816-3268-46b0-a5ea-9768975e02bf": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial": "Sitting in camp, having a drink while watching the sunset. It's been a while, but we're back in our own.",
-            "author": "Lucas",
-            "image": "shopify:\/\/shop_images\/1679280300__aluminum03__huge.jpg",
-            "image_caption": "→Ascendll Rooftop Tent",
-            "link": "shopify:\/\/products\/ascendll-aluminum-hard-shell-side-open-rooftop-tent-2-person"
-          }
-        },
-        "71b4cacc-de0e-410f-9ad6-701ba7899d87": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial": "I'm impressed with this affordable awning, despite my initial skepticism. The tarp is of high quality and has withstood wind and rain without any problems. It was also easy to install and attach to my cargo basket.",
-            "author": "CiCi",
-            "image": "shopify:\/\/shop_images\/1681348327__softawnings-06__huge.jpg",
-            "image_caption": "→8.2' x 6.7' Car Side Awning",
-            "link": "shopify:\/\/products\/car-side-awning-rooftop-tent-pullout-shelter"
-          }
-        }
-      },
-      "block_order": [
-        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-1",
-        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-2",
-        "3f47a816-3268-46b0-a5ea-9768975e02bf",
-        "71b4cacc-de0e-410f-9ad6-701ba7899d87"
-      ],
-      "settings": {
-        "title": "",
-        "layout": "image-left",
-        "text_caps": false,
-        "quote_text_size": 22,
-        "quote_text_size_mobile": 15,
-        "image_shape": "landscape",
-        "color_scheme": "2",
-        "autoplay": true,
-        "autoplay_speed": 3
-      }
-    },
-    "a4fa32f3-493d-442d-a319-61e9335e8767": {
-      "type": "shop-the-look",
-      "blocks": {
-        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Benehike® 4wd"
-          }
-        },
-        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "ALUMABODE<br>ROOFTOP TENT",
-            "heading_max_width": 10,
-            "title_size": 54,
-            "title_size_mobile": 24,
-            "use_h1": false
-          }
-        },
-        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At BENEHIKE, our Canadian-designed rooftop tents are more than just shelter - they're aluxurious on-the-go adventure home.<\/p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-subheading-1",
-        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-heading-1",
-        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Homepage_0001.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Homepage_0002.jpg",
-        "video_external": "https:\/\/www.youtube.com\/watch?v=FWnnTyKZjcg",
-        "video_description": "",
-        "height": "fixed",
-        "height_desktop": 640,
-        "height_mobile": 460,
-        "product_list": [
-          "rooftop-tent-1",
-          "rooftop-tent-4"
-        ],
-        "products_alignment": "bottom right",
-        "product_card_layout": "landscape",
-        "show_swatches": true,
-        "full_width": true,
-        "text_alignment": "top left",
-        "mobile_overlay_over": false,
-        "overlay_style": "shadow"
-      }
-    },
-    "4c2db54e-9bed-4c23-9534-5c455ba49155": {
-      "type": "hotspots",
-      "blocks": {
-        "template--16391580483750__4c2db54e-9bed-4c23-9534-5c455ba49155-hotspot-1": {
-          "type": "hotspot",
-          "settings": {
-            "hotspot_x": 63,
-            "hotspot_y": 15,
-            "hotspot_x_mobile": 79,
-            "hotspot_y_mobile": 31,
-            "heading": "Perfect Installation",
-            "text": "<p>The Bed of the Rooftop Tent is equipped with installation rails on the sides, perfectly compatible with installing any Awnings.<\/p>",
-            "icon": "",
-            "icon_width": 32
-          }
-        },
-        "1bab2d24-c6eb-47fe-ac6d-c73baa07a922": {
-          "type": "hotspot",
-          "settings": {
-            "hotspot_x": 49,
-            "hotspot_y": 28,
-            "hotspot_x_mobile": 59,
-            "hotspot_y_mobile": 34,
-            "heading": "Durable & Convenient Casing",
-            "text": "<p>Anodized aluminum shell for unmatched durability. Effortlessly folds and latches—simple, convenient.<\/p>",
-            "icon": "",
-            "icon_width": 32
-          }
-        },
-        "cb35e661-792a-4602-b473-6c34d86574c5": {
-          "type": "hotspot",
-          "settings": {
-            "hotspot_x": 42,
-            "hotspot_y": 46,
-            "hotspot_x_mobile": 48,
-            "hotspot_y_mobile": 51,
-            "heading": "High-Performance Shelter",
-            "text": "<p>Crafted from high-strength tear-resistant blended fabric, treated with a durable waterproof and sun-resistant coating to keep you dry in extreme weather.<\/p>",
-            "icon": "",
-            "icon_width": 32
-          }
-        },
-        "4b29e17e-d53e-4d7c-8474-797a75df39b3": {
-          "type": "hotspot",
-          "settings": {
-            "hotspot_x": 28,
-            "hotspot_y": 80,
-            "hotspot_x_mobile": 27,
-            "hotspot_y_mobile": 85,
-            "heading": "Unrestricted Headroom",
-            "text": "<p>The support poles extend swiftly, offering a maximum height of 6.5 feet, ensuring ample headroom even for taller individuals under the shelter.<\/p>",
-            "icon": "",
-            "icon_width": 32
-          }
-        }
-      },
-      "block_order": [
-        "template--16391580483750__4c2db54e-9bed-4c23-9534-5c455ba49155-hotspot-1",
-        "1bab2d24-c6eb-47fe-ac6d-c73baa07a922",
-        "cb35e661-792a-4602-b473-6c34d86574c5",
-        "4b29e17e-d53e-4d7c-8474-797a75df39b3"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Home_page_awning_banner_H_copy.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Home_page_awning_banner_F_copy.jpg",
-        "hotspot_color": "#ff6100",
-        "button_content": "plus",
-        "outer_circle": "pulse",
-        "full_width": true,
-        "text_alignment": "top left",
-        "overlay_style": "shadow",
-        "subheading": "benehike 4wd",
-        "title": "Aluminum Shell AWNING",
-        "use_h1": true,
-        "heading_max_width": 30,
-        "text": "<p>Button as snappy as a soda can tab, erect your awning in 30 seconds flat!<\/p>",
-        "button_1_label": "",
-        "button_1_link": "",
-        "button_1_style": "secondary",
-        "button_2_label": "",
-        "button_2_link": "",
-        "button_2_style": "primary"
-      }
-    },
-    "rich_text_BeTRcb": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_9RFwCq": {
-          "type": "heading",
-          "settings": {
-            "title": "MEDIAS ENDORSED",
-            "use_h1": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_9RFwCq"
-      ],
-      "settings": {
-        "height": "small",
-        "text_alignment": "center",
-        "full_width": true,
-        "color_scheme": "default"
+        "bg_color": "#ffffff",
+        "padding_vertical": 24
       }
     },
     "9e029d78-b5e4-4641-902a-737cf1aceafe": {
@@ -625,6 +428,542 @@
         "space": 60
       }
     },
+    "5fda7197-74fc-4d26-a32c-e9d501213704": {
+      "type": "product-list",
+      "settings": {
+        "title": "Shop Our Roof Top Tents",
+        "heading_position": "left",
+        "product_list": [
+          "rooftop-tent-4",
+          "ascendll-v2-aluminum-shell-rooftop-tent-3-person",
+          "rooftop-tent-1",
+          "hardshell-rooftop-tent-2",
+          "ascendll-v2-aluminum-shell-rooftop-tent-2-person",
+          "ascendll-aluminum-hard-shell-side-open-rooftop-tent-2-person",
+          "ascendll-aluminum-rooftop-tent",
+          "hardshell-rooftop-tent-1",
+          "hardshell-rooftop-tent",
+          "rooftop-tent"
+        ],
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true
+      }
+    },
+    "section_kik_advantage_3nzAiE": {
+      "type": "section-kik-advantage",
+      "settings": {
+        "left_title": "OVERLANDING EXPERT",
+        "bg_color": "#3c4b3b",
+        "text_color": "#ffffff",
+        "item_txt_1": "Export Market",
+        "item_num_1": 101,
+        "item_txt_2": "“Best money I ever spent!”",
+        "item_num_2": 100001,
+        "item_txt_3": "BeneHike Enthusiasts",
+        "star_number": 5,
+        "item_num_3": 10000,
+        "item_txt_4": "Longest Warranty",
+        "item_num_4": 5,
+        "is_full_width": true,
+        "content_alignment": "center"
+      }
+    },
+    "6c791b1c-c73f-4292-b51e-cf3b92fc2ea5": {
+      "type": "advantage",
+      "disabled": true,
+      "settings": {
+        "l-bgc": "#ff6100",
+        "l-color": "#ffffff",
+        "left-title": "OVERLANDING EXPERT",
+        "number1": "10+",
+        "l-subtitle1": "Export Market",
+        "number2": 10000,
+        "l-subtitle2": "BeneHike Enthusiasts",
+        "number3": 5000,
+        "l-subtitle3": "5-Star Reviews",
+        "number4": "5-Year",
+        "l-subtitle4": "Longest Warranty",
+        "r-image1": "shopify:\/\/shop_images\/Warranty.svg",
+        "r-title1": "5-Year Warranty",
+        "url1": "shopify:\/\/pages\/warranty-policy",
+        "r-image2": "shopify:\/\/shop_images\/shipping.svg",
+        "r-title2": "7-Day Return",
+        "url2": "shopify:\/\/pages\/return-policy",
+        "r-image3": "shopify:\/\/shop_images\/direct.svg",
+        "r-title3": "Consumer Direct",
+        "url3": "shopify:\/\/pages\/consumer-direct",
+        "r-image4": "shopify:\/\/shop_images\/payment.svg",
+        "r-title4": "Secure Payment",
+        "url4": "shopify:\/\/pages\/payment"
+      }
+    },
+    "2ef2bce1-1867-400e-9183-c84755f8186a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16391580483750__2ef2bce1-1867-400e-9183-c84755f8186a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "What Our Customers Say",
+            "use_h1": false
+          }
+        },
+        "text_PxQkRD": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3>Meet Benehike,<\/h3><h3>Where Adventure Begins<\/h3>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16391580483750__2ef2bce1-1867-400e-9183-c84755f8186a-heading-1",
+        "text_PxQkRD"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default",
+        "bg_color": "#f7f8f9",
+        "padding_vertical": 24
+      }
+    },
+    "90dcf320-f3f5-40ef-aee4-14de29b4aa82": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_DrL4D4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "author": "Author's name",
+            "image": "shopify:\/\/shop_images\/QQ_20240628132615.jpg",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "We haven't camped yet but we setup on our Forester Wilderness and tested out. Really nice, can't wait for our trip to Yellowstone!",
+            "author": "Rob Fisher",
+            "image": "shopify:\/\/shop_images\/1691865289__img_20230810_185400788_hdr__original.jpg",
+            "image_caption": "BIVVYY Rooftop Tent→",
+            "link": "shopify:\/\/products\/hardshell-rooftop-tent-1"
+          }
+        },
+        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "I was hesitant to buy Benehike's soft rooftop tent at first, but after doing some research and reading reviews, I decided to take the plunge. I'm so glad I did!",
+            "author": "Abigail",
+            "image": "shopify:\/\/shop_images\/1679023298__soft04__huge.jpg",
+            "image_caption": "Soft Shell Rooftop Tent→",
+            "link": "shopify:\/\/products\/softshell-rooftop-tent-1"
+          }
+        },
+        "3f47a816-3268-46b0-a5ea-9768975e02bf": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Sitting in camp, having a drink while watching the sunset. It's been a while, but we're back in our own.",
+            "author": "Lucas",
+            "image": "shopify:\/\/shop_images\/1679280300__aluminum03__huge.jpg",
+            "image_caption": "Ascendll Rooftop Tent→",
+            "link": "shopify:\/\/products\/ascendll-aluminum-hard-shell-side-open-rooftop-tent-2-person"
+          }
+        },
+        "71b4cacc-de0e-410f-9ad6-701ba7899d87": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "I'm impressed with this affordable awning, despite my initial skepticism. The tarp is of high quality and has withstood wind and rain without any problems. It was also easy to install and attach to my cargo basket.",
+            "author": "CiCi",
+            "image": "shopify:\/\/shop_images\/1681348327__softawnings-06__huge.jpg",
+            "image_caption": "8.2' x 6.7' Car Side Awning→",
+            "link": "shopify:\/\/products\/car-side-awning-rooftop-tent-pullout-shelter"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_DrL4D4",
+        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-1",
+        "template--16391580483750__90dcf320-f3f5-40ef-aee4-14de29b4aa82-testimonial-2",
+        "3f47a816-3268-46b0-a5ea-9768975e02bf",
+        "71b4cacc-de0e-410f-9ad6-701ba7899d87"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "image-left",
+        "text_caps": false,
+        "quote_text_size": 22,
+        "quote_text_size_mobile": 15,
+        "image_shape": "landscape",
+        "color_scheme": "2",
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "star_color": "#ff6100",
+        "arrow_button_color": "#2e2e2e",
+        "custom_padding": 50,
+        "bg_color": "#f7f8f9"
+      }
+    },
+    "collection_list_XAfFYq": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_X4Yfhi": {
+          "type": "collection",
+          "settings": {
+            "collection": "side-open-roof-top-tent-benehike",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_nUMW6Y": {
+          "type": "collection",
+          "settings": {
+            "collection": "tent-accessories",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_qh4iUA": {
+          "type": "collection",
+          "settings": {
+            "collection": "racks",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_NxdVfh": {
+          "type": "collection",
+          "settings": {
+            "collection": "aluminum-hardshell-rooftop-tents",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_K88Pxh": {
+          "type": "collection",
+          "settings": {
+            "collection": "jeep-roof-top-tents",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_6AxtyG": {
+          "type": "collection",
+          "settings": {
+            "collection": "jeep-roof-top-tents",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_X4Yfhi",
+        "collection_nUMW6Y",
+        "collection_qh4iUA",
+        "collection_NxdVfh",
+        "collection_K88Pxh",
+        "collection_6AxtyG"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Explore By Vehicle Type",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "section_kik_collection_list_icon_fEWFUq": {
+      "type": "section-kik-collection-list-icon",
+      "blocks": {
+        "collection_aBAKRz": {
+          "type": "collection",
+          "settings": {
+            "collection": "aluminum-hardshell-rooftop-tents",
+            "image": "shopify:\/\/shop_images\/icon-1.png",
+            "subheading": "Sedan",
+            "button_label": ""
+          }
+        },
+        "collection_wyMqpd": {
+          "type": "collection",
+          "settings": {
+            "collection": "270-awning",
+            "image": "shopify:\/\/shop_images\/icon-2.png",
+            "subheading": "Mid-Size SUV",
+            "button_label": ""
+          }
+        },
+        "collection_QwXGfA": {
+          "type": "collection",
+          "settings": {
+            "collection": "3-person-rooftop-tent",
+            "image": "shopify:\/\/shop_images\/icon-3.png",
+            "subheading": "Full-Size SUV",
+            "button_label": ""
+          }
+        },
+        "collection_MJkEJV": {
+          "type": "collection",
+          "settings": {
+            "collection": "4-person-rooftop-tent",
+            "image": "shopify:\/\/shop_images\/icon-3.png",
+            "subheading": "Van",
+            "button_label": ""
+          }
+        },
+        "collection_kzACjn": {
+          "type": "collection",
+          "settings": {
+            "collection": "8-2-awning",
+            "image": "shopify:\/\/shop_images\/icon-4.png",
+            "subheading": "Pickup Truck",
+            "button_label": ""
+          }
+        },
+        "collection_dAAgg8": {
+          "type": "collection",
+          "settings": {
+            "collection": "air-compressor",
+            "image": "shopify:\/\/shop_images\/icon-6.png",
+            "subheading": "Trailer",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_aBAKRz",
+        "collection_wyMqpd",
+        "collection_QwXGfA",
+        "collection_MJkEJV",
+        "collection_kzACjn",
+        "collection_dAAgg8"
+      ],
+      "settings": {
+        "title": "Explore By Vehicle Type",
+        "enable_carousel": true,
+        "grid": 6,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "a4fa32f3-493d-442d-a319-61e9335e8767": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Benehike® 4wd"
+          }
+        },
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ALUMABODE<br>ROOFTOP TENT",
+            "heading_max_width": 10,
+            "title_size": 54,
+            "title_size_mobile": 24,
+            "use_h1": false
+          }
+        },
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At BENEHIKE, our Canadian-designed rooftop tents are more than just shelter - they're aluxurious on-the-go adventure home.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-subheading-1",
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-heading-1",
+        "template--16391580483750__a4fa32f3-493d-442d-a319-61e9335e8767-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Homepage_0001.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Homepage_0002.jpg",
+        "video_external": "https:\/\/www.youtube.com\/watch?v=FWnnTyKZjcg",
+        "video_description": "",
+        "height": "fixed",
+        "height_desktop": 640,
+        "height_mobile": 460,
+        "product_list": [
+          "rooftop-tent-1",
+          "rooftop-tent-4"
+        ],
+        "products_alignment": "bottom right",
+        "product_card_layout": "landscape",
+        "show_swatches": true,
+        "full_width": true,
+        "text_alignment": "top left",
+        "mobile_overlay_over": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "4c2db54e-9bed-4c23-9534-5c455ba49155": {
+      "type": "hotspots",
+      "blocks": {
+        "template--16391580483750__4c2db54e-9bed-4c23-9534-5c455ba49155-hotspot-1": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 63,
+            "hotspot_y": 15,
+            "hotspot_x_mobile": 79,
+            "hotspot_y_mobile": 31,
+            "heading": "Perfect Installation",
+            "text": "<p>The Bed of the Rooftop Tent is equipped with installation rails on the sides, perfectly compatible with installing any Awnings.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "1bab2d24-c6eb-47fe-ac6d-c73baa07a922": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 49,
+            "hotspot_y": 28,
+            "hotspot_x_mobile": 59,
+            "hotspot_y_mobile": 34,
+            "heading": "Durable & Convenient Casing",
+            "text": "<p>Anodized aluminum shell for unmatched durability. Effortlessly folds and latches—simple, convenient.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "cb35e661-792a-4602-b473-6c34d86574c5": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 42,
+            "hotspot_y": 46,
+            "hotspot_x_mobile": 48,
+            "hotspot_y_mobile": 51,
+            "heading": "High-Performance Shelter",
+            "text": "<p>Crafted from high-strength tear-resistant blended fabric, treated with a durable waterproof and sun-resistant coating to keep you dry in extreme weather.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "4b29e17e-d53e-4d7c-8474-797a75df39b3": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 28,
+            "hotspot_y": 80,
+            "hotspot_x_mobile": 27,
+            "hotspot_y_mobile": 85,
+            "heading": "Unrestricted Headroom",
+            "text": "<p>The support poles extend swiftly, offering a maximum height of 6.5 feet, ensuring ample headroom even for taller individuals under the shelter.<\/p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "template--16391580483750__4c2db54e-9bed-4c23-9534-5c455ba49155-hotspot-1",
+        "1bab2d24-c6eb-47fe-ac6d-c73baa07a922",
+        "cb35e661-792a-4602-b473-6c34d86574c5",
+        "4b29e17e-d53e-4d7c-8474-797a75df39b3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Home_page_awning_banner_H_copy.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Home_page_awning_banner_F_copy.jpg",
+        "hotspot_color": "#ff6100",
+        "hotspot_active_color": "#3c4b3b",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "benehike 4wd",
+        "title": "Aluminum Shell AWNING",
+        "use_h1": true,
+        "heading_max_width": 30,
+        "text": "<p>Button as snappy as a soda can tab, erect your awning in 30 seconds flat!<\/p>",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "rich_text_BeTRcb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9RFwCq": {
+          "type": "heading",
+          "settings": {
+            "title": "Meet Benehike,",
+            "use_h1": false
+          }
+        },
+        "heading_xexYCp": {
+          "type": "heading",
+          "settings": {
+            "title": "Where Adventure Begins",
+            "use_h1": false
+          }
+        },
+        "text_NLC73w": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BENEHIKE® is a CA-based company dedicated to providing top-quality rooftop tents, bed frames, and RTT awnings to outdoor and backcountry enthusiasts. We take pride in the increasing acceptance of our products, catering to a wide range of customers, from enthusiasts to weekend campers. Join us in embracing the thrill of exploration and a deeper connection with nature.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "button_kKNwJn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More About Us",
+            "button_link": "",
+            "button_style": "link",
+            "button_icon": false,
+            "font_bold": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9RFwCq",
+        "heading_xexYCp",
+        "text_NLC73w",
+        "button_kKNwJn"
+      ],
+      "settings": {
+        "height": "large",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default",
+        "bg_color": "#f7f8f9",
+        "padding_vertical": 48
+      }
+    },
     "f785bed9-e36d-4270-953f-fd267049c386": {
       "type": "featured-blog",
       "settings": {
@@ -635,7 +974,53 @@
         "show_date": true,
         "show_excerpts": true,
         "crop_ratio": "1.78",
-        "color_scheme": "default"
+        "color_scheme": "default",
+        "custom_padding": 95
+      }
+    },
+    "section_kik_collapsible_content_CepjLy": {
+      "type": "section-kik-collapsible-content",
+      "blocks": {
+        "accordion_m8de3T": {
+          "type": "accordion",
+          "settings": {
+            "question_title": "Does it Have Dual Motors?",
+            "question_answer": "Some answers here..."
+          }
+        },
+        "accordion_WVYmhw": {
+          "type": "accordion",
+          "settings": {
+            "question_title": "How does the 5-year warranty work?",
+            "question_answer": "Some answers here..."
+          }
+        },
+        "accordion_hhaxBe": {
+          "type": "accordion",
+          "settings": {
+            "question_title": "Do you offer international shipping?",
+            "question_answer": "Some answers here..."
+          }
+        },
+        "accordion_GrnXHN": {
+          "type": "accordion",
+          "settings": {
+            "question_title": "How can I find the right gear for my vehicle?",
+            "question_answer": "Some answers here..."
+          }
+        }
+      },
+      "block_order": [
+        "accordion_m8de3T",
+        "accordion_WVYmhw",
+        "accordion_hhaxBe",
+        "accordion_GrnXHN"
+      ],
+      "settings": {
+        "collapsibe_content_head": "Frequently Asked Questions",
+        "collapsible_content_body": "<p>Explore our FAQ section for quick solutions to common inquiries about BeneHike products and services. Whether you're curious about our products, warranties, or shipping details, we've got you covered.<br\/>Still need help?<br\/>Visit our Contact Us page for further assistance.<\/p>",
+        "btn_label": "Contact Us",
+        "button_url": ""
       }
     },
     "image_with_text_kF6689": {
@@ -669,6 +1054,7 @@
         "text_Hyca7Y",
         "button_FLnUHX"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Ascendll_RTT_2_d562522d-a75b-477c-b9be-8e4e593f4671_1.jpg",
         "image_2": "shopify:\/\/shop_images\/HELP_CENTER_Banner_3_1.jpg",
@@ -685,27 +1071,32 @@
         "heading_KGRddD": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "Follow Our Adventure Feed",
             "use_h1": false
           }
         },
-        "text_9RGwCT": {
-          "type": "text",
+        "button_iNQGLM": {
+          "type": "button",
           "settings": {
-            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
-            "enlarge_text": true
+            "button_label": "@benehike_",
+            "button_link": "",
+            "button_style": "link",
+            "button_icon": true,
+            "font_bold": true
           }
         }
       },
       "block_order": [
         "heading_KGRddD",
-        "text_9RGwCT"
+        "button_iNQGLM"
       ],
       "settings": {
         "height": "large",
         "text_alignment": "center",
         "full_width": false,
-        "color_scheme": "default"
+        "color_scheme": "default",
+        "bg_color": "#ffffff",
+        "padding_vertical": 50
       }
     },
     "collection_list_WE97kQ": {
@@ -786,6 +1177,7 @@
         "collection_WY9Fgi",
         "collection_wQcdt3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Collection list",
         "enable_carousel": true,
@@ -802,22 +1194,59 @@
         "coll_thumb_text_align_y": "center",
         "coll_button_style": "primary"
       }
+    },
+    "1719610110bc723fd8": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_gallery_carousel_section_KjrENi": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-gallery-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 4,
+            "itemsPerView": 5,
+            "mobileItemsPerView": 1,
+            "imageRatio": "1",
+            "reviewerNameColor": "#ffffff",
+            "starsColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "none",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_gallery_carousel_section_KjrENi"
+      ],
+      "settings": {
+        "full_width": false
+      }
     }
   },
   "order": [
     "16359276425da8ce46",
+    "cross_page_promos_mLVWdD",
     "606014fb-fd18-4c81-ac3d-894e4e330072",
+    "rich_text_9VUi6M",
+    "9e029d78-b5e4-4641-902a-737cf1aceafe",
     "5fda7197-74fc-4d26-a32c-e9d501213704",
+    "section_kik_advantage_3nzAiE",
     "6c791b1c-c73f-4292-b51e-cf3b92fc2ea5",
     "2ef2bce1-1867-400e-9183-c84755f8186a",
     "90dcf320-f3f5-40ef-aee4-14de29b4aa82",
+    "collection_list_XAfFYq",
+    "section_kik_collection_list_icon_fEWFUq",
     "a4fa32f3-493d-442d-a319-61e9335e8767",
     "4c2db54e-9bed-4c23-9534-5c455ba49155",
     "rich_text_BeTRcb",
-    "9e029d78-b5e4-4641-902a-737cf1aceafe",
     "f785bed9-e36d-4270-953f-fd267049c386",
+    "section_kik_collapsible_content_CepjLy",
     "image_with_text_kF6689",
     "rich_text_UTxWY4",
-    "collection_list_WE97kQ"
+    "collection_list_WE97kQ",
+    "1719610110bc723fd8"
   ]
 }

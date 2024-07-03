@@ -9,32 +9,44 @@
           "type": "icon",
           "settings": {
             "icon": "truck",
-            "text": "FREE SHIPPING",
-            "link_url": "shopify:\/\/pages\/shipping-policy"
+            "image": "shopify:\/\/shop_images\/Vector-1.png",
+            "text": "Easy Setup",
+            "link_url": "shopify:\/\/pages\/shipping-policy",
+            "text_link_url": "",
+            "icon_img_width": 50
           }
         },
         "1478526647261": {
           "type": "icon",
           "settings": {
             "icon": "question_mark",
-            "text": "TALK TO AN EXPERT",
-            "link_url": "mailto:mailto：jefferson@benehike.com"
+            "image": "shopify:\/\/shop_images\/Vector-2.png",
+            "text": "7-Day Return",
+            "link_url": "mailto:mailto：jefferson@benehike.com",
+            "text_link_url": "",
+            "icon_img_width": 50
           }
         },
         "1478527611164": {
           "type": "icon",
           "settings": {
             "icon": "chat_bubble",
-            "text": "CONTACT US",
-            "link_url": "shopify:\/\/pages\/contact-us"
+            "image": "shopify:\/\/shop_images\/Vector-3.png",
+            "text": "Consumer Direct",
+            "link_url": "shopify:\/\/pages\/contact-us",
+            "text_link_url": "",
+            "icon_img_width": 50
           }
         },
         "1478526645605": {
           "type": "icon",
           "settings": {
             "icon": "map_pin",
-            "text": "Your nearest store",
-            "link_url": "https:\/\/www.google.com\/maps\/place\/10320+6th+St,+Rancho+Cucamonga,+CA+91730%E7%BE%8E%E5%9B%BD\/@34.0851377,-117.5820773,17z\/data=!4m15!1m8!3m7!1s0x80c335b8d12a1ac5:0xe44fb831fae21a96!2s10320+6th+St,+Rancho+Cucamonga,+CA+91730%E7%BE%8E%E5%9B%BD!3b1!8m2!3d34.0851333!4d-117.5795024!16s%2Fg%2F11tj99kp63!3m5!1s0x80c335b8d12a1ac5:0xe44fb831fae21a96!8m2!3d34.0851333!4d-117.5795024!16s%2Fg%2F11tj99kp63?hl=zh-CN&entry=ttu"
+            "image": "shopify:\/\/shop_images\/Vector-4.png",
+            "text": "Secure Payment",
+            "link_url": "https:\/\/www.google.com\/maps\/place\/10320+6th+St,+Rancho+Cucamonga,+CA+91730%E7%BE%8E%E5%9B%BD\/@34.0851377,-117.5820773,17z\/data=!4m15!1m8!3m7!1s0x80c335b8d12a1ac5:0xe44fb831fae21a96!2s10320+6th+St,+Rancho+Cucamonga,+CA+91730%E7%BE%8E%E5%9B%BD!3b1!8m2!3d34.0851333!4d-117.5795024!16s%2Fg%2F11tj99kp63!3m5!1s0x80c335b8d12a1ac5:0xe44fb831fae21a96!8m2!3d34.0851333!4d-117.5795024!16s%2Fg%2F11tj99kp63?hl=zh-CN&entry=ttu",
+            "text_link_url": "",
+            "icon_img_width": 50
           }
         }
       },
@@ -47,7 +59,13 @@
       "settings": {
         "cross_page_promo_bg": "#171717",
         "cross_page_promo_color": "#f7f1f0",
-        "show_on_home_page": true
+        "show_on_home_page": true,
+        "arrange_type": "side-by-side",
+        "view_more_btn": true,
+        "padding_vertical": 32,
+        "padding_horzontal": 12,
+        "font_size": 24,
+        "font_size_mobile": 16
       }
     },
     "footer": {

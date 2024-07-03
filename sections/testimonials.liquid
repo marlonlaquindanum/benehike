@@ -23,22 +23,25 @@
   <script src="{{ 'slideshow.js' | asset_url }}" defer></script>
 {%- endif -%}
 <link rel="stylesheet" href="{{ 'testimonials.css' | asset_url }}" {%- render 'lazy-stylesheet-attrs' %}>
-
-<div
-  id="section-id-{{ section.id }}"
-  class="{% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}"
->
-  {%- style -%}
+{%- style -%}
     #section-id-{{ section.id }} .testimonial__blockquote {
-      font-size: {{ section.settings.quote_text_size_mobile }}px;
-      {%- if section.settings.quote_text_size_mobile >= 90 -%}
+    font-size: {{ section.settings.quote_text_size_mobile }}px;
+    {%- if section.settings.quote_text_size_mobile >= 90 -%}
       line-height: 1em;
-      {%- endif %}
+    {%- endif -%}
     }
+    #section-id-{{ section.id }}.custom-padding {
+    margin: 0;
+    padding-top: {{ section.settings.custom_padding }}px;
+    padding-bottom: {{ section.settings.custom_padding }}px;
+  }
+  #section-id-{{ section.id }}.bg-color {
+    background-color: {{ section.settings.bg_color }};
+  }
     @media (min-width: 768px) {
       #section-id-{{ section.id }} .testimonial__blockquote {
         {%- assign quote_text_size_medium = section.settings.quote_text_size | times: 0.7 | at_least: section.settings.quote_text_size_mobile -%}
-        font-size: {{ quote_text_size_medium }}px;
+        font-size: 16px;
         {%- if quote_text_size_medium >= 90 -%}
         line-height: 1em;
         {%- endif %}
@@ -46,14 +49,17 @@
     }
     @media (min-width: 1100px) {
       #section-id-{{ section.id }} .testimonial__blockquote {
-        font-size: {{ section.settings.quote_text_size }}px;
+        font-size: 24px;
         {%- if section.settings.quote_text_size >= 90 -%}
         line-height: 1em;
         {%- endif %}
       }
     }
-  {%- endstyle -%}
-
+{%- endstyle -%}
+<div
+  id="section-id-{{ section.id }}"
+  class="{% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} bg-color fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %} custom-padding"
+>
   <div class="container fade-in" data-cc-animate data-cc-animate-delay="0.2s">
     <div
       class="testimonial-list testimonial-list--{{ section.settings.layout }} testimonial-list--{% if show_image %}with-images {% else %}without-images{% endif %}"
@@ -325,6 +331,22 @@
       "id": "arrow_button_color",
       "label": "Arrow Button Color",
       "default": "#2E2E2E"
+    },
+    {
+      "type": "range",
+      "id": "custom_padding",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Custom Padding",
+      "default": 10
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
     }
   ],
   "blocks": [
