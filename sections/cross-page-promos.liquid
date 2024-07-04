@@ -33,6 +33,8 @@
 
         #section-id-{{ section.id }} .icon-with-caption__text > .heading-font {
           font-size: {{ section.settings.font_size }}px;
+          font-weight: 700;
+          line-height: 24px;
         }
 
         @media (max-width: 768.97px) {
@@ -42,6 +44,8 @@
 
           #section-id-{{ section.id }} .icon-with-caption__text > .heading-font {
             font-size: {{ section.settings.font_size_mobile }}px;
+            line-height: 18px;
+            font-weight: 700;
           }
         }
       {% endstyle %}

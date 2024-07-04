@@ -80,7 +80,12 @@
                 {%- endif -%}
 
                 <div class="text-overlay__title">
-                  <h2 class="h4">{{ collection.title }}</h2>
+                  {% if heading != blank %}
+                    <h2 class="h4">{{ heading }}</h2>
+                  {% else %}
+                    <h2 class="h4">{{ collection.title }}</h2>
+                  {% endif %}
+
                   {%- if settings_object.coll_grid_show_count and collection.all_products_count > 0 -%}
                     <div class="small-text">
                       {{ 'sections.collection.product_count' | t: count: collection.all_products_count }}
@@ -105,7 +110,13 @@
           {%- if subheading != blank -%}
             <div class="subheading lightly-spaced-row">{{ subheading | escape }}</div>
           {%- endif -%}
-          <div class="product-block__title">{{ collection.title }}</div>
+
+          {% if heading != blank %}
+            <div class="product-block__title">{{ heading }}</div>
+          {% else %}
+            <div class="product-block__title">{{ collection.title }}</div>
+          {% endif %}
+
           {%- if settings_object.coll_grid_show_count and collection.all_products_count > 0 -%}
             <div class="small">{{ 'sections.collection.product_count' | t: count: collection.all_products_count }}</div>
           {%- endif -%}

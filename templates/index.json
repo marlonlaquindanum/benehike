@@ -224,6 +224,7 @@
           "settings": {
             "collection": "rooftop-tents",
             "image": "shopify:\/\/shop_images\/banner_page_1.jpg",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -233,6 +234,7 @@
           "settings": {
             "collection": "car-awings",
             "image": "shopify:\/\/shop_images\/head_banner_sales_003.jpg",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -242,6 +244,7 @@
           "settings": {
             "collection": "accessories",
             "image": "shopify:\/\/shop_images\/AIR_WINNER_PRO_Protable_Air_Compressor_Banner_02.jpg",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -251,6 +254,7 @@
           "settings": {
             "collection": "racks",
             "image": "shopify:\/\/shop_images\/banner_page_5.jpg",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -260,6 +264,7 @@
           "settings": {
             "collection": "others-tents",
             "image": "shopify:\/\/shop_images\/banner_page_4.jpg",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -279,7 +284,7 @@
         "color_scheme": "2",
         "full_width": true,
         "coll_grid_image_shape": "portrait-45",
-        "coll_grid_image_position": "bottom left",
+        "coll_grid_image_position": "center center",
         "coll_thumb_mob_per_row": "2",
         "coll_grid_show_count": false,
         "coll_text_position": "over-shadow",
@@ -309,7 +314,8 @@
         "full_width": false,
         "color_scheme": "default",
         "bg_color": "#ffffff",
-        "padding_vertical": 24
+        "padding_vertical_top": 10,
+        "padding_vertical_bottom": 10
       }
     },
     "9e029d78-b5e4-4641-902a-737cf1aceafe": {
@@ -529,7 +535,8 @@
         "full_width": true,
         "color_scheme": "default",
         "bg_color": "#f7f8f9",
-        "padding_vertical": 24
+        "padding_vertical_top": 57,
+        "padding_vertical_bottom": 10
       }
     },
     "90dcf320-f3f5-40ef-aee4-14de29b4aa82": {
@@ -621,6 +628,7 @@
           "type": "collection",
           "settings": {
             "collection": "side-open-roof-top-tent-benehike",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -629,6 +637,7 @@
           "type": "collection",
           "settings": {
             "collection": "tent-accessories",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -637,6 +646,7 @@
           "type": "collection",
           "settings": {
             "collection": "racks",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -645,6 +655,7 @@
           "type": "collection",
           "settings": {
             "collection": "aluminum-hardshell-rooftop-tents",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -653,6 +664,7 @@
           "type": "collection",
           "settings": {
             "collection": "jeep-roof-top-tents",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -661,6 +673,7 @@
           "type": "collection",
           "settings": {
             "collection": "jeep-roof-top-tents",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -700,6 +713,7 @@
           "settings": {
             "collection": "aluminum-hardshell-rooftop-tents",
             "image": "shopify:\/\/shop_images\/icon-1.png",
+            "heading": "",
             "subheading": "Sedan",
             "button_label": ""
           }
@@ -709,6 +723,7 @@
           "settings": {
             "collection": "270-awning",
             "image": "shopify:\/\/shop_images\/icon-2.png",
+            "heading": "",
             "subheading": "Mid-Size SUV",
             "button_label": ""
           }
@@ -718,6 +733,7 @@
           "settings": {
             "collection": "3-person-rooftop-tent",
             "image": "shopify:\/\/shop_images\/icon-3.png",
+            "heading": "",
             "subheading": "Full-Size SUV",
             "button_label": ""
           }
@@ -727,6 +743,7 @@
           "settings": {
             "collection": "4-person-rooftop-tent",
             "image": "shopify:\/\/shop_images\/icon-3.png",
+            "heading": "",
             "subheading": "Van",
             "button_label": ""
           }
@@ -736,6 +753,7 @@
           "settings": {
             "collection": "8-2-awning",
             "image": "shopify:\/\/shop_images\/icon-4.png",
+            "heading": "",
             "subheading": "Pickup Truck",
             "button_label": ""
           }
@@ -745,6 +763,7 @@
           "settings": {
             "collection": "air-compressor",
             "image": "shopify:\/\/shop_images\/icon-6.png",
+            "heading": "",
             "subheading": "Trailer",
             "button_label": ""
           }
@@ -772,7 +791,8 @@
         "coll_text_position_under_mobile": false,
         "coll_thumb_text_align_x": "center",
         "coll_thumb_text_align_y": "center",
-        "coll_button_style": "primary"
+        "coll_button_style": "primary",
+        "hover_color": "#ff6100"
       }
     },
     "a4fa32f3-493d-442d-a319-61e9335e8767": {
@@ -961,7 +981,8 @@
         "full_width": false,
         "color_scheme": "default",
         "bg_color": "#f7f8f9",
-        "padding_vertical": 48
+        "padding_vertical_top": 30,
+        "padding_vertical_bottom": 30
       }
     },
     "f785bed9-e36d-4270-953f-fd267049c386": {
@@ -975,7 +996,7 @@
         "show_excerpts": true,
         "crop_ratio": "1.78",
         "color_scheme": "default",
-        "custom_padding": 95
+        "custom_padding": 50
       }
     },
     "section_kik_collapsible_content_CepjLy": {
@@ -1020,7 +1041,8 @@
         "collapsibe_content_head": "Frequently Asked Questions",
         "collapsible_content_body": "<p>Explore our FAQ section for quick solutions to common inquiries about BeneHike products and services. Whether you're curious about our products, warranties, or shipping details, we've got you covered.<br\/>Still need help?<br\/>Visit our Contact Us page for further assistance.<\/p>",
         "btn_label": "Contact Us",
-        "button_url": ""
+        "button_url": "",
+        "bg_color": "#f7f8f9"
       }
     },
     "image_with_text_kF6689": {
@@ -1096,7 +1118,8 @@
         "full_width": false,
         "color_scheme": "default",
         "bg_color": "#ffffff",
-        "padding_vertical": 50
+        "padding_vertical_top": 30,
+        "padding_vertical_bottom": 10
       }
     },
     "collection_list_WE97kQ": {
@@ -1106,6 +1129,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -1114,6 +1138,7 @@
           "type": "collection",
           "settings": {
             "collection": "6-7-awning",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -1122,6 +1147,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -1130,6 +1156,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -1138,6 +1165,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -1146,6 +1174,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -1154,6 +1183,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -1162,6 +1192,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "heading": "",
             "subheading": "",
             "button_label": ""
           }
@@ -1198,28 +1229,20 @@
     "1719610110bc723fd8": {
       "type": "apps",
       "blocks": {
-        "loox_reviews_loox_gallery_carousel_section_KjrENi": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-gallery-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "instafeed_app_block_nUeBwh": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "maxWidth": 1100,
-            "borderRadius": 4,
-            "itemsPerView": 5,
-            "mobileItemsPerView": 1,
-            "imageRatio": "1",
-            "reviewerNameColor": "#ffffff",
-            "starsColor": "#ffffff",
-            "arrows_backgroundColor": "#ffffff",
-            "arrows_iconColor": "#9a9a9a",
-            "shadow": "none",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "productIds": ""
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "margin_top": 24,
+            "margin_bottom": 64,
+            "html_area": ""
           }
         }
       },
       "block_order": [
-        "loox_reviews_loox_gallery_carousel_section_KjrENi"
+        "instafeed_app_block_nUeBwh"
       ],
       "settings": {
         "full_width": false
