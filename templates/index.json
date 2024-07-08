@@ -149,7 +149,7 @@
       ],
       "settings": {
         "height": "fixed",
-        "height_desktop": 740,
+        "height_desktop": 640,
         "height_mobile": 600,
         "full_width": true,
         "mobile_overlay_under": false,
@@ -224,7 +224,7 @@
           "settings": {
             "collection": "rooftop-tents",
             "image": "shopify:\/\/shop_images\/banner_page_1.jpg",
-            "heading": "",
+            "heading": "Roof Top Tents",
             "subheading": "",
             "button_label": ""
           }
@@ -315,7 +315,9 @@
         "color_scheme": "default",
         "bg_color": "#ffffff",
         "padding_vertical_top": 10,
-        "padding_vertical_bottom": 10
+        "padding_vertical_bottom": 10,
+        "font_size": 40,
+        "font_size_mobile": 24
       }
     },
     "9e029d78-b5e4-4641-902a-737cf1aceafe": {
@@ -461,7 +463,7 @@
     "section_kik_advantage_3nzAiE": {
       "type": "section-kik-advantage",
       "settings": {
-        "left_title": "OVERLANDING EXPERT",
+        "left_title": "WHY BENEHIKE?",
         "bg_color": "#3c4b3b",
         "text_color": "#ffffff",
         "item_txt_1": "Export Market",
@@ -535,8 +537,10 @@
         "full_width": true,
         "color_scheme": "default",
         "bg_color": "#f7f8f9",
-        "padding_vertical_top": 57,
-        "padding_vertical_bottom": 10
+        "padding_vertical_top": 60,
+        "padding_vertical_bottom": 10,
+        "font_size": 32,
+        "font_size_mobile": 20
       }
     },
     "90dcf320-f3f5-40ef-aee4-14de29b4aa82": {
@@ -859,7 +863,7 @@
             "hotspot_y": 15,
             "hotspot_x_mobile": 79,
             "hotspot_y_mobile": 31,
-            "heading": "Perfect Installation",
+            "heading": "PERFECT INSTALLATION",
             "text": "<p>The Bed of the Rooftop Tent is equipped with installation rails on the sides, perfectly compatible with installing any Awnings.<\/p>",
             "icon": "",
             "icon_width": 32
@@ -872,7 +876,7 @@
             "hotspot_y": 28,
             "hotspot_x_mobile": 59,
             "hotspot_y_mobile": 34,
-            "heading": "Durable & Convenient Casing",
+            "heading": "DURABLE & CONVENIENT CASING",
             "text": "<p>Anodized aluminum shell for unmatched durability. Effortlessly folds and latches—simple, convenient.<\/p>",
             "icon": "",
             "icon_width": 32
@@ -885,7 +889,7 @@
             "hotspot_y": 46,
             "hotspot_x_mobile": 48,
             "hotspot_y_mobile": 51,
-            "heading": "High-Performance Shelter",
+            "heading": "HIGH-PERFORMANCE SHELTER",
             "text": "<p>Crafted from high-strength tear-resistant blended fabric, treated with a durable waterproof and sun-resistant coating to keep you dry in extreme weather.<\/p>",
             "icon": "",
             "icon_width": 32
@@ -898,7 +902,7 @@
             "hotspot_y": 80,
             "hotspot_x_mobile": 27,
             "hotspot_y_mobile": 85,
-            "heading": "Unrestricted Headroom",
+            "heading": "UNRESTRICTED HEADROOM",
             "text": "<p>The support poles extend swiftly, offering a maximum height of 6.5 feet, ensuring ample headroom even for taller individuals under the shelter.<\/p>",
             "icon": "",
             "icon_width": 32
@@ -962,7 +966,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More About Us",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/about-us",
             "button_style": "link",
             "button_icon": false,
             "font_bold": false
@@ -982,7 +986,9 @@
         "color_scheme": "default",
         "bg_color": "#f7f8f9",
         "padding_vertical_top": 30,
-        "padding_vertical_bottom": 30
+        "padding_vertical_bottom": 30,
+        "font_size": 40,
+        "font_size_mobile": 24
       }
     },
     "f785bed9-e36d-4270-953f-fd267049c386": {
@@ -1005,29 +1011,29 @@
         "accordion_m8de3T": {
           "type": "accordion",
           "settings": {
-            "question_title": "Does it Have Dual Motors?",
-            "question_answer": "Some answers here..."
+            "question_title": "DO YOU PROVIDE DISCOUNTS FOR MILITARY OR FIRST RESPONDERS?",
+            "question_answer": "Yes, you can apply by sending your credentials to service@benehike.com.*Please note, once approved, these discounts do not stack with other discounts codes and cannot be applied during sale periods."
           }
         },
         "accordion_WVYmhw": {
           "type": "accordion",
           "settings": {
-            "question_title": "How does the 5-year warranty work?",
-            "question_answer": "Some answers here..."
+            "question_title": "HOW DOES THE 5-YEAR WARRANTY WORK?",
+            "question_answer": "You can locate our 5-year warranty policy here."
           }
         },
         "accordion_hhaxBe": {
           "type": "accordion",
           "settings": {
-            "question_title": "Do you offer international shipping?",
-            "question_answer": "Some answers here..."
+            "question_title": "DO YOU OFFER INTERNATIONAL SHIPPING?",
+            "question_answer": "All products are shipped directly to your doorstep at a fixed rate. This offer applies exclusively to customers shipping within the contiguous United States. For orders shipping outside the contiguous United States, please reach out to service@benehike.com for shipping rates."
           }
         },
         "accordion_GrnXHN": {
           "type": "accordion",
           "settings": {
-            "question_title": "How can I find the right gear for my vehicle?",
-            "question_answer": "Some answers here..."
+            "question_title": "HOW CAN I FIND THE RIGHT ROOFTOP TENT FOR MY VEHICLE?",
+            "question_answer": "You can find our recommendations here."
           }
         }
       },
@@ -1041,7 +1047,7 @@
         "collapsibe_content_head": "Frequently Asked Questions",
         "collapsible_content_body": "<p>Explore our FAQ section for quick solutions to common inquiries about BeneHike products and services. Whether you're curious about our products, warranties, or shipping details, we've got you covered.<br\/>Still need help?<br\/>Visit our Contact Us page for further assistance.<\/p>",
         "btn_label": "Contact Us",
-        "button_url": "",
+        "button_url": "shopify:\/\/pages\/kikstart-contact-us",
         "bg_color": "#f7f8f9"
       }
     },
@@ -1101,7 +1107,7 @@
           "type": "button",
           "settings": {
             "button_label": "@benehike_",
-            "button_link": "",
+            "button_link": "https:\/\/www.instagram.com\/benehike_\/",
             "button_style": "link",
             "button_icon": true,
             "font_bold": true
@@ -1119,7 +1125,9 @@
         "color_scheme": "default",
         "bg_color": "#ffffff",
         "padding_vertical_top": 30,
-        "padding_vertical_bottom": 10
+        "padding_vertical_bottom": 10,
+        "font_size": 32,
+        "font_size_mobile": 20
       }
     },
     "collection_list_WE97kQ": {

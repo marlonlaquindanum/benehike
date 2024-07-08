@@ -120,6 +120,72 @@
         "media_grouping_option": "Color,Colour,Couleur,Farbe"
       }
     },
+    "section_kik_product_details_tab_Pdddak": {
+      "type": "section-kik-product-details-tab",
+      "blocks": {
+        "rich_text_and_image_LWqXhx": {
+          "type": "rich_text_and_image",
+          "settings": {
+            "tab_heading": "Details",
+            "details": "<p><strong>ELEVATE YOUR OVERLANDING EXPERIENCE TO NEW HEIGHTS<br\/><br\/><\/strong>The BENEHIKE Alumabode V2 rooftop tent leads the industry with its integrated roof system seamlessly blending with off-road gear, boasting a <em><strong>capacity of 800 lbs!<\/strong><\/em> With a mere 6-inch increase in height and a weight of 196 lbs, it minimizes impact on <em><strong>fuel efficiency<\/strong><\/em> and payload.\u2028\u2028<br\/><br\/>The Alumabode V2 is one of the easiest rooftop tents to set up, completing the process effortlessly within <em><strong>a minute.<\/strong><\/em> Its unique pop-up design and hydraulic struts allow easy opening, providing a comfortable space. The top-notch light-suppression technology ensures peaceful naps and immersive entertainment.\u2028\u2028<br\/><br\/>The highly integrated equipment mounting system and portable pockets keep your gear organized, maintaining a tidy sleeping space. The elegant pop-up design offers a vertical rooftop, providing a spacious mattress and rain-free space, ensuring worry-free breaks during your journey.\u2028\u2028<br\/><br\/>Crafted with <em><strong>600D tear-resistant Oxford<\/strong><\/em> fabric, the Alumabode V2 rooftop tent excels in waterproofin<br\/><br\/><a href=\"\/blogs\/blog\" title=\"Benehike Rooftop Tents Insights\">Read More<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/1718961358291.png"
+          }
+        },
+        "rich_text_LwyRcV": {
+          "type": "rich_text",
+          "settings": {
+            "tab_heading": "Specifications",
+            "details": "<p><strong>ELEVATE YOUR OVERLANDING EXPERIENCE TO NEW HEIGHTS<br\/><br\/><\/strong>The BENEHIKE Alumabode V2 rooftop tent leads the industry with its integrated roof system seamlessly blending with off-road gear, boasting a <em><strong>capacity of 800 lbs!<\/strong><\/em> With a mere 6-inch increase in height and a weight of 196 lbs, it minimizes impact on <em><strong>fuel efficiency<\/strong><\/em> and payload.\u2028\u2028<br\/><br\/>The Alumabode V2 is one of the easiest rooftop tents to set up, completing the process effortlessly within <em><strong>a minute.<\/strong><\/em> Its unique pop-up design and hydraulic struts allow easy opening, providing a comfortable space. The top-notch light-suppression technology ensures peaceful naps and immersive entertainment.\u2028\u2028<br\/><br\/>The highly integrated equipment mounting system and portable pockets keep your gear organized, maintaining a tidy sleeping space. The elegant pop-up design offers a vertical rooftop, providing a spacious mattress and rain-free space, ensuring worry-free breaks during your journey.\u2028\u2028<br\/><br\/>Crafted with <em><strong>600D tear-resistant Oxford<\/strong><\/em> fabric, the Alumabode V2 rooftop tent excels in waterproofin<br\/><br\/><a href=\"\/blogs\/blog\" title=\"Benehike Rooftop Tents Insights\">Read More<\/a><\/p>"
+          }
+        },
+        "icons_TNGtdp": {
+          "type": "icons",
+          "settings": {
+            "tab_heading": "Compatible Vehicles",
+            "heading": "What Kinds of Vehicles would fit?",
+            "icon_1": "shopify:\/\/shop_images\/Pick_Up_Truck.png",
+            "icon_text_1": "Pickup Truck",
+            "icon_2": "shopify:\/\/shop_images\/Trailer.png",
+            "icon_text_2": "Trailer",
+            "icon_3": "shopify:\/\/shop_images\/Mid-Size_SUV.png",
+            "icon_text_3": "Mid-Size SUV",
+            "icon_4": "shopify:\/\/shop_images\/Full-Size_SUV.png",
+            "icon_text_4": "Full-Size SUV",
+            "icon_5": "shopify:\/\/shop_images\/Van.png",
+            "icon_text_5": "VAN",
+            "icon_text_6": "Pickup Truck"
+          }
+        },
+        "rich_text_and_image_qn437f": {
+          "type": "rich_text_and_image",
+          "settings": {
+            "tab_heading": "Shipping & Returns",
+            "details": ""
+          }
+        },
+        "rich_text_ejVm46": {
+          "type": "rich_text",
+          "settings": {
+            "tab_heading": "Installation",
+            "details": ""
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_and_image_LWqXhx",
+        "rich_text_LwyRcV",
+        "icons_TNGtdp",
+        "rich_text_and_image_qn437f",
+        "rich_text_ejVm46"
+      ],
+      "settings": {
+        "bg_color": "#f7f8f9",
+        "padding_top_desktop": 50,
+        "padding_bottom_destop": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 70
+      }
+    },
     "video_CrEfwC": {
       "type": "video",
       "blocks": {
@@ -135,6 +201,7 @@
         },
         "text_83yJ4P": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Features and Functions Overview<\/p>",
             "enlarge_text": true
@@ -176,32 +243,35 @@
       ],
       "settings": {
         "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
+        "text_alignment": "left",
+        "full_width": true,
         "color_scheme": "default",
-        "bg_color": "#f7f8f9",
-        "padding_vertical": 10
+        "bg_color": "#ffffff",
+        "padding_vertical_top": 96,
+        "padding_vertical_bottom": 10,
+        "font_size": 48,
+        "font_size_mobile": 32
       }
     },
-    "multi_column_DBfMw9": {
-      "type": "multi-column",
+    "section_kik_star_multi_column_kXqbwx": {
+      "type": "section-kik-star-multi-column",
       "blocks": {
-        "text_block_d8CARn": {
+        "text_block_3NzQfA": {
           "type": "text_block",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/2fda1c2ca7803441ce219457f06f27fe.jpg",
+            "image": "shopify:\/\/shop_images\/Alumnode_RTT_banner_011_a1cf12c9-68e5-43bd-9134-6324fb5b4e65.jpg",
             "title": "INTEGRATED ROOF",
             "text": "<p>Even when closed, the Alumabode V2 can store our sleeping gear inside the tent. At the top of the tent, the seamlessly integrated roof crossbar system is designed to carry bulky gear weighing up to 800 pounds, while side panels allow easy access to small essentials on the go.<\/p>",
             "button_label": "",
             "link": ""
           }
         },
-        "text_block_xGyKzx": {
+        "text_block_CDDPWM": {
           "type": "text_block",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/5e6beca310a5be4e76124727e579c13a_c09cac6b-7f16-40f1-baf7-f5c14eb30132.jpg",
+            "image": "shopify:\/\/shop_images\/a0109b54fd59d09969f073458ce5d55c_5deee473-712e-4b19-b849-7b08433e5498.jpg",
             "title": "DIVERSIFIED EXPANSION",
             "text": "<p>The top and bottom of all four sides of the Alumabode V2 shell feature M8 rail slots, providing endless possibilities for adventure expansion and full compatibility with Thule and Yakima accessories.<\/p>",
             "button_label": "",
@@ -210,8 +280,8 @@
         }
       },
       "block_order": [
-        "text_block_d8CARn",
-        "text_block_xGyKzx"
+        "text_block_3NzQfA",
+        "text_block_CDDPWM"
       ],
       "settings": {
         "title": "",
@@ -219,70 +289,88 @@
         "media_width": 700,
         "text_alignment": "left",
         "button_style": "primary",
-        "color_scheme": "default"
+        "color_scheme": "default",
+        "slider": false,
+        "content_overlay": false,
+        "bg_color": "#ffffff",
+        "padding_top_desktop": 40,
+        "padding_bottom_desktop": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "font_size_desktop": 32,
+        "font_size_mobile": 20
       }
     },
-    "multi_column_mMtVw6": {
-      "type": "multi-column",
+    "section_kik_star_multi_column_BHmaab": {
+      "type": "section-kik-star-multi-column",
       "blocks": {
-        "text_block_8k3ypD": {
+        "text_block_htFctb": {
           "type": "text_block",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/91408444cf492d13128c0a00b49f2664_00b1001c-90a8-4552-89d1-6696bd561784.jpg",
+            "image": "shopify:\/\/shop_images\/Home_page_awning_banner_H_1_1.jpg",
             "title": "FAMILY CAMPER",
             "text": "<p>The POP-UP design of Alumabode V2 provides ample space above the luxurious mattress, accommodating at least a small family and your dog. You can even sit up straight without awkward bending.<\/p>",
             "button_label": "",
             "link": ""
           }
         },
-        "text_block_q8a8dY": {
+        "text_block_AieEQP": {
           "type": "text_block",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/cba8cfb8cdeb21d47f4284786d488ecb.jpg",
+            "image": "shopify:\/\/shop_images\/1719560376270.png",
             "title": "SPACIOUS HAVEN",
             "text": "<p>Our spacious king-size bed accommodates a family of three, offering an immersive sleeping experience. Even when closed, you can leave your sleeping gear inside.<\/p>",
             "button_label": "",
             "link": ""
           }
         },
-        "text_block_CGmBnB": {
+        "text_block_cghwdn": {
           "type": "text_block",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/5e6beca310a5be4e76124727e579c13a_c09cac6b-7f16-40f1-baf7-f5c14eb30132.jpg",
+            "image": "shopify:\/\/shop_images\/1718955613909.jpg",
             "title": "BUILT-IN REMOTE CONTROL LED",
             "text": "<p>Leverage a 75-inch long white diffused LED light strip positioned along the tent's ceiling for illumination, powered via USB.<\/p>",
             "button_label": "",
             "link": ""
           }
         },
-        "text_block_7dxh4Y": {
+        "text_block_NMaMcg": {
           "type": "text_block",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/1a7d2b87e192c4fad405eaa9f316015c_cd7b7b4c-cd05-4c87-ae1a-427ced333531.jpg",
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/1718953391321.png",
+            "title": "INFINITE STORAGE",
+            "text": "<p>Top Detachable Mesh Bag for essentials like keys, wallet, and phone.Vertical storage pockets on both sides for easy placement of small items when drowsiness strikes.<\/p>",
             "button_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "text_block_8k3ypD",
-        "text_block_q8a8dY",
-        "text_block_CGmBnB",
-        "text_block_7dxh4Y"
+        "text_block_htFctb",
+        "text_block_AieEQP",
+        "text_block_cghwdn",
+        "text_block_NMaMcg"
       ],
       "settings": {
         "title": "",
-        "media_aspect_ratio": "s",
+        "media_aspect_ratio": "1.5",
         "media_width": 700,
         "text_alignment": "left",
         "button_style": "primary",
-        "color_scheme": "default"
+        "color_scheme": "default",
+        "slider": true,
+        "content_overlay": false,
+        "bg_color": "#f7f8f9",
+        "padding_top_desktop": 40,
+        "padding_bottom_desktop": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "font_size_desktop": 32,
+        "font_size_mobile": 20
       }
     },
     "video_with_text_WQ6GTQ": {
@@ -292,7 +380,9 @@
           "type": "heading",
           "settings": {
             "title": "How to Install Your Roof Tent",
-            "use_h1": false
+            "use_h1": false,
+            "heading_font_size_desk": 48,
+            "heading_font_size_mob": 48
           }
         },
         "text_6NgP8U": {
@@ -314,7 +404,11 @@
         "autoplay": false,
         "video_position": "right",
         "text_alignment": "center",
-        "color_scheme": "default"
+        "color_scheme": "default",
+        "padding_top_desktop": 50,
+        "padding_bottom_desktop": 50,
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 10
       }
     },
     "rich_text_rTHQQh": {
@@ -345,58 +439,94 @@
         "full_width": false,
         "color_scheme": "default",
         "bg_color": "#ffffff",
-        "padding_vertical": 10
+        "padding_vertical_top": 10,
+        "padding_vertical_bottom": 40,
+        "font_size": 48,
+        "font_size_mobile": 32
       }
     },
-    "multi_column_YAnBkb": {
-      "type": "multi-column",
+    "section_kik_star_multi_column_qYPi8N": {
+      "type": "section-kik-star-multi-column",
       "blocks": {
-        "text_block_NAg7hw": {
+        "text_block_XEMp9c": {
           "type": "text_block",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/White_Bold_Playful_Travel_Vlog_YouTube_Thumbnail_3072_x_1536_2048_x_2048_1.png",
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/Ascendll_V2_Aluminum_Shell_Rooftop_Tent_2_Person-_desc_010_H_9622e263-3480-429f-91f0-d0cf3b4c78b4_1.jpg",
+            "title": "EFFORTLESS ACCESS",
+            "text": "<p>Embark on adventure with our Aerospace-Grade Latch – unlocks in 3 seconds for seamless acces<\/p>",
             "button_label": "",
             "link": ""
           }
         },
-        "text_block_wEJ6t8": {
+        "text_block_pyyDij": {
           "type": "text_block",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/QQ_20240628141052.jpg",
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/1720063855906.png",
+            "title": "Easy Open",
+            "text": "<p>The hydraulic struts enable swift tent deployment in under 2 minutes, maximizing your adventure and family bonding moments.<\/p>",
             "button_label": "",
             "link": ""
           }
         },
-        "text_block_B8hGde": {
+        "text_block_8zaPHm": {
           "type": "text_block",
           "settings": {
             "enable_media": true,
-            "image": "shopify:\/\/shop_images\/1719563434245.png",
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/alum_shell_description_002.jpg",
+            "title": "4 SEASON PROTECTION",
+            "text": "<p>The Rainfly and Body, made of tear-resistant 600D Oxford, feature military-grade seam sealing and a 4000mm PU coating for full waterproofing. Added 280GSM cotton enhances insulation, protecting you in extreme weather.<\/p>",
             "button_label": "",
             "link": ""
+          }
+        },
+        "text_block_H7K7AV": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/1719564270931.png",
+            "title": "4-SEASON COMPATIBLE",
+            "text": "<p>Utilizing breathable, heavyweight poly-cotton canvas (280GSM), military-grade sealing techniques, high-pressure rainfly, dense windows, and insulating pads, it minimizes condensation by at least 95%. Specially designed to ensure dryness and comfort during camping in every season.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_NAU8hk": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/48f300e3d58dba9b07fdcc8b56a8f63e_b2a80081-8488-4e0b-a2e0-d30e406f9c57.jpg",
+            "title": "Easy Installation",
+            "text": "<p>Tighten 8 screws, kick back, and enjoy—no need for extra wrench or a headache!<\/p>",
+            "button_label": "View Manual",
+            "link": "shopify:\/\/collections\/8-2-awning"
           }
         }
       },
       "block_order": [
-        "text_block_NAg7hw",
-        "text_block_wEJ6t8",
-        "text_block_B8hGde"
+        "text_block_XEMp9c",
+        "text_block_pyyDij",
+        "text_block_8zaPHm",
+        "text_block_H7K7AV",
+        "text_block_NAU8hk"
       ],
       "settings": {
         "title": "",
-        "media_aspect_ratio": "s",
+        "media_aspect_ratio": "0.8",
         "media_width": 700,
-        "text_alignment": "center",
-        "button_style": "primary",
-        "color_scheme": "default"
+        "text_alignment": "left",
+        "button_style": "link",
+        "color_scheme": "default",
+        "slider": false,
+        "content_overlay": true,
+        "bg_color": "#ffffff",
+        "padding_top_desktop": 40,
+        "padding_bottom_desktop": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "font_size_desktop": 32,
+        "font_size_mobile": 20
       }
     },
     "rich_text_q8GUTT": {
@@ -418,8 +548,11 @@
         "text_alignment": "center",
         "full_width": false,
         "color_scheme": "default",
-        "bg_color": "#f7f8f9",
-        "padding_vertical": 10
+        "bg_color": "#ffffff",
+        "padding_vertical_top": 10,
+        "padding_vertical_bottom": 40,
+        "font_size": 48,
+        "font_size_mobile": 32
       }
     },
     "testimonials_GeHHtw": {
@@ -464,7 +597,8 @@
         "autoplay_speed": 5,
         "star_color": "#ff6100",
         "arrow_button_color": "#2e2e2e",
-        "custom_padding": 10
+        "custom_padding": 50,
+        "bg_color": "#ffffff"
       }
     },
     "170245891781eeaafb": {
@@ -518,7 +652,8 @@
         "collapsibe_content_head": "Frequently Asked Questions",
         "collapsible_content_body": "<p>Explore our FAQ section for quick solutions to common inquiries about BeneHike products and services. Whether you're curious about our products, warranties, or shipping details, we've got you covered.<br\/>Still need help?<br\/>Visit our Contact Us page for further assistance.<\/p>",
         "btn_label": "Contact Us",
-        "button_url": ""
+        "button_url": "",
+        "bg_color": "#ffffff"
       }
     },
     "related-products": {
@@ -532,13 +667,14 @@
   },
   "order": [
     "main",
+    "section_kik_product_details_tab_Pdddak",
     "video_CrEfwC",
     "rich_text_6X3C7t",
-    "multi_column_DBfMw9",
-    "multi_column_mMtVw6",
+    "section_kik_star_multi_column_kXqbwx",
+    "section_kik_star_multi_column_BHmaab",
     "video_with_text_WQ6GTQ",
     "rich_text_rTHQQh",
-    "multi_column_YAnBkb",
+    "section_kik_star_multi_column_qYPi8N",
     "rich_text_q8GUTT",
     "testimonials_GeHHtw",
     "170245891781eeaafb",

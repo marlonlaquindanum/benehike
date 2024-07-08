@@ -1,8 +1,32 @@
-<div class="{% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}">
+{% style %}
+  .section-template-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top_desktop }}px;
+    padding-bottom: {{section.settings.padding_bottom_desktop }}px;
+  }
+
+  .section-template-{{ section.id }} .rte.lightly-spaced-row {
+    font-size: 16px;
+    color: #5D5E5F;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  @media (max-width: 768.97PX) {
+    .section-template-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+    .section-template-{{ section.id }} .rte.lightly-spaced-row {
+      font-size: 14px;
+    }
+  }
+{% endstyle %}
+
+<div class="section-template-{{ section.id }} {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}">
   <div class="container">
     <div class="flexible-layout valign-middle">
       <div class="column column--half {% if section.settings.video_position == 'right' %}column--order-push-desktop{% endif %}">
-
         {%- unless video_assets_output -%}
           <link rel="stylesheet" href="{{ 'video.css' | asset_url }}" {%- render 'lazy-stylesheet-attrs' %}>
           <script src="{{ 'video.js' | asset_url }}" defer></script>
@@ -21,12 +45,18 @@
           elsif section.settings.video_shopify
             assign placeholder_image = section.settings.video_shopify.preview_image
           else
-            assign placeholder_image = nil
+            assign placeholder_image = null
           endif
         -%}
 
         <div class="video-section">
-          <div class="height--adapt image-overlay image-overlay--bg-no_background" data-cc-animate {% if placeholder_image %}style="--aspect-ratio: {{ placeholder_image.aspect_ratio }}"{% endif %}>
+          <div
+            class="height--adapt image-overlay image-overlay--bg-no_background"
+            data-cc-animate
+            {% if placeholder_image %}
+              style="--aspect-ratio: {{ placeholder_image.aspect_ratio }}"
+            {% endif %}
+          >
             <div class="image-overlay__image height__image">
               <deferred-media>
                 {%- unless section.settings.autoplay -%}
@@ -34,18 +64,42 @@
                 {%- endunless -%}
 
                 <template>
-                  <video-component class="{% if using_video_tag %}has-video{% else %}has-iframe{% endif %}"
-                      {%- unless using_video_tag %} data-video-url="{{ section.settings.video_external | escape }}"{% endunless %}
-                      data-video-id="{{ section.id }}"
-                      data-autoplay="{{ section.settings.autoplay }}"
-                      data-background="false"
-                      data-natural-width= "true"
-                      data-description="{{ section.settings.video_description | escape }}">
+                  <video-component
+                    class="{% if using_video_tag %}has-video{% else %}has-iframe{% endif %}"
+                    {%- unless using_video_tag %}
+                      data-video-url="{{ section.settings.video_external | escape }}"
+                    {% endunless %}
+                    data-video-id="{{ section.id }}"
+                    data-autoplay="{{ section.settings.autoplay }}"
+                    data-background="false"
+                    data-natural-width="true"
+                    data-description="{{ section.settings.video_description | escape }}"
+                  >
                     {%- if using_video_tag -%}
                       {%- if section.settings.autoplay -%}
-                        {{ section.settings.video_shopify | video_tag: playsinline: true, controls: false, autoplay: true, muted: true, loop: true, poster: '' | replace: '<img ', '<img loading="lazy" hidden ' }}
+                        {{
+                          section.settings.video_shopify
+                          | video_tag:
+                            playsinline: true,
+                            controls: false,
+                            autoplay: true,
+                            muted: true,
+                            loop: true,
+                            poster: ''
+                          | replace: '<img ', '<img loading="lazy" hidden '
+                        }}
                       {%- else -%}
-                        {{ section.settings.video_shopify | video_tag: playsinline: true, controls: true, autoplay: false, muted: false, loop: false, poster: '' | replace: '<img ', '<img loading="lazy" hidden ' }}
+                        {{
+                          section.settings.video_shopify
+                          | video_tag:
+                            playsinline: true,
+                            controls: true,
+                            autoplay: false,
+                            muted: false,
+                            loop: false,
+                            poster: ''
+                          | replace: '<img ', '<img loading="lazy" hidden '
+                        }}
                       {%- endif -%}
                     {%- else -%}
                       <div></div>
@@ -56,14 +110,20 @@
                 {% if placeholder_image %}
                   {%- render 'image' with placeholder_image, class: 'video-played-hidden', size_cols_desktop: 2 -%}
                 {% else %}
-                  <div class="placeholder-image video-played-hidden">{{- 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' -}}</div>
+                  <div class="placeholder-image video-played-hidden">
+                    {{- 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' -}}
+                  </div>
                 {% endif %}
 
                 {%- unless section.settings.autoplay -%}
                   <div class="text-overlay text-overlay--for-banner text-overlay--v-center text-overlay--h-center image-overlay__over video-played-hidden">
                     <div class="text-overlay__inner">
                       <div class="text-overlay__text">
-                        <button type="button" class="video-section__play-btn" onclick="this.closest('.video-section').querySelector('.js-load-media').click()">
+                        <button
+                          type="button"
+                          class="video-section__play-btn"
+                          onclick="this.closest('.video-section').querySelector('.js-load-media').click()"
+                        >
                           <span class="visually-hidden">{{ 'general.icon_labels.play' | t }}</span>
                           {%- render 'icon-play' -%}
                         </button>
@@ -75,7 +135,6 @@
             </div>
           </div>
         </div>
-
       </div>
 
       <div class="column column--half align-ltr-{{ section.settings.text_alignment }}" data-cc-animate>
@@ -90,26 +149,54 @@
             -%}
             {% case block.type %}
               {% when 'heading' %}
+                {% style %}
+                  #majortitle-{{ block.id }} { font-size: {{ block.settings.heading_font_size_desk }}px; }
+                  @media (max-width: 768.97px) {
+                    #majortitle-{{ block.id }} { font-size: {{ block.settings.heading_font_size_mob }}px; }
+                  }
+                {% endstyle %}
                 {% if block.settings.use_h1 %}
-                  <h1 class="majortitle in-content" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h1>
+                  <h1 class="majortitle in-content" id="majortitle-{{ block.id }}" {{ block.shopify_attributes }}>
+                    {{ block.settings.title | escape }}
+                  </h1>
                 {% else %}
-                  <h2 class="majortitle in-content h1" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h2>
+                  <h2 class="majortitle in-content h1" {{ block.shopify_attributes }}>
+                    {{ block.settings.title | escape }}
+                  </h2>
                 {% endif %}
 
               {% when 'subheading' %}
-                <div class="subheading subheading--over lightish-spaced-row-above" {{ block.shopify_attributes }}>{{ block.settings.subheading | escape }}</div>
+                <div class="subheading subheading--over lightish-spaced-row-above" {{ block.shopify_attributes }}>
+                  {{ block.settings.subheading | escape }}
+                </div>
 
               {% when 'text' %}
-                <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+                <div
+                  class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.text }}
+                </div>
 
               {% when 'button' %}
                 <div class="lightly-spaced-row button-row" {{ block.shopify_attributes }}>
-                  <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+                  <a
+                    class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn"
+                    href="{{ block.settings.button_link }}"
+                  >
+                    {{- block.settings.button_label | escape -}}
+                  </a>
                   {%- assign skip_block_count = 0 -%}
                   {%- for next_block in section.blocks offset: forloop.index -%}
                     {%- if next_block.type == 'button' -%}
                       {%- assign skip_block_count = skip_block_count | plus: 1 -%}
-                      <a class="{% if next_block.settings.button_style != 'link' %}btn btn--{{ next_block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn" href="{{ next_block.settings.button_link }}" {{ block.shopify_attributes }}>{{ next_block.settings.button_label | escape }}</a>
+                      <a
+                        class="{% if next_block.settings.button_style != 'link' %}btn btn--{{ next_block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn"
+                        href="{{ next_block.settings.button_link }}"
+                        {{ block.shopify_attributes }}
+                      >
+                        {{- next_block.settings.button_label | escape -}}
+                      </a>
                     {%- else -%}
                       {%- break -%}
                     {%- endif -%}
@@ -117,19 +204,23 @@
                 </div>
 
               {% when 'image' %}
-                <div class="lightly-spaced-row lightish-spaced-row-above inline-width-container" style="width: {{ block.settings.image_width }}px" {{ block.shopify_attributes }}>
+                <div
+                  class="lightly-spaced-row lightish-spaced-row-above inline-width-container"
+                  style="width: {{ block.settings.image_width }}px"
+                  {{ block.shopify_attributes }}
+                >
                   {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
-                    {% if block.settings.image != blank %}
-                      {%- liquid
-                        assign image_sizes = block.settings.image_width | append: 'px'
-                        assign image_widths = block.settings.image_width | times: 2 | prepend: ', ' | prepend: block.settings.image_width
-                        render 'image' with block.settings.image, sizes: image_sizes, widths: image_widths
-                      -%}
-                    {% else %}
-                      <div class="placeholder-image">
-                        {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
-                      </div>
-                    {% endif %}
+                  {% if block.settings.image != blank %}
+                    {%- liquid
+                      assign image_sizes = block.settings.image_width | append: 'px'
+                      assign image_widths = block.settings.image_width | times: 2 | prepend: ', ' | prepend: block.settings.image_width
+                      render 'image' with block.settings.image, sizes: image_sizes, widths: image_widths
+                    -%}
+                  {% else %}
+                    <div class="placeholder-image">
+                      {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+                    </div>
+                  {% endif %}
                   {% if block.settings.url != blank %}</a>{% endif %}
                 </div>
 
@@ -148,7 +239,10 @@
                   }
                 {% endstyle %}
 
-                <div class="block-id-{{ block.id }} lightly-spaced-row lightish-spaced-row-above countdown-font-{{ block.settings.number_font }} countdown-divider-{{ block.settings.divider_type }}" {{ block.shopify_attributes }}>
+                <div
+                  class="block-id-{{ block.id }} lightly-spaced-row lightish-spaced-row-above countdown-font-{{ block.settings.number_font }} countdown-divider-{{ block.settings.divider_type }}"
+                  {{ block.shopify_attributes }}
+                >
                   {% render 'countdown-timer',
                     end_date: block.settings.end_date,
                     end_time: block.settings.end_time,
@@ -158,7 +252,6 @@
                     show_labels: block.settings.show_timer_labels
                   %}
                 </div>
-
             {% endcase %}
           {% endfor %}
         </div>
@@ -167,15 +260,12 @@
   </div>
 </div>
 
-
 {% schema %}
 {
   "name": "Video with text",
   "class": "section-video-with-text",
   "disabled_on": {
-    "groups": [
-      "aside"
-    ]
+    "groups": ["aside"]
   },
   "settings": [
     {
@@ -249,6 +339,54 @@
           "label": "2"
         }
       ]
+    },
+    {
+      "type": "header",
+      "content": "Destop Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 10
+    },
+    {
+      "type": "header",
+      "content": "Mobile Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 10
     }
   ],
   "blocks": [
@@ -268,6 +406,26 @@
           "label": "Set as primary page heading",
           "info": "Use <h1> tag. One per page recommended. [Read more](https://cleancanvas.co.uk/support/symmetry/section-h1-setting)",
           "default": false
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_desk",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Heading Font Size Desktop",
+          "default": 48
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_mob",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Heading Font Size Mobile",
+          "default": 48
         }
       ]
     },
@@ -608,8 +766,7 @@
   "presets": [
     {
       "name": "Video with text",
-      "settings": {
-      },
+      "settings": {},
       "blocks": [
         {
           "type": "heading"

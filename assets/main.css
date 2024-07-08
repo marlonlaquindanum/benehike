@@ -1528,6 +1528,7 @@ h6,
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 
 @media (max-width: 767.98px) {
@@ -1635,6 +1636,7 @@ h6,
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 0;
+  color: #171717;;
 }
 
 @media (max-width: 768.97px) {
@@ -2055,9 +2057,6 @@ cart-drawer {
   --container-pad-x: var(--gutter-content);
   --gutter: 16px;
   padding-top: 30px;
-}
-.shopify-section.section-kik-collapsible-content {
-  background-color: #F7F8F9;
 }
 @media (min-width: 768px) {
   .cart-drawer .collection-slider {
@@ -5781,9 +5780,10 @@ hotspots-image .image-overlay {
 
 .hotspot__title {
   margin-bottom: 0.75em;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+  color: #171717;
 }
 
 .hotspot p {
@@ -6905,6 +6905,59 @@ hotspots-image .image-overlay {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+/* Contrl font size depends on device */
+.breadcrumbs-list a {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #171717;
+}
+
+.product-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2E2E2E;
+  line-height: 48px;
+}
+
+.product-price--large .price--on-sale .price__current {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.product-price--large .price__was {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.shopify-installments__content {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2E2E2E;
+}
+
+@media (max-width: 768.97px) {
+  .breadcrumbs-list a {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .product-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .product-price--large .price--on-sale .price__current {
+    font-size: 16px;
+  }
+
+  .product-price--large .price__was {
+     font-size: 16px;
+     line-height: 19px;
+  }
 }
 
 .breadcrumbs-list__item {
@@ -10099,10 +10152,36 @@ ul.inline li {
   border-top: none;
 }
 
+.article-list.article-layout--columns .article__inner > .rte {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D5E5F;
+}
+
+.text-column__text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #5D5E5F;
+}
+
 @media (max-width: 768.97px) {
   .article-list .article {
     padding-top: 32px;
     padding-bottom: 32px;
+  }
+
+  .article-list.article-layout--columns .article__inner > .rte {
+    flex-grow: 1;
+    margin-bottom: 2em;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .text-column__text p {
+    font-size: 14px;
+    line-height: 22px;
   }
 }
 

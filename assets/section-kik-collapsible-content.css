@@ -17,7 +17,6 @@
   justify-content: space-between;
   padding-top: 96px;
   padding-bottom: 96px;
-  background-color: #F7F8F9;
 }
 
 .accordion-container {
@@ -29,8 +28,10 @@
   width: 45%;
 }
 
-.collapsible-content--heading__text {
+.collapsible-content--heading > p {
   font-size: 16px;
+  font-weight: 400;
+  color: #171717;
 }
 
 .no-btn-color {
@@ -129,6 +130,7 @@ details[open] .accordion-icon svg {
   }
   .collapsible-content--heading > p {
     font-size: 14px;
+    font-weight: 400;
   }
   .collapsible-content {
     display: block;

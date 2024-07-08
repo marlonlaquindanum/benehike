@@ -35,6 +35,7 @@
           font-size: {{ section.settings.font_size }}px;
           font-weight: 700;
           line-height: 24px;
+          display: block;
         }
 
         @media (max-width: 768.97px) {
@@ -124,7 +125,13 @@
                         </div>
                       {% endif %}
                       {% if section.settings.view_more_btn %}
-                        <div class="icon-with-caption__view-more--btn">View more</div>
+                        {%- if block.settings.text_link_url != blank -%}
+                          <a href="{{ section.settings.text_link_url }}" class="icon-with-caption__view-more--btn"
+                            >View more</a
+                          >
+                        {%- else -%}
+                          <div class="icon-with-caption__view-more--btn">View more</div>
+                        {%- endif -%}
                       {% endif %}
                     </div>
                   </div>

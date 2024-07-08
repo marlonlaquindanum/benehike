@@ -11,15 +11,24 @@
     display: none;
   }
 
+  .section-id-{{ section.id }} .slider__item:hover .product-block__detail > div {
+    color: {{ section.settings.hover_color }};
+  }
+
   .section-id-{{ section.id }} .subheading.lightly-spaced-row {
     font-size: 24px;
     font-weight: 700;
     font-family: 'Helvetica';
+    color: #2E2E2E;
   }
 
   @media (max-width: 768.97px) {
     .section-advantage  {
       padding: 48px 0;
+    }
+
+    .section-id-{{ section.id }} .subheading.lightly-spaced-row  {
+      font-size: 20px;
     }
   }
 {%- endstyle -%}

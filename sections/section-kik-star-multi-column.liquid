@@ -1,0 +1,640 @@
+{%- liquid
+  if section.settings.media_aspect_ratio == 's'
+    assign custom_media_aspect_ratio = 0
+    for block in section.blocks
+      if block.settings.enable_media
+        assign image = null
+        if block.settings.image
+          assign image = block.settings.image
+        elsif block.settings.video_shopify
+          assign image = block.settings.video_shopify.preview_image
+        endif
+        if image and image.aspect_ratio > custom_media_aspect_ratio
+          assign custom_media_aspect_ratio = image.aspect_ratio
+        endif
+      endif
+    endfor
+
+  elsif section.settings.media_aspect_ratio == 't'
+    assign custom_media_aspect_ratio = 9999999
+    for block in section.blocks
+      if block.settings.enable_media
+        assign image = null
+        if block.settings.image
+          assign image = block.settings.image
+        elsif block.settings.video_shopify
+          assign image = block.settings.video_shopify.preview_image
+        endif
+        if image and image.aspect_ratio < custom_media_aspect_ratio
+          assign custom_media_aspect_ratio = image.aspect_ratio
+        endif
+      endif
+    endfor
+
+  else
+    assign custom_media_aspect_ratio = section.settings.media_aspect_ratio | plus: 0
+  endif
+
+  if section.settings.media_width == 700
+    assign size_cols_desktop = section.blocks.size | at_most: 3
+    if section.blocks.size == 4
+      assign size_cols_desktop = 2
+    endif
+  else
+    assign sizes = section.settings.media_width | append: 'px'
+    assign widths = section.settings.media_width | times: 2 | prepend: ', ' | prepend: section.settings.media_width
+  endif
+-%}
+
+{%- for block in section.blocks -%}
+  {%- if block.settings.video_shopify != blank -%}
+    <link rel="stylesheet" href="{{ 'video.css' | asset_url }}" {%- render 'lazy-stylesheet-attrs' %}>
+    <script src="{{ 'video.js' | asset_url }}" defer></script>
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{% style %}
+  #section-id-{{ section.id }} {
+    background-color: {{ section.settings.bg_color }};
+    padding-top: {{ section.settings.padding_top_desktop }}px;
+    padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+  }
+
+  #section-id-{{ section.id }} .text-column__title {
+    font-size: {{ section.settings.font_size_desktop }}px;
+    font-weight: 700;
+    color: #171717;
+    line-height: 40px;
+  }
+
+  @media (max-width: 768.97px) {
+    #section-id-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+    #section-id-{{ section.id }} .text-column__title {
+      font-size: {{ section.settings.font_size_mobile }}px;
+    }
+  }
+{% endstyle %}
+<script src="{{ 'multi-column-swiper.js' | asset_url }}" defer></script>
+
+<div
+  id="section-id-{{ section.id }}"
+  class="{% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}"
+>
+  {% style %}
+    #section-id-{{ section.id }} .text-column--wrapper, #section-id-{{ section.id }} .text-column__image {
+      max-width: {{ section.settings.media_width }}px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    {% if section.settings.slider %}
+      #section-id-{{ section.id }} .flexible-layout--variable-columns .column {
+        flex: unset;
+        max-width: 33%;
+      }
+    {% endif %}
+
+    #section-id-{{ section.id }} .flexible-layout--variable-columns {
+      justify-content: flex-start;
+    }
+
+    #section-id-{{ section.id }} .content-overlay .text-column--wrapper {
+      position: absolute;
+      padding: 2vw;
+      bottom: 5%;
+    }
+
+    #section-id-{{ section.id }} .content-overlay .text-column__title {
+      color: #fff;
+    }
+
+    #section-id-{{ section.id }} .content-overlay .text-column__text p {
+      color: #fff;
+      padding: 0;
+    }
+
+    #section-id-{{ section.id }} .content-overlay {
+      position: relative;
+    }
+
+    #section-id-{{ section.id }} .swiper-button-next {
+      background-image: unset;
+      right: 65px;
+    }
+
+    #section-id-{{ section.id }} .swiper-button-prev {
+      background-image: unset;
+    }
+
+    {% if section.blocks.size >= 3 and section.settings.slider == false %}
+      #section-id-{{ section.id }} .column {
+        flex: unset;
+        width: 33%;
+      }
+    {% endif %}
+  {% endstyle %}
+
+  <div class="container">
+    {% if section.settings.title != blank %}
+      <h2 class="hometitle h4 align-center" data-cc-animate>
+        {{- section.settings.title | escape -}}
+      </h2>
+    {% endif %}
+
+    <div class="swiper-container {% unless section.settings.slider %}flexible-layout flexible-layout--variable-columns{% endunless %} flexible-layout--columns-{{ section.blocks.size }} align-ltr-{{ section.settings.text_alignment }}">
+      {% if section.settings.slider %}
+        <multi-column-swiper class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div
+              id="block-id-{{ block.id }}"
+              class="column text-column fade-in-up swiper-slide {% if section.settings.content_overlay %}content-overlay{% endif %}"
+              {{ block.shopify_attributes }}
+              data-cc-animate
+              data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s"
+            >
+              {% if block.settings.enable_media %}
+                <div class="text-column__image lightly-spaced-row">
+                  {%- if block.settings.link != blank -%}<a href="{{ block.settings.link }}">{%- endif -%}
+
+                  {%- if block.settings.image != blank or block.settings.video_shopify != blank -%}
+                    {%- if block.settings.video_shopify != blank -%}
+                      {%- assign placeholder_image = block.settings.image
+                        | default: section.settings.video_shopify.preview_image
+                      -%}
+                      <div class="video-section">
+                        <div
+                          class="height--adapt"
+                          {% if custom_media_aspect_ratio %}
+                            style="--aspect-ratio: {{ custom_media_aspect_ratio }}"
+                          {% endif %}
+                        >
+                          <div class="height__image">
+                            <deferred-media>
+                              <template>
+                                <video-component
+                                  class="has-video"
+                                  data-video-id="{{ section.id }}-{{ block.id }}"
+                                  data-autoplay="true"
+                                  data-background="false"
+                                  data-natural-width="true"
+                                >
+                                  {{
+                                    block.settings.video_shopify
+                                    | video_tag:
+                                      playsinline: true,
+                                      controls: false,
+                                      autoplay: true,
+                                      muted: true,
+                                      loop: true,
+                                      poster: ''
+                                    | replace: '<img ', '<img loading="lazy" hidden '
+                                  }}
+                                </video-component>
+                              </template>
+                            </deferred-media>
+                            {%- liquid
+                              if placeholder_image
+                                render 'image' with placeholder_image, class: 'video-played-hidden', sizes: sizes, widths: widths, size_cols_desktop: size_cols_desktop, custom_aspect_ratio: custom_media_aspect_ratio
+                              endif
+                            -%}
+                          </div>
+                        </div>
+                      </div>
+
+                    {%- else -%}
+                      {%- render 'image' with block.settings.image,
+                        sizes: sizes,
+                        widths: widths,
+                        size_cols_desktop: size_cols_desktop,
+                        custom_aspect_ratio: custom_media_aspect_ratio
+                      -%}
+                    {%- endif -%}
+                  {%- else -%}
+                    <div class="placeholder-image">
+                      {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+                    </div>
+                  {%- endif -%}
+
+                  {%- if block.settings.link != blank -%}</a>{% endif -%}
+                </div>
+              {% endif %}
+
+              <div class="text-column--wrapper">
+                {% if block.settings.title != blank %}
+                  <h3 class="text-column__title">{{ block.settings.title | escape }}</h3>
+                {% endif %}
+
+                {% if block.settings.text != blank %}
+                  <div class="text-column__text rte">{{ block.settings.text }}</div>
+                {% endif %}
+
+                {% if block.settings.button_label != blank %}
+                  <div class="text-column__button-row text-column__button-row--{{ section.settings.button_style }}">
+                    <a
+                      class="text-column__button {% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}"
+                      href="{{ block.settings.link }}"
+                    >
+                      {{- block.settings.button_label | escape -}}
+                    </a>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </multi-column-swiper>
+        <div class="swiper-button-prev" style>
+          <svg width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_7016_2343)"> <rect x="16" y="16" width="56" height="56" rx="28" fill="white" shape-rendering="crispEdges"/> <path d="M47.2197 34.9604L38 44.1802L47.2197 53.3999L48.36 52.2434L40.2968 44.1802L48.36 36.117L47.2197 34.9604Z" fill="#2E2E2E"/> </g> <defs> <filter id="filter0_d_7016_2343" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"> <feFlood flood-opacity="0" result="BackgroundImageFix"/> <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/> <feOffset/> <feGaussianBlur stdDeviation="8"/> <feComposite in2="hardAlpha" operator="out"/> <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/> <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7016_2343"/> <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7016_2343" result="shape"/> </filter> </defs>
+          </svg>
+        </div>
+        <div class="swiper-button-next">
+          <svg width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_7016_2343)">
+            <rect x="16" y="16" width="56" height="56" rx="28" fill="white" shape-rendering="crispEdges"/>
+            <path d="M40.7803 53.0396L50 43.8198L40.7803 34.6001L39.64 35.7566L47.7032 43.8198L39.64 51.883L40.7803 53.0396Z" fill="#2E2E2E"/>
+            </g>
+            <defs>
+            <filter id="filter0_d_7016_2343" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset/>
+            <feGaussianBlur stdDeviation="8"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7016_2343"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7016_2343" result="shape"/>
+            </filter>
+            </defs>
+          </svg>
+        </div>
+      {% else %}
+        {% for block in section.blocks %}
+          <div
+            id="block-id-{{ block.id }}"
+            class="column text-column fade-in-up {% if section.settings.content_overlay %}content-overlay{% endif %}"
+            {{ block.shopify_attributes }}
+            data-cc-animate
+            data-cc-animate-delay="{{ forloop.index | times: 0.15 }}s"
+          >
+            {% if block.settings.enable_media %}
+              <div class="text-column__image lightly-spaced-row">
+                {%- if block.settings.link != blank -%}<a href="{{ block.settings.link }}">{%- endif -%}
+
+                {%- if block.settings.image != blank or block.settings.video_shopify != blank -%}
+                  {%- if block.settings.video_shopify != blank -%}
+                    {%- assign placeholder_image = block.settings.image
+                      | default: section.settings.video_shopify.preview_image
+                    -%}
+                    <div class="video-section">
+                      <div
+                        class="height--adapt"
+                        {% if custom_media_aspect_ratio %}
+                          style="--aspect-ratio: {{ custom_media_aspect_ratio }}"
+                        {% endif %}
+                      >
+                        <div class="height__image">
+                          <deferred-media>
+                            <template>
+                              <video-component
+                                class="has-video"
+                                data-video-id="{{ section.id }}-{{ block.id }}"
+                                data-autoplay="true"
+                                data-background="false"
+                                data-natural-width="true"
+                              >
+                                {{
+                                  block.settings.video_shopify
+                                  | video_tag:
+                                    playsinline: true,
+                                    controls: false,
+                                    autoplay: true,
+                                    muted: true,
+                                    loop: true,
+                                    poster: ''
+                                  | replace: '<img ', '<img loading="lazy" hidden '
+                                }}
+                              </video-component>
+                            </template>
+                          </deferred-media>
+                          {%- liquid
+                            if placeholder_image
+                              render 'image' with placeholder_image, class: 'video-played-hidden', sizes: sizes, widths: widths, size_cols_desktop: size_cols_desktop, custom_aspect_ratio: custom_media_aspect_ratio
+                            endif
+                          -%}
+                        </div>
+                      </div>
+                    </div>
+
+                  {%- else -%}
+                    {%- render 'image' with block.settings.image,
+                      sizes: sizes,
+                      widths: widths,
+                      size_cols_desktop: size_cols_desktop,
+                      custom_aspect_ratio: custom_media_aspect_ratio
+                    -%}
+                  {%- endif -%}
+                {%- else -%}
+                  <div class="placeholder-image">
+                    {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+                  </div>
+                {%- endif -%}
+
+                {%- if block.settings.link != blank -%}</a>{% endif -%}
+              </div>
+            {% endif %}
+
+            <div class="text-column--wrapper">
+              {% if block.settings.title != blank %}
+                <h3 class="text-column__title">{{ block.settings.title | escape }}</h3>
+              {% endif %}
+
+              {% if block.settings.text != blank %}
+                <div class="text-column__text rte">{{ block.settings.text }}</div>
+              {% endif %}
+
+              {% if block.settings.button_label != blank %}
+                <div class="text-column__button-row text-column__button-row--{{ section.settings.button_style }}">
+                  <a
+                    class="text-column__button {% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %}"
+                    href="{{ block.settings.link }}"
+                  >
+                    {{- block.settings.button_label | escape -}}
+                  </a>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Multi-column with slider",
+  "class": "section-multi-column",
+  "disabled_on": {
+    "groups": ["aside"]
+  },
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Multi-column"
+    },
+    {
+      "type": "select",
+      "id": "media_aspect_ratio",
+      "label": "Media shape",
+      "default": "s",
+      "options": [
+        {
+          "value": "s",
+          "label": "Height of shortest media"
+        },
+        {
+          "value": "t",
+          "label": "Height of tallest media"
+        },
+        {
+          "value": "2",
+          "label": "Landscape (2x1)"
+        },
+        {
+          "value": "1.5",
+          "label": "Landscape (6x4)"
+        },
+        {
+          "value": "1.25",
+          "label": "Landscape (5x4)"
+        },
+        {
+          "value": "1",
+          "label": "Square (1x1)"
+        },
+        {
+          "value": "0.8",
+          "label": "Portrait (4x5)"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "media_width",
+      "min": 60,
+      "max": 700,
+      "step": 10,
+      "label": "Media width",
+      "unit": "px",
+      "default": 700
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button style",
+      "default": "primary",
+      "options": [
+        {
+          "label": "Primary",
+          "value": "primary"
+        },
+        {
+          "label": "Secondary",
+          "value": "secondary"
+        },
+        {
+          "label": "Link",
+          "value": "link"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "default",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "slider",
+      "label": "Option for a Slider",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "content_overlay",
+      "label": "Option for Content Overlay",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#F7F8F9"
+    },
+    {
+      "type": "header",
+      "content": "Desktop Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_desktop",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_desktop",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Mobile Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Heading Font SIze"
+    },
+    {
+      "type": "range",
+      "id": "font_size_desktop",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading font size in desktop",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "font_size_mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading font size in mobile",
+      "default": 20
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "Column",
+      "settings": [
+        {
+          "id": "enable_media",
+          "type": "checkbox",
+          "label": "Enable media",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "id": "video_shopify",
+          "type": "video",
+          "label": "Video upload"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-column with Slider",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
